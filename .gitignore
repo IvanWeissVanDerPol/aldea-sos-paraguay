@@ -1,0 +1,21 @@
+# OS
+.DS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# Cache / logs
+*.log
+__pycache__/
+*.pyc
+
+# Live transcripts (these are huge and not useful in git)
+live-transcript*.log
+
+# Don't commit anything outside the source-of-truth org-py artifacts
+# (we explicitly keep all source-of-truth HTML as evidence)
