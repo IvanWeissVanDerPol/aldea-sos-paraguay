@@ -29,9 +29,9 @@ Read [`for-donor-outreach.md`](./for-donor-outreach.md). Frame: "here's the impa
 
 ## If you just need one specific thing
 
-- **Want the org's story?** → [`about/DOSSIER.md`](../about/DOSSIER.md)
-- **Want to know what other NGOs do?** → [`benchmark/PEER-BENCHMARK.md`](../benchmark/PEER-BENCHMARK.md)
-- **Want a list of revenue ideas?** → [`revenue/REVENUE-AVENUES.md`](../revenue/REVENUE-AVENUES.md)
+- **Want the org's story?** → [`about/DOSSIER.md`](../about/executive-summary.md)
+- **Want to know what other NGOs do?** → [`benchmark/PEER-BENCHMARK.md`](../benchmark/README.md)
+- **Want a list of revenue ideas?** → [`revenue/REVENUE-AVENUES.md`](../revenue/top-15-recommended.md)
 - **Want the 939-org catalog?** → [`research/1000-orgs/batches/CATALOG.csv`](../research/1000-orgs/batches/CATALOG.csv)
 - **Want the synthesis?** → [`research/1000-orgs/batches/SYNTHESIS.md`](../research/1000-orgs/batches/SYNTHESIS.md)
 - **Want raw SOS Paraguay web pages?** → [`evidence/`](../evidence/)

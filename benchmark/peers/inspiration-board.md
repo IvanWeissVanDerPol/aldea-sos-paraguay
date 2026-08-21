@@ -26,4 +26,4 @@
 4. **SOS España**: public Memory 2024 — annual report template
 5. **Fundación Paraguaya**: social enterprise — long-term sustainability
 
-See [`../PY-deep-dives/`](../../PY-deep-dives/) for focused teardowns of top 5.
+See [`../PY-deep-dives/`](../PY-deep-dives/) for focused teardowns of top 5.

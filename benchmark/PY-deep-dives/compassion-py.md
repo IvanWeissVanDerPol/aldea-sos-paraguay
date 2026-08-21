@@ -49,4 +49,4 @@
 
 ---
 
-*See also [`../peers/inspiration-board.md`](../../peers/inspiration-board.md) for what to steal.*
+*See also [`../peers/inspiration-board.md`](../peers/inspiration-board.md) for what to steal.*

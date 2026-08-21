@@ -4,7 +4,6 @@
 
 ## Files
 
-- `PEER-BENCHMARK.md` — original (kept for backward compat)
 - `framework/how-to-compare.md` — rubric
 - `peers/international-peers.md` — 9 international peer orgs
 - `peers/latam-peers.md` — Spanish/Portuguese-speaking LatAm peers
@@ -19,7 +18,7 @@
 
 ## Legacy file
 
-Original `PEER-BENCHMARK.md` (11K chars, 240 lines) is preserved in [`_originals/comparison/PEER-BENCHMARK.md`](../_originals/comparison/PEER-BENCHMARK.md) and as a copy at [`PEER-BENCHMARK.md`](./PEER-BENCHMARK.md).
+Original `PEER-BENCHMARK.md` (11K chars, 240 lines) is preserved in [`_originals/comparison/PEER-BENCHMARK.md`](../_originals/comparison/PEER-BENCHMARK.md).
 
 ---
 

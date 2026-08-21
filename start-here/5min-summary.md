@@ -70,4 +70,4 @@ They are **operationally solid but digitally behind**. Specific gaps:
 
 ---
 
-*Full detail in [`about/DOSSIER.md`](../about/DOSSIER.md) (15K chars). Tactical plan in [`revenue/REVENUE-AVENUES.md`](../revenue/REVENUE-AVENUES.md) (25K chars). Peer benchmark in [`benchmark/PEER-BENCHMARK.md`](../benchmark/PEER-BENCHMARK.md) (11K chars).*
+*Full detail in [`about/DOSSIER.md`](../about/executive-summary.md) (15K chars). Tactical plan in [`revenue/REVENUE-AVENUES.md`](../revenue/top-15-recommended.md) (25K chars). Peer benchmark in [`benchmark/PEER-BENCHMARK.md`](../benchmark/README.md) (11K chars).*

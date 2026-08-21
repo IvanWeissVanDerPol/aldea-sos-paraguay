@@ -43,4 +43,4 @@
 
 ---
 
-*See also [`../peers/inspiration-board.md`](../../peers/inspiration-board.md).*
+*See also [`../peers/inspiration-board.md`](../peers/inspiration-board.md).*

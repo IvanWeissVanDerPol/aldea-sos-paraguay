@@ -52,4 +52,4 @@ Source: cird.org.py news June 2026.
 
 ---
 
-*This is the **#1 tactical opportunity** identified in the benchmark. See [`../../../strategy/`](../../../strategy/) for how to pitch this to SOS PY.*
+*This is the **#1 tactical opportunity** identified in the benchmark. See [`../../../strategy/`](../../strategy/) for how to pitch this to SOS PY.*

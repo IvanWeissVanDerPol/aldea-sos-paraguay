@@ -43,7 +43,7 @@ Gs. 7,300 = USD 1 (approximate 2026). All estimates in PYG with USD conversion.
 
 ## Legacy
 
-Original `REVENUE-AVENUES.md` is preserved in [`_originals/revenue/REVENUE-AVENUES.md`](../_originals/revenue/REVENUE-AVENUES.md).
+Original `REVENUE-AVENUES.md` is preserved in [`_originals/revenue/REVENUE-AVENUES.md`](../_originals/revenue-avenues/REVENUE-AVENUES.md).
 
 ---
 

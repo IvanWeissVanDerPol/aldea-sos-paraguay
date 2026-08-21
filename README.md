@@ -71,9 +71,10 @@ The repo is organized by **purpose**, alphabetically:
 → [`benchmark/PY-deep-dives/`](./benchmark/PY-deep-dives/)
 
 ### Want a list of revenue ideas?
-→ [`revenue/REVENUE-AVENUES-legacy.md`](./revenue/REVENUE-AVENUES-legacy.md) (full 25K original)
 → [`revenue/top-15-recommended.md`](./revenue/top-15-recommended.md)
 → [`revenue/90-day-quick-wins.md`](./revenue/90-day-quick-wins.md)
+→ [`revenue/streams/`](./revenue/streams/)
+→ [`_originals/revenue-avenues/REVENUE-AVENUES.md`](./_originals/revenue-avenues/REVENUE-AVENUES.md) (full original 25K)
 
 ### Want the 939-org catalog?
 → [`research/1000-orgs/batches/CATALOG.csv`](./research/1000-orgs/batches/CATALOG.csv)
