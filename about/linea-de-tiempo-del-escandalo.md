@@ -63,7 +63,7 @@ Al presentar o proponer:
 
 ## Documentos relacionados
 
-- [`../policy/safeguarding-charter.md`](../policy/safeguarding-charter.md) — modelo de política de protección infantil (a crear — URGENTE)
+- [`../policy/carta-de-salvaguardia.md`](../policy/carta-de-salvaguardia.md) — modelo de política de protección infantil (a crear — URGENTE)
 - [`RISK-REGISTER.md`](../governance/registro-de-riesgos.md) — puntuación de riesgo de recaída del escándalo: 10/25 (alto)
 - [`STYLE-GUIDE.md`](../governance/guia-de-estilo.md) — reglas de lenguaje para contexto de escándalo
 

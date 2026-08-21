@@ -159,16 +159,24 @@ El repo está organizado por **propósito**, alfabéticamente:
 | `revenue/` | ✅ Completo (19 archivos) |
 | `pitch/` | ✅ Completo, todo en español (7 archivos) |
 | `governance/` | ✅ Completo (10 archivos) |
-| `tech-spec/donation-gateway/` | ⚠️ Vacío |
-| `tech-spec/transparency-microsite/` | ⚠️ Vacío |
-| `tech-spec/sponsor-portal/` | ⚠️ Vacío |
-| `tech-spec/infra/` | ⚠️ Vacío |
-| `financial/` | ⚠️ Vacío |
-| `strategy/` | ⚠️ Vacío |
-| `policy/` | ⚠️ Vacío — **URGENTE**, necesita carta de salvaguardia |
-| `competitive/` | ⚠️ Vacío |
+| `policy/` | ✅ Completo (6 archivos: 5 políticas + README) |
+| `tech-spec/donation-gateway/` | ✅ Completo (5 archivos) |
+| `tech-spec/sponsor-portal/` | ✅ Completo (4 archivos) |
+| `tech-spec/transparency-microsite/` | ✅ Completo (4 archivos) |
+| `tech-spec/infra/` | ✅ Completo (4 archivos) |
+| `strategy/` | ✅ Completo (7 archivos) |
+| `financial/` | ✅ Completo (6 archivos) |
+| `outreach/call/` | ✅ Completo (3 scripts) |
+| `outreach/social/` | ✅ Completo (3 templates) |
+| `competitive/` | ✅ Completo (4 perfiles) |
 | `archive/` | (Reservada) |
 | `_originals/` | ✅ Red de seguridad |
+
+**Total**: ~135+ archivos markdown, todos en español. ✅
+
+📌 **CSV column headers** preservados en inglés (identificadores técnicos, no traducir).
+📌 **Brand names** (Tigo, Itaú, Areté, Compassion, Plan, etc.) preservados.
+📌 **README + INDICE** apuntan a cada archivo con su propósito.
 
 ---
 

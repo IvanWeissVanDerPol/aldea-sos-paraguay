@@ -13,7 +13,6 @@
 
 ## Convenciones
 
-- Ver [`../policy/politica-de-email.md`](../policy/politica-de-email.md) cuando exista, para contacto por email
 - Usar nombres de marcas preservados (Tigo, Itaú, Areté, Tupi, Compassion, Plan, etc.)
 - Adjuntos: solo si los tenés listos, no placeholders
 

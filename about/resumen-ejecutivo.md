@@ -64,5 +64,5 @@ Si activan solo las 5 fuentes de ingreso principales (donación online, Ad Grant
 ---
 
 *Para el dossier completo, ver los otros 7 archivos en esta carpeta.*
-*Para pasos tácticos, ver [`../10-strategy/`](../10-strategy/).*
-*Para scripts de outreach, ver [`../07-outreach/`](../07-outreach/).*
+*Para pasos tácticos, ver [`../strategy/`](../strategy/).*
+*Para scripts de outreach, ver [`../outreach/`](../outreach/).*
