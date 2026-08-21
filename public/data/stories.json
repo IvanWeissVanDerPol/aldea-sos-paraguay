@@ -1,0 +1,49 @@
+{
+  "_warning": "These are FICTIONAL personas created for the demo. Do NOT replace with real children's names without explicit permission from the org and the families involved.",
+  "stories": [
+    {
+      "id": "historia-deportes",
+      "title": "Una historia de deportes y valores",
+      "category": "Deportes",
+      "read_time_min": 2,
+      "summary": "Una joven que encontró en el deporte la disciplina y los valores para construir su futuro. Esta es una historia ficcionalizada para ilustrar el modelo de cuidado tipo familiar.",
+      "body_md": "Esta historia es representativa del modelo de cuidado tipo familiar de la organización. Los nombres y detalles biográficos son ficticios.\n\nLa aldea provee un entorno donde los niños crecen con rutinas estables: alimentación diaria, escuela, actividades extracurriculares, y el acompañamiento de una madre SOS. Cuando una niña llega al programa, el equipo evalúa sus intereses y trabaja con ella para construir un plan individual.\n\nEl deporte aparece en este caso como una de las vías más concretas para el desarrollo de habilidades socioemocionales: trabajo en equipo, manejo de frustración, disciplina. Muchas historias de éxito en la organización tienen este eje común.",
+      "voice_label": "Demo · perfil compuesto",
+      "publication_date": "2024-09-15",
+      "image_emoji": "🏆"
+    },
+    {
+      "id": "historia-futbol",
+      "title": "Una historia de fútbol y disciplina",
+      "category": "Deportes",
+      "read_time_min": 2,
+      "summary": "Un joven que pasó por el programa de cuidado y encontró en el fútbol una salida profesional. Historia ficcionalizada.",
+      "body_md": "Esta historia es representativa de los casos donde el programa de acompañamiento juvenil — que sigue a los jóvenes hasta los 24 años — les permite encontrar un camino profesional.\n\nLos jóvenes que egresan del cuidado residencial acceden a programas de educación superior, becas, acompañamiento psicosocial, y conexiones con empleadores. La organización trabaja con cada joven para diseñar su transición.\n\nEl fútbol profesional es uno de los caminos posibles. Otros caminos incluyen educación técnica, universidad, emprendimientos, y oficios. La organización no promociona una vía sobre otra: cada joven elige con apoyo del equipo.",
+      "voice_label": "Demo · perfil compuesto",
+      "publication_date": "2024-11-02",
+      "image_emoji": "⚽"
+    },
+    {
+      "id": "historia-emprendimiento",
+      "title": "Una historia de emprendimiento",
+      "category": "Emprendimiento",
+      "read_time_min": 3,
+      "summary": "Una egresada que construyó su propio emprendimiento después del programa. Historia ficcionalizada.",
+      "body_md": "Esta historia ilustra el caso de jóvenes que, con el apoyo del programa, lanzan su propio negocio. La organización no financia directamente los emprendimientos pero acompaña con mentoría, conexiones, y formación.\n\nLos casos de éxito en esta categoría suelen combinar tres elementos: una idea concreta nacida de la experiencia vivida, mentoría de personas con experiencia empresarial, y un primer cliente o financiamiento accesible.\n\nCada caso es distinto. Lo que la organización ofrece es acompañamiento y red de contactos, no capital semilla.",
+      "voice_label": "Demo · perfil compuesto",
+      "publication_date": "2025-02-18",
+      "image_emoji": "🌱"
+    },
+    {
+      "id": "historia-volver",
+      "title": "Una historia de regreso",
+      "category": "Comunidad",
+      "read_time_min": 3,
+      "summary": "Un ex-residente que volvió a la aldea como voluntario. Historia ficcionalizada.",
+      "body_md": "Esta historia representa el círculo virtuoso que la organización busca construir: jóvenes que crecieron en el programa, egresaron, y vuelven como voluntarios, empleados, o mentores.\n\nLa red de egresados funciona como un ecosistema de apoyo mutuo. Algunos egresados participan formalmente como voluntarios; otros simplemente mantienen vínculos con personal de la aldea que los acompañó.\n\nEsta continuidad es una de las razones por las que el acompañamiento no termina a los 18 años — el modelo formal se extiende hasta los 24 años, y las relaciones suelen durar mucho más.",
+      "voice_label": "Demo · perfil compuesto",
+      "publication_date": "2025-05-10",
+      "image_emoji": "🤝"
+    }
+  ]
+}

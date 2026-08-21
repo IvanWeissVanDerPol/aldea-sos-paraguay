@@ -1,0 +1,80 @@
+[
+  {
+    "id": "asuncion",
+    "name": "Asunción",
+    "department": "Central",
+    "city": "Asunción (Zeballos Cué)",
+    "year_founded": 1970,
+    "summary": "Aldea central y sede de la oficina nacional de la organización.",
+    "capacity": "~120 niños y jóvenes",
+    "address": "Zeballos Cué, Asunción",
+    "contact_phone": "(021) 247 4000",
+    "programs": ["residential", "prevention", "outpatient"],
+    "public_page": "/sobre-nosotros/#asuncion"
+  },
+  {
+    "id": "luque",
+    "name": "Luque",
+    "department": "Central",
+    "city": "Luque",
+    "year_founded": 1980,
+    "summary": "Segunda aldea operativa, también en el área central del país, a 15 km de Asunción.",
+    "capacity": "~80 niños y jóvenes",
+    "address": "Ciudad de Luque",
+    "contact_phone": "(021) 247 4000",
+    "programs": ["residential"],
+    "public_page": "/sobre-nosotros/#luque"
+  },
+  {
+    "id": "san-ignacio",
+    "name": "San Ignacio",
+    "department": "Misiones",
+    "city": "San Ignacio",
+    "year_founded": 1995,
+    "summary": "Aldea en el centro-sur del país, en el departamento de Misiones.",
+    "capacity": "~60 niños y jóvenes",
+    "address": "Ciudad de San Ignacio",
+    "contact_phone": "(021) 247 4000",
+    "programs": ["residential", "prevention"],
+    "public_page": "/sobre-nosotros/#san-ignacio"
+  },
+  {
+    "id": "hohenau",
+    "name": "Hohenau",
+    "department": "Itapúa",
+    "city": "Hohenau",
+    "year_founded": 2005,
+    "summary": "Aldea en el sur del Paraguay, en la zona de Itapúa.",
+    "capacity": "~50 niños y jóvenes",
+    "address": "Ciudad de Hohenau",
+    "contact_phone": "(021) 247 4000",
+    "programs": ["residential"],
+    "public_page": "/sobre-nosotros/#hohenau"
+  },
+  {
+    "id": "belen",
+    "name": "Belén",
+    "department": "Concepción",
+    "city": "Belén",
+    "year_founded": 2015,
+    "summary": "Aldea en el norte del país, en el departamento de Concepción.",
+    "capacity": "~40 niños y jóvenes",
+    "address": "Ciudad de Belén",
+    "contact_phone": "(021) 247 4000",
+    "programs": ["residential"],
+    "public_page": "/sobre-nosotros/#belen"
+  },
+  {
+    "id": "ojoykere",
+    "name": "Ojoykére",
+    "department": "Asunción (área metropolitana)",
+    "city": "Asunción",
+    "year_founded": 2024,
+    "summary": "Programa comunitario de prevención y fortalecimiento familiar en barrios vulnerables del área metropolitana. Lanzado en 2024, alineado con la Estrategia 2030 de la organización internacional.",
+    "capacity": "Múltiples barrios",
+    "address": "Barrios vulnerables del área metropolitana",
+    "contact_phone": "(021) 247 4000",
+    "programs": ["prevention", "community"],
+    "public_page": "/sobre-nosotros/#ojoykere"
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "id": "prevencion",
+    "title": "Prevención",
+    "subtitle": "Fortalecemos a las familias para que la separación no ocurra",
+    "icon": "shield",
+    "summary": "Trabajamos con familias en riesgo de separación con herramientas pedagógicas, acompañamiento individual, capacitación y coordinación con redes locales. La prevención siempre es la primera opción.",
+    "audience": "Familias en situación de vulnerabilidad",
+    "scope": "Comunitario",
+    "locations": "Todas las aldeas y barrios vulnerables del área metropolitana (Programa Ojoykére)",
+    "metrics": {
+      "beneficiaries_per_year": "~500 familias",
+      "geographic_scope": "Todo el país"
+    },
+    "tools": [
+      "Cuidado pedagógico diario",
+      "Acompañamiento familiar individual",
+      "Capacitación para familias",
+      "Coordinación con redes locales"
+    ],
+    "links": {
+      "official": "https://www.aldeasinfantiles.org.py/como-ayudar"
+    }
+  },
+  {
+    "id": "cuidados-alternativos",
+    "title": "Cuidados alternativos",
+    "subtitle": "Cuando la prevención no alcanza, brindamos cuidado tipo familiar",
+    "icon": "home",
+    "summary": "Cuando la separación es inevitable, acogemos al niño en casas familiares con cuidadoras de largo plazo. Cada casa tiene una madre SOS que cría al grupo de hermanos como propios.",
+    "audience": "Niños y jóvenes sin cuidado parental",
+    "scope": "Residencial",
+    "locations": "5 aldeas en Paraguay: Asunción, Luque, San Ignacio, Hohenau, Belén",
+    "metrics": {
+      "beneficiaries_per_year": "~500 niños",
+      "aldeas": 5
+    },
+    "models": [
+      {"name": "Cuidado residencial tipo familiar", "description": "El modelo aldea — casas con madre SOS y hermanos conviviendo"},
+      {"name": "Familias acogedoras", "description": "Niños ubicados con familias externas certificadas"},
+      {"name": "Cuidado con familia extendida", "description": "Ubicación con familia del niño (tíos, abuelos, primos) con apoyo"},
+      {"name": "Advocacy por adopción", "description": "Cuando proceda, acompañamiento del proceso"}
+    ],
+    "principle": "Último recurso (Directrices de NNUU sobre Cuidados Alternativos)",
+    "links": {
+      "official": "https://www.aldeasinfantiles.org.py/conocenos/que-hacemos"
+    }
+  },
+  {
+    "id": "abogacia",
+    "title": "Abogacía",
+    "subtitle": "Empujamos políticas públicas que fortalecen los sistemas de protección",
+    "icon": "scale",
+    "summary": "Trabajamos con el Estado paraguayo y la cooperación internacional para fortalecer el sistema nacional de protección infantil.",
+    "audience": "Sistema de protección infantil, gobierno, academia",
+    "scope": "Política pública",
+    "locations": "Nacional + cooperación internacional",
+    "partners": [
+      "Universidad de Comillas (España) — investigación de estándares para América Latina",
+      "Secretaría Nacional de la Niñez (SNNA)",
+      "SOS Children's Villages International — red global"
+    ],
+    "links": {
+      "official": "https://www.aldeasinfantiles.org.py/conocenos/que-hacemos"
+    }
+  }
+]
