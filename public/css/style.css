@@ -676,3 +676,85 @@ fieldset.form-group legend {
   display: block;
   width: 100%;
 }
+
+/* === News cards (index) === */
+.news-list { display: flex; flex-direction: column; gap: 1.5rem; }
+.news-card {
+  background: var(--c-bg);
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+  transition: all 0.2s ease;
+}
+.news-card:hover {
+  border-color: var(--c-primary);
+  box-shadow: var(--shadow-sm);
+}
+.news-meta {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+}
+.news-date {
+  color: var(--c-text-muted);
+  font-weight: 600;
+}
+.news-category {
+  background: rgba(0,102,179,0.1);
+  color: var(--c-primary);
+  padding: 0.125rem 0.625rem;
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+  font-size: 0.8125rem;
+}
+.news-card h3 {
+  margin: 0.5rem 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+.news-card h3 a {
+  color: var(--c-text);
+  text-decoration: none;
+}
+.news-card h3 a:hover { color: var(--c-primary); }
+.news-card p { color: var(--c-text-muted); margin: 0.5rem 0; }
+.news-body p { line-height: 1.7; }
+.news-body h2 { font-size: 1.25rem; margin-top: 2rem; }
+.tags { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+.tag {
+  background: var(--c-bg-alt);
+  color: var(--c-text-muted);
+  padding: 0.25rem 0.625rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.8125rem;
+}
+
+/* === Card link boxes (transparencia index) === */
+a.card-link-box { display: block; color: inherit; text-decoration: none; }
+a.card-link-box:hover { color: inherit; }
+a.card-link-box .card .card-cta {
+  display: inline-block;
+  margin-top: 1rem;
+  color: var(--c-primary);
+  font-weight: 600;
+}
+
+/* === Transparency table === */
+.portal-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  font-size: 0.9375rem;
+}
+.portal-table th, .portal-table td {
+  padding: 0.625rem 0.875rem;
+  border-bottom: 1px solid var(--c-border);
+  text-align: left;
+}
+.portal-table th {
+  background: var(--c-bg-alt);
+  font-weight: 700;
+  color: var(--c-text);
+}

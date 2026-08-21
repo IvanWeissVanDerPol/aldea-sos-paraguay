@@ -1,69 +1,143 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://aldea-sos.paragu-ai.com/</loc>
+    <loc>https://aldea-sos.paragu-ai.com/acerca-de-este-sitio/</loc>
     <lastmod>2026-08-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://aldea-sos.paragu-ai.com/sobre-nosotros/</loc>
-    <lastmod>2026-08-21</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://aldea-sos.paragu-ai.com/donar/</loc>
-    <lastmod>2026-08-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://aldea-sos.paragu-ai.com/apadrina/</loc>
     <lastmod>2026-08-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://aldea-sos.paragu-ai.com/recursos/</loc>
+    <loc>https://aldea-sos.paragu-ai.com/changelog/</loc>
     <lastmod>2026-08-21</lastmod>
-    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://aldea-sos.paragu-ai.com/donar/</loc>
+    <lastmod>2026-08-21</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://aldea-sos.paragu-ai.com/empresas/</loc>
+    <lastmod>2026-08-21</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://aldea-sos.paragu-ai.com/historias/historia-deportes/</loc>
+    <lastmod>2026-08-21</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aldea-sos.paragu-ai.com/historias/historia-emprendimiento/</loc>
+    <lastmod>2026-08-21</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aldea-sos.paragu-ai.com/historias/historia-futbol/</loc>
+    <lastmod>2026-08-21</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aldea-sos.paragu-ai.com/historias/historia-volver/</loc>
+    <lastmod>2026-08-21</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aldea-sos.paragu-ai.com/historias/</loc>
+    <lastmod>2026-08-21</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://aldea-sos.paragu-ai.com/</loc>
+    <lastmod>2026-08-21</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://aldea-sos.paragu-ai.com/mapa-del-sitio/</loc>
+    <lastmod>2026-08-21</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://aldea-sos.paragu-ai.com/noticias/auditoria-2024-publicada/</loc>
+    <lastmod>2026-08-21</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aldea-sos.paragu-ai.com/noticias/</loc>
+    <lastmod>2026-08-21</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://aldea-sos.paragu-ai.com/noticias/ojoykere-inauguracion/</loc>
+    <lastmod>2026-08-21</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aldea-sos.paragu-ai.com/noticias/tupi-2025-campana/</loc>
+    <lastmod>2026-08-21</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://aldea-sos.paragu-ai.com/politicas/privacidad/</loc>
     <lastmod>2026-08-21</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://aldea-sos.paragu-ai.com/acerca-de-este-sitio/</loc>
+    <loc>https://aldea-sos.paragu-ai.com/portal/</loc>
     <lastmod>2026-08-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://aldea-sos.paragu-ai.com/preguntas-frecuentes/</loc>
     <lastmod>2026-08-21</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://aldea-sos.paragu-ai.com/changelog/</loc>
+    <loc>https://aldea-sos.paragu-ai.com/prensa/</loc>
     <lastmod>2026-08-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.4</priority>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://aldea-sos.paragu-ai.com/mapa-del-sitio/</loc>
+    <loc>https://aldea-sos.paragu-ai.com/programs/</loc>
     <lastmod>2026-08-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://aldea-sos.paragu-ai.com/assets/mapa-paraguay.svg</loc>
+    <loc>https://aldea-sos.paragu-ai.com/recursos/</loc>
     <lastmod>2026-08-21</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://aldea-sos.paragu-ai.com/sobre-nosotros/</loc>
+    <lastmod>2026-08-21</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aldea-sos.paragu-ai.com/transparencia/auditoria/</loc>
+    <lastmod>2026-08-21</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aldea-sos.paragu-ai.com/transparencia/financiera/</loc>
+    <lastmod>2026-08-21</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aldea-sos.paragu-ai.com/transparencia/gobierno/</loc>
+    <lastmod>2026-08-21</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://aldea-sos.paragu-ai.com/transparencia/</loc>
+    <lastmod>2026-08-21</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://aldea-sos.paragu-ai.com/voluntario/</loc>
+    <lastmod>2026-08-21</lastmod>
+    <priority>0.6</priority>
   </url>
 </urlset>
