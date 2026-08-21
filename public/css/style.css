@@ -329,3 +329,15 @@ button, .btn { font: inherit; cursor: pointer; }
   line-height: 1.2;
 }
 .btn-secondary:hover { background: rgba(255,255,255,0.18); transform: translateY(-2px); }
+
+/* Loose line-height for stacked link lists (default is from .text-prose at 1.65) */
+.lh-loose { line-height: 1.8; }
+
+/* Responsive image with explicit max-width */
+.img-responsive {
+  max-width: 480px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 2rem auto;
+}
