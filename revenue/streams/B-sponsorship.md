@@ -7,7 +7,7 @@
 **Evidence**: Aldeas SOS Spain runs "Apadrinar una casa" — 60,000+ sponsors. Plan Intl runs similar "village sponsorship."
 **Market size**: PY diaspora + corporate CSR market could absorb 100-500 sponsors at Gs. 200-500k/mo each
 **Why positioned**: 5 aldeas × 8-12 houses each = 40-60 houses available
-**Risks**: Higher than child sponsorship (good for child protection — no child info shared)
+**Risks**: Higher than apadrinamiento de niños (good for protección infantil — no child info shared)
 **Plan**: 60 days to design, 90 days to launch; partner with Federation brand
 **Revenue potential**: Gs. 1,500-3,000M/yr (USD 200-410k) — biggest single stream
 **Tech**: Donorbox or custom portal

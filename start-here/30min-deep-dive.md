@@ -8,7 +8,7 @@ Leé estos 7 archivos en este orden. Total ~30 minutos.
 | 2 | 5 min | [`about/digital-maturity.md`](../about/digital-maturity.md) | Dónde están los gaps, en detalle |
 | 3 | 5 min | [`about/scandal-timeline.md`](../about/scandal-timeline.md) | Qué pasó en octubre 2025 y qué significa para riesgo de alianza |
 | 4 | 5 min | [`revenue/top-15-recommended.md`](../revenue/top-15-recommended.md) | Las 15 fuentes de mayor apalancamiento, rankeadas |
-| 5 | 5 min | [`revenue/90-day-quick-wins.md`](../revenue/90-day-quick-wins.md) | Qué enviar primero, concretamente |
+| 5 | 5 min | [`revenue/90-day-rápido-wins.md`](../revenue/90-day-rápido-wins.md) | Qué enviar primero, concretamente |
 | 6 | 4 min | [`benchmark/peers/feature-matrix.md`](../benchmark/peers/feature-matrix.md) | Cómo se compara SOS PY con 17 pares de un vistazo |
 | 7 | 3 min | [`governance/ACTION-BOARD.md`](../governance/ACTION-BOARD.md) | Qué está actualmente en curso, bloqueado, o hecho |
 
@@ -34,7 +34,7 @@ Leé estos 7 archivos en este orden. Total ~30 minutos.
 1. Este archivo (estás aquí)
 2. [`for-aiw-team.md`](./for-aiw-team.md) — qué es accionable hoy
 3. [`../about/digital-maturity.md`](../about/digital-maturity.md)
-4. [`../revenue/90-day-quick-wins.md`](../revenue/90-day-quick-wins.md)
+4. [`../revenue/90-day-rápido-wins.md`](../revenue/90-day-rápido-wins.md)
 5. [`../tech-spec/`](../tech-spec/) (revisar)
 
 ### Presentando a Aldea SOS Paraguay

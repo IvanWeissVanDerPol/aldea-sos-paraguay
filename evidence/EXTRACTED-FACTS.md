@@ -2,7 +2,7 @@
 
 > **Este es contenido derivado** — citas/parafraseos de los HTMLs crudos en esta carpeta. Los HTMLs son verdad fundamental; este archivo es nuestro índice de ellos.
 
-> Niveles de evidencia: `[official]` = verificado en aldeasinfantiles.org.py o .org | `[third-party]` = ong.com.py, Wikipedia, noticias | `[estimate]` = nuestro cálculo | `[unknown]` = no disponible públicamente
+> Niveles de evidencia: `[official]` = verificado en aldeasinfantiles.org.py o .org | `[tercero-party]` = ong.com.py, Wikipedia, noticias | `[estimate]` = nuestro cálculo | `[unknown]` = no disponible públicamente
 
 ---
 
@@ -11,7 +11,7 @@
 | Fact | Value | Source | Evidence |
 |---|---|---|---|
 | Legal name | Aldeas Infantiles SOS Paraguay (Asociación Nacional) | aios_py_about.html | `[official]` |
-| RUC | **80016122** | aios_py_ong.html | `[third-party]` |
+| RUC | **80016122** | aios_py_ong.html | `[tercero-party]` |
 | Founded in PY | 1970 (55 años) | aios_py_about.html | `[official]` |
 | Founded globally | 1949 (Hermann Gmeiner, Austria) | aios_intl.html | `[official]` |
 | HQ address | Cerro Corá 1155 c/ Brasil, Asunción | every page footer | `[official]` |
@@ -34,7 +34,7 @@
 | Hohenau | Hohenau | Itapúa | South |
 | Belén | Belén | Concepción | North |
 
-> Inconsistency: `quienes-somos.html` says "4 aldeas" while `por-que-lo-hacemos.html` and `ong.com.py` say 5. Likely: Belén was opened after `quienes-somos` was last edited.
+> Inconsistency: `quienes-somos.html` says "4 aldeas" while `por-que-lo-hacemos.html` and `ong.com.py` say 5. Likely: Belén was opened after `quienes-somos` was último edited.
 
 ### Cuidados Alternativos
 - Foster families (familias acogedoras)
@@ -45,10 +45,10 @@
 - Launched 2024
 - Family strengthening + community care in vulnerable neighborhoods
 - Aug 14 2026: Feria de Servicios in Tablada Nueva — 300+ attendees
-- [Spelling: "Ojoykére" on home page; "Ojoykéré" on news page]
+- [Spelling: "Ojoykére" on página principal; "Ojoykéré" on news page]
 
 ### Advocacy
-- Policy work to strengthen Paraguayan child protection system
+- Policy work to strengthen Paraguayan protección infantil system
 - Co-publication with Universidad de Comillas (Spain)
 
 ---
@@ -59,7 +59,7 @@
 - Minimum: Gs. 50,000/mes
 - Options: Gs. 50k / 100k / 150k / 200k / Other
 - Form only — no online payment gateway
-- [evidence: official] via aios_py_dona2.html
+- [evidence: official] vía aios_py_dona2.html
 
 ### Aliados corporativos (18+)
 - Banks: Itaú, Ueno, Banco Familiar, Cooperativa La Holanda, Sudameris
@@ -87,7 +87,7 @@
 
 ### Transferencias de la Federación
 - From SOS-Kinderdorf International
-- Exact amount not public
+- Exact amount not público
 
 ### Gobierno
 - 35% of SOS Intl combined revenue is gov subsidies. PY-specific share unknown.
@@ -110,11 +110,11 @@
 | Multilingual site | ❌ Spanish only | `[official]` |
 | Mobile-responsive | ✅ Yes (Duda CMS) | `[official]` |
 | Email newsletter | ✅ Form + email (info.boletin) | `[official]` |
-| Facebook | ✅ 23,188 likes | `[third-party]` FB |
-| Instagram | ✅ @aldeasparaguay 6,296 followers | `[third-party]` IG |
+| Facebook | ✅ 23,188 likes | `[tercero-party]` FB |
+| Instagram | ✅ @aldeasparaguay 6,296 followers | `[tercero-party]` IG |
 | Twitter/X | ✅ @AldeasParaguay (embedded widget) | `[official]` site |
-| LinkedIn | ✅ company page exists | `[third-party]` |
-| YouTube | ✅ user/aldeassosparaguay exists | `[third-party]` |
+| LinkedIn | ✅ company page exists | `[tercero-party]` |
+| YouTube | ✅ user/aldeassosparaguay exists | `[tercero-party]` |
 | TikTok | ❌ Not detected | `[unknown]` |
 | WhatsApp Business | ❌ Not detected on site | `[unknown]` |
 | Google Ad Grants | ❌ Not activated | `[unknown]` |
@@ -133,8 +133,8 @@
 
 | Name | Role | Source | Evidence |
 |---|---|---|---|
-| Ana Medina Zorrilla | Directora de Sostenibilidad local | TUPI 2026 press release | `[official]` |
-| Zunilda Baruja | Coordinadora de Alianzas Corporativas | TUPI 2026 press release; 0982 199 681 | `[official]` |
+| Ana Medina Zorrilla | Directora de Sostenibilidad local | TUPI 2026 comunicado de prensa | `[official]` |
+| Zunilda Baruja | Coordinadora de Alianzas Corporativas | TUPI 2026 comunicado de prensa; 0982 199 681 | `[official]` |
 | *(National Director)* | _unknown_ | — | `[unknown]` |
 | *(Safeguarding Chair)* | _unknown_ | — | `[unknown]` |
 

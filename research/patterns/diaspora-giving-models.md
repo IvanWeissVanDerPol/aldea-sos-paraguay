@@ -31,7 +31,7 @@ Fuente: investigación ddgs agosto 2026.
 ## Playbook táctico (para SOS PY)
 
 **Día 1-30**: Registrarse en Daffy (maneja donaciones en stock + crypto + efectivo DAF automáticamente)
-**Día 30-60**: Construir una landing page solo en español para "donar desde el exterior"
+**Día 30-60**: Construir una página de aterrizaje solo en español para "donar desde el exterior"
 **Día 60-90**: Aplicar para registro DAF en NPT, Schwab Charitable, Fidelity Charitable
 **Día 90-120**: Reclutar 5 embajadores de la diáspora (1 cada uno en NY, Miami, Buenos Aires, São Paulo, Madrid)
 **Día 120-180**: Newsletter trimestral para la diáspora + reportes de impacto

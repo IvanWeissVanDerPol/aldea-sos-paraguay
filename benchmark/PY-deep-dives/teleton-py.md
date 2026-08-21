@@ -1,6 +1,6 @@
 # Teletón Paraguay — Deep Dive
 
-> **Why this matters**: Teletón's Comilona 2026 raised **Gs. 1,391,035,000 (USD ~190k) in a single event**. That's the **upper bound** for what a top-tier PY charity event can raise. SOS PY's TUPI campaign is similar in scale (single annual partnership) but smaller.
+> **Por qué importa**: Teletón's Comilona 2026 raised **Gs. 1,391,035,000 (USD ~190k) in a single event**. That's the **upper bound** for what a top-tier PY charity event can raise. SOS PY's TUPI campaign is similar in scale (single anual partnership) but smaller.
 
 ## At a glance
 
@@ -12,16 +12,16 @@
 | **Active programs** | 5,000+ beneficiaries |
 | **Comilona 2026 revenue** | **Gs. 1,391,035,000 (USD ~190k)** in one event |
 
-## What they do that SOS PY could copy
+## Qué they do that SOS PY could copy
 
-### 1. Telethon / televised annual fundraiser
+### 1. Telethon / televised anual fundraiser
 Teletón runs the "Comilona" — a televised multi-day event:
 - Drives massive awareness
 - Corporate sponsors commit large amounts in real time
-- Public goal thermometer + public total
+- Public goal thermometer + público total
 - Press coverage across all media
 
-### 2. Active corporate partner roster
+### 2. Active aliado corporativo roster
 Teletón's Comilona is sponsored by:
 - Sudameris bank
 - DLS (tech)
@@ -32,19 +32,19 @@ Teletón's Comilona is sponsored by:
 - Huawei
 - Farmaoliva
 
-Many of these **overlap with SOS PY's corporate allies** — suggests a saturated corporate giving market in PY for top brands.
+Many of these **overlap with SOS PY's aliados corporativos** — suggests a saturated corporate giving market in PY for top brands.
 
-## What SOS PY could adapt
+## Qué SOS PY could adapt
 
 | Insight | Adaptation |
 |---|---|
-| Comilona model | Replicate the televised annual fundraiser. SOS PY could partner with a TV station for "Día del Niño" (Aug 16) or anniversary. |
-| Real-time goal thermometer | Add to homepage during campaign |
+| Comilona model | Replicate the televised anual fundraiser. SOS PY could partner with a TV station for "Día del Niño" (Aug 16) or anniversary. |
+| Real-time goal thermometer | Add to página principal during campaign |
 | Multi-day event | Expand TUPI's 2-week campaign into a larger event |
 
 ## Lo que no sabemos
 
-- Teletón's full annual budget
+- Teletón's full anual budget
 - Their digital stack
 - Their donor retention
 
@@ -55,4 +55,4 @@ Many of these **overlap with SOS PY's corporate allies** — suggests a saturate
 
 ---
 
-*Note*: this benchmark shows that **single events CAN raise USD 190k in PY**. SOS PY's TUPI campaign is currently annual and could grow toward this scale. See [`../../../revenue/streams/F-events.md`](../../revenue/streams/F-events.md) for the playbook.
+*Note*: this benchmark shows that **single events CAN raise USD 190k in PY**. SOS PY's TUPI campaign is currently anual and could grow toward this scale. Ver [`../../../revenue/streams/F-events.md`](../../revenue/streams/F-events.md) for the playbook.

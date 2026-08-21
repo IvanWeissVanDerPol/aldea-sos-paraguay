@@ -2,7 +2,7 @@
 
 Filtrado por factibilidad operativa PY, fit con activos existentes, y potencial de quick-win.
 
-## 1. Compassion International — sponsor portal with letter exchange
+## 1. Compassion International — portal de apadrinamiento with letter exchange
 
 **Why applicable**: Same residential care model. Sponsor letters = recurring revenue + transparency. Launch 'Apadrina una Aldea' microsite within 90 days; existing allies (Itaú, Ueno, Tupi) can sponsor houses.
 
@@ -22,9 +22,9 @@ Filtrado por factibilidad operativa PY, fit con activos existentes, y potencial 
 
 **Why applicable**: Teletón raised Gs. 1,391 million in one event (Comilona 2026). Same broadcast model could power SOS PY's first televised fundraiser.
 
-## 6. Benevity / Funraise / Donorbox — donation gateway
+## 6. Benevity / Funraise / Donorbox — pasarela de donación
 
-**Why applicable**: SOS PY's donation form doesn't connect to a payment processor. DonorBox, Funraise, or Givebutter can plug in within days.
+**Why applicable**: SOS PY's formulario de donación doesn't connect to a payment processor. DonorBox, Funraise, or Givebutter can plug in within days.
 
 ## 7. Google Ad Grants — free $10k/mo in Google Ads
 

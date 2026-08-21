@@ -1,13 +1,13 @@
 # Peer Benchmark — Peer Benchmark
 
-> Benchmark Aldea SOS Paraguay against (a) international peers and (b) local Paraguayan ONGs to find gaps and inspiration.
+> Benchmark Aldea SOS Paraguay against (a) international peers and (b) local Paraguayan ONGs para encontrar gaps and inspiration.
 
 ## Archivos
 
 - `framework/how-to-compare.md` — rubric
-- `peers/international-peers.md` — 9 international peer orgs
+- `peers/international-peers.md` — 9 international ONGs pares
 - `peers/latam-peers.md` — Spanish/Portuguese-speaking LatAm peers
-- `peers/paraguay-peers.md` — 8 PY peer orgs
+- `peers/paraguay-peers.md` — 8 PY ONGs pares
 - `peers/feature-matrix.md` — capability comparison
 - `peers/inspiration-board.md` — what to steal from each
 - `PY-deep-dives/compassion-py.md` — focused teardown

@@ -19,7 +19,7 @@
 **Evidence**: Sotheby's/Charity Auctions Today; school auction model
 **Plan**: Annual online auction with donated items (hotel stays, restaurant dinners)
 
-### F5. Birthday fundraising pages (Galilea model)
+### F5. Birthday recaudación de fondos pages (Galilea model)
 **Qué**: Individuals raise money for SOS instead of receiving birthday gifts
 **Evidence**: Standard on Facebook Causes, GoFundMe Charity
 **Plan**: Templated page; viral social push

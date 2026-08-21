@@ -5,7 +5,7 @@
 | Campo | Valor |
 |---|---|
 | Nombre legal | Aldeas Infantiles SOS Paraguay (Asociación Nacional) |
-| RUC (ID fiscal) | **80016122** [evidencia: third-party — ong.com.py] |
+| RUC (ID fiscal) | **80016122** [evidencia: tercero-party — ong.com.py] |
 | Afiliación | SOS Children's Villages International (Innsbruck) — miembro autónomo [evidencia: official] |
 | Fundación en Paraguay | **1970** (55 años) [evidencia: official — aios_py_about.html] |
 | Origen global | 1949, Imst, Austria, por Hermann Gmeiner [evidencia: official + Wikipedia] |

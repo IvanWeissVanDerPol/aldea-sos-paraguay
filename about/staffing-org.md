@@ -21,7 +21,7 @@
 
 ## Lo que no sabemos (brechas)
 
-- [ ] Lista completa de miembros del directorio (nombres, roles, períodos)
+- [ ] Lista completa de miembros del directorio (nombres, roles, poríodos)
 - [ ] Nombre del Director Nacional
 - [ ] Total de personal pagado (estimación: 80-120 basado en 40 vacantes activas)
 - [ ] Cantidad de voluntarios

@@ -12,7 +12,7 @@ Todas las direcciones usan el dominio `paragu-ai.com` configurado en Resend.
 
 | Dirección | Uso | Quién envía | Plantillas |
 |---|---|---|---|
-| `amigos@paragu-ai.com` | **Por defecto** — donación, recibos, padrinos | Equipo Aldea SOS PY | `receipt`, `amigos-welcome`, `monthly-update`, `cold-outreach-*` |
+| `amigos@paragu-ai.com` | **Por defecto** — donación, recibos, padrinos | Equipo Aldea SOS PY | `receipt`, `amigos-welcome`, `mensual-update`, `cold-outreach-*` |
 | `boletin@paragu-ai.com` | Newsletter mensual | Equipo Aldea SOS PY | `boletin` |
 | `alianzas@paragu-ai.com` | Outreach corporativo | Zunilda Baruja o equipo | `corporate-reply` |
 | `prensa@paragu-ai.com` | Press / medios | Vocero oficial | `press-release` |
@@ -65,7 +65,7 @@ Todas las direcciones usan el dominio `paragu-ai.com` configurado en Resend.
 ## Horario de envío
 
 - **PY time** (UTC-4, no cambia con horario de verano).
-- **Mejor open rate**: martes a jueves, 9-11h PY.
+- **Mejor abrir rate**: martes a jueves, 9-11h PY.
 - **Evitar**: viernes después de 16h, sábados, domingos, lunes temprano, feriados paraguayos.
 
 ### Feriados paraguayos 2026

@@ -7,7 +7,7 @@
 | Founded | 1985 (during Stroessner era — act of courage) |
 | HQ | Asunción, Paraguay |
 | Model | Social enterprise, micro-finance pioneer |
-| Programs | Poverty solutions via entrepreneurship |
+| Programs | Poverty solutions vía entrepreneurship |
 | Notable | Self-sufficient "San Francisco" farm; teaches poverty graduation methodology globally |
 
 **Different from SOS**: Not child-welfare, but youth economic empowerment. They are the gold-standard Paraguayan NGO brand for innovative anti-poverty models. SOS could partner on **transition-to-adulthood programs for Aldea youth**.
@@ -20,14 +20,14 @@
 | Programs | Training, immunization advocacy |
 | Tech | **WhatsApp + RVE — sending 25K+ messages to parents for child immunization** |
 
-**Insight**: CIRD's WhatsApp-based child immunization model is **exactly** the digital low-cost high-impact intervention that SOS Paraguay could replicate for family-strengthening communication.
+**Insight**: CIRD's WhatsApp-based child immunization model is **exactly** the digital bajo costo alto impacto intervention that SOS Paraguay could replicate for family-strengthening communication.
 
 ## 3. UNICEF Paraguay
 
 - UN agency, country office
-- 2024 Annual Report PDF available publicly
+- 2024 Annual Report PDF disponible publicly
 - Country Programme 2020-2024 evaluated
-- Tech: open.unicef.org
+- Tech: abrir.unicef.org
 
 ## 4. Fundación Solidaridad
 
@@ -39,7 +39,7 @@
 
 - Education equity focus (secondary school persistence)
 - 83% graduates continue studying or working (post-program)
-- Impact report available
+- Impact report disponible
 
 ## 6. Fundación Alda
 
@@ -60,13 +60,13 @@
 | Transparency | paraguay.techo.org/rendicion-de-cuentas |
 | **Donation timing** | Active 2024 campaign exceeded goal |
 
-**Insight**: TECHO's public **"rendición de cuentas"** (accountability) page is exactly what SOS Paraguay's `/transparencia` *should* be.
+**Insight**: TECHO's público **"rendición de cuentas"** (accountability) page is exactly what SOS Paraguay's `/transparencia` *should* be.
 
-## 8. Fundación La Caixa (Proinfancia) — Spanish but active in LatAm
+## 8. Fundación La Caixa (Proinfancia) — Spanish but activo in LatAm
 
 - CaixaProinfancia program: childhood poverty prevention in Spain + EU FSE+ collaboration
 - "Childcare, education, health, leisure" integrated service model
 
 ---
 
-See also [`paraguay-peers.md`](./paraguay-peers.md) for a deeper look at the PY-specific ones.
+Ver también [`paraguay-peers.md`](./paraguay-peers.md) for a deeper look at the PY-specific ones.

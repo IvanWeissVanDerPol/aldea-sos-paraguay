@@ -12,7 +12,7 @@
 **Risks**: High reputational risk post-scandal
 **Plan**: NOT recommended
 
-### M3. AI tutoring for kids (low-cost scale)
+### M3. AI tutoring for kids (bajo costo scale)
 **Qué**: Use AI to tutor Aldea youth
 **Risks**: Moderate
 **Plan**: Pilot
@@ -25,9 +25,9 @@
 
 ## Safeguarding Appendix
 
-All- All revenue streams involving children require:
+All- All fuentes de ingreso involving children require:
 - Written parental/guardian consent for any image use
-- No last names, no individual photos of children under 12 in digital fundraising materials
+- No last names, no individual photos of children under 12 in digital recaudación de fondos materials
 - All visitor/volunteer interactions with children follow Federation Safeguarding Policy
 - No identifying information in sponsorship letters (use house numbers, not child IDs)
 - Annual safeguarding audit
@@ -71,7 +71,7 @@ All- All revenue streams involving children require:
 
 - `../evidence/SOURCES.md` — raw artifacts
 - `../sos/DOSSIER.md` — full organization profile
-- `../comparison/PEER-BENCHMARK.md` — peer benchmark
+- `../comparison/PEER-BENCHMARK.md` — benchmark de pares
 - `../research/1000-orgs/batches/CATALOG.csv` — 939 organizations
 - `../research/1000-orgs/batches/SYNTHESIS.md` — distribution analysis
 

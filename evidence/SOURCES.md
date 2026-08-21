@@ -2,7 +2,7 @@
 
 > **Esto es contenido derivado** — citas/parafraseos de los HTMLs crudos en esta carpeta. Los HTMLs son verdad fundamental; este archivo es nuestro índice de ellos.
 
-> Niveles de evidencia: `[official]` = verificado en aldeasinfantiles.org.py o .org | `[third-party]` = ong.com.py, Wikipedia, noticias | `[estimate]` = nuestro cálculo | `[unknown]` = no disponible públicamente
+> Niveles de evidencia: `[official]` = verificado en aldeasinfantiles.org.py o .org | `[tercero-party]` = ong.com.py, Wikipedia, noticias | `[estimate]` = nuestro cálculo | `[unknown]` = no disponible públicamente
 
 ---
 
@@ -11,7 +11,7 @@
 | Dato | Valor | Fuente | Evidencia |
 |---|---|---|---|
 | Nombre legal | Aldeas Infantiles SOS Paraguay (Asociación Nacional) | aios_py_about.html | `[official]` |
-| RUC | **80016122** | aios_py_ong.html | `[third-party]` |
+| RUC | **80016122** | aios_py_ong.html | `[tercero-party]` |
 | Fundada en PY | 1970 (55 años) | aios_py_about.html | `[official]` |
 | Fundada globalmente | 1949 (Hermann Gmeiner, Austria) | aios_intl.html | `[official]` |
 | Dirección HQ | Cerro Corá 1155 c/ Brasil, Asunción | cada pie de página | `[official]` |
@@ -77,7 +77,7 @@ Categorizados:
 
 ### Campaña — "Regalamos Sonrisas" con TUPI (anual desde ~2020)
 - 6ª edición 4-16 de agosto de 2026
-- TUPI dona un % de las ventas de productos infantiles durante el período
+- TUPI dona un % de las ventas de productos infantiles durante el poríodo
 - Win-win: TUPI genera tráfico, SOS recibe donación corporativa
 
 ### Transferencias de la Federación

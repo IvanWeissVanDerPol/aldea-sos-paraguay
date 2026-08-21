@@ -29,9 +29,9 @@
 
 Aldea SOS Paraguay es operativamente sólida pero digitalmente atrasada. La mayor oportunidad única es **entregar una pasarela de donación online + micrositio de transparencia en 90 días**.
 
-Benchmark: **el 99% de las 939 ONGs pares de bienestar infantil aceptan donaciones online. Aldea PY no.**
+Benchmark: **el 99% de las 939 ONGs pares de bienestar infantil aceptan donaciones online. Aldea PY n°**
 
-#### Los 5 quick wins (90 días)
+#### Los 5 rápido wins (90 días)
 
 | # | Acción | Esfuerzo | Ingresos/año |
 |---|---|---|---|

@@ -20,10 +20,10 @@
 | model | "sponsorship" / "residential care" / etc. | vocabulario controlado |
 | year_founded | 1952 | int |
 | beneficiaries_estimate | "2M" | int (k/M/B) |
-| revenue_annual_usd_estimate | "USD 1B+" | string |
+| revenue_anual_usd_estimate | "USD 1B+" | string |
 | funding_sources | "individuals;foundations;corporate" | tags separados por ; |
 | digital_signals | "online-donation;recurring-giving" | tags separados por ; |
-| innovations | "sponsor letter portal + photo quarterly" | string |
+| innovations | "carta de padrino portal + photo trimestral" | string |
 | notes | "largest sponsorship model globally" | string |
 
 ## Números principales
@@ -91,7 +91,7 @@ En [`./slices/`](./slices/):
 1. **Búsqueda de patrones**: ordenar por funding_sources / digital_signals para encontrar ONGs usando tácticas que Aldea PY podría adoptar
 2. **Geografía**: buscar por país para pares locales
 3. **Búsqueda de innovación**: filtrar por palabras clave de innovación
-4. **Scouting de modelo de ingresos**: cruzar etiquetas de funding_source con revenue_annual_usd_estimate
+4. **Scouting de modelo de ingresos**: cruzar etiquetas de funding_source con revenue_anual_usd_estimate
 5. **Descubrimiento de socios**: las ONGs en PY son candidatos directos; las ONGs internacionales en LatAm son pares regionales
 
 ---

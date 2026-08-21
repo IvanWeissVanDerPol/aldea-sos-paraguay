@@ -1,19 +1,19 @@
 # Revenue Avenues — Revenue Avenues
 
-> Catalog of every revenue stream Aldea SOS Paraguay does NOT currently use, with evidence, market sizing, and 30/60/90 day plans.
+> Catalog of every fuente de ingreso Aldea SOS Paraguay does NOT currently use, with evidence, dimensionamiento de mercado, and 30/60/90 day plans.
 
 ## Archivos
 
 ### Top-level
 - `REVENUE-AVENUES.md` — the master document (original monolithic file, kept for backward compat)
 - `top-15-recommended.md` — TOP 15 with 4-axis scoring (Speed + Fit + Defensibility + Safeguarding)
-- `90-day-quick-wins.md` — concrete first-90-day actions
+- `90-day-rápido-wins.md` — concrete primero-90-day actions
 - `safeguarding-appendix.md` — child-protection checklist
 - `split.py` — script that split REVENUE-AVENUES.md into the stream-group files
 
-### streams/ — one file per theme
+### streams/ — one file por theme
 
-- `streams/A-online-giving.md` — online donation expansion (10 streams)
+- `streams/A-online-giving.md` — donación online expansion (10 streams)
 - `streams/B-sponsorship.md` — sponsor models (7 streams)
 - `streams/C-corporate.md` — corporate partnerships (6 streams)
 - `streams/D-government-multilateral.md` — gov/IGOs (7 streams)
@@ -27,15 +27,15 @@
 - `streams/L-crisis.md` — crisis-specific (2 streams)
 - `streams/M-innovation-frontier.md` — frontier (4 streams)
 
-**Total: 65+ distinct revenue streams.**
+**Total: 65+ distinct fuentes de ingreso.**
 
 ## Puntuación
 
 Each stream scored on 4 axes (1-5, higher = better):
-- **Speed** — how fast to first PYG in
+- **Speed** — how rápido to primero PYG in
 - **Fit** — asset reuse
 - **Defensibility** — vs being copied by other orgs
-- **Safeguarding** — low risk to children = high score
+- **Safeguarding** — bajo riesgo to children = high score
 
 ## Currency convention
 

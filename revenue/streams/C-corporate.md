@@ -12,7 +12,7 @@
 
 ### C2. Matched giving
 **Qué**: When an employee of partner corp donates, the corp matches
-**Evidence**: Standard in US via Benevity; can be replicated in PY
+**Evidence**: Standard in US via Benevity; puede ser replicated in PY
 **Plan**: Pilot with one big ally (Itaú); expand
 
 ### C3. Sponsor-an-event corporate packages
@@ -34,7 +34,7 @@
 **Safeguarding**: HIGH RISK — children + corporate volunteers need careful protocol
 
 ### C6. Skills-based volunteering (pro bono)
-**Qué**: Recruit pro bono legal/tech/marketing from corporate partners
+**Qué**: Recruit pro bono legal/tech/marketing from aliados corporativos
 **Evidence**: Taproot Foundation model
 **Revenue potential**: Equivalent to Gs. 100-500M in services
 

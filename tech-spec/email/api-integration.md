@@ -1,6 +1,6 @@
 # Email API Integration — Resend
 
-> **Propósito**: how to send email from the app/website using Resend's SDK with the `mail.paragu-ai.com` domain.
+> **Propósito**: how para enviar email from the app/website using Resend's SDK with the `mail.paragu-ai.com` domain.
 >
 > **Última actualización**: 2026-08-21
 
@@ -81,12 +81,12 @@ def send_email(to, subject, html, text=None):
 
 | Email type | Trigger | Template | Sender |
 |---|---|---|---|
-| **Donation receipt** | Donation success webhook from Donorbox/Stripe | `templates/receipt.html` | `amigos@paragu-ai.com` |
+| **Donation receipt** | Donation éxito webhook from Donorbox/Stripe | `templates/receipt.html` | `amigos@paragu-ai.com` |
 | **Amigos SOS welcome** | New recurring donor signup | `templates/amigos-welcome.html` | `amigos@paragu-ai.com` |
-| **Donor monthly update** | 1st of month | `templates/monthly-update.html` | `amigos@paragu-ai.com` |
+| **Donor mensual update** | 1st of month | `templates/mensual-update.html` | `amigos@paragu-ai.com` |
 | **Newsletter** | Manual send | `templates/boletin.html` | `boletin@paragu-ai.com` |
 | **Internal ops alert** | System event | `templates/ops-alert.html` | `no-reply@paragu-ai.com` |
-| **Corporate outreach response** | Reply from a corporate ally | `templates/corporate-reply.html` | `alianzas@paragu-ai.com` |
+| **Corporate outreach response** | Reply from a aliado corporativo | `templates/corporate-reply.html` | `alianzas@paragu-ai.com` |
 
 ---
 
@@ -106,14 +106,14 @@ def send_email(to, subject, html, text=None):
 
 ## Tracking
 
-For now, click tracking is enabled at the domain level. Resend's tracking subdomain (optional) lets you host tracking links on a subdomain. Recommended: leave blank initially.
+For now, click tracking is enabled at the domain level. Resend's tracking subdomain (opcional) lets you host tracking links on a subdomain. Recommended: leave blank initially.
 
 ## Webhooks
 
 Set up webhooks for:
 
 - `email.delivered` — log to DB
-- `email.opened` — opt-in only (don't track by default)
+- `email.opened` — opt-in only (no track by default)
 - `email.clicked` — log to DB for engagement tracking
 - `email.bounced` — mark recipient as invalid
 - `email.complained` — immediately unsubscribe (CAN-SPAM / GDPR)
@@ -128,7 +128,7 @@ Secret: store in env, verify signature with `resend.webhooks.verify()`
 | Resend error code | What it means | Action |
 |---|---|---|
 | `rejected` | Email blocked by Resend policy | Log + alert |
-| `queued` | In sending queue (success path) | Log only |
+| `queued` | In sending queue (éxito path) | Log only |
 | `validation_error` | Bad payload (missing field etc.) | Fix bug, retry |
 | `unauthorized` | API key invalid | Check env, rotate key |
 | `rate_limit_exceeded` | Too many sends | Backoff + retry with jitter |
@@ -137,7 +137,7 @@ Secret: store in env, verify signature with `resend.webhooks.verify()`
 
 ## Dónde poner esto en el repo
 
-- `tech-spec/email/api-integration.md` (this file)
+- `tech-spec/email/api-integration.md` (este archivo)
 - `outreach/email/` — Spanish templates (HTML + plain text)
 - `governance/email-policy.md` — who/what/when rules
 

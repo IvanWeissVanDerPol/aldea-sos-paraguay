@@ -10,15 +10,15 @@
 
 | # | Template | Trigger | File |
 |---|---|---|---|
-| 1 | **Donation receipt** | Donation success webhook | `templates/donation-receipt.html` + `.txt` |
+| 1 | **Donation receipt** | Donation éxito webhook | `templates/donation-receipt.html` + `.txt` |
 | 2 | **Amigos SOS welcome** | New recurring donor signup | `templates/amigos-welcome.html` + `.txt` |
-| 3 | **Donor monthly update** | 1st of month | `templates/donor-monthly-update.html` + `.txt` |
+| 3 | **Donor mensual update** | 1st of month | `templates/donor-mensual-update.html` + `.txt` |
 | 4 | **Newsletter (Boletín)** | Monthly manual send | `templates/newsletter.html` + `.txt` |
-| 5 | **Corporate partner outreach response** | Reply from a corporate ally | `templates/corporate-response.html` + `.txt` |
+| 5 | **Corporate partner outreach response** | Reply from a aliado corporativo | `templates/corporate-response.html` + `.txt` |
 | 6 | **Press release** | Major organizational news | `templates/press-release.html` + `.txt` |
-| 7 | **Ops alert (internal)** | System event | `templates/ops-alert.html` + `.txt` |
-| 8 | **Quarterly impact report** | Every 3 months | `templates/quarterly-impact.html` + `.txt` |
-| 9 | **Safeguarding report (quarterly)** | Every 3 months | `templates/safeguarding-report.html` + `.txt` |
+| 7 | **Ops alert (interno)** | System event | `templates/ops-alert.html` + `.txt` |
+| 8 | **Quarterly impact report** | Every 3 months | `templates/trimestral-impact.html` + `.txt` |
+| 9 | **Safeguarding report (trimestral)** | Every 3 months | `templates/safeguarding-report.html` + `.txt` |
 
 ## Conventions
 
@@ -26,7 +26,7 @@
 |---|---|
 | **Asunto** | < 50 caracteres, en español, sin emojis |
 | **Preheader** | 80-130 caracteres, preview optimizado para móvil |
-| **Logo** | SVG inline (no external hosting) |
+| **Logo** | SVG inline (no externo hosting) |
 | **Colors** | Paleta corporativa: `#003B7A` (azul SOS), `#F4A100` (amarillo cálido), `#FFFFFF` (fondo) |
 | **Font** | Sistema (`-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif`) |
 | **Width** | 600px max para mobile-friendly |

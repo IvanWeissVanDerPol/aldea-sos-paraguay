@@ -5,7 +5,7 @@ Diferentes hechos tienen diferente confiabilidad. Cuando veas una afirmación, r
 | Etiqueta | Significado | Ejemplo |
 |---|---|---|
 | `[evidencia: official]` | Verificado en aldeasinfantiles.org.py o .org o .intl | "5 aldeas" [evidencia: official] |
-| `[evidencia: third-party]` | Verificado vía Wikipedia, noticias, ong.com.py | "Teletón recaudó Gs. 1.391M" [evidencia: third-party a24.com.py] |
+| `[evidencia: tercero-party]` | Verificado vía Wikipedia, noticias, ong.com.py | "Teletón recaudó Gs. 1.391M" [evidencia: tercero-party a24.com.py] |
 | `[evidencia: ddgs]` | Tentativo — encontrado vía búsqueda, no cruzado | "Adopción de billetera móvil PY = 55,5%" [evidencia: ddgs] |
 | `[evidencia: estimate]` | Nuestro cálculo desde otros conocidos | "Impacto de ingresos combinados = Gs. 500M-2B/año" [evidencia: estimate] |
 | `[evidencia: unknown]` | Brecha explícita | "Composición del directorio" [evidencia: unknown] |

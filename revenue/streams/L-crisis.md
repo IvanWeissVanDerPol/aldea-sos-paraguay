@@ -7,7 +7,7 @@
 **Evidence**: Paraguay increasingly flood-prone
 **Revenue potential**: USD 100k+ per crisis
 
-### L2. Crisis-syndromic fundraising (Red Cross model)
+### L2. Crisis-syndromic recaudación de fondos (Red Cross model)
 **Plan**: Adopt Red Cross playbook
 
 ---

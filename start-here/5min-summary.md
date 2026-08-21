@@ -30,7 +30,7 @@ Son **operativamente sólidos pero digitalmente atrasados**. Brechas específica
 - ❌ Sin Google Ad Grants activado ($10k/mes gratis para ONGs)
 - ❌ Sin política pública de salvaguardia
 
-**Comparación**: el 99% de las ONGs pares de bienestar infantil (939 encuestadas) aceptan donaciones online. Aldea PY no.
+**Comparación**: el 99% de las ONGs pares de bienestar infantil (939 encuestadas) aceptan donaciones online. Aldea PY n°
 
 **Además**, el escándalo de Gmeiner 2025 — el fundador de SOS fue acusado de abuso sexual histórico (Austria, 1950-80); la rama austriaca fue suspendida el 23 de octubre de 2025. Paraguay es autónoma y no está implicada, pero la marca está sacudida globalmente y la confianza de los donantes es frágil.
 
@@ -52,7 +52,7 @@ Son **operativamente sólidos pero digitalmente atrasados**. Brechas específica
 | Aldea SOS Paraguay | Permiso para publicar política pública de salvaguardia | TBD |
 | Donante / fundación | USD 15-30k seed para la pasarela de donación + portal de apadrinamiento | TBD |
 | Aliado corporativo (Tigo/Personal/Ueno) | Donación en especie: SIM cards, créditos en la nube, o ingeniería voluntaria | TBD |
-| Equipo ParaguAI / Aiw | Construir la pasarela de donación + micrositio de transparencia (est. 2-4 semanas de ingeniería) | TBD |
+| Equipo ParaguAI / Aiw | Construir la pasarela de donación + micrositio de transparencia (est 2-4 semanas de ingeniería) | TBD |
 | Equipo ParaguAI / Aiw | Redactar las plantillas de email en `outreach/email/` y enviar | TBD |
 
 ## Conclusión
@@ -61,4 +61,4 @@ Son **operativamente sólidos pero digitalmente atrasados**. Brechas específica
 
 ---
 
-*Detalle completo en [`about/executive-summary.md`](../about/executive-summary.md). Plan táctico en [`revenue/top-15-recommended.md`](../revenue/top-15-recommended.md) + [`revenue/90-day-quick-wins.md`](../revenue/90-day-quick-wins.md). Benchmark de pares en [`benchmark/peers/paraguay-peers.md`](../benchmark/peers/paraguay-peers.md).*
+*Detalle completo en [`about/executive-summary.md`](../about/executive-summary.md). Plan táctico en [`revenue/top-15-recommended.md`](../revenue/top-15-recommended.md) + [`revenue/90-day-rápido-wins.md`](../revenue/90-day-rápido-wins.md). Benchmark de pares en [`benchmark/peers/paraguay-peers.md`](../benchmark/peers/paraguay-peers.md).*

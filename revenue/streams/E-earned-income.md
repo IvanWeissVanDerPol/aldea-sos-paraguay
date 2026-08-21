@@ -26,7 +26,7 @@
 **Evidence**: Starfish Project, Purpose Jewelry models
 **Plan**: Etsy store + local markets
 
-### E5. Online courses / workshops (NGO management, child protection)
+### E5. Online courses / workshops (NGO management, protección infantil)
 **Qué**: SOS federation expertise → paid courses for other NGOs
 **Plan**: Train-the-trainer online course
 

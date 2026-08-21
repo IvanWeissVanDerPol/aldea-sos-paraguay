@@ -35,11 +35,11 @@
 | Item | Notas |
 |---|---|
 | Verificar RUC Paraguay = 80016122 con datos BCP públicos | [evidencia: official] — perfil ong.com.py |
-| Confirmar Comilona 6ª edición Tupi = Gs. 1.391M (USD 190k) | [evidencia: third-party] cobertura a24.com.py |
+| Confirmar Comilona 6ª edición Tupi = Gs. 1.391M (USD 190k) | [evidencia: tercero-party] cobertura a24.com.py |
 | Agregar registros DNS (SPF/DKIM/DMARC) para `paragu-ai.com` en el proveedor DNS | esperando a Ivan |
 | Configurar identidad de remitente en español en Resend (`amigos@paragu-ai.com`) | documentado en tech-spec/email/sender-config.md |
 | Redactar donor-journey-map.md | para strategy/ |
-| Redactar 30-day-quick-wins.md | para strategy/ |
+| Redactar 30-day-rápido-wins.md | para strategy/ |
 | Redactar 90-day-plan.md | para strategy/ |
 | Redactar comparación de procesadores en tech-spec | para tech-spec/donation-gateway/ |
 

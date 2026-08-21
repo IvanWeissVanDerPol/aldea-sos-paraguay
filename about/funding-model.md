@@ -61,11 +61,11 @@ Desde **al menos 2012** (Areté) / 2017 (Kingo + Gran Vía).
 
 Anual desde ~2020. **6ª edición: 4-16 de agosto, 2026**.
 
-- TUPI dona un % de las ventas de productos infantiles durante el período
+- TUPI dona un % de las ventas de productos infantiles durante el poríodo
 - Win-win: TUPI genera tráfico, SOS recibe donación corporativa
 - Online en www.tupi.com.py + pickup + delivery + en tienda
 
-**Benchmark de referencia**: La Comilona 2026 de Teletón recaudó **Gs. 1.391.035.000 (USD ~190k) en un solo evento** [evidencia: third-party a24.com.py]. La campaña de Tupi tiene escala similar.
+**Benchmark de referencia**: La Comilona 2026 de Teletón recaudó **Gs. 1.391.035.000 (USD ~190k) en un solo evento** [evidencia: tercero-party a24.com.py]. La campaña de Tupi tiene escala similar.
 
 ## Transferencias de la Federación
 

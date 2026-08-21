@@ -50,7 +50,7 @@ Al citásar una fuente:
 Usá estas etiquetas en `[evidencia: …]` cuando importan los datos:
 
 - `[evidencia: official]` — verificado en sitios oficiales de SOS PY o SOS Intl
-- `[evidencia: third-party]` — verificado vía Wikipedia, noticias, Conévio
+- `[evidencia: tercero-party]` — verificado vía Wikipedia, noticias, Conévio
 - `[evidencia: ddgs]` — solo de un resultado de búsqueda; tratar como tentativo
 - `[evidencia: estimate]` — derivado por nosotros, no de una fuente
 - `[evidencia: unknown]` — brecha explícita; necesita investigación primaria

@@ -161,7 +161,7 @@ Sitio web: https://aldeasinfantiles.org.py
 - **Asunto**: "Boletín {{MES}} {{AÑO}} — Aldeas Infantiles SOS Paraguay"
 - **De**: `boletin@paragu-ai.com`
 - **Frecuencia**: 1x/mes
-- **Hora de envío**: martes 10h PY (mejor open rate)
+- **Hora de envío**: martes 10h PY (mejor abrir rate)
 - **Idioma**: solo español
 - **Incluir**: link de baja, link de preferencias, dirección física
 - **NO incluir**: tracking pixels invasivos, links de redes sociales de empleados individuales

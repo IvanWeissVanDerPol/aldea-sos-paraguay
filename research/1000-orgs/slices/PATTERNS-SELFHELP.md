@@ -66,7 +66,7 @@
 - NED
 - TechSoup
 
-## Digital fundraising infrastructure
+## Digital recaudación de fondos infrastructure
 
 - Stripe Atlas
 - Donorbox / Funraise / Givebutter
@@ -82,7 +82,7 @@
 - Plan International
 - WWF
 
-## Crisis-specific fundraising
+## Crisis-specific recaudación de fondos
 
 - UNICEF emergency appeals
 - Red Cross / Red Crescent
@@ -102,7 +102,7 @@
 
 - DAOs funding orphanages
 - NFT membership passes
-- TikTok creator fundraising
+- TikTok creator recaudación de fondos
 - AI tutoring for kids
 - Robot Process Automation
 

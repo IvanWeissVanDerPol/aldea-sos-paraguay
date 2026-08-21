@@ -61,7 +61,7 @@ amigos@paragu-ai.com · {{TU_TELÉFONO}}
 - **Tono**: respetuoso, no condescendiente. Aldea SOS Paraguay tiene 55 años de historia; vos llegás como aliado, no como salvador.
 - **Idioma**: solo español. Vos sos paraguayo/a (o hispanohablante nativo).
 - **Adjuntos**: no adjuntar el dossier completo en el primer contacto. Si pide, sí. Si no, esperar a la reunión.
-- **Timing**: martes a jueves, 9-11h PY. Mejor open rate.
+- **Timing**: martes a jueves, 9-11h PY. Mejor abrir rate.
 - **Follow-up**: si no responde en 5 días, un segundo email corto (no copy-paste del primero). Si no responde en 3 semanas, dejar ir.
 - **No presiones**: si dice "no es el momento", respetá. Volvé a intentar en 3-6 meses.
 

@@ -40,7 +40,7 @@
 - `EXTRACTED-FACTS.md` — hechos destilados de los HTMLs, organizados por tema
 - `evidence-levels.md` — cómo leer estos archivos + notas de confiabilidad
 - `aios_py_*.html` (×11) — descargas verbatim de aldeasinfantiles.org.py
-- `aios_intl.html` — homepage global de SOS
+- `aios_intl.html` — página principal global de SOS
 - `aios_intl_urgent.html` — anuncio del escándalo internacional del 24 oct 2025
 - `aios_py_comunicado.html` — comunicado de Paraguay del 23 oct 2025
 
@@ -79,7 +79,7 @@
 - `1000-orgs/slices/PATTERNS-SELFHELP.md`
 - `1000-orgs/slices/TOP-10-APPLICABLE.md`
 - `patterns/recurring-giving-at-scale.md`
-- `patterns/digital-fundraising-trends.md`
+- `patterns/digital-recaudación de fondos-trends.md`
 - `patterns/federation-model.md`
 - `patterns/diaspora-giving-models.md`
 
@@ -88,7 +88,7 @@
 - `README.md` — guía de carpeta
 - `REVENUE-AVENUES-legacy.md` — archivo monolítico original
 - `top-15-recommended.md` — TOP 15 con scoring de 4 ejes
-- `90-day-quick-wins.md` — acciones concretas para los primeros 90 días
+- `90-day-rápido-wins.md` — acciones concretas para los primeros 90 días
 - `safeguarding-appendix.md` — checklist de protección infantil
 - `streams/A-online-giving.md` — expansión de donación online (10 fuentes)
 - `streams/B-sponsorship.md` — modelos de apadrinamiento (7 fuentes)

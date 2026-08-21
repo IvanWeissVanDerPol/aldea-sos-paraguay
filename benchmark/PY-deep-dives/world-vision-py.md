@@ -1,6 +1,6 @@
 # World Vision — PY Deep Dive
 
-> **Why this matters**: World Vision is the largest child sponsorship org globally. PY has had a WV office since 1981.
+> **Por qué importa**: World Vision is the largest apadrinamiento de niños org globally. PY has had a WV office since 1981.
 
 ## At a glance
 
@@ -13,15 +13,15 @@
 | **Disasters responded to** | 87 in 2024 |
 | **Revenue 2024** | ~USD 1.1B |
 
-## What they do that SOS PY doesn't
+## Qué they do that SOS PY doesn't
 
 1. **Active digital storytelling** — every sponsored child has a profile page
-2. **Real-time disaster response pages** — when crisis hits, immediate public-facing page
-3. **Massive scale** — single largest child sponsorship brand
-4. **Active social media ad spend** + Google Ad Grants
+2. **Real-time disaster response pages** — when crisis hits, immediate público-facing page
+3. **Massive scale** — single largest apadrinamiento de niños brand
+4. **Active redes sociales ad spend** + Google Ad Grants
 5. **Multilingual** site (40+ languages)
 
-## What SOS PY could adapt
+## Qué SOS PY could adapt
 
 | Insight | Adaptation |
 |---|---|
@@ -29,7 +29,7 @@
 | Digital storytelling | Adopt photography + storytelling for Ojoykére beneficiaries (anonymized) |
 | Active ad spend | Activate Google Ad Grants |
 
-## What we don't know about WV PY
+## Qué we no know about WV PY
 
 - Country-level revenue
 - Digital stack
@@ -38,9 +38,9 @@
 ## Fuentes
 
 - worldvision.org
-- worldvision.org/about-us/annual-reports (5 2025 Global Annual Report)
-- wvi.org/publications/annual-report/2024-global-annual-report-world-vision-international
+- worldvision.org/about-us/anual-reports (5 2025 Global Annual Report)
+- wvi.org/publications/anual-report/2024-global-anual-report-world-vision-international
 
 ---
 
-*See also [`../peers/inspiration-board.md`](../peers/inspiration-board.md).*
+*Ver también [`../peers/inspiration-board.md`](../peers/inspiration-board.md).*

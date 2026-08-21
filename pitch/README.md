@@ -2,7 +2,7 @@
 
 > Materials to **send** to people — pitch decks, executive summaries, one-pagers, FAQ.
 
-## Files
+## Archivos
 
 - `executive-summary-pdf.md` — content for a 2-pager PDF
 - `pitch-deck-outline.md` — slide-by-slide structure

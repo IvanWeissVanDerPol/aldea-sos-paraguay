@@ -1,6 +1,6 @@
 # How to Compare Child-Welfare / Child-Sponsorship NGOs
 
-A rubric for evaluating peer organizations. Use this to assess any new peer before adding to the catalog.
+A rubric for evaluating ONGs pares. Usá esto to assess any nuevo peer before adding to the catalog.
 
 ## Dimensions to score (1-5 each)
 
@@ -11,7 +11,7 @@ A rubric for evaluating peer organizations. Use this to assess any new peer befo
 
 ### 2. Service model
 - Which model? (residential care, sponsorship, prevention, foster, kinship, education, health, emergency, rights, mixed)
-- Reach (per country / per program)
+- Reach (por country / por program)
 - Scale (children served/year)
 
 ### 3. Digital infrastructure
@@ -41,9 +41,9 @@ A rubric for evaluating peer organizations. Use this to assess any new peer befo
 ### 6. Compliance
 - NGO registered?
 - Tax-exempt?
-- Audited financials public?
-- Annual report public?
-- Safeguarding policy public?
+- Audited financials público?
+- Annual report público?
+- Safeguarding policy público?
 
 ### 7. Engagement (proxy for traction)
 - IG followers
@@ -68,8 +68,8 @@ For each peer:
 
 - Self-reported metrics are inflated — cross-check with audited reports where possible
 - Engagement numbers ≠ impact
-- A "small" org can outperform a "large" org on per-beneficiary cost
+- A "small" org can outperform a "large" org on por-beneficiary cost
 
 ---
 
-*Use this rubric when adding new peers to [`../peers/`](../peers/).*
+*Usá esto rubric when adding nuevo peers to [`../peers/`](../peers/).*

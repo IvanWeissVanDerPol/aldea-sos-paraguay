@@ -1,6 +1,6 @@
 # DNS Records — `mail.paragu-ai.com`
 
-> **Propósito**: DNS records to add at `paragu-ai.com` registrar so Resend can send email as `*@paragu-ai.com`.
+> **Propósito**: DNS records agregar at `paragu-ai.com` registrar so Resend can send email as `*@paragu-ai.com`.
 >
 > **Última actualización**: 2026-08-21
 
@@ -24,7 +24,7 @@ Add these at your DNS provider (Cloudflare / Route53 / NIC.py registrar / GoDadd
 |---|---|---|---|
 | **MX** | `paragu-ai.com` | `feedback-smtp.sa-east-1.amazonses.com` | 10 |
 
-(Only if you want to receive replies at `@paragu-ai.com`. For most outbound transactional, MX is unnecessary — replies route to `sos.py@aldeasinfantiles.org.py` via Reply-To header.)
+(Only if you want to receive replies at `@paragu-ai.com`. For most outbound transactional, MX is unnecessary — replies route to `sos.py@aldeasinfantiles.org.py` vía Reply-To header.)
 
 ---
 
@@ -46,14 +46,14 @@ dig TXT _dmarc.paragu-ai.com +short
 dig MX paragu-ai.com +short
 ```
 
-Resend auto-verifies within minutes (sometimes up to 48h for DKIM). You'll see a green checkmark in Domains when ready.
+Resend auto-verifies within minutes (a veces up to 48h for DKIM). You'll see a green checkmark in Domains when ready.
 
 ---
 
 ## Quirks de DNS específicos de Paraguay
 
 - **NIC.py** (Paraguayan registrar): may take 24-48h for any change to propagate
-- **Cloudflare**: usually <5 min for TXT records
+- **Cloudflare**: generalmente <5 min for TXT records
 - **GoDaddy / Namecheap**: 5-30 min
 
 ---

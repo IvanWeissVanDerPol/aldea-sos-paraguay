@@ -10,7 +10,7 @@
 ## El arco narrativo
 
 1. **Reconocer**: Tienen una marca fuerte, 5 aldeas, 18+ aliados corporativos, un programa de prevención 2024 (Ojoykére). Son operativamente sólidos.
-2. **Mostrar la brecha**: las ONGs pares (el 99% de ellas) tienen donación online. Ellos no. Su página `/transparencia` está rota. No tienen portal de apadrinamiento.
+2. **Mostrar la brecha**: las ONGs pares (el 99% de ellas) tienen donación online. Ellos n° Su página `/transparencia` está rota. No tienen portal de apadrinamiento.
 3. **Encuadrar el escándalo con cuidado**: El escándalo austriaco 2025 es de la Federación, no de ellos. Fueron *rápidos* en distanciarse públicamente (comunicado del 23 de octubre de 2025). Su Comité Nacional de Salvaguardia es real. Tienen una oportunidad de liderar a la Federación en transparencia.
 4. **Ofrecer ayuda, no crítica**: Ofrecemos acciones concretas con aliados e ingeniería — no opiniones.
 5. **Pedir permiso + un compromiso menor**: Primera reunión para introducir, segunda para definir alcance, tercera para firmar un MOU.

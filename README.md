@@ -57,10 +57,10 @@ El repo está organizado por **propósito**, alfabéticamente:
 | **[`pitch/`](./pitch/)** | Decks de presentación, one-pagers, FAQ (todo en español) | Estructura del pitch deck + resumen ejecutivo + 3 one-pagers + FAQ |
 | **[`policy/`](./policy/)** | Protección infantil + ética (esqueleto — URGENTE) | Reservada |
 | **[`research/`](./research/)** | Catálogo de 1000 ONGs + patrones | CATALOG.csv (939 ONGs × 12 cols) + SYNTHESIS.md + 9 slices + 4 patrones |
-| **[`revenue/`](./revenue/)** | 65+ fuentes de ingreso | TOP 15 + quick wins 90 días + apéndice de salvaguardia + 13 archivos por grupo |
+| **[`revenue/`](./revenue/)** | 65+ fuentes de ingreso | TOP 15 + rápido wins 90 días + apéndice de salvaguardia + 13 archivos por grupo |
 | **[`start-here/`](./start-here/)** | Puntos de entrada por audiencia (en español) | Resumen 5 min + deep dive 30 min + guías por audiencia |
-| **[`strategy/`](./strategy/)** | Planes 30/60/90 + donor journey (esqueleto) | Reservada |
-| **[`tech-spec/`](./tech-spec/)** | Especificaciones técnicas | Email (sender config, DNS, API integration) — donation gateway/sponsor portal/transparency (esqueleto) |
+| **[`strategy/`](./strategy/)** | Planes 30/60/90 + viaje del donante (esqueleto) | Reservada |
+| **[`tech-spec/`](./tech-spec/)** | Especificaciones técnicas | Email (sender config, DNS, API integration) — pasarela de donación/portal de apadrinamiento/transparency (esqueleto) |
 | **[`_originals/`](./_originals/)** | Red de seguridad pre-restructuración | Originales de DOSSIER.md, PEER-BENCHMARK.md, REVENUE-AVENUES.md antes del split |
 
 ---
@@ -71,7 +71,7 @@ El repo está organizado por **propósito**, alfabéticamente:
 2. **Aldea SOS PY sirve a 1.000+ niños** con marca de 55 años, 18+ aliados corporativos, y el programa de prevención "Proyecto Ojoykére" de 2024.
 3. **Escándalo Gmeiner 2025** (Austria) — Paraguay fue *más rápida* que la Federación en responder públicamente. Tienen un Comité Nacional de Salvaguardia. Oportunidad: liderar en transparencia post-escándalo.
 4. **Madurez digital: 4/10.** Sin donación online, `/transparencia` roto, sin reporte anual, sin portal de apadrinamiento, sin TikTok, sin Google Ad Grants.
-5. **TOP 5 quick wins de ingresos** (90 días): pasarela de donación Donorbox, Google Ad Grants, arreglar `/transparencia` + reporte anual, "Apadrina una Aldea" sponsor-a-house, donaciones vía Tigo/Personal. Aumento potencial: USD 70-275k/año.
+5. **TOP 5 rápido wins de ingresos** (90 días): pasarela de donación Donorbox, Google Ad Grants, arreglar `/transparencia` + reporte anual, "Apadrina una Aldea" sponsor-a-house, donaciones vía Tigo/Personal. Aumento potencial: USD 70-275k/año.
 6. **Benchmark de 939 ONGs** confirma: 99% de los pares aceptan donaciones online, 34% tienen donación recurrente, 27% publican reportes anuales. Aldea PY está atrás en los tres.
 
 ---
@@ -92,7 +92,7 @@ El repo está organizado por **propósito**, alfabéticamente:
 
 ### ¿Querés una lista de ideas de ingresos?
 → [`revenue/top-15-recommended.md`](./revenue/top-15-recommended.md)
-→ [`revenue/90-day-quick-wins.md`](./revenue/90-day-quick-wins.md)
+→ [`revenue/90-day-rápido-wins.md`](./revenue/90-day-rápido-wins.md)
 → [`revenue/streams/`](./revenue/streams/)
 
 ### ¿Querés el catálogo de 939 ONGs?
@@ -123,7 +123,7 @@ El repo está organizado por **propósito**, alfabéticamente:
 1. [`start-here/5min-summary.md`](./start-here/5min-summary.md)
 2. [`start-here/for-aiw-team.md`](./start-here/for-aiw-team.md)
 3. [`about/digital-maturity.md`](./about/digital-maturity.md)
-4. [`revenue/90-day-quick-wins.md`](./revenue/90-day-quick-wins.md)
+4. [`revenue/90-day-rápido-wins.md`](./revenue/90-day-rápido-wins.md)
 5. [`tech-spec/`](./tech-spec/)
 
 ### Presentando a Aldea SOS Paraguay
@@ -159,7 +159,7 @@ El repo está organizado por **propósito**, alfabéticamente:
 - **Índices de subcarpeta**: `README.md` (siempre)
 - **Moneda**: Gs. (Guaraníes) primaria, USD entre paréntesis con conversión. ~Gs. 7,300 = USD 1.
 - **Idiomas**: Español (default), inglés solo para audiencias internacionales
-- **Niveles de evidencia**: `[official]` / `[third-party]` / `[ddgs]` / `[estimate]` / `[unknown]`
+- **Niveles de evidencia**: `[official]` / `[tercero-party]` / `[ddgs]` / `[estimate]` / `[unknown]`
 - **Sin secretos** — sin listas de donantes, sin nombres de niños, sin documentos internos
 
 ---

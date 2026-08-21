@@ -41,7 +41,7 @@
 **Revenue potential**: Gs. 100-300M/yr
 
 ### D8. CAF bond for child programs
-**Evidence**: CAF (Latin American development bank) has issued social bonds for child welfare
+**Evidence**: CAF (Latin American development bank) has issued social bonds for bienestar infantil
 **Plan**: Investigate; could be multi-million USD if PY-NGO qualifies
 
 ---

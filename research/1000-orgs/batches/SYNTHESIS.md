@@ -5,9 +5,9 @@
 
 ## Metodología
 
-Catalog entries were built by drawing on documented public knowledge of well-established child welfare organizations, residential care providers, sponsorship programs, child rights NGOs, child health programs, education foundations, emergency response organizations, and the broader non-profit ecosystem. URLs were chosen as canonical homepages or Wikipedia entries. Revenue figures are taken from publicly reported financials where available; "unknown" is used when no reliable figure could be cited. Funding-source and digital-signal tags use a controlled vocabulary so they can be aggregated cleanly.
+Catalog entries were built by drawing on documented público knowledge of well-established bienestar infantil organizations, residential care providers, sponsorship programs, child rights NGOs, child health programs, education foundations, emergency response organizations, and the broader non-profit ecosystem. URLs were chosen as canonical homepages or Wikipedia entries. Revenue figures are taken from publicly reported financials where disponible; "unknown" is used when no confiable figure could be cited. Funding-source and digital-signal tags use a controlled vocabulary so they puede ser aggregated cleanly.
 
-This is **breadth research**: it covers both well-known mega-orgs (Compassion, Plan, UNICEF, SOS International) and a long tail of country-specific affiliates, foundation sub-entities, and platform/service providers that an Aldea SOS Paraguay might learn from or partner with.
+Este es **breadth research**: it covers both well-known mega-orgs (Compassion, Plan, UNICEF, SOS International) and a long tail of country-specific affiliates, foundation sub-entities, and platform/service providers that an Aldea SOS Paraguay might learn from or partner with.
 
 ## Sección 1: Conteos y Distribución
 
@@ -216,7 +216,7 @@ This is **breadth research**: it covers both well-known mega-orgs (Compassion, P
 
 ## Sección 2: Top 30 por Ingresos
 
-Sorted by reported annual USD revenue, highest first.
+Sorted by reported anual USD revenue, highest primero.
 
 | Rank | Name | Revenue (USD) | Country | Model |
 |---:|---|---|---|---|
@@ -257,12 +257,12 @@ Innovation scoring: heuristic lookup for keywords signaling unconventional fundi
 
 | Rank | Name | Founded | Innovation | Score | Country |
 |---:|---|---|---:|---:|---|
-| 1 | St. Jude Children's Research Hospital | 1962 | no-cost pediatric cancer treatment + ALSAC fundraising | 1 | USA |
+| 1 | St. Jude Children's Research Hospital | 1962 | no-cost pediatric cancer treatment + ALSAC recaudación de fondos | 1 | USA |
 | 2 | Together for Girls | 2002 | Violence Against Children Surveys + partnerships | 1 | Global |
 | 3 | Girl Scouts of the USA | 1912 | cookie sales as entrepreneurship training | 1 | USA |
 | 4 | Parents Action for Children | 1981 | parent-led advocacy + media campaigns | 1 | USA |
 | 5 | Boys Town | 1917 | long-term residential care + parent training | 1 | USA |
-| 6 | United Way Worldwide | 1887 | workplace giving model + federated fundraising | 1 | Global |
+| 6 | United Way Worldwide | 1887 | workplace giving model + federated recaudación de fondos | 1 | Global |
 | 7 | Aldeas Infantiles SOS Rep. Dominicana | 1975 | tourism-haitian migration youth | 1 | Dominican Republic |
 | 8 | Aldeas Infantiles SOS Cuba | 1990 | state-constrained operations | 1 | Cuba |
 | 9 | Aldeas Infantiles SOS Spain | 1964 | 63 programs in Spain + international | 1 | Spain |
@@ -272,7 +272,7 @@ Innovation scoring: heuristic lookup for keywords signaling unconventional fundi
 | 13 | Fundación Huésped | 1989 | HIV/AIDS youth prevention + research | 1 | Argentina |
 | 14 | Fundación C&A | 2001 | C&A retail foundation global | 1 | Mexico |
 | 15 | Heifer International | 1944 | livestock gift catalog | 1 | USA |
-| 16 | War Child UK | 1993 | fundraising events | 1 | UK |
+| 16 | War Child UK | 1993 | recaudación de fondos events | 1 | UK |
 | 17 | Malala Fund | 2013 | Nobel laureate founded; girls education | 1 | Global |
 | 18 | Per Scholas | 1995 | IT workforce training | 1 | USA |
 | 19 | NPower | 2000 | IT training | 1 | USA |
@@ -280,9 +280,9 @@ Innovation scoring: heuristic lookup for keywords signaling unconventional fundi
 | 21 | ChildFund Taiwan | 1973 | Taiwanese sponsor model | 1 | Taiwan |
 | 22 | ChildFund Thailand | 1973 | Thai operations | 1 | Thailand |
 | 23 | CyberGrants | 2000 | matching gifts platform | 1 | USA |
-| 24 | GoFundMe Charity | 2010 | peer-to-peer fundraising platform | 1 | USA |
-| 25 | Givebutter | 2016 | free fundraising platform | 1 | USA |
-| 26 | WhatsApp Pay | 2020 | payments via WhatsApp | 1 | Global |
+| 24 | GoFundMe Charity | 2010 | peer-to-peer recaudación de fondos platform | 1 | USA |
+| 25 | Givebutter | 2016 | free recaudación de fondos platform | 1 | USA |
+| 26 | WhatsApp Pay | 2020 | payments vía WhatsApp | 1 | Global |
 | 27 | BitPay | 2011 | crypto payment processor | 1 | USA |
 | 28 | Coinbase Commerce | 2018 | crypto payment processor | 1 | USA |
 | 29 | The Giving Block | 2018 | crypto donation platform for nonprofits | 1 | USA |
@@ -316,7 +316,7 @@ Of the catalogued orgs, how many have each digital property?
 |---|---:|---:|
 | online-donation | 928 | 98.8% |
 | recurring-giving | 316 | 33.7% |
-| annual-report | 252 | 26.8% |
+| anual-report | 252 | 26.8% |
 | multiling-site | 135 | 14.4% |
 | charity-rating | 97 | 10.3% |
 | email-newsletter | 78 | 8.3% |
@@ -393,7 +393,7 @@ Concrete themes that emerged from the catalog. Each theme has 3-5 examples.
 - **New Venture Fund** — Fiscal sponsor model
 - **Silicon Valley Community Foundation** — Donor-advised fund
 - **NED** — Funds NGOs worldwide
-- **TechSoup** — Discounted tech via fiscal sponsorship
+- **TechSoup** — Discounted tech vía fiscal sponsorship
 
 ### Infraestructura de recaudación digital
 
@@ -405,7 +405,7 @@ Concrete themes that emerged from the catalog. Each theme has 3-5 examples.
 
 ### Donación recurrente a escala
 
-- **Compassion** — 9M+ sponsor letters/year
+- **Compassion** — 9M+ cartas de padrinos/year
 - **Aldeas Infantiles SOS Spain** — 60k+ recurring donors
 - **Amnesty International** — 8M+ recurring supporters
 - **Plan International** — 1M+ sponsors
@@ -413,31 +413,31 @@ Concrete themes that emerged from the catalog. Each theme has 3-5 examples.
 
 ### Recaudación específica de crisis
 
-- **UNICEF emergency appeals** — Crisis fundraising
+- **UNICEF emergency appeals** — Crisis recaudación de fondos
 - **Red Cross / Red Crescent** — Crisis model globally
 - **Direct Relief** — Crisis medical relief
 - **CARE** — Crisis food relief
-- **World Vision emergency** — Disaster fundraising
+- **World Vision emergency** — Disaster recaudación de fondos
 
 ### Diáspora + donaciones internacionales
 
 - **Asha for Education** — Indian diaspora funding India
 - **BRAC USA / BRAC UK** — Bangladeshi diaspora chapters
 - **UNICEF NextGen** — Younger diaspora donor cohort
-- **Plan USA + diaspora** — Diaspora engagement in fundraising
+- **Plan USA + diaspora** — Diaspora engagement in recaudación de fondos
 - **Aldea SOS USA** — Federation diaspora chapter
 
 ### Frontera de innovación (alto riesgo / alta recompensa)
 
 - **DAOs funding orphanages** — Web3 collective giving
 - **NFT membership passes** — Crypto-tied donor access
-- **TikTok creator fundraising** — Social-native donor acquisition
+- **TikTok creator recaudación de fondos** — Social-native donor acquisition
 - **AI tutoring for kids** — Low-cost scaling of education
-- **Robot Process Automation** — Back-office savings → more program $
+- **Robot Process Automation** — Back-office savings → más program $
 
 ## Sección 7: Top 10 Más Directamente Aplicables a Aldea SOS Paraguay
 
-Filtrado por factibilidad operativa PY, fit con activos existentes, y potencial de quick-win.
+Filtrado por factibilidad operativa PY, fit con activos existentes, y potencial de rápido-win.
 
 ### 1. Compassion International — portal de apadrinamiento con intercambio de cartas
 **Por qué aplica:** SOS PY ya hace cuidado residencial (el mismo modelo de Compassion). Portal de cartas de padrinos = ingresos recurrentes + transparencia.
@@ -486,16 +486,16 @@ Filtrado por factibilidad operativa PY, fit con activos existentes, y potencial 
 - **Models represented**: 12
 - **Distinct funding-source tags**: 13
 - **Distinct digital-signal tags**: 12
-- **Funding sources not currently used by SOS PY** (based on `comparison/PEER-BENCHMARK.md`): crypto, social-enterprise, crowdfunding, royalties, sponsorships. Aldea PY uses individuals + corporate + foundations + government + sponsorships (via event tickets); misses: earned-income, merchandise, donations-in-kind, events (limited), crowdfunding, crypto. Most peer orgs (90+%) use events + online donation + corporate — SOS PY does corporate + a partial event model (TUPI) but lacks events at scale.
+- **Funding sources not currently used by SOS PY** (basado en `comparison/PEER-BENCHMARK.md`): crypto, social-enterprise, crowdfunding, royalties, sponsorships. Aldea PY uses individuals + corporate + foundations + government + sponsorships (vía event tickets); misses: earned-income, merchandise, donations-in-kind, events (limited), crowdfunding, crypto. Most ONGs pares (90+%) use events + donación online + corporate — SOS PY does corporate + a partial event model (TUPI) but lacks events at scale.
 
 ## Sección 9: Cómo usar este catálogo
 
-1. **Pattern matching**: sort by funding_sources / digital_signals to find orgs using tactics Aldea PY could adopt.
+1. **Pattern matching**: sort by funding_sources / digital_signals para encontrar orgs using tactics Aldea PY could adopt.
 2. **Geography**: search by country for local-peers (PY, AR, BR, CO).
-3. **Innovation hunting**: filter by innovation keywords to find unusual programs to study.
-4. **Revenue model scouting**: cross-reference funding_source tags with revenue_annual_usd_estimate to find high-yield revenue models.
+3. **Innovation hunting**: filter by innovation keywords para encontrar unusual programs to study.
+4. **Revenue model scouting**: cross-reference funding_source tags with revenue_anual_usd_estimate para encontrar high-yield modelos de ingresos.
 5. **Partnership discovery**: orgs in PY are direct candidates for joint programs; international orgs in LatAm (AR/BR/MX/CO/CL) are regional peers for federated learning.
 
 ---
 
-Generated 2026-08-21 from 12 batch files (batch01..batch12). Schema: 12 columns per row. See `CATALOG.csv` for raw data.
+Generated 2026-08-21 from 12 batch files (batch01..batch12). Schema: 12 columns por row. See `CATALOG.csv` for raw data.

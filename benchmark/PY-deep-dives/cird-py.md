@@ -1,6 +1,6 @@
 # CIRD Paraguay — Deep Dive
 
-> **Why this matters**: CIRD is **the** PY digital nonprofit model. Their WhatsApp-at-scale approach for child immunization is directly replicable for SOS PY's family-strengthening work in Proyecto Ojoykére.
+> **Por qué importa**: CIRD is **the** PY digital nonprofit model. Their WhatsApp-at-scale approach for child immunization is directly replicable for SOS PY's family-strengthening work in Proyecto Ojoykére.
 
 ## At a glance
 
@@ -9,10 +9,10 @@
 | **HQ** | Asunción, Paraguay |
 | **Founded** | 1989 (35+ years) |
 | **Revenue** | $20.8M (Aug 2024 zoominfo) |
-| **Programs** | Training, immunization advocacy, public health |
+| **Programs** | Training, immunization advocacy, público health |
 | **Tech signature** | WhatsApp + RVE (vaccination record) integration at scale |
 
-## What they do that SOS PY should copy
+## Qué they do that SOS PY should copy
 
 ### WhatsApp + RVE for child immunization
 CIRD has built a **WhatsApp-integrated vaccination reminder system** that:
@@ -23,24 +23,24 @@ CIRD has built a **WhatsApp-integrated vaccination reminder system** that:
 
 Source: cird.org.py news June 2026.
 
-## What SOS PY could adapt
+## Qué SOS PY could adapt
 
 | Insight | Adaptation |
 |---|---|
 | WhatsApp family messaging | Project Ojoykére — WhatsApp parents with care updates, family-strengthening tips, event invitations |
 | Public impact reporting | CIRD reports impact metrics on their news page — SOS PY should do the same for Ojoykére |
-| RVE integration | If PY has a child welfare registry (SNNA may), integrate similarly |
+| RVE integration | If PY has a bienestar infantil registry (SNNA may), integrate similarly |
 
 ## Implementation sketch (60/90 days)
 
-**Day 60**: Negotiate WhatsApp Business API access (META-approved use case)
-**Day 90**: Pilot in one neighborhood of Proyecto Ojoykére (e.g., Tablada Nueva)
+**Day 60**: Negotiate WhatsApp Business API access (META-approved caso de uso)
+**Day 90**: Pilot in one neighborhood of Proyecto Ojoykére (por ejemplo, Tablada Nueva)
 **Day 120**: Expand to 3 neighborhoods
 **Day 180**: Full rollout across all Ojoykére sites
 
 ## Lo que no sabemos
 
-- CIRD's tech stack specifically (which WhatsApp provider, etc.)
+- CIRD's stack tecnológico específicamente (which WhatsApp provider, etc.)
 - Their funding model
 - Their relationship with META / WhatsApp
 
@@ -52,4 +52,4 @@ Source: cird.org.py news June 2026.
 
 ---
 
-*This is the **#1 tactical opportunity** identified in the benchmark. See [`../../../strategy/`](../../strategy/) for how to pitch this to SOS PY.*
+*Este es the **#1 tactical opportunity** identified in the benchmark. Ver [`../../../strategy/`](../../strategy/) for how to pitch this to SOS PY.*

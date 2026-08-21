@@ -107,7 +107,7 @@ Un saludo,
 
 - **Personaliza SIEMPRE** `{{NOMBRE_CONTACTO}}`, `{{EMPRESA}}` y al menos una frase específica para esa empresa (por ejemplo, qué han hecho antes en RSE o por qué nos alineamos).
 - **Asunto corto** (< 50 caracteres) y específico — evita "Hola" o "Consulta".
-- **Envía entre martes y jueves, 9-11h PY** — mejor open rate.
+- **Envía entre martes y jueves, 9-11h PY** — mejor abrir rate.
 - **Si la empresa tiene programa de RSE documentado**, mencionalo en la primera línea para mostrar que investigaste.
 - **Si no responde en 2 semanas**, cambia de contacto dentro de la misma empresa (RSE Manager → Director de Marketing → CEO directamente, según tamaño).
 - **Nunca** envíes el mismo texto a múltiples personas en la misma empresa — parece spam.

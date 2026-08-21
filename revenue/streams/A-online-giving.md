@@ -2,12 +2,12 @@
 
 ## A. Online giving expansion
 
-### A1. Online donation gateway — Donorbox / Payway / Stripe
-**Qué**: Replace the donation form (which captures intent but routes to "Pago Ocasional") with a real card/wallet gateway.
+### A1. Online pasarela de donación — Donorbox / Payway / Stripe
+**Qué**: Replace the formulario de donación (which captures intent but routes to "Pago Ocasional") with a real card/wallet gateway.
 **Evidence**:
 - Donorbox serves 80,000+ NGOs globally with Spanish-language product (donorbox.org/es)
 - Cáritas Argentina uses Mercado Pago (caritas.org.ar/mercado-pago/)
-- DonarOnline.org is the established Argentine NGO donation gateway
+- DonarOnline.org is the established Argentine NGO pasarela de donación
 - Bancard VPOS is Paraguay's local payment processor (Bancard.com.py)
 - Pix, Tigo Money, Personal Pay, Wally, Ueno Pay all operate in PY
 **Market size**: PY e-commerce market USD ~1.2B; digital payment adoption 55.5%; NGO digital giving estimated USD 5-15M/yr total in PY
@@ -24,7 +24,7 @@
 
 ### A2. Recurring online giving at scale
 **Qué**: Default to "monthly" rather than one-time on the donate page. Monthly giving has 2-5x LTV of one-time.
-**Evidence**: Donorbox data shows recurring donations account for ~30% of online giving but 50%+ of revenue.
+**Evidence**: Donorbox data shows donaciones recurrentes account for ~30% of online giving but 50%+ of revenue.
 **Market size**: Same as A1
 **Why positioned**: Same as A1
 **Risks**: Donor fatigue
@@ -66,7 +66,7 @@
 **Tech**: Bank API integration
 
 ### A6. Crowdfunding campaigns (GoFundMe-style PY equivalents)
-**Qué**: "Donate to a specific need" — e.g., "buy 50 beds for Aldea Luque"
+**Qué**: "Donate to a specific need" — por ejemplo, "buy 50 beds for Aldea Luque"
 **Evidence**: GoFundMe Charity handles USD 1B+/yr globally. GoFundMe Brazil is significant. PY has no dominant equivalent yet.
 **Market size**: USD 200k-1M/yr for PY causes on international platforms
 **Why positioned**: They have specific, tangible projects (Ojoykére, beds, scholarships)

@@ -43,7 +43,7 @@ Trabajo de política para empujar al Estado paraguayo a fortalecer los sistemas 
 - Cuidado diario + acompañamiento familiar + capacitación
 - 14 de agosto de 2026: Feria de Servicios en Tablada Nueva — 3.000+ asistentes
 
-La ortografía varía: "Ojoykére" (home page) vs "Ojoykéré" (news page). Ambas se refieren al mismo programa.
+La ortografía varía: "Ojoykére" (página principal) vs "Ojoykéré" (news page). Ambas se refieren al mismo programa.
 
 ## Beneficiarios
 
