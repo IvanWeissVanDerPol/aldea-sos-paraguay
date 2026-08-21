@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stack Técnico — Transparency Microsite - Aldea SOS Paraguay Research</title>
+<meta name="description" content="Repositorio de investigación estratégica para Aldeas Infantiles SOS Paraguay">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<header>
+<div class="container">
+<h1><a href="/">Aldea SOS Paraguay - Research</a></h1>
+<div class="breadcrumb"><a href="/">Inicio</a> / <a href="/tech-spec/">Tech Spec</a> / <a href="/tech-spec/transparency-microsite/">Transparency Microsite</a> / <a href="/tech-spec/transparency-microsite/stack-tecnico.html/">Stack Tecnico.Html</a></div>
+</div>
+</header>
+<nav>
+<div class="container">
+<a href="/start-here/">Empezar aquí</a>
+<a href="/about/">About Aldea SOS Paraguay</a>
+<a href="/strategy/">Estrategia</a>
+<a href="/outreach/">Outreach</a>
+<a href="/tech-spec/">Tech Specs</a>
+<a href="/policy/">Políticas</a>
+<a href="/financial/">Financiero</a>
+<a href="/research/">Investigación</a>
+<a href="/benchmark/">Benchmark</a>
+<a href="/competitive/">Perfiles Competitivos</a>
+<a href="/pitch/">Pitch</a>
+<a href="/revenue/">65+ Fuentes de Ingreso</a>
+<a href="/evidence/">Evidencia</a>
+<a href="/governance/">Governance</a>
+</div>
+</nav>
+<main>
+<div class="container">
+<section>
+<div class="container">
+<div class="markdown-content">
+<h1>Stack Técnico — Transparency Microsite</h1>
+<blockquote>Decisión técnica sobre qué construir para el micrositio de transparencia.</blockquote>
+<h2>Decisión</h2>
+<p><strong>Stack elegido</strong>: <strong>Next.js + Sanity.io + Vercel + Cloudflare</strong></p>
+<pre><code class="language-">
+┌─────────────────────────────────────────────┐
+│              Cloudflare CDN                  │
+└──────────────────┬──────────────────────────┘
+                   │
+┌──────────────────▼──────────────────────────┐
+│         Vercel (hosting Next.js)             │
+└──────────────────┬──────────────────────────┘
+                   │
+       ┌───────────┴───────────┐
+       │                       │
+┌──────▼──────┐        ┌──────▼──────┐
+│  Next.js   │        │  Sanity.io │
+│  (static)  │◄──────►│  (CMS)     │
+└────────────┘        └────────────┘
+       │
+┌──────▼────────────────────────────┐
+│  Plausible Analytics (privacy)  │
+└───────────────────────────────────┘
+</code></pre>
+<h2>Por qué este stack</h2>
+<h3>Next.js (React + Static Generation)</h3>
+<ul>
+<li><strong>Performance</strong>: pre-rendered HTML = carga sub-1s</li>
+<li><strong>SEO</strong>: built-in (importante para Ad Grants)</li>
+<li><strong>Developer experience</strong>: excelente para escalar</li>
+<li><strong>Costo</strong>: $0 en Vercel (hasta 100GB bandwidth)</li>
+</ul>
+<p><strong>Alternativas consideradas</strong>: WordPress (menos performance, más plugins), Astro (similar, menos ecosistema).</p>
+<h3>Sanity.io (CMS)</h3>
+<ul>
+<li><strong>Gratuito</strong> para ONGs verificadas</li>
+<li><strong>Editor amigable</strong> para personal no técnico</li>
+<li><strong>Versionado</strong> de contenido</li>
+<li><strong>API en tiempo real</strong></li>
+<li><strong>Imagenes optimizadas</strong> automáticamente</li>
+</ul>
+<p><strong>Por qué no WordPress</strong>: requiere mantenimiento, plugins, seguridad.</p>
+<h3>Vercel (hosting)</h3>
+<ul>
+<li><strong>Gratis</strong> para sitios con &lt;100GB bandwidth/mes</li>
+<li><strong>HTTPS</strong> automático</li>
+<li><strong>CDN global</strong></li>
+<li><strong>Despliegues</strong> automáticos desde GitHub</li>
+</ul>
+<h3>Cloudflare (CDN + DNS)</h3>
+<ul>
+<li><strong>Gratis</strong> para ONGs</li>
+<li><strong>CDN global</strong> (importante para padrinos internacionales)</li>
+<li><strong>Protección DDoS</strong></li>
+<li><strong>SSL</strong> automático</li>
+</ul>
+<h3>Plausible (analytics)</h3>
+<ul>
+<li><strong>Gratis</strong> para ONGs (&lt;10k pageviews/mes)</li>
+<li><strong>Privacy-first</strong> (sin cookies, GDPR compliant)</li>
+<li><strong>Mejor que Google Analytics</strong> para casos sensibles (privacidad)</li>
+</ul>
+<h2>Alternativa más simple</h2>
+<p>Si se quiere <strong>más simple</strong> aún, <strong>Astro + Markdown + Vercel</strong>:</p>
+<ul>
+<li><strong>Cero CMS</strong>: contenido en archivos Markdown</li>
+<li><strong>Cero BD</strong>: todo estático</li>
+<li><strong>Cero mantenimiento</strong>: deploy automático en push a GitHub</li>
+<li><strong>Costo</strong>: $0</li>
+<li><strong>Voluntario</strong>: cualquier dev puede actualizar el sitio</li>
+</ul>
+<p><strong>Desventaja</strong>: requiere alguien con conocimiento de Git para actualizar.</p>
+<h2>Despliegue</h2>
+<pre><code class="language-">
+git push origin main
+       │
+       ▼
+Vercel detecta push
+       │
+       ▼
+Build automático
+       │
+       ▼
+Deploy
+       │
+       ▼
+CDN actualiza
+       │
+       ▼
+Sitio actualizado en 1-2 minutos
+</code></pre>
+<h2>CI/CD</h2>
+<ul>
+<li><strong>GitHub Actions</strong>: opcional para validaciones automáticas</li>
+<li><strong>Tests</strong>: vitest para lógica, playwright para E2E</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Lighthouse score objetivo</strong>: 95+</li>
+<li><strong>Tiempo de carga</strong>: &lt;1s</li>
+<li><strong>Mobile</strong>: 100% responsive</li>
+<li><strong>SEO</strong>: meta tags, sitemap, schema.org</li>
+</ul>
+<h2>Seguridad</h2>
+<ul>
+<li><strong>HTTPS</strong>: automático</li>
+<li><strong>CSP</strong>: Content Security Policy estricta</li>
+<li><strong>No datos sensibles</strong>: cero info del niño</li>
+<li><strong>No almacena datos del padrino</strong> (se procesan en otro sistema)</li>
+</ul>
+<h2>Monitoreo</h2>
+<ul>
+<li><strong>Plausible</strong>: tráfico, fuentes de tráfico, páginas más vistas</li>
+<li><strong>Sentry</strong> (opcional): errores de frontend</li>
+<li><strong>Alertas</strong>: cuando el sitio cae o crece el tráfico 5x</li>
+</ul>
+<h2>Internacionalización</h2>
+<ul>
+<li><strong>Default</strong>: español</li>
+<li><strong>Alternativa</strong>: inglés (manual, no automático)</li>
+<li><strong>Multi-moneda</strong>: Gs. en el sitio, traducciones a USD en PDFs</li>
+</ul>
+<h2>Tiempo de setup</h2>
+<table>
+<thead><tr>
+<th>Hito</th>
+<th>Tiempo</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Configurar Next.js + Vercel</td>
+<td>1 día</td>
+</tr>
+<tr>
+<td>Configurar Sanity.io</td>
+<td>1 día</td>
+</tr>
+<tr>
+<td>Migrar contenido inicial</td>
+<td>2 semanas</td>
+</tr>
+<tr>
+<td>QA + accesibilidad</td>
+<td>1 semana</td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td><strong>~3 semanas</strong></td>
+</tr>
+</tbody>
+</table>
+<h2>Costo</h2>
+<table>
+<thead><tr>
+<th>Concepto</th>
+<th>Mensual</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Vercel</td>
+<td>$0</td>
+</tr>
+<tr>
+<td>Sanity.io</td>
+<td>$0</td>
+</tr>
+<tr>
+<td>Cloudflare</td>
+<td>$0</td>
+</tr>
+<tr>
+<td>Plausible</td>
+<td>$0</td>
+</tr>
+<tr>
+<td>Dominio</td>
+<td>~$15/año</td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td><strong>$0–1/mes</strong></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>Última actualización: 2026-08-21</em></p>
+</div>
+</div>
+</section>
+</div>
+</main>
+<footer>
+<div class="container">
+<p><strong>Aldea SOS Paraguay - Research Repository</strong></p>
+<p>Dossier estratégico + 939-org catalog + 65+ revenue streams</p>
+<p><a href="https://github.com/IvanWeissVanDerPol/aldea-sos-paraguay">Ver en GitHub</a></p>
+</div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stack Recomendado — Pasarela de Donación SOS PY - Aldea SOS Paraguay Research</title>
+<meta name="description" content="Repositorio de investigación estratégica para Aldeas Infantiles SOS Paraguay">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<header>
+<div class="container">
+<h1><a href="/">Aldea SOS Paraguay - Research</a></h1>
+<div class="breadcrumb"><a href="/">Inicio</a> / <a href="/tech-spec/">Tech Spec</a> / <a href="/tech-spec/donation-gateway/">Donation Gateway</a> / <a href="/tech-spec/donation-gateway/stack-recomendado.html/">Stack Recomendado.Html</a></div>
+</div>
+</header>
+<nav>
+<div class="container">
+<a href="/start-here/">Empezar aquí</a>
+<a href="/about/">About Aldea SOS Paraguay</a>
+<a href="/strategy/">Estrategia</a>
+<a href="/outreach/">Outreach</a>
+<a href="/tech-spec/">Tech Specs</a>
+<a href="/policy/">Políticas</a>
+<a href="/financial/">Financiero</a>
+<a href="/research/">Investigación</a>
+<a href="/benchmark/">Benchmark</a>
+<a href="/competitive/">Perfiles Competitivos</a>
+<a href="/pitch/">Pitch</a>
+<a href="/revenue/">65+ Fuentes de Ingreso</a>
+<a href="/evidence/">Evidencia</a>
+<a href="/governance/">Governance</a>
+</div>
+</nav>
+<main>
+<div class="container">
+<section>
+<div class="container">
+<div class="markdown-content">
+<h1>Stack Recomendado — Pasarela de Donación SOS PY</h1>
+<blockquote>Decisión técnica sobre qué construir para la pasarela de donación en línea de Aldea SOS Paraguay.</blockquote>
+<h2>Decisión</h2>
+<p><strong>Stack MVP</strong>: <strong>Donorbox + Stripe + Bancard</strong></p>
+<pre><code class="language-">
++----------+ +-----------+ +----------+
+|Donorbox | +|  Stripe   | +|  Bancard  |
++----------+ +-----------+ +----------+
+   │            │             │
+   │            │             │
+   ▼            ▼             ▼
+Internacional  Tech-savvy   Paraguay
++Tarjetas    +Tarjetas    +Tarjetas
++Recurrente  +Recurrente  +Tigo Money
++PayPal      +Apple Pay   +Personal Pay
++Google Pay  +Google Pay  +Wally
++Apple Pay
+</code></pre>
+<h2>Por qué este stack</h2>
+<h3>Cobertura de mercado</h3>
+<ul>
+<li><strong>Donorbox</strong>: padrinos globales, USA, Europa, angloparlantes</li>
+<li><strong>Stripe</strong>: padrinos tech-savvy, suscripciones internacionales</li>
+<li><strong>Bancard</strong>: padrinos paraguayos, donaciones corporativas locales</li>
+</ul>
+<p>Entre los 3, cubrimos <strong>&gt;95%</strong> de los casos de uso.</p>
+<h3>Costo total</h3>
+<table>
+<thead><tr>
+<th>Plataforma</th>
+<th>Tarifa mensual</th>
+<th>Tarifa por tx</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Donorbox</td>
+<td>$0 (plan Free) o $39 (Standard)</td>
+<td>1.95% + $0.20</td>
+</tr>
+<tr>
+<td>Stripe</td>
+<td>$0</td>
+<td>2.9% + $0.30</td>
+</tr>
+<tr>
+<td>Bancard</td>
+<td>$0</td>
+<td>~3.5%</td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td><strong>$0–$39/mes</strong></td>
+<td><strong>~3% blended</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Vs el costo de oportunidad de <strong>no tener pasarela</strong> (donaciones potenciales que no se concretan): mucho mayor.</p>
+<h3>Time to ship</h3>
+<ul>
+<li><strong>Donorbox</strong>: 1 día (es solo embed un formulario)</li>
+<li><strong>Stripe</strong>: 1 día (similar)</li>
+<li><strong>Bancard</strong>: 3-5 días (requiere cuenta bancaria, proceso de aprobación)</li>
+</ul>
+<p><strong>Total</strong>: 5-7 días al MVP funcional.</p>
+<h3>Riesgo</h3>
+<p><strong>Diversificación</strong>: si una plataforma cae, las otras siguen funcionando. Esto es crítico post-escándalo.</p>
+<hr>
+<h2>Cómo interactúan los 3</h2>
+<pre><code class="language-">
+DONANTE ENTRANTE
+       │
+       ▼
+  ┌─────────────────────────────────────────────────────────┐
+  │                 /como-ayudar/dona                          │
+  │                                                          │
+  │   "Doná a Aldea SOS Paraguay"                             │
+  │   [Selecciona método de pago]                            │
+  │                                                          │
+  │   ┌────────────┬────────────┬────────────┐               │
+  │   │  Donorbox  │   Stripe   │  Bancard   │               │
+  │   │ (default)  │ (opcional) │ (Paraguay) │               │
+  │   └────────────┴────────────┴────────────┘               │
+  └─────────────────────────────────────────────────────────┘
+       │
+       ▼
+   Webhook al backend
+       │
+       ├── Recibo automático al donante
+       ├── CRM (Salesforce, HubSpot, etc.)
+       ├── Sistema de padrinos (portal)
+       └── Reportes trimestrales
+</code></pre>
+<p>Donante en PY → ve Bancard como opción Donante en USA → ve Donorbox o Stripe Donante recurrente → cualquiera de los 3</p>
+<hr>
+<h2>Implementación paso a paso</h2>
+<h3>Semana 1: Setup</h3>
+<table>
+<thead><tr>
+<th>Día</th>
+<th>Acción</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Crear cuenta Donorbox (verificar RUC 80016122)</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Crear cuenta Stripe (necesita verificación de ONG)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Crear cuenta Bancard (proceso PY, requiere banco PY)</td>
+</tr>
+<tr>
+<td>3-4</td>
+<td>Diseñar formulario unificado en aldeasinfantiles.org.py/como-ayudar/dona</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Integrar Donorbox iframe</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Integrar Stripe Checkout</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Testing E2E</td>
+</tr>
+</tbody>
+</table>
+<h3>Semana 2: Lanzamiento</h3>
+<table>
+<thead><tr>
+<th>Día</th>
+<th>Acción</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>8</td>
+<td>Comunicación a padrinos actuales (email)</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Publicar transparencia microsite (link post-donación)</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Activar campañas de marketing</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Activar Ad Grants</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Reportar métricas semanales</td>
+</tr>
+<tr>
+<td>13-14</td>
+<td>Iterar basado en feedback</td>
+</tr>
+</tbody>
+</table>
+<h3>Post-lanzamiento</h3>
+<ul>
+<li><strong>Monitoreo diario</strong>: donaciones, rechazos, errores</li>
+<li><strong>Reporte semanal</strong>: métricas (volumen, ticket promedio, recurrencia)</li>
+<li><strong>Iteración mensual</strong>: basado en patrones</li>
+</ul>
+<hr>
+<h2>Detalles técnicos</h2>
+<h3>Donorbox</h3>
+<ul>
+<li><strong>Tipo</strong>: SaaS</li>
+<li><strong>Integración</strong>: iframe embed (no código backend)</li>
+<li><strong>Webhooks</strong>: disponibles para eventos (donación completada, recurrente creada, etc.)</li>
+<li><strong>Idiomas</strong>: español, inglés, portugués</li>
+<li><strong>URL</strong>: <a href="https://donorbox.org">https://donorbox.org</a></li>
+</ul>
+<h3>Stripe</h3>
+<ul>
+<li><strong>Tipo</strong>: SaaS + API</li>
+<li><strong>Integración</strong>: Stripe Checkout (más simple) o Elements (más custom)</li>
+<li><strong>Webhooks</strong>: sí, detallados</li>
+<li><strong>Subscription API</strong>: sí, robusta</li>
+<li><strong>URL</strong>: <a href="https://stripe.com">https://stripe.com</a></li>
+</ul>
+<h3>Bancard</h3>
+<ul>
+<li><strong>Tipo</strong>: Procesador local PY</li>
+<li><strong>Integración</strong>: requiere VPOS (Virtual Point of Sale)</li>
+<li><strong>Webhooks</strong>: limitados (depende del contrato)</li>
+<li><strong>Idiomas</strong>: español</li>
+<li><strong>URL</strong>: <a href="https://www.bancard.com.py">https://www.bancard.com.py</a></li>
+</ul>
+<hr>
+<h2>Consideraciones especiales</h2>
+<h3>Compliance</h3>
+<ul>
+<li><strong>Donorbox</strong>: cumple PCI DSS Level 1</li>
+<li><strong>Stripe</strong>: cumple PCI DSS Level 1</li>
+<li><strong>Bancard</strong>: cumple estándares locales</li>
+</ul>
+<h3>Reportes fiscales</h3>
+<ul>
+<li><strong>Donorbox</strong>: emite recibos automáticos</li>
+<li><strong>Stripe</strong>: emite recibos + integración con QuickBooks</li>
+<li><strong>Bancard</strong>: emite facturas (factura legal PY)</li>
+</ul>
+<h3>Multi-moneda</h3>
+<ul>
+<li><strong>Donorbox</strong>: USD, EUR, PYG, etc.</li>
+<li><strong>Stripe</strong>: 135+ monedas</li>
+<li><strong>Bancard</strong>: solo PYG</li>
+</ul>
+<h3>Multi-idioma</h3>
+<ul>
+<li><strong>Donorbox</strong>: español, inglés, portugués</li>
+<li><strong>Stripe</strong>: configurable</li>
+<li><strong>Bancard</strong>: español</li>
+</ul>
+<hr>
+<h2>Riesgos y mitigaciones</h2>
+<table>
+<thead><tr>
+<th>Riesgo</th>
+<th>Mitigación</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Bancard tarda en aprobar</td>
+<td>Empezar el proceso ya; mientras tanto, Donorbox cubre</td>
+</tr>
+<tr>
+<td>Stripe no acepta ONG de Paraguay</td>
+<td>Usar Stripe Atlas para entidad US; o registrarse como Beneficiary en país aceptado</td>
+</tr>
+<tr>
+<td>Donante no tiene método compatible</td>
+<td>Siempre ofrecer 3 métodos</td>
+</tr>
+<tr>
+<td>Fraude de tarjeta</td>
+<td>Donorbox + Stripe tienen antifraude integrado</td>
+</tr>
+<tr>
+<td>Webhook falla</td>
+<td>Implementar retry logic + monitoreo</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>Siguientes pasos</h2>
+<ol>
+<li><strong>Inmediato</strong>: configurar cuentas en las 3 plataformas</li>
+<li><strong>Día 1-7</strong>: implementación + testing</li>
+<li><strong>Día 8-14</strong>: lanzamiento + marketing</li>
+<li><strong>Mes 2</strong>: optimizar + expansión</li>
+</ol>
+<hr>
+<p><em>Última actualización: 2026-08-21</em></p>
+</div>
+</div>
+</section>
+</div>
+</main>
+<footer>
+<div class="container">
+<p><strong>Aldea SOS Paraguay - Research Repository</strong></p>
+<p>Dossier estratégico + 939-org catalog + 65+ revenue streams</p>
+<p><a href="https://github.com/IvanWeissVanDerPol/aldea-sos-paraguay">Ver en GitHub</a></p>
+</div>
+</footer>
+</body>
+</html>

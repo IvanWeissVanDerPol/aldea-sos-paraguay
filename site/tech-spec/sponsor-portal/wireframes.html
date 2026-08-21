@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wireframes — Sponsor Portal - Aldea SOS Paraguay Research</title>
+<meta name="description" content="Repositorio de investigación estratégica para Aldeas Infantiles SOS Paraguay">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<header>
+<div class="container">
+<h1><a href="/">Aldea SOS Paraguay - Research</a></h1>
+<div class="breadcrumb"><a href="/">Inicio</a> / <a href="/tech-spec/">Tech Spec</a> / <a href="/tech-spec/sponsor-portal/">Sponsor Portal</a> / <a href="/tech-spec/sponsor-portal/wireframes.html/">Wireframes.Html</a></div>
+</div>
+</header>
+<nav>
+<div class="container">
+<a href="/start-here/">Empezar aquí</a>
+<a href="/about/">About Aldea SOS Paraguay</a>
+<a href="/strategy/">Estrategia</a>
+<a href="/outreach/">Outreach</a>
+<a href="/tech-spec/">Tech Specs</a>
+<a href="/policy/">Políticas</a>
+<a href="/financial/">Financiero</a>
+<a href="/research/">Investigación</a>
+<a href="/benchmark/">Benchmark</a>
+<a href="/competitive/">Perfiles Competitivos</a>
+<a href="/pitch/">Pitch</a>
+<a href="/revenue/">65+ Fuentes de Ingreso</a>
+<a href="/evidence/">Evidencia</a>
+<a href="/governance/">Governance</a>
+</div>
+</nav>
+<main>
+<div class="container">
+<section>
+<div class="container">
+<div class="markdown-content">
+<h1>Wireframes — Sponsor Portal</h1>
+<blockquote>Bosquejos de las pantallas principales del portal de apadrinamiento.</blockquote>
+<h2>1. Login (<code>/portal/login</code>)</h2>
+<pre><code class="language-">
++------------------------------------------+
+|                                          |
+|             Aldeas Infantiles             |
+|             SOS Paraguay                  |
+|                                          |
+|         [ Portal de Padrinos ]            |
+|                                          |
+|     ┌──────────────────────────────┐     |
+|     │ Email                         │     |
+|     └──────────────────────────────┘     |
+|     ┌──────────────────────────────┐     |
+|     │ Contraseña                    │     |
+|     └──────────────────────────────┘     |
+|                                          |
+|     [ Recordarme ]  [¿Olvidaste?]         |
+|                                          |
+|              [ Iniciar ]                 |
+|                                          |
+|     ¿Nuevo aquí? [Crear cuenta]           |
+|                                          |
++------------------------------------------+
+</code></pre>
+<h2>2. Dashboard Padrino (<code>/portal</code>)</h2>
+<pre><code class="language-">
++----------------------------------------------------------+
+| HEADER: Aldea SOS Paraguay | [Mi cuenta] [Salir]        |
++----------------------------------------------------------+
+|                                                          |
+| [Foto grupal de la casa]                  Hola, {Nombre}  |
+| Aldea Asunción - Casa 2                  Padrino desde 2024 |
+|                                                          |
+| Tab navigation:                                          |
+| [Dashboard] [Mi casa] [Updates] [Suscripción] [Reportes] [Mensajes] |
+|                                                          |
+| ┌──────────────────────────┐ ┌────────────────────────┐ |
+| │ SUSCRIPCIÓN              │ │ PRÓXIMA ACTUALIZACIÓN  │ |
+| │                          │ │                        │ |
+| │ Gs. 100.000 / mes        │ │ 15 de septiembre       │ |
+| │ Activa desde 2024-03-15  │ │ [Ver preview]          │ |
+| │ [Modificar] [Cancelar]  │ │                        │ |
+| └──────────────────────────┘ └────────────────────────┘ |
+|                                                          |
+| ┌──────────────────────────┐ ┌────────────────────────┐ |
+| │ ÚLTIMO REPORTE            │ │ MENSAJES               │ |
+| │                          │ │                        │ |
+| │ Q2 2026 (abril-junio)    │ │ Sin mensajes nuevos     │ |
+| │ [Descargar PDF]          │ │ [Ver todos]             │ |
+| └──────────────────────────┘ └────────────────────────┘ |
+|                                                          |
++----------------------------------------------------------+
+</code></pre>
+<h2>3. Mi Casa Apadrinada (<code>/portal/casa</code>)</h2>
+<pre><code class="language-">
++----------------------------------------------------------+
+| HEADER: Aldea SOS Paraguay | [Mi cuenta] [Salir]        |
++----------------------------------------------------------+
+|                                                          |
+| [Atras al dashboard]                                      |
+|                                                          |
+| # Casa 2 - Aldea Asunción                                |
+|                                                          |
+| ┌────────────────────────────────────────────────────┐  |
+| │ [Foto grupal de actividades, niños de espaldas]    │  |
+| │                                                    │  |
+| │ "El día en la Casa 2 es un día lleno de..."         │  |
+| └────────────────────────────────────────────────────┘  |
+|                                                          |
+| ## Sobre la Casa                                          |
+| - Capacidad: 10 niños/as                                 |
+| - Cuidadora principal: María (madre SOS)               |
+| - Inaugurada: 2008                                      |
+|                                                          |
+| ## Necesidades actuales                                   |
+| - Útiles escolares (septiembre)                        |
+| - Ropa de cama (cualquier donación bien)             |
+| - Material deportivo (a confirmar)                     |
+|                                                          |
+| ¿Quieres hacer una donación especial? [Donar ahora]       |
+|                                                          |
+| ## Actualizaciones recientes                               |
+| - 15 ago 2026: Ferias de Servicios en Tablada Nueva      |
+| - 14 jul 2026: Graduación de 3 adolescentes al colegio  |
+| - 10 jun 2026: Programa de verano - taller de arte      |
+| [Ver todas las actualizaciones]                           |
+|                                                          |
+| [Enviar mensaje al equipo]                              |
+|                                                          |
++----------------------------------------------------------+
+</code></pre>
+<h2>4. Mi Suscripción (<code>/portal/subscription</code>)</h2>
+<pre><code class="language-">
++----------------------------------------------------------+
+| HEADER: Aldea SOS Paraguay | [Mi cuenta] [Salir]        |
++----------------------------------------------------------+
+|                                                          |
+| # Mi Suscripción                                        |
+|                                                          |
+| ┌────────────────────────────────────────────────────┐  |
+| │ Resumen                                              │  |
+| │                                                    │  |
+| │ Plan: Padrino Mensual                              │  |
+| │ Casa apadrinada: Casa 2 - Aldea Asunción          │  |
+| │ Monto: Gs. 100.000 / mes (~$13.70 USD)          │  |
+| │ Método de pago: Tarjeta Visa •••• 4242          │  |
+| │ Próxima facturación: 1 de septiembre 2026        │  |
+| │ Total donado hasta hoy: Gs. 1.500.000            │  |
+| │                                                      │  |
+| │ [Modificar monto] [Cambiar tarjeta] [Pausar]      │  |
+| └────────────────────────────────────────────────────┘  |
+|                                                          |
+| Historial de donaciones (últimos 12 meses)              |
+| ┌─────────┬──────────┬─────────┬──────────┐             |
+| │ Fecha   │ Monto    │ Estado  │ Recibo   │             |
+| ├─────────┼──────────┼─────────┼──────────┤             |
+| │ 01/08   │ 100.000  │ ✅ OK   │ [PDF]    │             |
+| │ 01/07   │ 100.000  │ ✅ OK   │ [PDF]    │             |
+| │ 01/06   │ 100.000  │ ✅ OK   │ [PDF]    │             |
+| │ ...                                                    |
+| └─────────┴──────────┴─────────┴──────────┘             |
+|                                                          |
+| ## Cancelar suscripción                                   |
+| ¿Quieres pausar o cancelar tu suscripción?               |
+| [Pausar 3 meses] [Cancelar definitivamente]               |
+|                                                          |
+| Si cancelas, enviaremos un reporte final del impacto     |
+| de tu donación.                                          |
+|                                                          |
++----------------------------------------------------------+
+</code></pre>
+<h2>5. Mensajes (<code>/portal/messages</code>)</h2>
+<pre><code class="language-">
++----------------------------------------------------------+
+| HEADER: Aldea SOS Paraguay | [Mi cuenta] [Salir]        |
++----------------------------------------------------------+
+|                                                          |
+| # Mensajes                                               |
+|                                                          |
+| [+ Nuevo mensaje]                                       |
+|                                                          |
+| Conversación activa:                                     |
+|                                                          |
+| ┌────────────────────────────────────────────────────┐  |
+| │ [Foto] María (cuidadora Casa 2) - 25 ago 2026         │  |
+| │ Te envío la foto que tomaste hoy en la Aldea.       │  |
+| │ Adela está muy feliz con tu carta.                     │  |
+| │ ¡Gracias!                                              │  |
+| │ 14:32                                                  │  |
+| │                                       [Ver foto]       │  |
+| └────────────────────────────────────────────────────┘  |
+|                                                          |
+| ┌────────────────────────────────────────────────────┐  |
+| │ [Tú] - 24 ago 2026                                    │  |
+| │ Querida María, gracias por la foto. Adela es un sol.   │  |
+| │ ¿Necesitan algo especial para el Día del Niño?       │  |
+| │ 18:00                                                  │  |
+| └────────────────────────────────────────────────────┘  |
+|                                                          |
+| ┌────────────────────────────────────────────────────┐  |
+| │ [Tú] - 24 ago 2026                                    │  |
+| │ Quería contarles que aumenté mi donación a 200.000    │  |
+| │ a partir de septiembre. ¡Espero que les sirva!    │  |
+| │ 18:05                                                  │  |
+| └────────────────────────────────────────────────────┘  |
+|                                                          |
+| ┌────────────────────────────────────────────────────┐  |
+| │ Escribir nuevo mensaje...                              │  |
+| │                                                      │  |
+| │ [Enviar]                                              │  |
+| └────────────────────────────────────────────────────┘  |
+|                                                          |
++----------------------------------------------------------+
+</code></pre>
+<h2>6. Admin - Crear Actualización (<code>/admin/updates/new</code>)</h2>
+<pre><code class="language-">
++----------------------------------------------------------+
+| HEADER: [Admin] Aldea SOS Paraguay | [Panel] [Salir]   |
++----------------------------------------------------------+
+|                                                          |
+| # Nueva Actualización                                    |
+|                                                          |
+| Casa / Programa: [Casa 2 - Aldea Asunción ▼]            |
+|                                                          |
+| Título: ____________________________________________ |
+|                                                          |
+| Contenido (Markdown):                                   |
+| ┌────────────────────────────────────────────────────┐  |
+| │ # Hola padrinos                                      │  |
+| │ Esta semana la Casa 2 tuvo una actividad especial... │  |
+| │                                                      │  |
+| │ [B] [I] [link] [imagen]                               │  |
+| ├────────────────────────────────────────────────────┤  |
+| │                                                      │  |
+| └────────────────────────────────────────────────────┘  |
+|                                                          |
+| Multimedia adjunta:                                      |
+| [Subir foto] [Subir video]                               |
+| - foto-1.jpg (consent-form signed: ✓)                  |
+| - foto-2.jpg (consent-form signed: ✓)                  |
+|                                                          |
+| Programar para: [Hoy ▼] [Hora: 09:00]                  |
+|                                                          |
+| [Guardar borrador] [Enviar a revisión]                  |
+|                                                          |
+| ⚠️ Recordá: las fotos con rostros requieren consent-form |
+|    firmado antes de publicar. Ver: policy/               |
+|                                                          |
++----------------------------------------------------------+
+</code></pre>
+<h2>7. Comité - Cola de Aprobación (<code>/comite/pending</code>)</h2>
+<pre><code class="language-">
++----------------------------------------------------------+
+| HEADER: [Comité] Aldea SOS Paraguay | [Salir]          |
++----------------------------------------------------------+
+|                                                          |
+| # Cola de Aprobación                                    |
+|                                                          |
+| 3 actualizaciones pendientes, 0 con observaciones          |
+|                                                          |
+| ┌────────────────────────────────────────────────────┐  |
+| │ 📝 "Casa 2 - Ferias de Servicios"                    │  |
+| │    Por: Ana Pérez (Casa 2) | 26 ago 2026 09:15     │  |
+| │    Casa: Casa 2 - Aldea Asunción                     │  |
+| │                                                      │  |
+| │    Vista previa: [Expandir]                          │  |
+| │    Fotos: 3 (todas con consent-form ✓)              │  |
+| │                                                      │  |
+| │    [Aprobar] [Aprobar + publicar] [Rechazar] [Ver foto]│  |
+| └────────────────────────────────────────────────────┘  |
+|                                                          |
+| ┌────────────────────────────────────────────────────┐  |
+| │ 📝 "Aldea Hohenau - Programa de verano"              │  |
+| │    Por: Carlos (Hohenau) | 25 ago 2026 14:30       │  |
+| │    Programa: Becas escolares                         │  |
+| │                                                      │  |
+| │    [Aprobar] [Rechazar]                              │  |
+| └────────────────────────────────────────────────────┘  |
+|                                                          |
++----------------------------------------------------------+
+</code></pre>
+<h2>8. Admin - Dashboard (<code>/admin</code>)</h2>
+<pre><code class="language-">
++----------------------------------------------------------+
+| HEADER: [Admin] Aldea SOS Paraguay | [Salir]            |
++----------------------------------------------------------+
+|                                                          |
+| # Panel de Administración                                |
+|                                                          |
+| ┌──────────────────────────┐ ┌────────────────────────┐ |
+| │ PADRINOS ACTIVOS         │ │ REVENUE ESTE MES      │ |
+| │                          │ │                        │ |
+| │        247               │ │   Gs. 24.700.000        │ |
+| │  (↑ 12% vs mes pasado)   │ │  (↑ 8% vs mes pasado)  │ |
+| └──────────────────────────┘ └────────────────────────┘ |
+|                                                          |
+| ┌──────────────────────────┐ ┌────────────────────────┐ |
+| │ ALERTAS DE SALVAGUARDIA   │ │ ACTUALIZACIONES        │ |
+| │                          │ │                        │ |
+| │        0 pendientes       │ │   3 pendientes        │ |
+| │                          │ │   1 borrador           │ |
+| └──────────────────────────┘ └────────────────────────┘ |
+|                                                          |
+| Tab navigation: [Padrinos] [Donaciones] [Casas] [Updates] [Reportes] [Incidentes] |
+|                                                          |
+| Actividad reciente:                                     |
+| - 26 ago 09:15 - Ana creó borrador "Casa 2 - Ferias"   |
+| - 26 ago 08:30 - Nueva donación MR. JL: Gs. 100.000    |
+| - 25 ago 16:45 - Carlos publicó "Hohenau - Verano"        |
+| - 25 ago 14:00 - Comité aprobó 2 actualizaciones          |
+|                                                          |
++----------------------------------------------------------+
+</code></pre>
+<h2>9. Padrino - Mi Cuenta (<code>/portal/profile</code>)</h2>
+<pre><code class="language-">
++----------------------------------------------------------+
+| HEADER: Aldea SOS Paraguay | [Mi cuenta] [Salir]        |
++----------------------------------------------------------+
+|                                                          |
+| # Mi Cuenta                                              |
+|                                                          |
+| ┌────────────────────────────────────────────────────┐  |
+| │ Información Personal                                  │  |
+| │                                                      │  |
+| │ Nombre: María González                                │  |
+| │ Email: maria.gonzalez@example.com                   │  |
+| │ Teléfono: +595 9XX XXX XXX                          │  |
+| │ País: Paraguay                                       │  |
+| │ Idioma: Español                                      │  |
+| │ [Editar]                                              │  |
+| └────────────────────────────────────────────────────┘  |
+|                                                          |
+| ┌────────────────────────────────────────────────────┐  |
+| │ Preferencias de Comunicación                         │  |
+| │                                                      │  |
+| │ ☑ Quiero recibir actualizaciones por email            │  |
+| │ ☐ Quiero recibir SMS                                 │  |
+| │ ☑ Quiero recibir reportes trimestrales                │  |
+| │ ☐ Acepto invitaciones a eventos                       │  |
+| │                                                      │  |
+| │ [Guardar]                                             │  |
+| └────────────────────────────────────────────────────┘  |
+|                                                          |
+| ┌────────────────────────────────────────────────────┐  |
+| │ Seguridad                                            │  |
+| │                                                      │  |
+| │ Contraseña: [••••••••] [Cambiar]                   │  |
+| │ 2FA: Activado vía SMS al +595 9XX                    │  |
+| │ Sesiones activas: 2 (cerrar otras)                   │  |
+| │ Último acceso: hoy 09:15                              │  |
+| └────────────────────────────────────────────────────┘  |
+|                                                          |
+| ┌────────────────────────────────────────────────────┐  |
+| │ Zona peligrosa                                        │  |
+| │                                                      │  |
+| │ [Cancelar mi suscripción]                            │  |
+| │ [Eliminar mi cuenta (derecho al olvido)]             │  |
+| └────────────────────────────────────────────────────┘  |
+|                                                          |
++----------------------------------------------------------+
+</code></pre>
+<h2>Notas técnicas</h2>
+<ul>
+<li><strong>Mobile-first</strong>: &gt;95% de padrinos acceden desde móvil</li>
+<li><strong>Responsive</strong>: todos los wireframes funcionan en 360px y 1024px+</li>
+<li><strong>Accesibilidad</strong>: WCAG 2.1 AA</li>
+<li><strong>Performance</strong>: &lt;2s de tiempo de carga</li>
+<li><strong>Privacidad</strong>: zero info identificable del niño en ningún wireframe</li>
+</ul>
+<hr>
+<p><em>Última actualización: 2026-08-21</em></p>
+</div>
+</div>
+</section>
+</div>
+</main>
+<footer>
+<div class="container">
+<p><strong>Aldea SOS Paraguay - Research Repository</strong></p>
+<p>Dossier estratégico + 939-org catalog + 65+ revenue streams</p>
+<p><a href="https://github.com/IvanWeissVanDerPol/aldea-sos-paraguay">Ver en GitHub</a></p>
+</div>
+</footer>
+</body>
+</html>

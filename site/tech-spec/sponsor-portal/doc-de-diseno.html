@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Documento de Diseño — Sponsor Portal - Aldea SOS Paraguay Research</title>
+<meta name="description" content="Repositorio de investigación estratégica para Aldeas Infantiles SOS Paraguay">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<header>
+<div class="container">
+<h1><a href="/">Aldea SOS Paraguay - Research</a></h1>
+<div class="breadcrumb"><a href="/">Inicio</a> / <a href="/tech-spec/">Tech Spec</a> / <a href="/tech-spec/sponsor-portal/">Sponsor Portal</a> / <a href="/tech-spec/sponsor-portal/doc-de-diseno.html/">Doc De Diseno.Html</a></div>
+</div>
+</header>
+<nav>
+<div class="container">
+<a href="/start-here/">Empezar aquí</a>
+<a href="/about/">About Aldea SOS Paraguay</a>
+<a href="/strategy/">Estrategia</a>
+<a href="/outreach/">Outreach</a>
+<a href="/tech-spec/">Tech Specs</a>
+<a href="/policy/">Políticas</a>
+<a href="/financial/">Financiero</a>
+<a href="/research/">Investigación</a>
+<a href="/benchmark/">Benchmark</a>
+<a href="/competitive/">Perfiles Competitivos</a>
+<a href="/pitch/">Pitch</a>
+<a href="/revenue/">65+ Fuentes de Ingreso</a>
+<a href="/evidence/">Evidencia</a>
+<a href="/governance/">Governance</a>
+</div>
+</nav>
+<main>
+<div class="container">
+<section>
+<div class="container">
+<div class="markdown-content">
+<h1>Documento de Diseño — Sponsor Portal</h1>
+<h2>Visión general</h2>
+<p>Portal que conecta a padrinos con casas/programas de Aldea SOS Paraguay.</p>
+<h2>Usuarios</h2>
+<h3>Padrino (usuario primario)</h3>
+<ul>
+<li><strong>Objetivo</strong>: mantener relación significativa con la casa/programa apadrinado</li>
+<li><strong>Acciones típicas</strong>: revisar actualizaciones, enviar mensajes, administrar suscripción, recibir reportes trimestrales</li>
+<li><strong>Cadencia típica</strong>: revisita 1-2 veces por mes</li>
+<li><strong>Necesita</strong>: dashboard simple, fotos de la casa, reportes trimestrales, contacto con el equipo</li>
+</ul>
+<h3>Personal de Aldea SOS PY (admin)</h3>
+<ul>
+<li><strong>Objetivo</strong>: gestionar padrinos, casas, programas, actualizaciones</li>
+<li><strong>Acciones típicas</strong>: redactar actualizaciones, subir fotos, responder consultas, generar reportes</li>
+<li><strong>Cadencia</strong>: diaria</li>
+<li><strong>Necesita</strong>: panel admin, flujo de aprobación, gestión de contenido</li>
+</ul>
+<h3>Comité Nacional de Salvaguardia (supervisor)</h3>
+<ul>
+<li><strong>Objetivo</strong>: auditoría, aprobación de publicaciones, investigación de incidentes</li>
+<li><strong>Acciones</strong>: revisar publicaciones antes de release, aprobar padrinos nuevos</li>
+<li><strong>Cadencia</strong>: semanal</li>
+<li><strong>Necesita</strong>: panel de auditoría, registro de aprobaciones</li>
+</ul>
+<h2>Pantallas principales</h2>
+<h3>Padrino</h3>
+<table>
+<thead><tr>
+<th>Pantalla</th>
+<th>URL</th>
+<th>Contenido</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Login</td>
+<td><code>/portal/login</code></td>
+<td>Email + password / SSO</td>
+</tr>
+<tr>
+<td>Dashboard</td>
+<td><code>/portal</code></td>
+<td>Resumen: próximas actualizaciones, suscripción, reporte más reciente</td>
+</tr>
+<tr>
+<td>Mi casa apadrinada</td>
+<td><code>/portal/casa</code></td>
+<td>Info general + foto grupal + reporte trimestral</td>
+</tr>
+<tr>
+<td>Actualizaciones</td>
+<td><code>/portal/updates</code></td>
+<td>Lista cronológica de newsletters</td>
+</tr>
+<tr>
+<td>Mi suscripción</td>
+<td><code>/portal/subscription</code></td>
+<td>Monto, fecha, método de pago, cancelar</td>
+</tr>
+<tr>
+<td>Reportes</td>
+<td><code>/portal/reports</code></td>
+<td>Reportes trimestrales descargables</td>
+</tr>
+<tr>
+<td>Mensajes</td>
+<td><code>/portal/messages</code></td>
+<td>Comunicación con el equipo</td>
+</tr>
+<tr>
+<td>Mi perfil</td>
+<td><code>/portal/profile</code></td>
+<td>Datos personales, preferencias de comunicación</td>
+</tr>
+</tbody>
+</table>
+<h3>Admin</h3>
+<table>
+<thead><tr>
+<th>Pantalla</th>
+<th>URL</th>
+<th>Contenido</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Dashboard</td>
+<td><code>/admin</code></td>
+<td>Métricas (padrinos activos, revenue, alertas)</td>
+</tr>
+<tr>
+<td>Padrinos</td>
+<td><code>/admin/padrinos</code></td>
+<td>Lista, búsqueda, edición</td>
+</tr>
+<tr>
+<td>Casas</td>
+<td><code>/admin/casas</code></td>
+<td>Lista de casas, asignación de padrinos</td>
+</tr>
+<tr>
+<td>Actualizaciones</td>
+<td><code>/admin/updates</code></td>
+<td>Editor con preview, scheduling</td>
+</tr>
+<tr>
+<td>Reportes</td>
+<td><code>/admin/reports</code></td>
+<td>Editor con upload de PDF</td>
+</tr>
+<tr>
+<td>Donaciones</td>
+<td><code>/admin/donations</code></td>
+<td>Reconciliación, reembolsos</td>
+</tr>
+<tr>
+<td>Incidentes</td>
+<td><code>/admin/incidents</code></td>
+<td>Log de eventos de salvaguarda, alertas</td>
+</tr>
+<tr>
+<td>Auditoría</td>
+<td><code>/admin/audit</code></td>
+<td>Log de acciones por usuario</td>
+</tr>
+</tbody>
+</table>
+<h3>Comité</h3>
+<table>
+<thead><tr>
+<th>Pantalla</th>
+<th>URL</th>
+<th>Contenido</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Publicaciones pendientes</td>
+<td><code>/comite/pending</code></td>
+<td>Cola de aprobación</td>
+</tr>
+<tr>
+<td>Reportes trimestrales</td>
+<td><code>/comite/reports</code></td>
+<td>Versión pública anonimizable</td>
+</tr>
+<tr>
+<td>Incidentes</td>
+<td><code>/comite/incidents</code></td>
+<td>Cola de investigación</td>
+</tr>
+</tbody>
+</table>
+<h2>User flows</h2>
+<h3>Padrino nuevo</h3>
+<ol>
+<li><strong>Visita</strong> aldeasinfantiles.org.py/como-ayudar</li>
+<li><strong>Selecciona</strong> "Apadrina una Aldea"</li>
+<li><strong>Elige</strong> monto (Gs. 50k, 100k, 200k, otro) y frecuencia (mensual, trimestral, anual)</li>
+<li><strong>Completa</strong> pago vía Donorbox / Stripe / Bancard</li>
+<li><strong>Recibe</strong> email de bienvenida con credenciales del portal</li>
+<li><strong>Inicia sesión</strong> y ve su dashboard</li>
+<li><strong>Recibe</strong> primera actualización (cuando el equipo la publique)</li>
+</ol>
+<h3>Personal publica actualización</h3>
+<ol>
+<li><strong>Inicia sesión</strong> en admin</li>
+<li><strong>Click "Nueva actualización"</strong></li>
+<li><strong>Selecciona</strong> casa o programa</li>
+<li><strong>Redacta</strong> contenido (markdown, fotos, video)</li>
+<li><strong>Adjunta</strong> fotos (debe pasar por consent-form firmado)</li>
+<li><strong>Envía a revisión</strong> (Comité)</li>
+<li><strong>Comité aprueba</strong> o rechaza</li>
+<li><strong>Si aprueba</strong>: programado para enviar</li>
+<li><strong>Sistema envía</strong> email a padrinos a las 9:00h PY</li>
+</ol>
+<h3>Padrino consulta</h3>
+<ol>
+<li><strong>Inicia sesión</strong> en portal</li>
+<li><strong>Click "Mensajes"</strong></li>
+<li><strong>Escribe</strong> mensaje al equipo</li>
+<li><strong>Equipo recibe</strong> email + dashboard</li>
+<li><strong>Equipo responde</strong> dentro de 48h hábiles</li>
+<li><strong>Padrino recibe</strong> email de respuesta</li>
+</ol>
+<h3>Cancelación de suscripción</h3>
+<ol>
+<li><strong>Padrino</strong> click "Cancelar suscripción"</li>
+<li><strong>Confirmación</strong> requerida (modal)</li>
+<li><strong>Última donación</strong> procesada ese mes</li>
+<li><strong>Reporte final</strong> se envía automáticamente</li>
+<li><strong>Padrino</strong> puede reactivar en cualquier momento</li>
+<li><strong>Datos</strong> retenidos por 7 años (auditoría)</li>
+</ol>
+<h2>Requisitos no funcionales</h2>
+<h3>Seguridad</h3>
+<ul>
+<li><strong>HTTPS obligatorio</strong> en todo</li>
+<li><strong>Auth</strong>: email + password + 2FA por SMS o app</li>
+<li><strong>Encriptación</strong>: AES-256 en reposo, TLS en tránsito</li>
+<li><strong>Auditoría</strong>: log de toda acción de admin</li>
+<li><strong>Compliance</strong>: PCI DSS (si almacenamos datos de tarjeta), GDPR-K si padrino en UE</li>
+</ul>
+<h3>Performance</h3>
+<ul>
+<li><strong>Tiempo de carga</strong>: &lt; 2 segundos</li>
+<li><strong>Disponibilidad</strong>: 99.5% (4h downtime/mes)</li>
+<li><strong>Backup</strong>: diario, retención 30 días</li>
+</ul>
+<h3>Internacionalización</h3>
+<ul>
+<li><strong>Idiomas</strong>: español (default), inglés</li>
+<li><strong>Multi-moneda</strong>: Gs. (default), USD, EUR</li>
+<li><strong>Zona horaria</strong>: PYT (UTC-4) para padrinos locales</li>
+</ul>
+<h3>Accesibilidad</h3>
+<ul>
+<li><strong>WCAG 2.1 AA</strong> mínimo</li>
+<li><strong>Móvil responsive</strong>: 95%+ de padrinos acceden desde móvil</li>
+<li><strong>Lectores de pantalla</strong>: compatible</li>
+</ul>
+<hr>
+<p><em>Última actualización: 2026-08-21</em></p>
+</div>
+</div>
+</section>
+</div>
+</main>
+<footer>
+<div class="container">
+<p><strong>Aldea SOS Paraguay - Research Repository</strong></p>
+<p>Dossier estratégico + 939-org catalog + 65+ revenue streams</p>
+<p><a href="https://github.com/IvanWeissVanDerPol/aldea-sos-paraguay">Ver en GitHub</a></p>
+</div>
+</footer>
+</body>
+</html>

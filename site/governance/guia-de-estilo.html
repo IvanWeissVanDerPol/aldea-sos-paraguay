@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>STYLE GUIDE — Convenciones del Repositorio - Aldea SOS Paraguay Research</title>
+<meta name="description" content="Repositorio de investigación estratégica para Aldeas Infantiles SOS Paraguay">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<header>
+<div class="container">
+<h1><a href="/">Aldea SOS Paraguay - Research</a></h1>
+<div class="breadcrumb"><a href="/">Inicio</a> / <a href="/governance/">Governance</a> / <a href="/governance/guia-de-estilo.html/">Guia De Estilo.Html</a></div>
+</div>
+</header>
+<nav>
+<div class="container">
+<a href="/start-here/">Empezar aquí</a>
+<a href="/about/">About Aldea SOS Paraguay</a>
+<a href="/strategy/">Estrategia</a>
+<a href="/outreach/">Outreach</a>
+<a href="/tech-spec/">Tech Specs</a>
+<a href="/policy/">Políticas</a>
+<a href="/financial/">Financiero</a>
+<a href="/research/">Investigación</a>
+<a href="/benchmark/">Benchmark</a>
+<a href="/competitive/">Perfiles Competitivos</a>
+<a href="/pitch/">Pitch</a>
+<a href="/revenue/">65+ Fuentes de Ingreso</a>
+<a href="/evidence/">Evidencia</a>
+<a href="/governance/">Governance</a>
+</div>
+</nav>
+<main>
+<div class="container">
+<section>
+<div class="container">
+<div class="markdown-content">
+<h1>STYLE GUIDE — Convenciones del Repositorio</h1>
+<blockquote>Mantener estas convenciones consistentes en todos los docs de este repo. Actualizar este archivo cuando cambien las convenciones.</blockquote>
+<hr>
+<h2>Idiomas</h2>
+<ul>
+<li><strong>Primario</strong>: Español (es). El cliente es paraguayo. La mayoría de las audiencias habla español.</li>
+<li><strong>Secundario</strong>: Inglés (en). Para compartir con donantes internacionales o aliados globales.</li>
+<li><strong>Terciario</strong>: Guaraní (gn). Para nombres y términos culturalmente específicos (ej: "Ojoykére"). No traducir estos.</li>
+</ul>
+<p>Cuando tengas dudas, escribí en <strong>español</strong> por defecto. Traducí a inglés solo cuando sirvas a una audiencia explícitamente angloparlante.</p>
+<h2>Convenciones de nombres</h2>
+<ul>
+<li><strong>Carpetas</strong>: lowercase, separadas por guión (<code>05-revenue/</code>, <code>donation-gateway/</code>)</li>
+<li><strong>Archivos</strong>: <code>kebab-case.md</code> (<code>executive-summary.md</code>, <code>top-15-recommended.md</code>)</li>
+<li><strong>Índices de subcarpeta</strong>: <code>README.md</code> (siempre)</li>
+<li><strong>Prefijos numéricos en carpetas top-level</strong>: 2 dígitos + guión + nombre (<code>00-start-here/</code>)</li>
+</ul>
+<h2>Moneda</h2>
+<ul>
+<li><strong>Default</strong>: Guaraníes (Gs. o ₲). Siempre con marcador de moneda.</li>
+<li><strong>USD</strong>: Cuando cites para contexto internacional, incluí USD junto con Gs. con la tasa de conversión al momento de escribir.</li>
+<li><strong>Convención FX</strong>: USD 1 ≈ Gs. 7,300 (2026). Poné la tasa + fecha en la cita si no es obvio.</li>
+<li><strong>Ejemplos</strong>:</li>
+</ul>
+<p>- ✅ "Gs. 1.391.035.000 (USD ~190k, Comilona 2026)" - ❌ "$190k" (cuando Gs. es la fuente de verdad)</p>
+<h2>Números</h2>
+<ul>
+<li><strong>Localización</strong>: separador de miles = punto (<code>1.000</code>), decimal = coma (<code>1,5</code>).</li>
+<li><strong>Montos grandes</strong>: escribir completo (<code>Gs. 50.000</code>) para transparencia.</li>
+<li><strong>Montos redondos</strong>: solo para estimaciones aproximadas (<code>USD ~190k</code>).</li>
+</ul>
+<h2>Fechas</h2>
+<ul>
+<li><strong>Formato</strong>: ISO 8601 (<code>2026-08-21</code>).</li>
+<li><strong>Fecha + hora</strong>: <code>2026-08-21 03:43 PYT</code>. Estamos en PYT (UTC-4 todo el año).</li>
+</ul>
+<h2>Citaciones</h2>
+<p>Al citásar una fuente:</p>
+<ul>
+<li>Inline: <code>[fuente: aldeasinfantiles.org.py/home]</code></li>
+<li>URL: link markdown completo: <code><a href="https://a24.com.py/teleton-logra-recaudacion-historica-de-g-1-391-millones-en-la-comilona-2026/">Cobertura Teletón A24</a></code></li>
+</ul>
+<h2>Niveles de evidencia</h2>
+<p>Usá estas etiquetas en <code>[evidencia: …]</code> cuando importan los datos:</p>
+<ul>
+<li><code>[evidencia: official]</code> — verificado en sitios oficiales de SOS PY o SOS Intl</li>
+<li><code>[evidencia: tercero-party]</code> — verificado vía Wikipedia, noticias, Conévio</li>
+<li><code>[evidencia: ddgs]</code> — solo de un resultado de búsqueda; tratar como tentativo</li>
+<li><code>[evidencia: estimate]</code> — derivado por nosotros, no de una fuente</li>
+<li><code>[evidencia: unknown]</code> — brecha explícita; necesita investigación primaria</li>
+</ul>
+<p>Ejemplos:</p>
+<ul>
+<li>✅ <code>[evidencia: official]</code></li>
+<li>✅ <code>[evidencia: ddgs — necesita verificación]</code></li>
+</ul>
+<h2>Marcado del escándalo</h2>
+<p>Al mencionar el escándalo austriaco 2025:</p>
+<ul>
+<li>Usá la frase <strong>"escándalo Gmeiner 2025"</strong> o <strong>"crisis internacional de octubre 2025"</strong> — no solo "escándalo"</li>
+<li>Siempre especificá que <strong>Paraguay no estuvo implicado</strong> y que <strong>la rama austriaca</strong> fue suspendida</li>
+<li>Siempre citá el <strong>comunicado del 23 de octubre de 2025</strong> de Paraguay como evidencia de su distanciamiento</li>
+<li>Nunca incluyas el nombre <strong>Hermann Gmeiner</strong> en materiales de pitch sin revisión explícita</li>
+<li>Siempre incluí contexto de salvaguardia cuando hables de programas relacionados con niños</li>
+</ul>
+<h2>Bloques de código</h2>
+<ul>
+<li>Usá <code> </code>`<code>bash</code> para comandos de shell</li>
+<li>Usá <code> </code>`<code>python</code> para scripts</li>
+<li>Usá <code> </code>`<code>json</code> para datos</li>
+<li>Usá <code> </code>`<code>csv</code> para datos tabulares</li>
+<li>Usá <code> </code>`<code>yaml</code> para configuración</li>
+</ul>
+<h2>Encabezados de archivo</h2>
+<p>Los archivos markdown de más de 200 líneas deberían empezar con:</p>
+<pre><code class="language-markdown">
+# Título
+
+> **Propósito**: qué hace este doc
+> **Audiencia**: quién debería leerlo
+> **Estado**: borrador / final / archivado
+> **Última actualización**: YYYY-MM-DD por [nombre]
+</code></pre>
+<h2>Tono</h2>
+<ul>
+<li>Directo, sin floritura</li>
+<li>Tablas en lugar de prosa cuando sea posible</li>
+<li>Números &gt; adjetivos</li>
+<li>Reconocé la incertidumbre explícitamente</li>
+<li>Siempre citá, nunca inventes</li>
+</ul>
+<h2>Voz (al escribir outbound)</h2>
+<ul>
+<li>Para SOS PY (formal): usted, business formal</li>
+<li>Para donantes / corporativos: cálido profesional</li>
+<li>Para el equipo de Ivan: casual directo</li>
+</ul>
+<hr>
+<p><em>Última actualización: 2026-08-21.</em></p>
+</div>
+</div>
+</section>
+</div>
+</main>
+<footer>
+<div class="container">
+<p><strong>Aldea SOS Paraguay - Research Repository</strong></p>
+<p>Dossier estratégico + 939-org catalog + 65+ revenue streams</p>
+<p><a href="https://github.com/IvanWeissVanDerPol/aldea-sos-paraguay">Ver en GitHub</a></p>
+</div>
+</footer>
+</body>
+</html>

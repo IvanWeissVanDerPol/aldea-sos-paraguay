@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Estimación de Costos — Implementación de Nuevas Fuentes de Ingreso - Aldea SOS Paraguay Research</title>
+<meta name="description" content="Repositorio de investigación estratégica para Aldeas Infantiles SOS Paraguay">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<header>
+<div class="container">
+<h1><a href="/">Aldea SOS Paraguay - Research</a></h1>
+<div class="breadcrumb"><a href="/">Inicio</a> / <a href="/financial/">Financial</a> / <a href="/financial/estimacion-de-costos.html/">Estimacion De Costos.Html</a></div>
+</div>
+</header>
+<nav>
+<div class="container">
+<a href="/start-here/">Empezar aquí</a>
+<a href="/about/">About Aldea SOS Paraguay</a>
+<a href="/strategy/">Estrategia</a>
+<a href="/outreach/">Outreach</a>
+<a href="/tech-spec/">Tech Specs</a>
+<a href="/policy/">Políticas</a>
+<a href="/financial/">Financiero</a>
+<a href="/research/">Investigación</a>
+<a href="/benchmark/">Benchmark</a>
+<a href="/competitive/">Perfiles Competitivos</a>
+<a href="/pitch/">Pitch</a>
+<a href="/revenue/">65+ Fuentes de Ingreso</a>
+<a href="/evidence/">Evidencia</a>
+<a href="/governance/">Governance</a>
+</div>
+</nav>
+<main>
+<div class="container">
+<section>
+<div class="container">
+<div class="markdown-content">
+<h1>Estimación de Costos — Implementación de Nuevas Fuentes de Ingreso</h1>
+<blockquote>Costo de implementación de cada nueva fuente de ingreso para Aldea SOS Paraguay.</blockquote>
+<h2>Categorías de costo</h2>
+<h3>1. Costo de setup único</h3>
+<table>
+<thead><tr>
+<th>Fuente</th>
+<th>Costo</th>
+<th>Tiempo</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Cuenta Donorbox</td>
+<td>$0</td>
+<td>1 día</td>
+</tr>
+<tr>
+<td>Cuenta Stripe</td>
+<td>$0</td>
+<td>1-2 días</td>
+</tr>
+<tr>
+<td>Cuenta Bancard</td>
+<td>$0</td>
+<td>3-5 días</td>
+</tr>
+<tr>
+<td>Diseño landing page</td>
+<td>$0-500</td>
+<td>1 semana</td>
+</tr>
+<tr>
+<td>Micrositio de transparencia</td>
+<td>$0-1,000</td>
+<td>2-3 semanas</td>
+</tr>
+<tr>
+<td>Sponsor portal v1.0</td>
+<td>$500-2,000</td>
+<td>4-6 semanas</td>
+</tr>
+<tr>
+<td>Política de salvaguarda</td>
+<td>$0-100 (legal review)</td>
+<td>1 semana</td>
+</tr>
+<tr>
+<td>Configuración CRM</td>
+<td>$0-500</td>
+<td>1 semana</td>
+</tr>
+<tr>
+<td><strong>Total setup</strong></td>
+<td><strong>$500-4,000</strong></td>
+<td><strong>2 meses</strong></td>
+</tr>
+</tbody>
+</table>
+<h3>2. Costo operacional mensual</h3>
+<table>
+<thead><tr>
+<th>Concepto</th>
+<th>Costo</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Donorbox Standard</td>
+<td>$39</td>
+</tr>
+<tr>
+<td>Stripe (0% fee)</td>
+<td>$0</td>
+</tr>
+<tr>
+<td>Bancard (0% fee)</td>
+<td>$0</td>
+</tr>
+<tr>
+<td>Vercel (hosting)</td>
+<td>$0</td>
+</tr>
+<tr>
+<td>Supabase (DB)</td>
+<td>$0-25</td>
+</tr>
+<tr>
+<td>Cloudflare (CDN)</td>
+<td>$0</td>
+</tr>
+<tr>
+<td>Plausible (analytics)</td>
+<td>$0</td>
+</tr>
+<tr>
+<td>Salesforce NPSP (CRM)</td>
+<td>$0</td>
+</tr>
+<tr>
+<td>SendGrid (email)</td>
+<td>$0-20</td>
+</tr>
+<tr>
+<td>Cloudflare R2 (storage)</td>
+<td>$0-5</td>
+</tr>
+<tr>
+<td><strong>Total operacional</strong></td>
+<td><strong>$39-89/mes</strong></td>
+</tr>
+</tbody>
+</table>
+<h3>3. Costo de transacción</h3>
+<table>
+<thead><tr>
+<th>Plataforma</th>
+<th>Tarifa</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Donorbox Standard</td>
+<td>1.95% + $0.20</td>
+</tr>
+<tr>
+<td>Stripe</td>
+<td>2.9% + $0.30</td>
+</tr>
+<tr>
+<td>Bancard</td>
+<td>~3.5%</td>
+</tr>
+<tr>
+<td><strong>Blended</strong></td>
+<td><strong>~3-4%</strong></td>
+</tr>
+</tbody>
+</table>
+<h2>Costo por fuente específica</h2>
+<h3>Online donation gateway</h3>
+<table>
+<thead><tr>
+<th>Concepto</th>
+<th>Costo</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Setup</td>
+<td>$0</td>
+</tr>
+<tr>
+<td>Operacional</td>
+<td>$39/mes (Donorbox Standard)</td>
+</tr>
+<tr>
+<td>Transacción</td>
+<td>1.95% + $0.20</td>
+</tr>
+<tr>
+<td><strong>Total año 1</strong></td>
+<td><strong>~$470 USD + 3% de fees</strong></td>
+</tr>
+</tbody>
+</table>
+<h3>Google Ad Grants</h3>
+<table>
+<thead><tr>
+<th>Concepto</th>
+<th>Costo</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Activación</td>
+<td>$0 (ONG verificada)</td>
+</tr>
+<tr>
+<td>Operacional</td>
+<td>$0 (programa gratuito)</td>
+</tr>
+<tr>
+<td><strong>Total año 1</strong></td>
+<td><strong>$0 USD</strong></td>
+</tr>
+</tbody>
+</table>
+<h3>Micrositio de transparencia</h3>
+<table>
+<thead><tr>
+<th>Concepto</th>
+<th>Costo</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Diseño UI</td>
+<td>$0-500 (Canva o Figma)</td>
+</tr>
+<tr>
+<td>Implementación</td>
+<td>$0-1,000 (Next.js, Vercel)</td>
+</tr>
+<tr>
+<td>Hosting</td>
+<td>$0</td>
+</tr>
+<tr>
+<td>Mantenimiento</td>
+<td>$0-50/mes</td>
+</tr>
+<tr>
+<td><strong>Total año 1</strong></td>
+<td><strong>$0-1,500 USD</strong></td>
+</tr>
+</tbody>
+</table>
+<h3>Sponsor portal</h3>
+<table>
+<thead><tr>
+<th>Concepto</th>
+<th>Costo</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Diseño UX</td>
+<td>$0-1,000</td>
+</tr>
+<tr>
+<td>Backend + DB</td>
+<td>$0-2,000</td>
+</tr>
+<tr>
+<td>Hosting</td>
+<td>$0-50/mes</td>
+</tr>
+<tr>
+<td>Mantenimiento</td>
+<td>$50-200/mes</td>
+</tr>
+<tr>
+<td><strong>Total año 1</strong></td>
+<td><strong>$500-4,000 USD</strong></td>
+</tr>
+</tbody>
+</table>
+<h3>"Apadrina una Aldea"</h3>
+<table>
+<thead><tr>
+<th>Concepto</th>
+<th>Costo</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Diseño</td>
+<td>$0-500</td>
+</tr>
+<tr>
+<td>Implementación</td>
+<td>$500-1,500</td>
+</tr>
+<tr>
+<td>Mantenimiento</td>
+<td>$50-100/mes</td>
+</tr>
+<tr>
+<td><strong>Total año 1</strong></td>
+<td><strong>$500-2,500 USD</strong></td>
+</tr>
+</tbody>
+</table>
+<h3>DAFs (Daffy, NPT, etc.)</h3>
+<table>
+<thead><tr>
+<th>Concepto</th>
+<th>Costo</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Setup</td>
+<td>$0</td>
+</tr>
+<tr>
+<td>Commissions</td>
+<td>$0 (gratis para ONGs)</td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td><strong>$0 USD</strong></td>
+</tr>
+</tbody>
+</table>
+<h3>Diaspora hackathon</h3>
+<table>
+<thead><tr>
+<th>Concepto</th>
+<th>Costo</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Logística</td>
+<td>$500-2,000</td>
+</tr>
+<tr>
+<td>Marketing local</td>
+<td>$100-500</td>
+</tr>
+<tr>
+<td>Plataforma virtual</td>
+<td>$0-200</td>
+</tr>
+<tr>
+<td><strong>Total por evento</strong></td>
+<td><strong>$600-2,700 USD</strong></td>
+</tr>
+</tbody>
+</table>
+<h3>Eventos tipo Comilona</h3>
+<table>
+<thead><tr>
+<th>Concepto</th>
+<th>Costo</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Logística</td>
+<td>$2,000-10,000</td>
+</tr>
+<tr>
+<td>Marketing</td>
+<td>$500-2,000</td>
+</tr>
+<tr>
+<td>Plataforma TV/radio</td>
+<td>$0-5,000</td>
+</tr>
+<tr>
+<td>Catering</td>
+<td>$1,000-5,000</td>
+</tr>
+<tr>
+<td><strong>Total por evento</strong></td>
+<td><strong>$3,500-22,000 USD</strong></td>
+</tr>
+</tbody>
+</table>
+<h2>Resumen de inversión año 1</h2>
+<table>
+<thead><tr>
+<th>Concepto</th>
+<th>Costo</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Setup (todas las fuentes)</td>
+<td>$1,000-8,000</td>
+</tr>
+<tr>
+<td>Operacional (12 meses)</td>
+<td>$468-1,068</td>
+</tr>
+<tr>
+<td>Transacciones (3% blended)</td>
+<td>~3% del volumen</td>
+</tr>
+<tr>
+<td>Eventos (4 por año)</td>
+<td>$2,000-8,000</td>
+</tr>
+<tr>
+<td><strong>Total año 1</strong></td>
+<td><strong>~$3,500-17,000 USD</strong></td>
+</tr>
+</tbody>
+</table>
+<h2>ROI esperado</h2>
+<table>
+<thead><tr>
+<th>Inversión</th>
+<th>Ingreso adicional año 1</th>
+<th>ROI</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>$3,500-17,000</td>
+<td>$500,000-2,000,000 (Gs.)</td>
+<td>30-500x</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Punto clave</strong>: el costo de las nuevas fuentes de ingreso es despreciable comparado con el revenue potencial.</p>
+<hr>
+<p><em>Última actualización: 2026-08-21</em></p>
+</div>
+</div>
+</section>
+</div>
+</main>
+<footer>
+<div class="container">
+<p><strong>Aldea SOS Paraguay - Research Repository</strong></p>
+<p>Dossier estratégico + 939-org catalog + 65+ revenue streams</p>
+<p><a href="https://github.com/IvanWeissVanDerPol/aldea-sos-paraguay">Ver en GitHub</a></p>
+</div>
+</footer>
+</body>
+</html>

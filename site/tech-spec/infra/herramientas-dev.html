@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Herramientas de Desarrollo — Infraestructura - Aldea SOS Paraguay Research</title>
+<meta name="description" content="Repositorio de investigación estratégica para Aldeas Infantiles SOS Paraguay">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<header>
+<div class="container">
+<h1><a href="/">Aldea SOS Paraguay - Research</a></h1>
+<div class="breadcrumb"><a href="/">Inicio</a> / <a href="/tech-spec/">Tech Spec</a> / <a href="/tech-spec/infra/">Infra</a> / <a href="/tech-spec/infra/herramientas-dev.html/">Herramientas Dev.Html</a></div>
+</div>
+</header>
+<nav>
+<div class="container">
+<a href="/start-here/">Empezar aquí</a>
+<a href="/about/">About Aldea SOS Paraguay</a>
+<a href="/strategy/">Estrategia</a>
+<a href="/outreach/">Outreach</a>
+<a href="/tech-spec/">Tech Specs</a>
+<a href="/policy/">Políticas</a>
+<a href="/financial/">Financiero</a>
+<a href="/research/">Investigación</a>
+<a href="/benchmark/">Benchmark</a>
+<a href="/competitive/">Perfiles Competitivos</a>
+<a href="/pitch/">Pitch</a>
+<a href="/revenue/">65+ Fuentes de Ingreso</a>
+<a href="/evidence/">Evidencia</a>
+<a href="/governance/">Governance</a>
+</div>
+</nav>
+<main>
+<div class="container">
+<section>
+<div class="container">
+<div class="markdown-content">
+<h1>Herramientas de Desarrollo — Infraestructura</h1>
+<blockquote>Stack de herramientas de desarrollo para Aldea SOS Paraguay.</blockquote>
+<h2>Resumen</h2>
+<table>
+<thead><tr>
+<th>Capa</th>
+<th>Herramienta</th>
+<th>Costo</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Frontend (Transparency)</td>
+<td>Next.js</td>
+<td>$0</td>
+</tr>
+<tr>
+<td>Backend (Sponsor Portal)</td>
+<td>Python + FastAPI o Node.js + Express</td>
+<td>$0</td>
+</tr>
+<tr>
+<td>DB</td>
+<td>PostgreSQL (Supabase / Neon)</td>
+<td>$0-25/mes</td>
+</tr>
+<tr>
+<td>CRM</td>
+<td>Salesforce NPSP</td>
+<td>$0</td>
+</tr>
+<tr>
+<td>Auth</td>
+<td>Auth0 / Clerk</td>
+<td>$0 (tier free)</td>
+</tr>
+<tr>
+<td>Storage</td>
+<td>Cloudflare R2 o S3</td>
+<td>$0-5/mes</td>
+</tr>
+<tr>
+<td>Email</td>
+<td>(elegir: ver <code>recomendacion-email.md</code>)</td>
+<td>$0-20/mes</td>
+</tr>
+<tr>
+<td>Hosting Frontend</td>
+<td>Vercel</td>
+<td>$0</td>
+</tr>
+<tr>
+<td>Hosting Backend</td>
+<td>Railway / Fly.io</td>
+<td>$5-20/mes</td>
+</tr>
+<tr>
+<td>CDN</td>
+<td>Cloudflare</td>
+<td>$0</td>
+</tr>
+<tr>
+<td>DNS</td>
+<td>Cloudflare</td>
+<td>$0</td>
+</tr>
+<tr>
+<td>Analytics</td>
+<td>Plausible</td>
+<td>$0</td>
+</tr>
+<tr>
+<td>CI/CD</td>
+<td>GitHub Actions</td>
+<td>$0</td>
+</tr>
+<tr>
+<td>Monitoring</td>
+<td>Better Uptime / UptimeRobot</td>
+<td>$0</td>
+</tr>
+<tr>
+<td>Logging</td>
+<td>Sentry (free tier)</td>
+<td>$0</td>
+</tr>
+<tr>
+<td>Docs</td>
+<td>Notion / Outline</td>
+<td>$0</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Costo total</strong>: ~$10-50/mes</p>
+<h2>Frontend</h2>
+<h3>Next.js (recomendado)</h3>
+<p><strong>Pros</strong>:</p>
+<ul>
+<li>React + SSR + SSG</li>
+<li>Excelente para SEO (Ad Grants)</li>
+<li>Excelente para performance</li>
+<li>Hosting en Vercel gratis</li>
+<li>Gran ecosistema</li>
+</ul>
+<p><strong>Stack relacionado</strong>:</p>
+<ul>
+<li><strong>UI</strong>: Tailwind CSS</li>
+<li><strong>Components</strong>: shadcn/ui</li>
+<li><strong>Forms</strong>: React Hook Form + Zod</li>
+<li><strong>State</strong>: TanStack Query</li>
+<li><strong>Auth</strong>: Auth0 o Clerk</li>
+</ul>
+<h2>Backend</h2>
+<h3>Python + FastAPI (recomendado)</h3>
+<p><strong>Pros</strong>:</p>
+<ul>
+<li>Rápido para desarrollar</li>
+<li>Type safety con Pydantic</li>
+<li>Async de fábrica</li>
+<li>Excelente para APIs</li>
+<li>Ecosistema de ML/scientific</li>
+</ul>
+<h3>Alternativa: Node.js + Express</h3>
+<ul>
+<li>Más familiar para devs web</li>
+<li>Gran ecosistema</li>
+<li>Streaming nativo</li>
+</ul>
+<h2>Database</h2>
+<h3>PostgreSQL (recomendado)</h3>
+<p><strong>Por qué</strong>:</p>
+<ul>
+<li>ACID compliant</li>
+<li>Soporta JSON (JSONB)</li>
+<li>Extensions poderosas (PostGIS, full-text search)</li>
+<li>Gratis y open source</li>
+</ul>
+<p><strong>Hosting</strong>:</p>
+<ul>
+<li><strong>Supabase</strong>: $0-25/mes tier gratuito</li>
+<li><strong>Neon</strong>: $0-25/mes serverless</li>
+<li><strong>Railway</strong>: $5-15/mes</li>
+</ul>
+<h2>Auth</h2>
+<h3>Auth0 (recomendado)</h3>
+<ul>
+<li><strong>Free tier</strong>: hasta 7,000 usuarios activos</li>
+<li>SSO (Google, Facebook, etc.)</li>
+<li>2FA</li>
+<li>Logs de auditoría</li>
+</ul>
+<h3>Alternativa: Clerk</h3>
+<ul>
+<li><strong>Free tier</strong>: hasta 10,000 usuarios</li>
+<li>Más moderna UI</li>
+<li>Mejor DX</li>
+</ul>
+<h2>Storage</h2>
+<h3>Cloudflare R2 (recomendado)</h3>
+<ul>
+<li><strong>$0.015/GB/mes</strong></li>
+<li>Sin costos de egreso</li>
+<li>S3-compatible</li>
+</ul>
+<h3>Alternativa: AWS S3</h3>
+<ul>
+<li>$0.023/GB/mes</li>
+<li>Costos de egreso</li>
+<li>Ecosistema</li>
+</ul>
+<h2>Email</h2>
+<p>Ver <code>recomendacion-email.md</code> para el análisis completo.</p>
+<h2>Hosting</h2>
+<h3>Vercel (frontend)</h3>
+<ul>
+<li><strong>$0</strong> hasta 100GB bandwidth</li>
+<li>Deploy automático desde GitHub</li>
+<li>Edge functions</li>
+<li>SSL automático</li>
+</ul>
+<h3>Railway (backend)</h3>
+<ul>
+<li><strong>$5/mes</strong> plan hobby</li>
+<li>Auto-deploy desde GitHub</li>
+<li>Soporta Python, Node, Go, etc.</li>
+</ul>
+<h3>Fly.io (alternativa)</h3>
+<ul>
+<li><strong>$0-5/mes</strong> plan free</li>
+<li>Global edge</li>
+<li>Excelente DX</li>
+</ul>
+<h2>CDN</h2>
+<h3>Cloudflare (recomendado)</h3>
+<ul>
+<li><strong>$0</strong> plan gratuito</li>
+<li>CDN global</li>
+<li>DDoS protection</li>
+<li>SSL automático</li>
+</ul>
+<h2>Monitoring</h2>
+<h3>Sentry (errors)</h3>
+<ul>
+<li><strong>$0</strong> plan free tier (5,000 events/mes)</li>
+<li>Error tracking de frontend y backend</li>
+<li>Excelente para debugging</li>
+</ul>
+<h3>Plausible (analytics)</h3>
+<ul>
+<li><strong>$0</strong> para ONGs (&lt;10k pageviews/mes)</li>
+<li>Privacy-first</li>
+<li>Sin cookies</li>
+<li>GDPR compliant</li>
+</ul>
+<h2>CI/CD</h2>
+<h3>GitHub Actions</h3>
+<ul>
+<li><strong>$0</strong> para repos públicos</li>
+<li>$0 hasta 2000 minutos/mes para privados</li>
+<li>Excelente para testing + deploy</li>
+</ul>
+<h2>Logging</h2>
+<h3>Sentry (logs)</h3>
+<ul>
+<li><strong>$0</strong> plan free</li>
+<li>Integración con backend</li>
+</ul>
+<h3>Alternativa: Logtail</h3>
+<ul>
+<li>$0 hasta 5GB/mes</li>
+<li>Excelente UI</li>
+</ul>
+<h2>Diagrama</h2>
+<pre><code class="language-">
+┌─────────────────────────────────────────────────────┐
+│                    GitHub                            │
+│      (código + GitHub Actions = CI/CD)              │
+└──────────────────────┬──────────────────────────────┘
+                       │ (push a main)
+                       ▼
+┌─────────────────────────────────────────────────────┐
+│  Vercel (frontend)        Railway (backend)         │
+│  Transparency site       Sponsor portal + APIs       │
+└──────────────┬──────────────────────────────────────┘
+               │
+       ┌───────┴────────┐
+       ▼                ▼
+┌──────────────┐  ┌──────────────┐
+│   Cloudflare │  │  Supabase     │
+│   (CDN + DNS)│  │  (Postgres)   │
+└──────────────┘  └──────────────┘
+       │
+┌──────▼───────────────────────────────┐
+│ Cloudflare R2 (storage) + Sentry   │
+└─────────────────────────────────────┘
+</code></pre>
+<h2>Costo de infraestructura estimado</h2>
+<table>
+<thead><tr>
+<th>Concepto</th>
+<th>Mensual</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Vercel</td>
+<td>$0</td>
+</tr>
+<tr>
+<td>Railway</td>
+<td>$10</td>
+</tr>
+<tr>
+<td>Supabase</td>
+<td>$0</td>
+</tr>
+<tr>
+<td>Cloudflare</td>
+<td>$0</td>
+</tr>
+<tr>
+<td>Cloudflare R2</td>
+<td>$0-1</td>
+</tr>
+<tr>
+<td>Auth0 / Clerk</td>
+<td>$0</td>
+</tr>
+<tr>
+<td>Sentry</td>
+<td>$0</td>
+</tr>
+<tr>
+<td>Plausible</td>
+<td>$0</td>
+</tr>
+<tr>
+<td>Solver / reCAPTCHA</td>
+<td>$0</td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td><strong>~$10-15/mes</strong></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>Última actualización: 2026-08-21</em></p>
+</div>
+</div>
+</section>
+</div>
+</main>
+<footer>
+<div class="container">
+<p><strong>Aldea SOS Paraguay - Research Repository</strong></p>
+<p>Dossier estratégico + 939-org catalog + 65+ revenue streams</p>
+<p><a href="https://github.com/IvanWeissVanDerPol/aldea-sos-paraguay">Ver en GitHub</a></p>
+</div>
+</footer>
+</body>
+</html>

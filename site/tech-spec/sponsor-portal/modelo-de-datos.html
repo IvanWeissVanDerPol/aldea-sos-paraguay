@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Modelo de Datos — Sponsor Portal - Aldea SOS Paraguay Research</title>
+<meta name="description" content="Repositorio de investigación estratégica para Aldeas Infantiles SOS Paraguay">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<header>
+<div class="container">
+<h1><a href="/">Aldea SOS Paraguay - Research</a></h1>
+<div class="breadcrumb"><a href="/">Inicio</a> / <a href="/tech-spec/">Tech Spec</a> / <a href="/tech-spec/sponsor-portal/">Sponsor Portal</a> / <a href="/tech-spec/sponsor-portal/modelo-de-datos.html/">Modelo De Datos.Html</a></div>
+</div>
+</header>
+<nav>
+<div class="container">
+<a href="/start-here/">Empezar aquí</a>
+<a href="/about/">About Aldea SOS Paraguay</a>
+<a href="/strategy/">Estrategia</a>
+<a href="/outreach/">Outreach</a>
+<a href="/tech-spec/">Tech Specs</a>
+<a href="/policy/">Políticas</a>
+<a href="/financial/">Financiero</a>
+<a href="/research/">Investigación</a>
+<a href="/benchmark/">Benchmark</a>
+<a href="/competitive/">Perfiles Competitivos</a>
+<a href="/pitch/">Pitch</a>
+<a href="/revenue/">65+ Fuentes de Ingreso</a>
+<a href="/evidence/">Evidencia</a>
+<a href="/governance/">Governance</a>
+</div>
+</nav>
+<main>
+<div class="container">
+<section>
+<div class="container">
+<div class="markdown-content">
+<h1>Modelo de Datos — Sponsor Portal</h1>
+<blockquote>Esquema de base de datos del portal de apadrinamiento.</blockquote>
+<h2>Diagrama ER</h2>
+<pre><code class="language-">
+┌──────────────┐       ┌──────────────┐       ┌──────────────┐
+│   users      │       │   padrinos   │       │   aldeas     │
+│              │       │              │       │              │
+│ id           │ 1───* │ id           │       │ id           │
+│ email        │       │ user_id      │       │ name         │
+│ password_hash│       │ country      │       │ city         │
+│ is_admin     │       │ joined_at    │       │ address      │
+│ is_padrino   │       │ subscription_id│    │ created_at   │
+│ created_at   │       │            │       └──────────────┘
+└──────────────┘       │            │              │
+                        │            │              │
+                        │            │              │
+                        │            │ 1          *
+                        │            └─────────────┤
+                        │                          │
+                        │     ┌────────────────────┐
+                        │     │                    │
+                        │     │  padrinamientos    │
+                        │     │                    │
+                        │     │ * id              │
+                        │     │   padrino_id (FK) │
+                        │     │   casa_id (FK)    │
+                        │     │   programa_id (FK)│
+                        │     │   status          │
+                        │     │   start_date      │
+                        │     │   end_date        │
+                        └─────┤   amount         │
+                              │   frequency      │
+                              └──────────────────┘
+                                      │
+                                      │
+                                      │ *
+                                      │
+                                      │ 1
+                              ┌──────────────────┐
+                              │                  │
+                              │   casas          │
+                              │                  │
+                              │ id              │
+                              │  aldea_id (FK)  │
+                              │  name           │
+                              │  capacity       │
+                              │  created_at    │
+                              └──────────────────┘
+                                      │
+                                      │ 1
+                                      │
+                              ┌──────────────────┐
+                              │                  │
+                              │   programas       │
+                              │                  │
+                              │ id              │
+                              │  name           │
+                              │  description    │
+                              │  budget         │
+                              │  start_date    │
+                              │  end_date      │
+                              └──────────────────┘
+</code></pre>
+<h2>Tablas principales</h2>
+<h3>1. users</h3>
+<pre><code class="language-sql">
+CREATE TABLE users (
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    email VARCHAR(255) UNIQUE NOT NULL,
+    password_hash VARCHAR(255) NOT NULL,
+    is_admin BOOLEAN DEFAULT FALSE,
+    is_padrino BOOLEAN DEFAULT FALSE,
+    is_comite BOOLEAN DEFAULT FALSE,
+    failed_login_count INT DEFAULT 0,
+    locked_until TIMESTAMP,
+    last_login_at TIMESTAMP,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+</code></pre>
+<h3>2. padrinos</h3>
+<pre><code class="language-sql">
+CREATE TABLE padrinos (
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    user_id UUID REFERENCES users(id),
+    full_name VARCHAR(255) NOT NULL,
+    country VARCHAR(2),  -- ISO 3166-1 alpha-2
+    language VARCHAR(5) DEFAULT 'es',  -- es, en, pt
+    currency VARCHAR(3) DEFAULT 'PYG',  -- PYG, USD, EUR
+    monthly_amount DECIMAL(12, 2) NOT NULL,
+    recurrence VARCHAR(20),  -- 'monthly', 'quarterly', 'annual'
+    payment_method VARCHAR(50),  -- 'donorbox', 'stripe', 'bancard'
+    subscription_id VARCHAR(255),  -- ID externo del procesador
+    status VARCHAR(20) DEFAULT 'active',  -- 'active', 'cancelled', 'paused'
+    communication_preferences JSONB,  -- email, sms, language
+    joined_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    cancelled_at TIMESTAMP,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+</code></pre>
+<h3>3. aldeas</h3>
+<pre><code class="language-sql">
+CREATE TABLE aldeas (
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    name VARCHAR(255) NOT NULL,
+    city VARCHAR(100) NOT NULL,
+    department VARCHAR(100),  -- Central, Misiones, Itapúa, Concepción
+    address TEXT,  -- dato sensible, acceso limitado
+    public_address VARCHAR(255),  -- versión para padrinos
+    capacity INT,
+    established_at DATE,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+</code></pre>
+<h3>4. casas</h3>
+<pre><code class="language-sql">
+CREATE TABLE casas (
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    aldea_id UUID REFERENCES aldeas(id),
+    name VARCHAR(100) NOT NULL,
+    capacity INT,
+    current_children_count INT,
+    cuidador_principal VARCHAR(255),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+</code></pre>
+<h3>5. programas</h3>
+<pre><code class="language-sql">
+CREATE TABLE programas (
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    name VARCHAR(255) NOT NULL,
+    description TEXT,
+    category VARCHAR(50),  -- 'becas', 'salud', 'nutricion', 'educacion'
+    budget DECIMAL(12, 2),
+    start_date DATE,
+    end_date DATE,  -- null = ongoing
+    casa_id UUID REFERENCES casas(id),  -- opcional, programa puede ser a nivel aldea
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+</code></pre>
+<h3>6. padrinamiento (asociación)</h3>
+<pre><code class="language-sql">
+CREATE TABLE padrinamientos (
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    padrino_id UUID REFERENCES padrinos(id),
+    casa_id UUID REFERENCES casas(id),
+    programa_id UUID REFERENCES programas(id),  -- uno de los dos
+    status VARCHAR(20) DEFAULT 'active',  -- 'active', 'cancelled', 'paused'
+    start_date DATE NOT NULL,
+    end_date DATE,
+    cancelled_at TIMESTAMP,
+    cancellation_reason TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    CHECK ((casa_id IS NOT NULL) OR (programa_id IS NOT NULL))
+);
+</code></pre>
+<h3>7. donaciones</h3>
+<pre><code class="language-sql">
+CREATE TABLE donaciones (
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    padrino_id UUID REFERENCES padrinos(id),
+    padrinamiento_id UUID REFERENCES padrinamientos(id),
+    amount DECIMAL(12, 2) NOT NULL,
+    currency VARCHAR(3) NOT NULL,
+    amount_usd DECIMAL(12, 2),  -- convertido a USD para reportes
+    payment_method VARCHAR(50),  -- 'donorbox', 'stripe', 'bancard'
+    payment_id VARCHAR(255),  -- ID externo
+    payment_status VARCHAR(20),  -- 'pending', 'completed', 'failed', 'refunded'
+    payment_date TIMESTAMP NOT NULL,
+    receipt_sent_at TIMESTAMP,
+    is_recurring BOOLEAN DEFAULT FALSE,
+    recurrence_period VARCHAR(20),  -- 'monthly', 'quarterly', 'annual'
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+</code></pre>
+<h3>8. actualizaciones (newsletters)</h3>
+<pre><code class="language-sql">
+CREATE TABLE actualizaciones (
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    casa_id UUID REFERENCES casas(id),
+    programa_id UUID REFERENCES programas(id),
+    title VARCHAR(255) NOT NULL,
+    body TEXT NOT NULL,
+    author_id UUID REFERENCES users(id),
+    status VARCHAR(20) DEFAULT 'draft',  -- 'draft', 'pending_review', 'approved', 'published'
+    reviewer_id UUID REFERENCES users(id),
+    reviewed_at TIMESTAMP,
+    published_at TIMESTAMP,
+    media_urls TEXT[],  -- array de URLs de fotos/videos
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+</code></pre>
+<h3>9. padrinamiento_actualizaciones (asociación)</h3>
+<pre><code class="language-sql">
+CREATE TABLE padrinamiento_actualizaciones (
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    padrinamiento_id UUID REFERENCES padrinamientos(id),
+    actualizacion_id UUID REFERENCES actualizaciones(id),
+    sent_at TIMESTAMP,
+    opened_at TIMESTAMP,
+    clicked_at TIMESTAMP,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+</code></pre>
+<h3>10. mensajes</h3>
+<pre><code class="language-sql">
+CREATE TABLE mensajes (
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    padrino_id UUID REFERENCES padrinos(id),
+    sender_id UUID REFERENCES users(id),  -- staff que responde
+    subject VARCHAR(255),
+    body TEXT NOT NULL,
+    status VARCHAR(20) DEFAULT 'open',  -- 'open', 'replied', 'closed'
+    replied_at TIMESTAMP,
+    reply_body TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+</code></pre>
+<h3>11. reportes_trimestrales</h3>
+<pre><code class="language-sql">
+CREATE TABLE reportes_trimestrales (
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    casa_id UUID REFERENCES casas(id),
+    programa_id UUID REFERENCES programas(id),
+    quarter INT NOT NULL,  -- 1, 2, 3, 4
+    year INT NOT NULL,
+    pdf_url VARCHAR(255),
+    is_public BOOLEAN DEFAULT FALSE,
+    sent_at TIMESTAMP,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+</code></pre>
+<h3>12. audit_log</h3>
+<pre><code class="language-sql">
+CREATE TABLE audit_log (
+    id BIGSERIAL PRIMARY KEY,
+    user_id UUID REFERENCES users(id),
+    action VARCHAR(100) NOT NULL,
+    resource_type VARCHAR(50),
+    resource_id UUID,
+    ip_address INET,
+    user_agent TEXT,
+    metadata JSONB,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+</code></pre>
+<h3>13. incidentes_salvaguarda</h3>
+<pre><code class="language-sql">
+CREATE TABLE incidentes_salvaguarda (
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    reporter_id UUID REFERENCES users(id),
+    tipo VARCHAR(50),  -- 'abuso_fisico', 'abuso_sexual', 'negligencia', 'otro'
+    descripcion TEXT,
+    estado VARCHAR(20) DEFAULT 'reportado',  -- 'reportado', 'investigacion', 'cerrado'
+    severidad VARCHAR(20),  -- 'baja', 'media', 'alta'
+    reportado_a_snna BOOLEAN DEFAULT FALSE,
+    reportado_a_fiscalia BOOLEAN DEFAULT FALSE,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    closed_at TIMESTAMP
+);
+</code></pre>
+<h2>Índices críticos</h2>
+<pre><code class="language-sql">
+-- Búsquedas rápidas
+CREATE INDEX idx_donaciones_padrino_id ON donaciones(padrino_id);
+CREATE INDEX idx_donaciones_payment_date ON donaciones(payment_date);
+CREATE INDEX idx_padrinos_status ON padrinos(status);
+CREATE INDEX idx_padrinamientos_status ON padrinamientos(status);
+CREATE INDEX idx_actualizaciones_status ON actualizaciones(status);
+CREATE INDEX idx_actualizaciones_published ON actualizaciones(published_at);
+CREATE INDEX idx_audit_log_user_id ON audit_log(user_id);
+CREATE INDEX idx_audit_log_created ON audit_log(created_at);
+</code></pre>
+<h2>Consideraciones de seguridad</h2>
+<ul>
+<li><strong>Encriptación en reposo</strong>: usar pgcrypto o solución a nivel disco</li>
+<li><strong>Encriptación en tránsito</strong>: TLS obligatorio</li>
+<li><strong>Backups</strong>: encriptados, retención 30 días</li>
+<li><strong>Acceso</strong>: row-level security (RLS) en PostgreSQL para limitar qué puede ver cada tipo de usuario</li>
+<li><strong>Auditoría</strong>: log de toda acción en <code>audit_log</code></li>
+</ul>
+<h2>Consideraciones de privacidad</h2>
+<ul>
+<li><strong>Datos de padrino</strong>: encriptados en columnas sensibles</li>
+<li><strong>Datos de niños</strong>: NO se almacenan en este portal (solo a nivel casa, anonimizado)</li>
+<li><strong>Retención</strong>: padrinos 7 años post-cancelación; casas indefinido; donaciones 7 años (fiscal)</li>
+<li><strong>Eliminación</strong>: procedimiento documentado en <code>policy/proteccion-de-datos-ninos.md</code></li>
+</ul>
+<h2>Stack de queries comunes</h2>
+<h3>Total donado por padrino en el año</h3>
+<pre><code class="language-sql">
+SELECT SUM(amount_usd) as total_donado_usd
+FROM donaciones
+WHERE padrino_id = $1
+  AND payment_date >= '2026-01-01'
+  AND payment_status = 'completed';
+</code></pre>
+<h3>Padrinos activos por país</h3>
+<pre><code class="language-sql">
+SELECT country, COUNT(*) as total_padrinos
+FROM padrinos
+WHERE status = 'active'
+GROUP BY country
+ORDER BY total_padrinos DESC;
+</code></pre>
+<h3>Casos con padrinos activos</h3>
+<pre><code class="language-sql">
+SELECT c.id, c.name, a.name as aldea, COUNT(p.id) as num_padrinos
+FROM casas c
+JOIN aldeas a ON c.aldea_id = a.id
+LEFT JOIN padrinamientos p ON c.id = p.casa_id AND p.status = 'active'
+GROUP BY c.id, c.name, a.name
+ORDER BY num_padrinos DESC;
+</code></pre>
+<hr>
+<p><em>Última actualización: 2026-08-21</em></p>
+</div>
+</div>
+</section>
+</div>
+</main>
+<footer>
+<div class="container">
+<p><strong>Aldea SOS Paraguay - Research Repository</strong></p>
+<p>Dossier estratégico + 939-org catalog + 65+ revenue streams</p>
+<p><a href="https://github.com/IvanWeissVanDerPol/aldea-sos-paraguay">Ver en GitHub</a></p>
+</div>
+</footer>
+</body>
+</html>

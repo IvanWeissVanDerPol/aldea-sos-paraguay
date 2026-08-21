@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stream A. Online giving expansion - Aldea SOS Paraguay Research</title>
+<meta name="description" content="Repositorio de investigación estratégica para Aldeas Infantiles SOS Paraguay">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<header>
+<div class="container">
+<h1><a href="/">Aldea SOS Paraguay - Research</a></h1>
+<div class="breadcrumb"><a href="/">Inicio</a> / <a href="/revenue/">Revenue</a> / <a href="/revenue/streams/">Streams</a> / <a href="/revenue/streams/A-donacion-online.html/">A Donacion Online.Html</a></div>
+</div>
+</header>
+<nav>
+<div class="container">
+<a href="/start-here/">Empezar aquí</a>
+<a href="/about/">About Aldea SOS Paraguay</a>
+<a href="/strategy/">Estrategia</a>
+<a href="/outreach/">Outreach</a>
+<a href="/tech-spec/">Tech Specs</a>
+<a href="/policy/">Políticas</a>
+<a href="/financial/">Financiero</a>
+<a href="/research/">Investigación</a>
+<a href="/benchmark/">Benchmark</a>
+<a href="/competitive/">Perfiles Competitivos</a>
+<a href="/pitch/">Pitch</a>
+<a href="/revenue/">65+ Fuentes de Ingreso</a>
+<a href="/evidence/">Evidencia</a>
+<a href="/governance/">Governance</a>
+</div>
+</nav>
+<main>
+<div class="container">
+<section>
+<div class="container">
+<div class="markdown-content">
+<h1>Stream A. Online giving expansion</h1>
+<h2>A. Online giving expansion</h2>
+<h3>A1. Online pasarela de donación — Donorbox / Payway / Stripe</h3>
+<p><strong>Qué</strong>: Replace the formulario de donación (which captures intent but routes to "Pago Ocasional") with a real card/wallet gateway.</p>
+<p><strong>Evidence</strong>:</p>
+<ul>
+<li>Donorbox serves 80,000+ NGOs globally with Spanish-language product (donorbox.org/es)</li>
+<li>Cáritas Argentina uses Mercado Pago (caritas.org.ar/mercado-pago/)</li>
+<li>DonarOnline.org is the established Argentine NGO pasarela de donación</li>
+<li>Bancard VPOS is Paraguay's local payment processor (Bancard.com.py)</li>
+<li>Pix, Tigo Money, Personal Pay, Wally, Ueno Pay all operate in PY</li>
+</ul>
+<p><strong>Market size</strong>: PY e-commerce market USD ~1.2B; digital payment adoption 55.5%; NGO digital giving estimated USD 5-15M/yr total in PY</p>
+<p><strong>Why SOS PY positioned</strong>: They have the intent-capture form already; 23k Facebook followers; established brand</p>
+<p><strong>Risks</strong>: Brand ambiguity if processor fails (mitigate: white-label Stripe)</p>
+<p><strong>30/60/90 plan</strong>:</p>
+<ul>
+<li>Day 1-30: Sign up Donorbox (free for PY nonprofits under 1k donors); integrate with <code>/como-ayudar/dona</code></li>
+<li>Day 30-60: Add Pix + Tigo Money + Personal Pay; wire WhatsApp link</li>
+<li>Day 60-90: Launch with email blast to newsletter subscribers + Facebook campaign</li>
+</ul>
+<p><strong>Revenue potential</strong>: Gs. 50-200M/yr (USD 7-27k)</p>
+<p><strong>Partners needed</strong>: Donorbox (free tier), Bancard (PY merchant account), Bitso (for crypto)</p>
+<p><strong>Tech</strong>: Donorbox or Funraise</p>
+<p><strong>Safeguarding</strong>: Strong — no child exposure</p>
+<h3>A2. Recurring online giving at scale</h3>
+<p><strong>Qué</strong>: Default to "monthly" rather than one-time on the donate page. Monthly giving has 2-5x LTV of one-time.</p>
+<p><strong>Evidence</strong>: Donorbox data shows donaciones recurrentes account for ~30% of online giving but 50%+ of revenue.</p>
+<p><strong>Market size</strong>: Same as A1</p>
+<p><strong>Why positioned</strong>: Same as A1</p>
+<p><strong>Risks</strong>: Donor fatigue</p>
+<p><strong>Plan</strong>: Same as A1 but with monthly-first defaults</p>
+<p><strong>Revenue potential</strong>: Gs. 50-150M/yr</p>
+<p><strong>Tech</strong>: Donorbox recurring feature</p>
+<h3>A3. Cryptocurrency donations (BTC/ETH/stablecoins)</h3>
+<p><strong>Qué</strong>: Add Bitso Paraguay / Coinbase Commerce / The Giving Block widget</p>
+<p><strong>Evidence</strong>: UNICEF, Save the Children, Red Cross accept crypto. The Giving Block has 1,000+ NGO partners. PY has Bitso as major exchange.</p>
+<p><strong>Market size</strong>: PY crypto market growing; USD 100k-1M/yr conservative for NGOs</p>
+<p><strong>Why positioned</strong>: They could be first PY charity to accept crypto — PR win</p>
+<p><strong>Risks</strong>: Reputation risk if mismanaged; volatile donations</p>
+<p><strong>Plan</strong>: 30 days: signup with The Giving Block; 60 days: add Bitso widget; 90 days: PR campaign</p>
+<p><strong>Revenue potential</strong>: Gs. 10-50M/yr</p>
+<p><strong>Partners</strong>: Bitso, The Giving Block, Engiven</p>
+<p><strong>Tech</strong>: Coinbase Commerce widget</p>
+<p><strong>Safeguarding</strong>: Strong — no child exposure; flag for governance review</p>
+<h3>A4. Donation from abroad in USD/EUR</h3>
+<p><strong>Qué</strong>: Accept international credit card donations on aldeasinfantiles.org.py via Stripe</p>
+<p><strong>Evidence</strong>: Plan USA, Compassion, SOS USA all accept foreign donations; Paraguay diaspora uses these</p>
+<p><strong>Market size</strong>: PY diaspora: 162k in Spain; large communities in Argentina (600k), Brazil, USA (NY/Miami/LA); estimated USD 1-5M/yr to PY NGOs from abroad</p>
+<p><strong>Why positioned</strong>: They have diaspora in target markets</p>
+<p><strong>Risks</strong>: FX, tax receipt complexity</p>
+<p><strong>Plan</strong>: 30 days: Stripe account; 60 days: embed in EN version; 90 days: diaspora outreach</p>
+<p><strong>Revenue potential</strong>: Gs. 100-500M/yr (USD 14-70k)</p>
+<p><strong>Tech</strong>: Stripe</p>
+<p><strong>Partners</strong>: Stripe</p>
+<h3>A5. Round-up apps (Pennies / DreamUps) as POS alternative</h3>
+<p><strong>Qué</strong>: Bank-linked apps that round up purchases to the nearest Gs. 1,000 with the difference going to charity</p>
+<p><strong>Evidence</strong>: Pennies (UK) processes £60M+/yr for charities; analogous in PY with Zimple, Tigo Money</p>
+<p><strong>Market size</strong>: PY consumer spend on cards Gs. ~10T (USD 1.4B); even 0.01% = USD 140k</p>
+<p><strong>Why positioned</strong>: Kingo already in supermarket space — could deepen</p>
+<p><strong>Risks</strong>: Low transaction value per donor</p>
+<p><strong>Plan</strong>: Partner with Zimple or Tigo Money for branded round-up feature</p>
+<p><strong>Revenue potential</strong>: Gs. 50-200M/yr</p>
+<p><strong>Tech</strong>: Bank API integration</p>
+<h3>A6. Crowdfunding campaigns (GoFundMe-style PY equivalents)</h3>
+<p><strong>Qué</strong>: "Donate to a specific need" — por ejemplo, "buy 50 beds for Aldea Luque"</p>
+<p><strong>Evidence</strong>: GoFundMe Charity handles USD 1B+/yr globally. GoFundMe Brazil is significant. PY has no dominant equivalent yet.</p>
+<p><strong>Market size</strong>: USD 200k-1M/yr for PY causes on international platforms</p>
+<p><strong>Why positioned</strong>: They have specific, tangible projects (Ojoykére, beds, scholarships)</p>
+<p><strong>Risks</strong>: None significant</p>
+<p><strong>Plan</strong>: Use GoFundMe Charity or Causa Justa (PY); launch 1 campaign/quarter</p>
+<p><strong>Revenue potential</strong>: Gs. 50-200M/yr</p>
+<p><strong>Tech</strong>: GoFundMe Charity (free)</p>
+<h3>A7. Donor-Advised Funds (DAFs)</h3>
+<p><strong>Qué</strong>: Register as eligible recipient on major DAF platforms (Fidelity Charitable, Schwab Charitable, NPT, Daffy)</p>
+<p><strong>Evidence</strong>: US DAF grants to international causes total &gt;USD 3B/yr; Daffy has 1.7M charities on platform</p>
+<p><strong>Market size</strong>: USD 50-500k/yr to PY NGOs via DAFs</p>
+<p><strong>Why positioned</strong>: Diaspora + US donors use DAFs</p>
+<p><strong>Risks</strong>: None</p>
+<p><strong>Plan</strong>: 30 days: register on NPT, Schwab, Fidelity, Daffy; 90 days: diaspora outreach</p>
+<p><strong>Revenue potential</strong>: Gs. 100-500M/yr (USD 14-70k)</p>
+<p><strong>Tech</strong>: Just registration</p>
+<h3>A8. Stock / appreciated securities donations</h3>
+<p><strong>Qué</strong>: Accept stock donations (US donors can donate appreciated stock tax-free)</p>
+<p><strong>Evidence</strong>: Daffy, Donorbox support stock gifts; major US nonprofits accept</p>
+<p><strong>Market size</strong>: PY diaspora stock donations — small but meaningful; USD 100k-1M/yr globally</p>
+<p><strong>Why positioned</strong>: Diaspora angle</p>
+<p><strong>Risks</strong>: Legal complexity</p>
+<p><strong>Plan</strong>: Register with Daffy (handles stock donations automatically)</p>
+<p><strong>Revenue potential</strong>: Gs. 50-200M/yr</p>
+<p><strong>Tech</strong>: Daffy widget</p>
+<h3>A9. Facebook / Instagram "Donate" button</h3>
+<p><strong>Qué</strong>: Activate Meta's built-in donate button on their pages</p>
+<p><strong>Evidence</strong>: Available globally, free for nonprofits. Mexican NGOs widely use it.</p>
+<p><strong>Market size</strong>: PY 23k FB likes × donation conversion</p>
+<p><strong>Why positioned</strong>: They have 23k FB likes — direct audience</p>
+<p><strong>Risks</strong>: Meta fees 0%</p>
+<p><strong>Plan</strong>: 7 days: activate donate button; A/B test</p>
+<p><strong>Revenue potential</strong>: Gs. 20-50M/yr</p>
+<h3>A10. WhatsApp Donate (Brazil model)</h3>
+<p><strong>Qué</strong>: PIX-style donate button in WhatsApp Business chat</p>
+<p><strong>Evidence</strong>: Brazil launched WhatsApp Pay 2024; NGOs like CUFA use it heavily</p>
+<p><strong>Market size</strong>: Paraguay WhatsApp penetration &gt;90%</p>
+<p><strong>Why positioned</strong>: They could be first PY NGO to do it</p>
+<p><strong>Risks</strong>: Regulatory uncertainty</p>
+<p><strong>Plan</strong>: Watch the BR rollout; pilot when PY regulator approves</p>
+<p><strong>Revenue potential</strong>: Gs. 10-50M/yr</p>
+<hr>
+</div>
+</div>
+</section>
+</div>
+</main>
+<footer>
+<div class="container">
+<p><strong>Aldea SOS Paraguay - Research Repository</strong></p>
+<p>Dossier estratégico + 939-org catalog + 65+ revenue streams</p>
+<p><a href="https://github.com/IvanWeissVanDerPol/aldea-sos-paraguay">Ver en GitHub</a></p>
+</div>
+</footer>
+</body>
+</html>

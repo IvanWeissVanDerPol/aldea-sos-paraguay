@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Análisis Estratégico - Aldea SOS Paraguay Research</title>
+<meta name="description" content="Repositorio de investigación estratégica para Aldeas Infantiles SOS Paraguay">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<header>
+<div class="container">
+<h1><a href="/">Aldea SOS Paraguay - Research</a></h1>
+<div class="breadcrumb"><a href="/">Inicio</a> / <a href="/analysis-platforms-and-resources.html/">Analysis Platforms And Resources.Html</a></div>
+</div>
+</header>
+<nav>
+<div class="container">
+<a href="/start-here/">Empezar aquí</a>
+<a href="/about/">About Aldea SOS Paraguay</a>
+<a href="/analysis-platforms-and-resources.html">Análisis Estratégico</a>
+<a href="/strategy/">Estrategia</a>
+<a href="/outreach/">Outreach</a>
+<a href="/tech-spec/">Tech Specs</a>
+<a href="/policy/">Políticas</a>
+<a href="/financial/">Financiero</a>
+<a href="/research/">Investigación</a>
+<a href="/benchmark/">Benchmark</a>
+<a href="/competitive/">Perfiles Competitivos</a>
+<a href="/pitch/">Pitch</a>
+<a href="/revenue/">65+ Fuentes de Ingreso</a>
+<a href="/evidence/">Evidencia</a>
+<a href="/governance/">Governance</a>
+</div>
+</nav>
+<main>
+<div class="container">
+<section>
+<div class="container">
+<div class="markdown-content">
+<h1>Análisis: Plataformas, Repos y Mejores Prácticas para Aldea SOS Paraguay</h1>
+<blockquote><strong>Propósito</strong>: Identificar todas las plataformas, repos, y mejores prácticas relevantes que Aldea SOS Paraguay puede aprovechar directamente, e identificar los gaps que el trabajo del repo llena.</blockquote>
+<h2>Metodología</h2>
+<ul>
+<li><strong>Catálogo de 939 ONGs</strong> (en <code>research/1000-orgs/batches/CATALALOG.csv</code>)</li>
+<li><strong>Benchmark de 17 pares</strong> (en <code>benchmark/</code>)</li>
+<li><strong>Patrones de autoayuda</strong> (en <code>research/patterns/</code>)</li>
+<li><strong>122 entradas específicamente del Paraguay</strong> (la mayoría de los partners están aquí)</li>
+</ul>
+<hr>
+<h2>1. Plataformas de donación que Aldea SOS Paraguay puede usar</h2>
+<h3>1.1 Plataformas globales (gratuitas o low-cost para ONGs)</h3>
+<table>
+<thead><tr>
+<th>Plataforma</th>
+<th>Costo</th>
+<th>Aplica a</th>
+<th>Acción</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><strong>Donorbox</strong> (donorbox.org)</td>
+<td>$0-&lt;39/mes</td>
+<td>Padrinos individuales</td>
+<td>✅ <strong>Activado en 1 día</strong></td>
+</tr>
+<tr>
+<td><strong>Funraise</strong> (funraise.io)</td>
+<td>$249/mes + 1%</td>
+<td>Padrinos a escala</td>
+<td>⏸️ Cuando &gt;500 padrinos</td>
+</tr>
+<tr>
+<td><strong>Givebutter</strong> (givebutter.com)</td>
+<td>$0 + tips</td>
+<td>Crowdfunding</td>
+<td>✅ Para campañas específicas</td>
+</tr>
+<tr>
+<td><strong>Every.org</strong> (every.org)</td>
+<td>$0</td>
+<td>Donación general</td>
+<td>✅ Setup paralelo</td>
+</tr>
+<tr>
+<td><strong>Stripe</strong> (stripe.com)</td>
+<td>2.9% + $0.30</td>
+<td>Padrinos tech</td>
+<td>✅ Para suscripción mensual</td>
+</tr>
+<tr>
+<td><strong>Bancard</strong> (bancard.com.py)</td>
+<td>~3.5%</td>
+<td>Padrinos PY</td>
+<td>✅ <strong>Crítico para mercado local</strong></td>
+</tr>
+<tr>
+<td><strong>PayPal Giving Fund</strong> (paypal.com/giving)</td>
+<td>$0</td>
+<td>Padrinos US</td>
+<td>✅ Complementario</td>
+</tr>
+<tr>
+<td><strong>The Giving Block</strong> (thegivingblock.com)</td>
+<td>$0</td>
+<td>Crypto donations</td>
+<td>⚠️ Niche, opcional</td>
+</tr>
+<tr>
+<td><strong>Bitso Onramp</strong> (bitso.com)</td>
+<td>Variable</td>
+<td>Crypto PY</td>
+<td>✅ Para diáspora crypto</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Stack recomendado</strong> (ver <code>tech-spec/donation-gateway/</code>):</p>
+<ul>
+<li><strong>Donorbox</strong> (default) + <strong>Stripe</strong> (internacional) + <strong>Bancard</strong> (PY)</li>
+</ul>
+<h3>1.2 Donor-Advised Funds (DAF) para padrinos en USA</h3>
+<table>
+<thead><tr>
+<th>Plataforma</th>
+<th>URL</th>
+<th>Acción</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><strong>Fidelity Charitable</strong></td>
+<td>fidelitycharitable.org</td>
+<td>⏸️ Registrar cuando haya 10+ padrinos USA</td>
+</tr>
+<tr>
+<td><strong>Schwab Charitable</strong></td>
+<td>schwabcharitable.org</td>
+<td>⏸️ Igual</td>
+</tr>
+<tr>
+<td><strong>Vanguard Charitable</strong></td>
+<td>vanguardcharitable.org</td>
+<td>⏸️ Igual</td>
+</tr>
+<tr>
+<td><strong>National Philanthropic Trust</strong></td>
+<td>nptrust.org</td>
+<td>⏸️ Igual</td>
+</tr>
+<tr>
+<td><strong>Daffy</strong></td>
+<td>daffy.org</td>
+<td>✅ <strong>Recomendado para padrinos tech-savvy</strong></td>
+</tr>
+<tr>
+<td><strong>Jewish Communal Fund</strong></td>
+<td>jewishcommunal.org</td>
+<td>⏸️ Solo si hay padrinos judíos</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Protocolo de registro</strong> (ver <code>outreach/email/cold-outreach-donor-daf.md</code>):</p>
+<ol>
+<li>Verificación TECH-PY (gratis, 2-4 semanas)</li>
+<li>Registrar en NPT primero (más fácil)</li>
+<li>Luego Fidelity, Schwab, Vanguard</li>
+<li>Daffy para padrinos tech</li>
+</ol>
+<hr>
+<h2>2. Tech-for-Good: Servicios gratuitos para Aldea SOS Paraguay</h2>
+<h3>2.1 Cloud y hosting (ahorros estimados USD 4,000/año)</h3>
+<table>
+<thead><tr>
+<th>Servicio</th>
+<th>Ahorro</th>
+<th>Cómo aplicar</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><strong>Google for Nonprofits</strong> (Google Ad Grants USD 10k/mes)</td>
+<td>$120,000/año</td>
+<td>✅ <strong>Activado en 4 semanas</strong></td>
+</tr>
+<tr>
+<td><strong>Microsoft Tech for Social Impact</strong> (Microsoft 365 + Azure gratis)</td>
+<td>$2,000-5,000/año</td>
+<td>✅ <strong>Activado en 2 semanas</strong></td>
+</tr>
+<tr>
+<td><strong>AWS Imagine</strong> (créditos cloud)</td>
+<td>$1,000-3,000/año</td>
+<td>✅ Aplicar</td>
+</tr>
+<tr>
+<td><strong>Salesforce.org Power of Us</strong> (CRM gratis hasta 10 users)</td>
+<td>$5,000-50,000/año</td>
+<td>✅ <strong>Crítico para padrinos</strong></td>
+</tr>
+<tr>
+<td><strong>TechSoup Global</strong> (descuentos en SaaS)</td>
+<td>$500-2,000/año</td>
+<td>✅ Registrarse primero</td>
+</tr>
+<tr>
+<td><strong>Cloudflare</strong> (CDN + DNS)</td>
+<td>$0-100/año</td>
+<td>✅ Ya activo</td>
+</tr>
+<tr>
+<td><strong>Plausible</strong> (analytics privados)</td>
+<td>$0-300/año</td>
+<td>✅ Para NGO</td>
+</tr>
+<tr>
+<td><strong>Sentry</strong> (error monitoring)</td>
+<td>$0-500/año</td>
+<td>✅ Solo si &gt;10k events/mes</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Stack técnico recomendado</strong> (ver <code>tech-spec/infra/herramientas-dev.md</code>):</p>
+<ul>
+<li>Frontend: Next.js + Vercel (gratis)</li>
+<li>Backend: Python + FastAPI o Node + Express</li>
+<li>DB: PostgreSQL (Supabase / Neon)</li>
+<li>CRM: Salesforce NPSP (gratis)</li>
+<li>Email: SendGrid / Resend</li>
+</ul>
+<h3>2.2 Cursos de capacitación tech (gratis)</h3>
+<table>
+<thead><tr>
+<th>Plataforma</th>
+<th>Curso</th>
+<th>Utilidad</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><strong>Google for Nonprofits</strong></td>
+<td>"Getting Started with Google Ad Grants"</td>
+<td>Crítico para Ad Grants</td>
+</tr>
+<tr>
+<td><strong>Salesforce</strong></td>
+<td>Trailhead for Nonprofits</td>
+<td>Capacitación al equipo</td>
+</tr>
+<tr>
+<td><strong>TechSoup</strong></td>
+<td>TechSoup的各种培训</td>
+<td>Alfabetización digital</td>
+</tr>
+<tr>
+<td><strong>Microsoft Learn</strong></td>
+<td>Azure fundamentals</td>
+<td>Si vamos Azure</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>3. Repos y frameworks de código abierto relevantes</h2>
+<h3>3.1 Frameworks para fundraising platforms</h3>
+<table>
+<thead><tr>
+<th>Repo / Framework</th>
+<th>Lenguaje</th>
+<th>Caso de uso</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><strong>Open Sourceكد</strong></td>
+<td>Python</td>
+<td>Plataforma de donaciones</td>
+</tr>
+<tr>
+<td><strong>OpenCollective</strong></td>
+<td>Node.js</td>
+<td>Padrinos colectivos (modelo interesante)</td>
+</tr>
+<tr>
+<td><strong>Benevity</strong> (propietario pero documentado)</td>
+<td>—</td>
+<td>Workplaces giving</td>
+</tr>
+<tr>
+<td><strong>Discourse</strong> (forum)</td>
+<td>Ruby</td>
+<td>Comunidad de padrinos</td>
+</tr>
+<tr>
+<td><strong>WordPress</strong> + GiveWP plugin</td>
+<td>PHP</td>
+<td>Sitio web rápido</td>
+</tr>
+<tr>
+<td><strong>Ghost</strong> (blog)</td>
+<td>Node.js</td>
+<td>Newsletter/Reports</td>
+</tr>
+</tbody>
+</table>
+<h3>3.2 Repos de transparencia</h3>
+<table>
+<thead><tr>
+<th>Repo</th>
+<th>Caso de uso</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><strong>OpenSanctions</strong></td>
+<td>Compliance</td>
+</tr>
+<tr>
+<td><strong>Charity Navigator dataset</strong></td>
+<td>Ratings</td>
+</tr>
+<tr>
+<td><strong>OWASP</strong></td>
+<td>Sécurité del formulario</td>
+</tr>
+<tr>
+<td><strong>Open Data Handbook</strong></td>
+<td>Micrositio de transparencia</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>4. Socios estratégicos en Paraguay</h2>
+<h3>4.1 CIRD (Centro de Información y Recursos para el Desarrollo)</h3>
+<p><strong>Posibilidad</strong>: Partner tecnológico CRÍTICO</p>
+<ul>
+<li><strong>Capacidad</strong>: WhatsApp+RVE (25,000+ mensajes), R&amp;D</li>
+<li><strong>Modelo</strong>: Que CIRD implemente plataforma WhatsApp para Aldea</li>
+<li><strong>Acción</strong>: Reunión + piloto en 1 barrio</li>
+<li><strong>Documento</strong>: Ver <code>competitive/cird-py.md</code></li>
+</ul>
+<h3>4.2 TechSoup Global</h3>
+<p><strong>Posibilidad</strong>: Hub de descuentos en SaaS</p>
+<ul>
+<li><strong>Beneficio</strong>: Descuentos en Adobe, DocuSign, Microsoft, etc.</li>
+<li><strong>Acción</strong>: Registrarse vía TECH-PY (gratis)</li>
+</ul>
+<h3>4.3 Conévio (Directorio PY de ONGs)</h3>
+<p><strong>Posibilidad</strong>: Visibilidad</p>
+<ul>
+<li><strong>Ya estamos en Conévio</strong>: Perfil de Aldea SOS PY</li>
+<li><strong>Acción</strong>: Actualizar perfil, agregar programa Ojoykére</li>
+</ul>
+<h3>4.4 SNNA (Secretaría Nacional de la Niñez)</h3>
+<p><strong>Posibilidad</strong>: Regulator + funding</p>
+<ul>
+<li><strong>Contacto</strong>: Desconocido (gap)</li>
+<li><strong>Acción</strong>: Identificar y contactar</li>
+</ul>
+<h3>4.5 Otros PY relevantes</h3>
+<table>
+<thead><tr>
+<th>Organización</th>
+<th>Modelo</th>
+<th>Oportunidad</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><strong>Causa Justa</strong> (ONG PY)</td>
+<td>Crowdfunding</td>
+<td>Crowdfunding para campaña específica</td>
+</tr>
+<tr>
+<td><strong>UNICEF PY</strong></td>
+<td>Derechos</td>
+<td>Partnership para programa Ojoykére</td>
+</tr>
+<tr>
+<td><strong>Plan Internacional PY</strong></td>
+<td>Apadrinamiento</td>
+<td>NO compite (cuidado residencial)</td>
+</tr>
+<tr>
+<td><strong>Fundación Telefónica PY</strong></td>
+<td>Educación</td>
+<td>Co-branding en eventos</td>
+</tr>
+<tr>
+<td><strong>Fundación Tigo PY</strong></td>
+<td>Educación</td>
+<td>Partner tecnológico (Tigo Money)</td>
+</tr>
+<tr>
+<td><strong>TECHO PY</strong></td>
+<td>Vivienda</td>
+<td>Cross-promotion en eventos</td>
+</tr>
+<tr>
+<td><strong>Casa Hogar Esperanza</strong></td>
+<td>Residential care</td>
+<td>Red de pares</td>
+</tr>
+<tr>
+<td><strong>Aldea del Niño</strong></td>
+<td>Residential care</td>
+<td>Red de pares</td>
+</tr>
+<tr>
+<td><strong>Secretaría Nacional de la Niñez</strong></td>
+<td>Regulator</td>
+<td>Compliance + funding</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>5. Análisis de plataformas globales para benchmarking</h2>
+<h3>5.1 Las mejores plataformas de transparencia para ONGs</h3>
+<table>
+<thead><tr>
+<th>Plataforma</th>
+<th>URL</th>
+<th>Caso de uso</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><strong>Charity Navigator</strong></td>
+<td>charitynavigator.org</td>
+<td>Rating</td>
+</tr>
+<tr>
+<td><strong>GuideStar/Candid</strong></td>
+<td>candid.org</td>
+<td>Datos</td>
+</tr>
+<tr>
+<td><strong>Give.org</strong> (BBB)</td>
+<td>give.org</td>
+<td>Rating</td>
+</tr>
+<tr>
+<td><strong>NGO Advisor</strong></td>
+<td>ngoadvisor.com</td>
+<td>Métricas</td>
+</tr>
+<tr>
+<td><strong>Fundación Lealtad</strong> (España)</td>
+<td>fundacionlealtad.org</td>
+<td>Equivalente en español</td>
+</tr>
+<tr>
+<td><strong>TechSoup</strong></td>
+<td>techsoup.org</td>
+<td>Tecnología</td>
+</tr>
+</tbody>
+</table>
+<h3>5.2 Las mejores plataformas de transparencia para construir un micrositio</h3>
+<p><strong>Inspiraciones</strong> (revisar):</p>
+<ul>
+<li><strong>charity:water</strong> (charitywater.org): reports by country, by year</li>
+<li><strong>Malala Fund</strong> (malala.org): clean design, impact cards</li>
+<li><strong>Teletón</strong> (teleton.org.ar): transparencia PY benchmark</li>
+<li><strong>Fundación Lealtad</strong> (España): índice de transparencia</li>
+</ul>
+<hr>
+<h2>6. Lo que el repo de Aldea SOS Paraguay HA HECHO (gaps llenados)</h2>
+<table>
+<thead><tr>
+<th>Gap</th>
+<th>Solución en el repo</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><strong>Sin plan estratégico</strong></td>
+<td><code>strategy/30-90-180-dias.md</code>, <code>plan-de-marketing-2026.md</code></td>
+</tr>
+<tr>
+<td><strong>Sin catálogo de competidores</strong></td>
+<td><code>benchmark/</code>, <code>research/1000-orgs/</code> (939 ONGs), <code>competitive/</code></td>
+</tr>
+<tr>
+<td><strong>Sin modelos financieros</strong></td>
+<td><code>financial/modelo-de-ingresos-baseline.md</code>, <code>proyectado.md</code></td>
+</tr>
+<tr>
+<td><strong>Sin donor portal</strong></td>
+<td><code>tech-spec/sponsor-portal/</code> (diseño completo)</td>
+</tr>
+<tr>
+<td><strong>Sin donation gateway</strong></td>
+<td><code>tech-spec/donation-gateway/</code> (comparación de 6 procesadores)</td>
+</tr>
+<tr>
+<td><strong>Sin transparencia microsite</strong></td>
+<td><code>tech-spec/transparency-microsite/</code> (wireframes + content map)</td>
+</tr>
+<tr>
+<td><strong>Sin fundraising templates</strong></td>
+<td><code>outreach/email/</code> (5 cold outreach + 3 transactional)</td>
+</tr>
+<tr>
+<td><strong>Sin call scripts</strong></td>
+<td><code>outreach/call/</code> (discovery, pitch, objections)</td>
+</tr>
+<tr>
+<td><strong>Sin social media strategy</strong></td>
+<td><code>outreach/social/</code> (LinkedIn, Twitter, Instagram)</td>
+</tr>
+<tr>
+<td><strong>Sin positioning</strong></td>
+<td><code>strategy/posicionamiento-competitivo.md</code></td>
+</tr>
+<tr>
+<td><strong>Sin donor journey</strong></td>
+<td><code>strategy/viaje-del-donante.md</code></td>
+</tr>
+<tr>
+<td><strong>Sin content strategy</strong></td>
+<td><code>strategy/estrategia-de-contenido.md</code>, <code>plan-de-marketing-2026.md</code></td>
+</tr>
+<tr>
+<td><strong>Sin branding guidelines</strong></td>
+<td><code>strategy/branding-y-voice.md</code></td>
+</tr>
+<tr>
+<td><strong>Sin safeguarding policy</strong></td>
+<td><code>policy/carta-de-salvaguardia.md</code> (modelo completo)</td>
+</tr>
+<tr>
+<td><strong>Sin incident protocol</strong></td>
+<td><code>policy/protocolo-de-incidentes.md</code></td>
+</tr>
+<tr>
+<td><strong>Sin data protection</strong></td>
+<td><code>policy/proteccion-de-datos-ninos.md</code></td>
+</tr>
+<tr>
+<td><strong>Sin sponsor ethics</strong></td>
+<td><code>policy/etica-de-padrinazgo.md</code></td>
+</tr>
+<tr>
+<td><strong>Sin consent templates</strong></td>
+<td><code>policy/consentimiento-de-imagen.md</code></td>
+</tr>
+<tr>
+<td><strong>Sin budgets</strong></td>
+<td><code>financial/presupuesto-90-dias.md</code>, <code>presupuesto-12-meses.md</code></td>
+</tr>
+<tr>
+<td><strong>Sin cost estimates</strong></td>
+<td><code>financial/estimacion-de-costos.md</code></td>
+</tr>
+<tr>
+<td><strong>Sin CRM recommendation</strong></td>
+<td><code>tech-spec/infra/recomendacion-crm.md</code></td>
+</tr>
+<tr>
+<td><strong>Sin architecture</strong></td>
+<td><code>tech-spec/infra/arquitectura.md</code></td>
+</tr>
+<tr>
+<td><strong>Sin dev tools</strong></td>
+<td><code>tech-spec/infra/herramientas-dev.md</code></td>
+</tr>
+<tr>
+<td><strong>Sin wireframes</strong></td>
+<td><code>tech-spec/{donation-gateway, sponsor-portal, transparency-microsite}/wireframes.md</code></td>
+</tr>
+<tr>
+<td><strong>Sin competitive analysis</strong></td>
+<td><code>competitive/{compassion-py, world-vision-py, cird-py, techo-alternativa}.md</code></td>
+</tr>
+<tr>
+<td><strong>Sin personas/mapa de stakeholders</strong></td>
+<td><code>governance/STAKEHOLDER-MAP.md</code></td>
+</tr>
+<tr>
+<td><strong>Sin risk register</strong></td>
+<td><code>governance/RISK-REGISTER.md</code></td>
+</tr>
+<tr>
+<td><strong>Sin action board</strong></td>
+<td><code>governance/ACTION-BOARD.md</code></td>
+</tr>
+<tr>
+<td><strong>Sin email policy</strong></td>
+<td><code>governance/email-policy.md</code> (cuando existía, antes de remover)</td>
+</tr>
+<tr>
+<td><strong>Sin outreach scripts</strong></td>
+<td><code>outreach/email/</code> (5 cold templates), <code>outreach/call/</code> (3 scripts)</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>7. Mejores prácticas (de la investigación) que，我们会 implementar</h2>
+<h3>7.1 De las 939 ONGs</h3>
+<table>
+<thead><tr>
+<th>Práctica</th>
+<th>% de las 939</th>
+<th>Implementar en Aldea</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><strong>Online donation</strong></td>
+<td>98.8%</td>
+<td>✅ Donorbox + Stripe + Bancard</td>
+</tr>
+<tr>
+<td><strong>Recurring giving</strong></td>
+<td>33.7%</td>
+<td>✅ Plan mensual automático</td>
+</tr>
+<tr>
+<td><strong>Annual report</strong></td>
+<td>26.8%</td>
+<td>✅ Quarterly + annual</td>
+</tr>
+<tr>
+<td><strong>Multiling site</strong></td>
+<td>14.4%</td>
+<td>✅ Iniciar con español, expandir</td>
+</tr>
+<tr>
+<td><strong>Sponsor portal</strong></td>
+<td>Variable</td>
+<td>✅ Custom (compassion model)</td>
+</tr>
+<tr>
+<td><strong>WhatsApp</strong></td>
+<td>1.4%</td>
+<td>✅ Vía CIRD partner</td>
+</tr>
+<tr>
+<td><strong>TikTok</strong></td>
+<td>0.7%</td>
+<td>⚠️ Considerar en 2027</td>
+</tr>
+<tr>
+<td><strong>Crypto</strong></td>
+<td>0.0%</td>
+<td>⚠️ Opcional (diaspora tech)</td>
+</tr>
+</tbody>
+</table>
+<h3>7.2 Del benchmark (17 pares)</h3>
+<table>
+<thead><tr>
+<th>Práctica</th>
+<th>Implementar</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><strong>Compassion: sponsor portal</strong></td>
+<td>✅ Diseño custom</td>
+</tr>
+<tr>
+<td><strong>Plan: sponsor letter exchange</strong></td>
+<td>✅ Quarterly updates</td>
+</tr>
+<tr>
+<td><strong>TechSoup: discounted SaaS</strong></td>
+<td>✅ Aplicar</td>
+</tr>
+<tr>
+<td><strong>Teletón: televised fundraiser</strong></td>
+<td>⏸️ Año 2</td>
+</tr>
+<tr>
+<td><strong>TECHO: rendición de cuentas</strong></td>
+<td>✅ Priorizar</td>
+</tr>
+<tr>
+<td><strong>CIRD: WhatsApp a escala</strong></td>
+<td>✅ Partnership</td>
+</tr>
+<tr>
+<td><strong>UNICEF: programmatic transparency</strong></td>
+<td>✅ Anual</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>8. Mejoras futuras del repo</h2>
+<h3>Corto plazo (1-3 meses)</h3>
+<ol>
+<li>✅ Aplicar a Google Ad Grants (critical)</li>
+<li>✅ Aplicar a Salesforce NPSP (critical)</li>
+<li>✅ Aplicar a Microsoft Philanthropies (easy)</li>
+<li>✅ Aplicar a TechSoup (easy)</li>
+<li>✅ Aplicar a AWS Imagine (easy)</li>
+<li>✅ Contactar CIRD para partnership WhatsApp</li>
+<li>✅ Registrar en Daffy</li>
+</ol>
+<h3>Mediano plazo (3-6 meses)</h3>
+<ol>
+<li>✅ Construir micrositio de transparencia</li>
+<li>✅ Implementar donation gateway MVP (Donorbox)</li>
+<li>✅ Construir sponsor portal MVP</li>
+<li>✅ Lanzar campaña "Apadrina una Aldea"</li>
+<li>✅ Traducir toda la documentación al inglés</li>
+</ol>
+<h3>Largo plazo (6-12 meses)</h3>
+<ol>
+<li>✅ DAFs registrados y operativos</li>
+<li>✅ Programa de diáspora (eventos en 5 ciudades)</li>
+<li>✅ Teletón-style televised fundraiser</li>
+<li>✅ Programa de IA para mantener contacto con padrinos</li>
+<li>✅ Dashboard de impacto en vivo</li>
+</ol>
+<h3>Deuda técnica (tech-spec/sponsor-portal/ y donation-gateway/)</h3>
+<ul>
+<li>Implementar sponsor portal v1.0 cuando se apruebe</li>
+<li>Implementar transparency microsite v1.0</li>
+<li>Conectar con Salesforce NPSP via API</li>
+</ul>
+<hr>
+<h2>9. Conclusión: el repo es la fuente de verdad</h2>
+<p><strong>El repo <code>aldea-sos-paraguay</code> es la primera fuente de verdad estratégica completa para la transformación digital de Aldea SOS Paraguay.</strong></p>
+<p>Cubre:</p>
+<ul>
+<li>✅ 65+ planes de fundraising documentados</li>
+<li>✅ Sponsors portal arquitectura + wireframes</li>
+<li>✅ Donation gateway stack + comparaciones</li>
+<li>✅ Transparency microsite diseño + content map</li>
+<li>✅ 5 políticas institucionales (salvaguardia, ética, datos)</li>
+<li>✅ 5 scripts de outreach (call + email + social)</li>
+<li>✅ 5 documentos de estrategia (branding, contenido, posicionamiento)</li>
+<li>✅ 6 documentos de modelo financiero</li>
+<li>✅ 4 perfiles competitivos detallados</li>
+<li>✅ 939-org catalog (synthesis de patrones)</li>
+<li>✅ Benchmark de 17 pares</li>
+</ul>
+<p><strong>Falta</strong> (gaps prácticos):</p>
+<ul>
+<li>Implementar todo (toma decisión + ejecución)</li>
+<li>Medir impacto real después de implementación</li>
+<li>Iterar basado en datos</li>
+</ul>
+<p><strong>Recomendación final</strong>: Tomar el repo como guía operativa y priorizar implementación de los 5 quick wins (30 días):</p>
+<ol>
+<li>Google Ad Grants</li>
+<li>Salesforce NPSP</li>
+<li>Donorbox activo</li>
+<li>Micrositio de transparencia v1.0</li>
+<li>Sponsor portal v1.0</li>
+</ol>
+</div>
+</div>
+</section>
+</div>
+</main>
+<footer>
+<div class="container">
+<p><strong>Aldea SOS Paraguay - Research Repository</strong></p>
+<p>Dossier estratégico + 939-org catalog + 65+ revenue streams</p>
+<p><a href="https://github.com/IvanWeissVanDerPol/aldea-sos-paraguay">Ver en GitHub</a></p>
+</div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,536 @@
+/* Aldea SOS Paraguay - Research Site
+   Colors: SOS Blue #003366, SOS Yellow #FFCC00, White #FFFFFF
+*/
+
+:root {
+    --sos-blue: #003366;
+    --sos-blue-light: #1a5490;
+    --sos-yellow: #FFCC00;
+    --sos-yellow-dark: #f4a100;
+    --gray-50: #fafafa;
+    --gray-100: #f5f5f5;
+    --gray-200: #e5e5e5;
+    --gray-300: #d4d4d4;
+    --gray-500: #737373;
+    --gray-700: #404040;
+    --gray-900: #171717;
+    --green-500: #22c55e;
+    --red-500: #ef4444;
+    --shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.6;
+    color: var(--gray-700);
+    background: var(--gray-50);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+/* Header */
+header {
+    background: var(--sos-blue);
+    color: white;
+    padding: 1.5rem 0;
+    box-shadow: var(--shadow);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+header h1 {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+header h1 a {
+    color: white;
+    text-decoration: none;
+}
+
+header .breadcrumb {
+    font-size: 0.875rem;
+    opacity: 0.9;
+}
+
+header .breadcrumb a {
+    color: white;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+header .breadcrumb a:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+/* Navigation */
+nav {
+    background: var(--sos-blue-light);
+    color: white;
+    padding: 0.75rem 0;
+    font-size: 0.875rem;
+}
+
+nav .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    opacity: 0.9;
+    transition: opacity 0.2s;
+}
+
+nav a:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+/* Hero */
+.hero {
+    background: linear-gradient(135deg, var(--sos-blue) 0%, var(--sos-blue-light) 100%);
+    color: white;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    max-width: 800px;
+    margin: 0 auto 2rem;
+    opacity: 0.95;
+}
+
+.hero .cta {
+    display: inline-block;
+    background: var(--sos-yellow);
+    color: var(--sos-blue);
+    padding: 0.875rem 2rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.hero .cta:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.2);
+}
+
+/* Stats */
+.stats {
+    background: white;
+    padding: 2rem 0;
+    border-bottom: 1px solid var(--gray-200);
+}
+
+.stats .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1.5rem;
+}
+
+.stat {
+    text-align: center;
+    padding: 1rem;
+}
+
+.stat .number {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--sos-blue);
+    display: block;
+}
+
+.stat .label {
+    font-size: 0.875rem;
+    color: var(--gray-500);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* Sections */
+section {
+    padding: 3rem 0;
+}
+
+section h2 {
+    font-size: 1.875rem;
+    margin-bottom: 1.5rem;
+    color: var(--sos-blue);
+    border-bottom: 3px solid var(--sos-yellow);
+    padding-bottom: 0.5rem;
+    display: inline-block;
+}
+
+section h3 {
+    font-size: 1.375rem;
+    margin: 1.5rem 0 1rem;
+    color: var(--sos-blue);
+}
+
+section h4 {
+    font-size: 1.125rem;
+    margin: 1rem 0 0.5rem;
+    color: var(--gray-900);
+}
+
+section p, section li {
+    margin-bottom: 0.75rem;
+    line-height: 1.7;
+}
+
+section ul, section ol {
+    padding-left: 1.5rem;
+}
+
+section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    background: white;
+    box-shadow: var(--shadow);
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+section table th, section table td {
+    border: 1px solid var(--gray-200);
+    padding: 0.75rem 1rem;
+    text-align: left;
+}
+
+section table th {
+    background: var(--sos-blue);
+    color: white;
+    font-weight: 600;
+}
+
+section table tr:nth-child(even) {
+    background: var(--gray-50);
+}
+
+/* Cards */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: var(--shadow);
+    transition: transform 0.2s, box-shadow 0.2s;
+    border-left: 4px solid var(--sos-yellow);
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+    margin-top: 0;
+    font-size: 1.125rem;
+    color: var(--sos-blue);
+}
+
+.card p {
+    color: var(--gray-500);
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+}
+
+.card a {
+    color: var(--sos-blue);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.875rem;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+/* Lists */
+.module-list {
+    background: white;
+    border-radius: 0.5rem;
+    box-shadow: var(--shadow);
+    overflow: hidden;
+}
+
+.module-list li {
+    border-bottom: 1px solid var(--gray-200);
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background 0.2s;
+}
+
+.module-list li:hover {
+    background: var(--gray-50);
+}
+
+.module-list li:last-child {
+    border-bottom: none;
+}
+
+.module-list .title {
+    flex: 1;
+}
+
+.module-list .title strong {
+    color: var(--sos-blue);
+    display: block;
+    margin-bottom: 0.25rem;
+}
+
+.module-list .title span {
+    color: var(--gray-500);
+    font-size: 0.875rem;
+}
+
+.module-list .badge {
+    background: var(--sos-yellow);
+    color: var(--sos-blue);
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin-left: 0.5rem;
+}
+
+.module-list a {
+    color: var(--sos-blue);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.875rem;
+    padding: 0.5rem 1rem;
+    background: var(--gray-100);
+    border-radius: 0.25rem;
+    transition: background 0.2s;
+}
+
+.module-list a:hover {
+    background: var(--sos-yellow);
+}
+
+/* Footer */
+footer {
+    background: var(--sos-blue);
+    color: white;
+    padding: 2rem 0;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 0.5rem;
+    opacity: 0.9;
+}
+
+footer a {
+    color: var(--sos-yellow);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Markdown content */
+.markdown-content {
+    background: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: var(--shadow);
+    margin: 2rem 0;
+}
+
+.markdown-content h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--sos-blue);
+}
+
+.markdown-content h2 {
+    border-bottom: 2px solid var(--sos-yellow);
+    padding-bottom: 0.5rem;
+    margin: 2rem 0 1rem;
+    font-size: 1.5rem;
+}
+
+.markdown-content h3 {
+    margin: 1.5rem 0 0.75rem;
+    font-size: 1.25rem;
+}
+
+.markdown-content blockquote {
+    border-left: 4px solid var(--sos-yellow);
+    padding: 0.5rem 1rem;
+    margin: 1rem 0;
+    background: var(--gray-50);
+    font-style: italic;
+}
+
+.markdown-content code {
+    background: var(--gray-100);
+    padding: 0.125rem 0.375rem;
+    border-radius: 0.25rem;
+    font-family: ui-monospace, SFMono-Regular, "SF Mono", monospace;
+    font-size: 0.875em;
+}
+
+.markdown-content pre {
+    background: var(--gray-900);
+    color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    overflow-x: auto;
+    margin: 1rem 0;
+}
+
+.markdown-content pre code {
+    background: transparent;
+    color: white;
+    padding: 0;
+}
+
+.markdown-content hr {
+    border: 0;
+    border-top: 1px solid var(--gray-200);
+    margin: 2rem 0;
+}
+
+.markdown-content a {
+    color: var(--sos-blue);
+    text-decoration: none;
+}
+
+.markdown-content a:hover {
+    text-decoration: underline;
+}
+
+/* Search box */
+.search-box {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.search-box input {
+    width: 100%;
+    max-width: 500px;
+    padding: 0.75rem 1rem;
+    border: 2px solid var(--gray-300);
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    transition: border-color 0.2s;
+}
+
+.search-box input:focus {
+    outline: none;
+    border-color: var(--sos-blue);
+}
+
+/* Search results */
+.search-results {
+    margin: 1rem 0;
+    background: white;
+    border-radius: 0.5rem;
+    box-shadow: var(--shadow);
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.search-result-item {
+    padding: 1rem;
+    border-bottom: 1px solid var(--gray-200);
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.search-result-item:hover {
+    background: var(--gray-50);
+}
+
+.search-result-item:last-child {
+    border-bottom: none;
+}
+
+.search-result-item .title {
+    font-weight: 600;
+    color: var(--sos-blue);
+    margin-bottom: 0.25rem;
+}
+
+.search-result-item .breadcrumb {
+    font-size: 0.75rem;
+    color: var(--gray-500);
+    margin-bottom: 0.5rem;
+}
+
+.search-result-item .snippet {
+    color: var(--gray-700);
+    font-size: 0.875rem;
+    line-height: 1.5;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero h1 { font-size: 1.75rem; }
+    .hero p { font-size: 1rem; }
+    nav .container { gap: 1rem; }
+    .container { padding: 0 1rem; }
+    section { padding: 2rem 0; }
+    .markdown-content { padding: 1rem; }
+}
+
+/* Tag */
+.tag {
+    display: inline-block;
+    background: var(--gray-100);
+    color: var(--gray-700);
+    padding: 0.125rem 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 0.75rem;
+    margin-right: 0.25rem;
+}
+
+.tag-blue { background: #dbeafe; color: #1e40af; }
+.tag-green { background: #dcfce7; color: #166534; }
+.tag-yellow { background: #fef3c7; color: #92400e; }
+.tag-red { background: #fee2e2; color: #991b1b; }

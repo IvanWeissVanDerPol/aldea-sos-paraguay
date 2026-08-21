@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tech Spec — Infraestructura - Aldea SOS Paraguay Research</title>
+<meta name="description" content="Repositorio de investigación estratégica para Aldeas Infantiles SOS Paraguay">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<header>
+<div class="container">
+<h1><a href="/">Aldea SOS Paraguay - Research</a></h1>
+<div class="breadcrumb"><a href="/">Inicio</a> / <a href="/tech-spec/">Tech Spec</a> / <a href="/tech-spec/infra/">Infra</a> / <a href="/tech-spec/infra/arquitectura.html/">Arquitectura.Html</a></div>
+</div>
+</header>
+<nav>
+<div class="container">
+<a href="/start-here/">Empezar aquí</a>
+<a href="/about/">About Aldea SOS Paraguay</a>
+<a href="/strategy/">Estrategia</a>
+<a href="/outreach/">Outreach</a>
+<a href="/tech-spec/">Tech Specs</a>
+<a href="/policy/">Políticas</a>
+<a href="/financial/">Financiero</a>
+<a href="/research/">Investigación</a>
+<a href="/benchmark/">Benchmark</a>
+<a href="/competitive/">Perfiles Competitivos</a>
+<a href="/pitch/">Pitch</a>
+<a href="/revenue/">65+ Fuentes de Ingreso</a>
+<a href="/evidence/">Evidencia</a>
+<a href="/governance/">Governance</a>
+</div>
+</nav>
+<main>
+<div class="container">
+<section>
+<div class="container">
+<div class="markdown-content">
+<h1>Tech Spec — Infraestructura</h1>
+<blockquote>Especificaciones para la infraestructura técnica de Aldea SOS Paraguay.</blockquote>
+<h2>Resumen</h2>
+<p>Esta carpeta contiene decisiones de infraestructura compartida entre donation-gateway, sponsor-portal, transparency-microsite, y CRM.</p>
+<h2>Archivos</h2>
+<ul>
+<li><strong><a href="./arquitectura.md"><code>arquitectura.md</code></a></strong> — diagrama de la arquitectura general</li>
+<li><strong><a href="./recomendacion-crm.md"><code>recomendacion-crm.md</code></a></strong> — Salesforce NPSP vs HubSpot vs Airtable</li>
+<li><strong><a href="./recomendacion-email.md"><code>recomendacion-email.md</code></a></strong> — Resend vs SendGrid vs Mailgun</li>
+</ul>
+<h2>Arquitectura simplificada</h2>
+<pre><code class="language-">
+        ┌─────────────────────────────┐
+        │      Cloudflare (CDN + DNS)      │
+        └──────────────┬──────────────────┘
+                       │
+        ┌──────────────▼──────────────────┐
+        │   Vercel (Transparency Site)     │
+        └──────────────────────────────────┘
+                       │
+        ┌──────────────▼──────────────────┐
+        │ Railway / Fly.io (Sponsor Portal)│
+        └──────────────┬──────────────────┘
+                       │
+        ┌──────────────▼──────────────────┐
+        │   PostgreSQL (Supabase o Neon)    │
+        └──────────────────────────────────┘
+                       │
+        ┌──────────────▼──────────────────┐
+        │ Salesforce NPSP (CRM - free tier) │
+        └──────────────────────────────────┘
+</code></pre>
+<h2>Por qué este stack</h2>
+<ul>
+<li><strong>Cloudflare</strong>: CDN global + DDoS + SSL</li>
+<li><strong>Vercel</strong>: hosting gratuito o bajo costo para frontend</li>
+<li><strong>Railway/Fly.io</strong>: backend simple + escalable</li>
+<li><strong>PostgreSQL</strong>: robusto, código abierto, gratuito</li>
+<li><strong>Salesforce NPSP</strong>: CRM gratuito para ONGs</li>
+</ul>
+<h2>Costo total estimado</h2>
+<table>
+<thead><tr>
+<th>Servicio</th>
+<th>Costo</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Cloudflare</td>
+<td>$0</td>
+</tr>
+<tr>
+<td>Vercel</td>
+<td>$0</td>
+</tr>
+<tr>
+<td>Railway</td>
+<td>$5-20/mes</td>
+</tr>
+<tr>
+<td>PostgreSQL</td>
+<td>$0-25/mes</td>
+</tr>
+<tr>
+<td>Salesforce NPSP</td>
+<td>$0</td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td><strong>$5-45/mes</strong></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>Última actualización: 2026-08-21</em></p>
+</div>
+</div>
+</section>
+</div>
+</main>
+<footer>
+<div class="container">
+<p><strong>Aldea SOS Paraguay - Research Repository</strong></p>
+<p>Dossier estratégico + 939-org catalog + 65+ revenue streams</p>
+<p><a href="https://github.com/IvanWeissVanDerPol/aldea-sos-paraguay">Ver en GitHub</a></p>
+</div>
+</footer>
+</body>
+</html>

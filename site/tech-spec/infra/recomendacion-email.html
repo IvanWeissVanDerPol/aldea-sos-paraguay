@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Recomendación de Email — Aldea SOS Paraguay - Aldea SOS Paraguay Research</title>
+<meta name="description" content="Repositorio de investigación estratégica para Aldeas Infantiles SOS Paraguay">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<header>
+<div class="container">
+<h1><a href="/">Aldea SOS Paraguay - Research</a></h1>
+<div class="breadcrumb"><a href="/">Inicio</a> / <a href="/tech-spec/">Tech Spec</a> / <a href="/tech-spec/infra/">Infra</a> / <a href="/tech-spec/infra/recomendacion-email.html/">Recomendacion Email.Html</a></div>
+</div>
+</header>
+<nav>
+<div class="container">
+<a href="/start-here/">Empezar aquí</a>
+<a href="/about/">About Aldea SOS Paraguay</a>
+<a href="/strategy/">Estrategia</a>
+<a href="/outreach/">Outreach</a>
+<a href="/tech-spec/">Tech Specs</a>
+<a href="/policy/">Políticas</a>
+<a href="/financial/">Financiero</a>
+<a href="/research/">Investigación</a>
+<a href="/benchmark/">Benchmark</a>
+<a href="/competitive/">Perfiles Competitivos</a>
+<a href="/pitch/">Pitch</a>
+<a href="/revenue/">65+ Fuentes de Ingreso</a>
+<a href="/evidence/">Evidencia</a>
+<a href="/governance/">Governance</a>
+</div>
+</nav>
+<main>
+<div class="container">
+<section>
+<div class="container">
+<div class="markdown-content">
+<h1>Recomendación de Email — Aldea SOS Paraguay</h1>
+<blockquote>Evaluación de servicios de email transaccional para Aldea SOS Paraguay.</blockquote>
+<h2>Resumen</h2>
+<p>Para envío de emails transaccionales (recibos, reportes, bienvenida), recomendábamos evaluar estos servicios:</p>
+<h2>Comparación</h2>
+<table>
+<thead><tr>
+<th>Servicio</th>
+<th>Plan Gratuito</th>
+<th>Plan Pagado</th>
+<th>Costo por 1k emails</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><strong>Resend</strong></td>
+<td>3,000 emails/mes, 100 emails/día</td>
+<td>$20/mes + 50k emails</td>
+<td>$0.40</td>
+</tr>
+<tr>
+<td><strong>SendGrid</strong></td>
+<td>100 emails/día</td>
+<td>$20/mes + 50k emails</td>
+<td>$0.40</td>
+</tr>
+<tr>
+<td><strong>Mailgun</strong></td>
+<td>Trial 5,000</td>
+<td>$35/mes + 50k</td>
+<td>$0.80</td>
+</tr>
+<tr>
+<td><strong>Amazon SES</strong></td>
+<td>62,000 emails/mes (desde EC2)</td>
+<td>$0.10 por 1k</td>
+<td>$0.10</td>
+</tr>
+<tr>
+<td><strong>Postmark</strong></td>
+<td>100 emails/mes</td>
+<td>$15/mes + 10k</td>
+<td>$1.50</td>
+</tr>
+</tbody>
+</table>
+<h2>Recomendación</h2>
+<p><strong>Para empezar (bajo volumen)</strong>: <strong>SendGrid plan gratuito</strong> (100 emails/día = 3000/mes).</p>
+<p><strong>Para escalar (&gt;3000/mes)</strong>: <strong>Amazon SES</strong> (excelente relación precio/volumen).</p>
+<p><strong>Para mejor DX</strong>: <strong>Resend</strong> (más nueva, mejor UI, mejor DX).</p>
+<h2>Implementación</h2>
+<h3>SendGrid</h3>
+<pre><code class="language-python">
+import sendgrid
+from sendgrid.helpers.mail import Mail
+
+sg = sendgrid.SendGridAPIClient(api_key=os.environ['SENDGRID_API_KEY'])
+
+def send_email(to, subject, html):
+    message = Mail(
+        from_email='amigos@paragu-ai.com',
+        to_emails=to,
+        subject=subject,
+        html_content=html,
+    )
+    response = sg.send(message)
+    return response.status_code
+</code></pre>
+<h3>Amazon SES</h3>
+<pre><code class="language-python">
+import boto3
+from botocore.exceptions import ClientError
+
+ses = boto3.client('ses', region_name='us-east-1')
+
+def send_email(to, subject, html):
+    try:
+        response = ses.send_email(
+            Source='amigos@paragu-ai.com',
+            Destination={'ToAddresses': [to]},
+            Message={
+                'Subject': {'Data': subject, 'Charset': 'UTF-8'},
+                'Body': {'Html': {'Data': html, 'Charset': 'UTF-8'}},
+            },
+        )
+    except ClientError as e:
+        print(e.response['Error']['Message'])
+    else:
+        return response['MessageId']
+</code></pre>
+<h2>Tipos de emails</h2>
+<table>
+<thead><tr>
+<th>Tipo</th>
+<th>Volumen estimado</th>
+<th>Necesidades</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Recibos de donación</td>
+<td>1k/mes</td>
+<td>Inmediato, alta confiabilidad</td>
+</tr>
+<tr>
+<td>Bienvenida padrino</td>
+<td>50/mes</td>
+<td>Personalizado, HTML</td>
+</tr>
+<tr>
+<td>Actualización de casa</td>
+<td>200/mes</td>
+<td>Imágenes, formato rico</td>
+</tr>
+<tr>
+<td>Reporte trimestral</td>
+<td>500/trimestre</td>
+<td>Personalizado, PDF</td>
+</tr>
+<tr>
+<td>Verificación email</td>
+<td>200/mes</td>
+<td>Inmediato, alta entregabilidad</td>
+</tr>
+<tr>
+<td>Mensajes del portal</td>
+<td>200/mes</td>
+<td>Estándar, notificación</td>
+</tr>
+</tbody>
+</table>
+<h2>Best practices</h2>
+<h3>Deliverability</h3>
+<ul>
+<li><strong>SPF, DKIM, DMARC</strong> configurados en el dominio</li>
+<li><strong>IP dedicada</strong> (cuando el volumen lo justifique)</li>
+<li><strong>Warm-up</strong> gradual del dominio (empezar con pocos emails)</li>
+<li><strong>Monitoreo</strong> de bounce rate (mantener &lt;5%)</li>
+<li><strong>Monitoreo</strong> de complaint rate (mantener &lt;0.1%)</li>
+</ul>
+<h3>Compliance</h3>
+<ul>
+<li><strong>CAN-SPAM</strong> (US): dirección física obligatoria</li>
+<li><strong>GDPR</strong>: doble opt-in (subscriptive confirmation)</li>
+<li><strong>LGPD</strong> (Brazil): similar a GDPR</li>
+<li><strong>Ley 6534/2020</strong> (Paraguay): protección de datos personales</li>
+</ul>
+<h3>Sender identity</h3>
+<ul>
+<li><strong>From</strong>: <code>amigos@paragu-ai.com</code> (configurar en el servicio)</li>
+<li><strong>Reply-To</strong>: <code>sos.py@aldeasinfantiles.org.py</code> (representante humano)</li>
+<li><strong>Nombre</strong>: "Aldeas Infantiles SOS Paraguay"</li>
+</ul>
+<hr>
+<p><em>Última actualización: 2026-08-21</em></p>
+</div>
+</div>
+</section>
+</div>
+</main>
+<footer>
+<div class="container">
+<p><strong>Aldea SOS Paraguay - Research Repository</strong></p>
+<p>Dossier estratégico + 939-org catalog + 65+ revenue streams</p>
+<p><a href="https://github.com/IvanWeissVanDerPol/aldea-sos-paraguay">Ver en GitHub</a></p>
+</div>
+</footer>
+</body>
+</html>

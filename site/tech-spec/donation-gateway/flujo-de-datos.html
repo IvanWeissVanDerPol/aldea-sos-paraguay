@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flujo de Datos — Donation Gateway - Aldea SOS Paraguay Research</title>
+<meta name="description" content="Repositorio de investigación estratégica para Aldeas Infantiles SOS Paraguay">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<header>
+<div class="container">
+<h1><a href="/">Aldea SOS Paraguay - Research</a></h1>
+<div class="breadcrumb"><a href="/">Inicio</a> / <a href="/tech-spec/">Tech Spec</a> / <a href="/tech-spec/donation-gateway/">Donation Gateway</a> / <a href="/tech-spec/donation-gateway/flujo-de-datos.html/">Flujo De Datos.Html</a></div>
+</div>
+</header>
+<nav>
+<div class="container">
+<a href="/start-here/">Empezar aquí</a>
+<a href="/about/">About Aldea SOS Paraguay</a>
+<a href="/strategy/">Estrategia</a>
+<a href="/outreach/">Outreach</a>
+<a href="/tech-spec/">Tech Specs</a>
+<a href="/policy/">Políticas</a>
+<a href="/financial/">Financiero</a>
+<a href="/research/">Investigación</a>
+<a href="/benchmark/">Benchmark</a>
+<a href="/competitive/">Perfiles Competitivos</a>
+<a href="/pitch/">Pitch</a>
+<a href="/revenue/">65+ Fuentes de Ingreso</a>
+<a href="/evidence/">Evidencia</a>
+<a href="/governance/">Governance</a>
+</div>
+</nav>
+<main>
+<div class="container">
+<section>
+<div class="container">
+<div class="markdown-content">
+<h1>Flujo de Datos — Donation Gateway</h1>
+<blockquote>Cómo viaja una donación desde el donante hasta el sistema de Aldea SOS Paraguay.</blockquote>
+<h2>Diagrama de flujo</h2>
+<pre><code class="language-">
+┌─────────────────────────────────────────────────────────────┐
+│ 1. DONANTE                                                  │
+│    Visita aldeasinfantiles.org.py/como-ayudar/dona          │
+└───────────────────────────┬─────────────────────────────────┘
+                            │
+                            ▼
+┌─────────────────────────────────────────────────────────────┐
+│ 2. PÁGINA DE DONACIÓN                                       │
+│    - Título: "Hacete Amigo de Aldea SOS Paraguay"           │
+│    - Descripción del impacto                                │
+│    - Selector de método de pago:                            │
+│       [Donorbox]  [Stripe]  [Bancard]                      │
+│    - Campos: nombre, email, monto, frecuencia              │
+└───────────────────────────┬─────────────────────────────────┘
+                            │
+                            ▼
+┌─────────────────────────────────────────────────────────────┐
+│ 3. PAGO                                                     │
+│    Donante completa pago en el proveedor seleccionado:      │
+│      - Donorbox: tarjeta, PayPal, Google Pay, Apple Pay    │
+│      - Stripe: tarjeta, Apple Pay, Google Pay              │
+│      - Bancard: tarjeta PY, Tigo Money, Personal Pay       │
+└───────────────────────────┬─────────────────────────────────┘
+                            │
+                            ▼
+┌─────────────────────────────────────────────────────────────┐
+│ 4. WEBHOOK                                                 │
+│    El proveedor notifica al backend:                        │
+│      - Donación completada                                  │
+│      - Suscripción creada                                   │
+│      - Pago recurrente procesado                            │
+│      - Reembolso o disputa                                 │
+└───────────────────────────┬─────────────────────────────────┘
+                            │
+                            ▼
+┌─────────────────────────────────────────────────────────────┐
+│ 5. BACKEND (nuestro sistema)                                │
+│    - Recibe el webhook                                      │
+│    - Registra la donación en el CRM (Salesforce NPSP)       │
+│    - Envía recibo al donante (email)                        │
+│    - Envía alerta al equipo de desarrollo de fondos (Slack) │
+│    - Asocia al programa apadrinado (si aplica)              │
+└───────────────────────────┬─────────────────────────────────┘
+                            │
+                            ▼
+┌─────────────────────────────────────────────────────────────┐
+│ 6. CRM (Salesforce NPSP o similar)                          │
+│    - Registro del padrino                                   │
+│    - Historial de donaciones                                │
+│    - Preferencias de comunicación                           │
+│    - Datos fiscales (para recibos)                          │
+└───────────────────────────┬─────────────────────────────────┘
+                            │
+                            ▼
+┌─────────────────────────────────────────────────────────────┐
+│ 7. SISTEMA DE PADRINOS (portal)                             │
+│    - Crea perfil del padrino                                 │
+│    - Vincula con la casa/programa apadrinado                │
+│    - Habilita acceso a reportes y comunicaciones            │
+└───────────────────────────┬─────────────────────────────────┘
+                            │
+                            ▼
+┌─────────────────────────────────────────────────────────────┐
+│ 8. REPORTES TRIMESTRALES (automáticos)                     │
+│    - Email al padrino con update del niño/casa              │
+│    - Dashboard de impacto agregado                          │
+│    - Reporte público anonimizado (para donors pasivos)     │
+└─────────────────────────────────────────────────────────────┘
+</code></pre>
+<h2>Detalles técnicos</h2>
+<h3>1. Donante → Página</h3>
+<ul>
+<li><strong>URL</strong>: <code>aldeasinfantiles.org.py/como-ayudar/dona</code></li>
+<li><strong>Página</strong>: HTML con embed de Donorbox (iframe) + Stripe Checkout (modal) + Bancard VPOS (redirect)</li>
+<li><strong>Tracking</strong>: Google Analytics, Meta Pixel, Donorbox pixels</li>
+</ul>
+<h3>2. Página → Pago</h3>
+<ul>
+<li><strong>Donorbox</strong>: el donante nunca abandona el sitio (iframe embedded)</li>
+<li><strong>Stripe</strong>: modal overlay o redirect a Stripe-hosted page</li>
+<li><strong>Bancard</strong>: redirect a VPOS (sitio del banco)</li>
+</ul>
+<h3>3. Pago → Webhook</h3>
+<p><strong>Donorbox</strong>:</p>
+<ul>
+<li>Endpoint: <code><a href="https://nuestro-dominio.com/api/webhook/donorbox">https://nuestro-dominio.com/api/webhook/donorbox</a></code></li>
+<li>Eventos: <code>donation.created</code>, <code>recurring.created</code>, <code>recurring.cancelled</code></li>
+<li>HMAC signature verification</li>
+</ul>
+<p><strong>Stripe</strong>:</p>
+<ul>
+<li>Endpoint: <code><a href="https://nuestro-dominio.com/api/webhook/stripe">https://nuestro-dominio.com/api/webhook/stripe</a></code></li>
+<li>Eventos: <code>payment_intent.succeeded</code>, <code>invoice.paid</code>, <code>customer.subscription.created</code></li>
+<li>Stripe-Signature header verification</li>
+</ul>
+<p><strong>Bancard</strong>:</p>
+<ul>
+<li>Endpoint: <code><a href="https://nuestro-dominio.com/api/webhook/bancard">https://nuestro-dominio.com/api/webhook/bancard</a></code></li>
+<li>Eventos: configurable con el banco</li>
+<li>Verificación por IP + token</li>
+</ul>
+<h3>4. Webhook → Backend</h3>
+<pre><code class="language-python">
+# Pseudocódigo
+@router.post("/api/webhook/donorbox")
+async def handle_donorbox_webhook(request: Request):
+    payload = await request.body()
+    sig = request.headers.get("Donorbox-Signature")
+    
+    # Verificar firma
+    if not verify_donorbox_signature(payload, sig):
+        raise HTTP401()
+    
+    event = json.loads(payload)
+    
+    if event["type"] == "donation.created":
+        # Crear registro en CRM
+        await crm.create_donation(
+            donor_email=event["donor"]["email"],
+            amount=event["amount"],
+            currency=event["currency"],
+            transaction_id=event["id"],
+        )
+        
+        # Enviar recibo
+        await send_receipt(
+            donor_email=event["donor"]["email"],
+            amount=event["amount"],
+            payment_id=event["id"],
+        )
+        
+        # Slack al equipo
+        await slack.notify(f"💰 Nueva donación de {event['donor']['name']}: Gs. {event['amount']}")
+    
+    return {"status": "ok"}
+</code></pre>
+<h3>5. Backend → CRM</h3>
+<ul>
+<li><strong>CRM</strong>: Salesforce NPSP (gratis para ONGs verificadas)</li>
+<li><strong>Método</strong>: REST API desde backend</li>
+<li><strong>Datos sincronizados</strong>: padrino, donación, suscripción, preferencias</li>
+</ul>
+<h3>6. CRM → Padrino</h3>
+<ul>
+<li><strong>Email transaccional</strong>: SendGrid (gratis hasta 100 emails/día) o Resend</li>
+<li><strong>Recibos</strong>: automáticos en cada donación</li>
+<li><strong>Reportes</strong>: trimestrales con info del niño/casa</li>
+</ul>
+<h3>7. Seguridad</h3>
+<ul>
+<li><strong>HTTPS obligatorio</strong> en todos los endpoints</li>
+<li><strong>HMAC signature verification</strong> en cada webhook</li>
+<li><strong>Idempotency keys</strong> para evitar duplicados</li>
+<li><strong>Rate limiting</strong> en endpoints admin</li>
+<li><strong>Logs</strong> de cada evento para auditoría</li>
+</ul>
+<hr>
+<h2>Manejo de errores</h2>
+<table>
+<thead><tr>
+<th>Escenario</th>
+<th>Acción</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Webhook llega pero CRM está caído</td>
+<td>Guardar en cola, reintentar cada 5 min (hasta 24h)</td>
+</tr>
+<tr>
+<td>Donación exitosa pero recibo no enviado</td>
+<td>Enviar manualmente + log de incidente</td>
+</tr>
+<tr>
+<td>Donante reclame chargeback</td>
+<td>Reportar a Comité + notificar al banco</td>
+</tr>
+<tr>
+<td>Error de Stripe processing</td>
+<td>Stripe auto-reintenta; nosotros notificamos al donante</td>
+</tr>
+<tr>
+<td>Doble webhook (mismo evento)</td>
+<td>Usar idempotency key para evitar procesar dos veces</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>Privacidad y compliance</h2>
+<ul>
+<li><strong>Datos personales</strong>: encriptados en tránsito y reposo</li>
+<li><strong>Webhooks</strong>: HTTPS only</li>
+<li><strong>Logs</strong>: scrubbed de datos sensibles</li>
+<li><strong>Retención</strong>: 7 años (para auditoría financiera)</li>
+<li><strong>GDPR</strong>: si el padrino está en UE, cumplir GDPR-K</li>
+</ul>
+<hr>
+<p><em>Última actualización: 2026-08-21</em></p>
+</div>
+</div>
+</section>
+</div>
+</main>
+<footer>
+<div class="container">
+<p><strong>Aldea SOS Paraguay - Research Repository</strong></p>
+<p>Dossier estratégico + 939-org catalog + 65+ revenue streams</p>
+<p><a href="https://github.com/IvanWeissVanDerPol/aldea-sos-paraguay">Ver en GitHub</a></p>
+</div>
+</footer>
+</body>
+</html>

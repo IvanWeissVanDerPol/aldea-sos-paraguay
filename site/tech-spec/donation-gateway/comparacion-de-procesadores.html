@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Comparación de Procesadores de Pago - Aldea SOS Paraguay Research</title>
+<meta name="description" content="Repositorio de investigación estratégica para Aldeas Infantiles SOS Paraguay">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<header>
+<div class="container">
+<h1><a href="/">Aldea SOS Paraguay - Research</a></h1>
+<div class="breadcrumb"><a href="/">Inicio</a> / <a href="/tech-spec/">Tech Spec</a> / <a href="/tech-spec/donation-gateway/">Donation Gateway</a> / <a href="/tech-spec/donation-gateway/comparacion-de-procesadores.html/">Comparacion De Procesadores.Html</a></div>
+</div>
+</header>
+<nav>
+<div class="container">
+<a href="/start-here/">Empezar aquí</a>
+<a href="/about/">About Aldea SOS Paraguay</a>
+<a href="/strategy/">Estrategia</a>
+<a href="/outreach/">Outreach</a>
+<a href="/tech-spec/">Tech Specs</a>
+<a href="/policy/">Políticas</a>
+<a href="/financial/">Financiero</a>
+<a href="/research/">Investigación</a>
+<a href="/benchmark/">Benchmark</a>
+<a href="/competitive/">Perfiles Competitivos</a>
+<a href="/pitch/">Pitch</a>
+<a href="/revenue/">65+ Fuentes de Ingreso</a>
+<a href="/evidence/">Evidencia</a>
+<a href="/governance/">Governance</a>
+</div>
+</nav>
+<main>
+<div class="container">
+<section>
+<div class="container">
+<div class="markdown-content">
+<h1>Comparación de Procesadores de Pago</h1>
+<blockquote>Evaluación de plataformas de pago para la pasarela de donación de Aldea SOS Paraguay.</blockquote>
+<h2>Resumen</h2>
+<table>
+<thead><tr>
+<th>Procesador</th>
+<th>Tarifa</th>
+<th>Pago recurrente</th>
+<th>PY disponible</th>
+<th>Internacional</th>
+<th>Recomendado</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><strong>Donorbox</strong></td>
+<td>0% en plan Free / 1.95%+$0.20 en plan Standard</td>
+<td>✅ Sí</td>
+<td>❌ Necesita banco PY</td>
+<td>✅ Sí</td>
+<td>✅ <strong>Sí</strong></td>
+</tr>
+<tr>
+<td><strong>Funraise</strong></td>
+<td>1% transacción + $249/mes en plan Starter</td>
+<td>✅ Sí</td>
+<td>❌ Necesita billetera global</td>
+<td>✅ Sí</td>
+<td>⚠️ Costo alto</td>
+</tr>
+<tr>
+<td><strong>Givebutter</strong></td>
+<td>0% con tips voluntarios</td>
+<td>✅ Sí</td>
+<td>❌ Necesita banco PY</td>
+<td>✅ Sí</td>
+<td>⚠️ Depende de propinas</td>
+</tr>
+<tr>
+<td><strong>Every.org</strong></td>
+<td>0% siempre</td>
+<td>✅ Sí</td>
+<td>❌ Necesita banco PY</td>
+<td>✅ Sí</td>
+<td>⚠️ Limitado</td>
+</tr>
+<tr>
+<td><strong>Bancard VPOS</strong></td>
+<td>~3.5% transacción</td>
+<td>✅ Sí</td>
+<td>✅ Sí (local)</td>
+<td>❌ Limitado</td>
+<td>✅ <strong>Sí para PY</strong></td>
+</tr>
+<tr>
+<td><strong>Stripe</strong></td>
+<td>2.9% + $0.30 por transacción</td>
+<td>✅ Sí</td>
+<td>❌ Limitado en PY</td>
+<td>✅ Sí</td>
+<td>✅ <strong>Sí para internacional</strong></td>
+</tr>
+<tr>
+<td><strong>Tigo Money</strong></td>
+<td>Variable (~1-3%)</td>
+<td>✅ Sí</td>
+<td>✅ Sí (local)</td>
+<td>❌ No</td>
+<td>⚠️ Solo PY</td>
+</tr>
+<tr>
+<td><strong>Personal Pay</strong></td>
+<td>Variable (~1-3%)</td>
+<td>✅ Sí</td>
+<td>✅ Sí (local)</td>
+<td>❌ No</td>
+<td>⚠️ Solo PY</td>
+</tr>
+<tr>
+<td><strong>Pix</strong></td>
+<td>0% para el receptor</td>
+<td>✅ Sí</td>
+<td>⚠️ Limitado a PY</td>
+<td>⚠️ Limitado</td>
+<td>✅ <strong>Sí para PY</strong></td>
+</tr>
+</tbody>
+</table>
+<h2>Detalles</h2>
+<h3>Donorbox (RECOMENDADO para MVP)</h3>
+<p><strong>Pros</strong>:</p>
+<ul>
+<li>Plan gratuito para &lt;1k donantes</li>
+<li>Soporta donaciones recurrentes</li>
+<li>Excelente UX móvil</li>
+<li>Múltiples métodos de pago (tarjeta, PayPal, Google Pay, Apple Pay)</li>
+<li>Excelente soporte en español</li>
+<li>Webhooks para integrar con CRM</li>
+</ul>
+<p><strong>Contras</strong>:</p>
+<ul>
+<li>No procesa Pix directamente</li>
+<li>No soporta Tigo Money / Personal Pay directamente</li>
+<li>Necesita integración con Stripe para pagos latinoamericanos</li>
+<li>2.5% estándar + $0.20 en plan Standard (sin plan Free más allá de 1k donantes)</li>
+</ul>
+<p><strong>Precio</strong>: Gratis hasta 1k donantes; US$ 39/mes plan Standard después</p>
+<p><strong>Recomendado para</strong>: MVP, padrinos individuales, angloparlantes</p>
+<h3>Funraise</h3>
+<p><strong>Pros</strong>:</p>
+<ul>
+<li>Plataforma moderna para ONGs</li>
+<li>Excelente UX</li>
+<li>CRM integrado</li>
+<li>AI para donor stewardship</li>
+</ul>
+<p><strong>Contras</strong>:</p>
+<ul>
+<li>Caro ($249/mes + 1% por transacción)</li>
+<li>Curva de aprendizaje</li>
+<li>No soporta Tigo Money / Personal Pay</li>
+</ul>
+<p><strong>Recomendado para</strong>: escalar (&gt;1k donantes) si crecimiento se valida</p>
+<h3>Givebutter</h3>
+<p><strong>Pros</strong>:</p>
+<ul>
+<li>Plan gratuito (sin tarifa de plataforma)</li>
+<li>Donaciones recurrentes</li>
+<li>Múltiples métodos de pago</li>
+</ul>
+<p><strong>Contras</strong>:</p>
+<ul>
+<li>Depende de propinas voluntarias (modelo inestable)</li>
+<li>No soporta wallets PY</li>
+</ul>
+<h3>Every.org</h3>
+<p><strong>Pros</strong>:</p>
+<ul>
+<li>100% gratis para ONGs</li>
+<li>Recibos fiscales automáticos (para padrinos US)</li>
+<li>Donaciones recurrentes</li>
+</ul>
+<p><strong>Contras</strong>:</p>
+<ul>
+<li>Soporte limitado</li>
+<li>Menos flexible</li>
+</ul>
+<h3>Bancard VPOS (RECOMENDADO para PY)</h3>
+<p><strong>Pros</strong>:</p>
+<ul>
+<li>Procesador local líder en PY</li>
+<li>Acepta tarjetas paraguayas (Cabales, bonificaciones)</li>
+<li>Acepta Tigo Money, Personal Pay, Wally</li>
+<li>Proceso familiar para donantes PY</li>
+</ul>
+<p><strong>Contras</strong>:</p>
+<ul>
+<li>~3.5% de comisión</li>
+<li>Requiere cuenta bancaria PY</li>
+<li>Limitado para padrinos internacionales</li>
+</ul>
+<p><strong>Recomendado para</strong>: donantes paraguayos, pagos recurrentes locales</p>
+<h3>Stripe (RECOMENDADO para internacional)</h3>
+<p><strong>Pros</strong>:</p>
+<ul>
+<li>Líder global</li>
+<li>Excelente API</li>
+<li>Subscriptions robustas</li>
+<li>Stripe Atlas para abrir cuentas en otros países</li>
+</ul>
+<p><strong>Contras</strong>:</p>
+<ul>
+<li>2.9% + $0.30 por transacción</li>
+<li>Limitado en PY (Stripe Atlas ayuda)</li>
+<li>No soporta Pix/Tigo Money directamente</li>
+</ul>
+<p><strong>Recomendado para</strong>: padrinos en USA, Europa</p>
+<h3>Tigo Money</h3>
+<p><strong>Pros</strong>:</p>
+<ul>
+<li>Billetera dominante en Paraguay</li>
+<li>Muchos paraguayos la usan</li>
+<li>Procesa instantáneamente</li>
+</ul>
+<p><strong>Contras</strong>:</p>
+<ul>
+<li>Solo PY</li>
+<li>Requiere integración directa con Tigo</li>
+</ul>
+<h3>Personal Pay</h3>
+<p>Similar a Tigo Money, otra billetera dominante.</p>
+<h3>Pix</h3>
+<p><strong>Pros</strong>:</p>
+<ul>
+<li>0% para el receptor (comprador paga fee)</li>
+<li>Instantáneo</li>
+<li>Creciendo en PY</li>
+</ul>
+<p><strong>Contras</strong>:</p>
+<ul>
+<li>Asociado a Brasil, aunque BCBP lo habilitó en PY</li>
+<li>Requiere integración con un adquirente compatible</li>
+</ul>
+<h2>Recomendación final</h2>
+<p><strong>Stack recomendado para MVP</strong>:</p>
+<ol>
+<li><strong>Donorbox</strong> (gratis, padrinos globales + tarjetas)</li>
+<li><strong>Stripe</strong> (padrinos tech-savvy + internacionales)</li>
+<li><strong>Bancard</strong> (donantes paraguayos + Tigo Money / Personal Pay)</li>
+<li><strong>Pix</strong> (cuando se habilite completamente en PY)</li>
+</ol>
+<p><strong>Costo total estimado</strong> (primer año):</p>
+<ul>
+<li>Donorbox: $0 (plan Free) o $468/año (Standard)</li>
+<li>Stripe: 2.9% + $0.30 por tx</li>
+<li>Bancard: 3.5% por tx</li>
+<li><strong>Total fees</strong>: ~3-4% del volumen de donaciones</li>
+</ul>
+<p><strong>Tiempo de setup</strong>: 5-7 días</p>
+<hr>
+<p><em>Última actualización: 2026-08-21</em></p>
+</div>
+</div>
+</section>
+</div>
+</main>
+<footer>
+<div class="container">
+<p><strong>Aldea SOS Paraguay - Research Repository</strong></p>
+<p>Dossier estratégico + 939-org catalog + 65+ revenue streams</p>
+<p><a href="https://github.com/IvanWeissVanDerPol/aldea-sos-paraguay">Ver en GitHub</a></p>
+</div>
+</footer>
+</body>
+</html>
