@@ -59,6 +59,10 @@ El repo está organizado por **propósito**, alfabéticamente:
 
 ---
 
+## 📊 Análisis estratégico
+
+- **[`analysis-platforms-and-resources.md`](./analysis-platforms-and-resources.md)** — mapeo de plataformas tech-for-good, repos, y partners PY que Aldea SOS PY puede aprovechar, más gaps que el repo llena
+
 ## 🔗 Archivos más útiles (por tema)
 
 ### ¿Querés la historia de la org?
