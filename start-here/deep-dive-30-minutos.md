@@ -23,7 +23,6 @@ Leé estos 7 archivos en este orden. Total ~30 minutos.
 - **¿Querés ver los datos crudos?** → [`research/1000-orgs/batches/CATALOG.csv`](../research/1000-orgs/batches/CATALOG.csv)
 - **¿Querés entender el contexto de salvaguardia?** → [`policy/`](../policy/) (cuando se llene)
 - **¿Querés saber qué tecnología construiríamos?** → [`tech-spec/donation-gateway/`](../tech-spec/donation-gateway/) (cuando se llene)
-- **¿Querés plantillas de email listas para enviar?** → [`outreach/email/`](../outreach/email/)
 - **¿Querés saber el potencial de ingresos?** → [`financial/`](../financial/) (cuando se llene)
 
 ---

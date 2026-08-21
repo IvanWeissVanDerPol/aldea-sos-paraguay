@@ -36,7 +36,6 @@ Son **operativamente sólidos pero digitalmente atrasados**. Brechas específica
 
 ## Qué proponemos (a alto nivel)
 
-1. **Pasarela de donación** (Donorbox + Tigo Money + Pix + Stripe para el exterior) — 7 días
 2. **Arreglar `/transparencia`** + publicar reporte anual como PDF — 2 semanas
 3. **"Apadrina una Aldea"** (programa de apadrinamiento de casas) — 90 días, mayor desbloqueo único de ingresos
 4. **Google Ad Grants** — 4 semanas
@@ -53,7 +52,6 @@ Son **operativamente sólidos pero digitalmente atrasados**. Brechas específica
 | Donante / fundación | USD 15-30k seed para la pasarela de donación + portal de apadrinamiento | TBD |
 | Aliado corporativo (Tigo/Personal/Ueno) | Donación en especie: SIM cards, créditos en la nube, o ingeniería voluntaria | TBD |
 | Equipo ParaguAI / Aiw | Construir la pasarela de donación + micrositio de transparencia (est 2-4 semanas de ingeniería) | TBD |
-| Equipo ParaguAI / Aiw | Redactar las plantillas de email en `outreach/email/` y enviar | TBD |
 
 ## Conclusión
 

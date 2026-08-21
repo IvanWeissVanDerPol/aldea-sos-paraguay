@@ -11,7 +11,6 @@ Esta carpeta contiene documentos de gobernanza, planificación y soporte de deci
 - **[`STAKEHOLDER-MAP.md`](./mapa-de-stakeholders.md)** — quién es quién en SOS Paraguay, gobierno, aliados
 - **[`ACTION-BOARD.md`](./tablero-de-acciones.md)** — Kanban vivo de próximas acciones
 - **[`CHANGELOG.md`](./cambios.md)** — qué cambió cuándo
-- **[`email-policy.md`](./politica-de-email.md)** — quién envía desde qué, reglas de idioma, frecuencia
 - **[`RESTRUCTURE-PLAN.md`](./plan-de-reestructuracion.md)** — por qué el repo está estructurado así
 
 ## Qué NO es esta carpeta

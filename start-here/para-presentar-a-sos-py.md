@@ -32,7 +32,6 @@
 → [`benchmark/peers/paraguay-peers.md`](../benchmark/peers/paraguay-peers.md)
 
 ### Si quieren ver tech specs
-→ [`tech-spec/email/configuracion-de-remitente.md`](../tech-spec/email/configuracion-de-remitente.md)
 → [`tech-spec/donation-gateway/`](../tech-spec/donation-gateway/) (cuando se llene)
 
 ## A quién pedir en SOS Paraguay
@@ -54,9 +53,7 @@
 
 | Objeción | Respuesta |
 |---|---|
-| "Ya probamos Donorbox" | "Déjame chequear con su equipo — quizás fue un tema de integración." |
 | "Necesitamos proteger la privacidad de los niños" | "Por eso nuestra carta de salvaguardia es la primera entrega, antes de cualquier pasarela de donación." |
-| "No podemos pagar tecnología" | "Donorbox es gratis para <1k donantes. Salesforce NPSP es gratis. Google Ad Grants es gratis. Costo total = USD 0." |
 | "La Federación tiene reglas sobre..." | "Sí — nos alineamos con la Estrategia 2030 y la Política de Salvaguardia de la Federación." |
 | "Nos estamos recuperando del escándalo" | "Justamente por eso la transparencia pública es tu mayor oportunidad ahora. Podemos ayudar a publicar un reporte trimestral de salvaguardia." |
 
@@ -69,5 +66,3 @@
 - **Duración de reunión**: 45-60 min máximo la primera. No sobrevender.
 
 ## Después de la reunión
-
-Anotá el resultado en [`governance/tablero-de-acciones.md`](../governance/tablero-de-acciones.md) y email a Ivan.

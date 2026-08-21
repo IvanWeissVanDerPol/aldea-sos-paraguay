@@ -313,11 +313,6 @@ Este es the catalog of **missing** deliverables that any serious partner / donor
 
 ### C. Scripts de outreach (prioridad media — necesario para cualquier contacto)
 
-17. **`outreach/email/cold-outreach-corporativo.md`** — For Tigo/Personal/Ueno/Areté/Tupi/etc.
-18. **`outreach/email/cold-outreach-socio-tecnologico.md`** — For Donorbox/Funraise/Bancard
-19. **`outreach/email/cold-outreach-fundacion.md`** — For TechSoup/Google/Microsoft
-20. **`outreach/email/cold-outreach-donante-daf.md`** — For Daffy/Fidelity/Schwab
-21. **`outreach/email/cold-outreach-sos-py.md`** — First contact email to Ana Medina or Zunilda Baruja
 22. **`outreach/call/discovery-call-script.md`** — 30-min discovery call template
 23. **`outreach/call/objection-handling.md`** — Common objections + responses
 

@@ -37,7 +37,6 @@ Leé [`for-donor-outreach.md`](./para-outreach-a-donantes.md). Marco: "este es e
 - **¿Querés las páginas crudas de SOS Paraguay?** → [`../evidence/`](../evidence/)
 - **¿Querés gobernanza?** → [`../governance/`](../governance/)
 - **¿Querés materiales de pitch?** → [`../pitch/`](../pitch/)
-- **¿Querés plantillas de email?** → [`../outreach/email/`](../outreach/email/) — plantillas de email en español
 - **¿Querés specs técnicas?** → [`../tech-spec/`](../tech-spec/)
 
 ---
@@ -52,7 +51,6 @@ Leé [`for-donor-outreach.md`](./para-outreach-a-donantes.md). Marco: "este es e
 04-research/       ← catálogo de 939 ONGs + investigación de patrones
 05-revenue/        ← 65+ fuentes de ingresos
 06-pitch/          ← decks de pitch, one-pagers, FAQ
-07-outreach/       ← scripts de email/llamada/redes
 08-tech-spec/      ← donación gateway, micrositio de transparencia, specs del portal de apadrinamiento
 09-financial/      ← modelo de ingresos + costos + presupuestos
 10-strategy/       ← planes 30/60/90 + donor journey + estrategia de competidores

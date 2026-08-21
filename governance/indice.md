@@ -13,7 +13,6 @@
 - `STAKEHOLDER-MAP.md` — quién es quién
 - `ACTION-BOARD.md` — Kanban vivo
 - `CHANGELOG.md` — qué cambió cuándo
-- `email-policy.md` — quién envía desde qué, reglas de idioma, frecuencia
 - `RESTRUCTURE-PLAN.md` — por qué el repo está estructurado así
 
 ---

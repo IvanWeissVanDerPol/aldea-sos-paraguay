@@ -69,7 +69,6 @@ R: Nicho. Recomendado NO priorizar. Bitso Paraguay es el exchange local; The Giv
 ## Sobre los próximos 30 días
 
 ### P19: ¿Qué pasa primero?
-R: (1) Enviar email frío a Ana Medina o Zunilda Baruja (plantilla en `../07-outreach/email/`). (2) Seguimiento en 5 días hábiles. (3) Si responden: agendar discovery call de 30 min (4) Si no responden: pivotar a Tigo/Itaú/Ueno primero, que pueden presentar.
 
 ### P20: ¿Qué pasa si preguntan "¿por qué deberíamos trabajar con ustedes"?
 R: "Hicimos la tarea. Catálogo de 939 ONGs. 65 fuentes de ingreso. Benchmark de pares. Sabemos qué hace el 99% de sus pares que ustedes no, y sabemos exactamente cuáles 5 cosas lanzar primero. Ya mapeamos sus gaps tecnológicos y su portafolio de aliados corporativos. Ofrecemos un plan de 90 días que les cuesta cero en el Año 1."

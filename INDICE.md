@@ -117,13 +117,6 @@
 ## outreach/
 
 - `README.md` — guía de carpeta
-- `email/cold-outreach-corporativo.md` — español
-- `email/cold-outreach-socio-tecnologico.md` — español + inglés
-- `email/cold-outreach-fundacion.md` — español + inglés
-- `email/cold-outreach-donante-daf.md` — inglés (DAFs son US)
-- `email/cold-outreach-sos-py.md` — español
-- `email/plantilla-de-seguimiento.md` — español
-- `email/templates/README.md` — guía
 - `templates/recibo-de-donacion.md` — español HTML + texto
 - `templates/bienvenida-amigos-sos.md` — español HTML + texto
 - `templates/boletin.md` — español HTML + texto
@@ -133,9 +126,6 @@
 ## tech-spec/
 
 - `README.md` — guía de carpeta
-- `email/configuracion-de-remitente.md` — setup de Resend + identidad del remitente
-- `email/registros-dns.md` — SPF/DKIM/DMARC para paragu-ai.com
-- `email/integracion-api.md` — SDK Node + Python
 - `donation-gateway/` — vacío (procesadores de pago)
 - `transparency-microsite/` — vacío (micrositio de transparencia)
 - `sponsor-portal/` — vacío (portal de apadrinamiento)
@@ -151,7 +141,6 @@
 - `STAKEHOLDER-MAP.md` — quién es quién
 - `ACTION-BOARD.md` — Kanban vivo
 - `CHANGELOG.md` — qué cambió cuándo
-- `email-policy.md` — quién envía desde qué, idioma, frecuencia
 - `RESTRUCTURE-PLAN.md` — por qué el repo está estructurado así
 
 ## financial/ *(vacío)*

@@ -22,23 +22,6 @@ Si sabés quién sos:
 
 ---
 
-## 📧 Sistema de Email (Resend en `mail.paragu-ai.com`)
-
-El sistema de email usa **Resend** sobre el dominio `mail.paragu-ai.com` (región `sa-east-1` para baja latencia desde Paraguay).
-
-| Documento | Contenido |
-|---|---|
-| [`tech-spec/email/configuracion-de-remitente.md`](./tech-spec/email/configuracion-de-remitente.md) | Setup de Resend, identidad del remitente (en español) |
-| [`tech-spec/email/registros-dns.md`](./tech-spec/email/registros-dns.md) | SPF + DKIM + DMARC records |
-| [`tech-spec/email/integracion-api.md`](./tech-spec/email/integracion-api.md) | SDK Node/Python |
-| [`outreach/email/`](./outreach/email/) | Plantillas de email en español |
-| [`governance/politica-de-email.md`](./governance/politica-de-email.md) | Quién envía desde qué, idioma, frecuencia |
-
-**Identidad del remitente por defecto**: `Aldeas Infantiles SOS Paraguay <amigos@paragu-ai.com>` (espeja el programa "Amigos SOS" existente).
-
-Click tracking: habilitado. Open tracking: deshabilitado.
-
----
 
 ## 📁 Estructura del repositorio
 
@@ -48,19 +31,19 @@ El repo está organizado por **propósito**, alfabéticamente:
 |---|---|---|
 | **[`about/`](./about/)** | Quién/qué/dónde de Aldea SOS Paraguay | 8 archivos del dossier + resumen ejecutivo + identidad, programas, financiamiento, madurez digital, escándalo, personal, SWOT |
 | **[`archive/`](./archive/)** | Archivos deprecados (actualmente vacía) | Reservada |
-| **[`benchmark/`](./benchmark/)** | Comparación con pares | 9 pares internacionales + 8 PY + matriz comparativa + inspiration board + 5 PY deep-dives |
+| **[`benchmark/`](./benchmark/)** | Comparación con pares | 9 pares internacionales + 8 PY + matriz comparativa + tabla de inspiración + 5 PY deep-dives |
 | **[`competitive/`](./competitive/)** | Análisis profundos de competidores (esqueleto) | Reservada |
-| **[`evidence/`](./evidence/)** | Artefactos crudos (HTMLs de SOS PY) | 15 HTMLs + SOURCES.md + EXTRACTED-FACTS.md + guía de niveles de evidencia |
+| **[`evidence/`](./evidence/)** | Artefactos crudos (HTMLs de SOS PY) | 15 HTMLs + fuentes.md + hechos-extraidos.md + niveles-de-evidencia.md |
 | **[`financial/`](./financial/)** | Modelo de ingresos + presupuestos (esqueleto) | Reservada |
-| **[`governance/`](./governance/)** | Gobernanza del repo | INDEX, GLOSSARY, STYLE-GUIDE, RISK-REGISTER, STAKEHOLDER-MAP, ACTION-BOARD, CHANGELOG, email-policy, RESTRUCTURE-PLAN |
-| **[`outreach/`](./outreach/)** | Scripts de email/llamada/redes | Plantillas de cold outreach (es), plantillas de email (es), scripts de llamada (planificados) |
-| **[`pitch/`](./pitch/)** | Decks de presentación, one-pagers, FAQ (todo en español) | Estructura del pitch deck + resumen ejecutivo + 3 one-pagers + FAQ |
+| **[`governance/`](./governance/)** | Gobernanza del repo | indice, glosario, guia-de-estilo, registro-de-riesgos, mapa-de-stakeholders, tablero-de-acciones, cambios, plan-de-reestructuracion |
+| **[`outreach/`](./outreach/)** | Scripts de outreach | Call scripts, social templates (esqueletos) |
+| **[`pitch/`](./pitch/)** | Decks de presentación, one-pagers, FAQ (todo en español) | Estructura del pitch deck + resumen-ejecutivo-pdf + 3 one-pagers + preguntas-frecuentes |
 | **[`policy/`](./policy/)** | Protección infantil + ética (esqueleto — URGENTE) | Reservada |
-| **[`research/`](./research/)** | Catálogo de 1000 ONGs + patrones | CATALOG.csv (939 ONGs × 12 cols) + SYNTHESIS.md + 9 slices + 4 patrones |
-| **[`revenue/`](./revenue/)** | 65+ fuentes de ingreso | TOP 15 + rápido wins 90 días + apéndice de salvaguardia + 13 archivos por grupo |
+| **[`research/`](./research/)** | Catálogo de 939 ONGs + patrones | CATALOG.csv (12 cols) + sintesis.md + 9 slices + 4 patrones |
+| **[`revenue/`](./revenue/)** | 65+ fuentes de ingreso | TOP 15 + quick wins 90 días + apéndice de salvaguardia + 13 archivos por grupo |
 | **[`start-here/`](./start-here/)** | Puntos de entrada por audiencia (en español) | Resumen 5 min + deep dive 30 min + guías por audiencia |
 | **[`strategy/`](./strategy/)** | Planes 30/60/90 + viaje del donante (esqueleto) | Reservada |
-| **[`tech-spec/`](./tech-spec/)** | Especificaciones técnicas | Email (sender config, DNS, API integration) — pasarela de donación/portal de apadrinamiento/transparency (esqueleto) |
+| **[`tech-spec/`](./tech-spec/)** | Especificaciones técnicas | Donation gateway / sponsor portal / transparency microsite (skeleton) |
 | **[`_originals/`](./_originals/)** | Red de seguridad pre-restructuración | Originales de DOSSIER.md, PEER-BENCHMARK.md, REVENUE-AVENUES.md antes del split |
 
 ---
@@ -175,9 +158,7 @@ El repo está organizado por **propósito**, alfabéticamente:
 | `research/` | ✅ Completo (31 archivos) |
 | `revenue/` | ✅ Completo (19 archivos) |
 | `pitch/` | ✅ Completo, todo en español (7 archivos) |
-| `governance/` | ✅ Completo, incluye email-policy (10 archivos) |
-| `outreach/email/` | ✅ Completo — 5 plantillas cold-outreach + 3 plantillas transaccionales + followup (español) |
-| `tech-spec/email/` | ✅ Completo — sender-config + dns-records + api-integration (3 archivos) |
+| `governance/` | ✅ Completo (10 archivos) |
 | `tech-spec/donation-gateway/` | ⚠️ Vacío |
 | `tech-spec/transparency-microsite/` | ⚠️ Vacío |
 | `tech-spec/sponsor-portal/` | ⚠️ Vacío |
