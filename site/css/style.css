@@ -536,3 +536,76 @@ footer a:hover { text-decoration: underline; }
     a { color: inherit !important; text-decoration: underline; }
     .module-list { box-shadow: none; }
 }
+
+/* Hero - improved */
+.eyebrow { font-size: 1rem; color: var(--sos-yellow); font-weight: 600; letter-spacing: 0.05em; margin-bottom: 1rem; text-transform: uppercase; }
+.hero-lead { font-size: 1.25rem; max-width: 800px; margin: 0 auto 2rem; opacity: 0.95; line-height: 1.6; }
+.hero-ctas { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-bottom: 1.5rem; }
+.hero-trust { opacity: 0.8; font-size: 0.875rem; }
+
+/* Buttons */
+.btn { display: inline-block; padding: 0.875rem 2rem; border-radius: 0.5rem; font-weight: 600; text-decoration: none; transition: all 0.2s ease; border: none; cursor: pointer; font-size: 1rem; }
+.btn-primary { background: var(--sos-yellow); color: var(--sos-blue); }
+.btn-primary:hover { background: #FFD700; transform: translateY(-2px); box-shadow: 0 8px 16px rgba(0,0,0,0.15); }
+.btn-secondary { background: transparent; color: white; border: 2px solid white; }
+.btn-secondary:hover { background: white; color: var(--sos-blue); transform: translateY(-2px); }
+
+/* Sections */
+.section { padding: 4rem 0; }
+.section-alt { background: var(--gray-50, #f9fafb); }
+.section-lead { font-size: 1.125rem; color: var(--text-muted); max-width: 700px; margin: 0 auto 2rem; text-align: center; }
+.section h2 { font-size: 2rem; color: var(--sos-blue); text-align: center; margin-bottom: 1rem; }
+
+/* Cards enhancements */
+.card { padding: 1.5rem; }
+.card-highlight { border-left: 4px solid var(--sos-yellow); }
+.card-cta { text-align: center; background: var(--sos-blue); color: white; }
+.card-cta h3 { color: white; }
+.card-disclaimer { background: var(--gray-50, #f9fafb); border: 1px dashed var(--border); }
+.card-footer { text-align: center; margin-top: 2rem; }
+
+/* Grid variants */
+.grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; margin-top: 2rem; }
+.grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin-top: 2rem; }
+@media (max-width: 768px) {
+  .grid-2, .grid-3 { grid-template-columns: 1fr; }
+  .hero h1 { font-size: 1.875rem; }
+  .hero-lead { font-size: 1.125rem; }
+  .section h2 { font-size: 1.5rem; }
+}
+
+/* Header / Navigation */
+.site-header { background: white; box-shadow: 0 2px 4px rgba(0,0,0,0.1); padding: 1rem 0; position: sticky; top: 0; z-index: 100; }
+.header-grid { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+.brand { display: flex; align-items: center; gap: 0.5rem; text-decoration: none; color: var(--sos-blue); font-weight: 700; font-size: 1.25rem; }
+.brand-mark { width: 36px; height: 36px; border-radius: 50%; background: var(--sos-blue); color: var(--sos-yellow); display: flex; align-items: center; justify-content: center; font-weight: 700; }
+.primary-nav { display: flex; gap: 1.5rem; flex-wrap: wrap; }
+.primary-nav a { color: var(--text); text-decoration: none; font-weight: 500; transition: color 0.2s ease; }
+.primary-nav a:hover { color: var(--sos-blue); }
+@media (max-width: 640px) {
+  .primary-nav { width: 100%; justify-content: center; }
+}
+
+/* Footer */
+.site-footer { background: var(--sos-blue); color: white; padding: 2rem 0; margin-top: 2rem; }
+.footer-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; }
+.footer-title { font-weight: 600; margin-bottom: 0.5rem; }
+.footer-desc { font-size: 0.875rem; opacity: 0.8; }
+.site-footer a { color: var(--sos-yellow); text-decoration: none; }
+.site-footer a:hover { text-decoration: underline; }
+.footer-copy { text-align: center; margin-top: 2rem; padding-top: 1rem; border-top: 1px solid rgba(255,255,255,0.1); opacity: 0.7; }
+@media (max-width: 768px) {
+  .footer-grid { grid-template-columns: 1fr; }
+}
+
+/* Link arrow */
+.link-arrow { color: var(--sos-blue); text-decoration: none; font-weight: 600; transition: all 0.2s ease; display: inline-block; }
+.link-arrow:hover { padding-left: 0.5rem; }
+
+/* Skip link */
+.skip-link { position: absolute; left: -9999px; }
+.skip-link:focus { left: 1rem; top: 1rem; background: var(--sos-blue); color: white; padding: 0.5rem 1rem; border-radius: 0.25rem; z-index: 1000; }
+
+/* Lists in cards */
+.card ul { margin: 0.5rem 0; padding-left: 1.25rem; }
+.card ul li { margin-bottom: 0.5rem; line-height: 1.5; }
