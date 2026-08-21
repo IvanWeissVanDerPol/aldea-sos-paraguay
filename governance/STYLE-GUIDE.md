@@ -14,10 +14,10 @@ When unsure, write in **Spanish** by default. Translate to English only when exp
 
 ## Naming conventions
 
-- **Folders**: lowercase, hyphen-separated (`05-revenue/`, `donation-gateway/`)
+- **Folders**: lowercase, hyphen-separated (`revenue/`, `donation-gateway/`)
 - **Files**: `kebab-case.md` (`executive-summary.md`, `top-15-recommended.md`)
 - **Subfolder indexes**: `README.md` (always)
-- **Numeric prefixes on top-level folders**: 2-digit + dash + name (`00-start-here/`)
+- **Numeric prefixes on top-level folders**: 2-digit + dash + name (`start-here/`)
 
 ## Currency
 

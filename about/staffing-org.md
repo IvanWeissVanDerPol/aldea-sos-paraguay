@@ -52,4 +52,4 @@ Pattern: heavy investment in community/family strengthening roles (post-Ojoykér
 
 ---
 
-*For all stakeholders, see [`../META/STAKEHOLDER-MAP.md`](../META/STAKEHOLDER-MAP.md).*
+*For all stakeholders, see [`../governance/STAKEHOLDER-MAP.md`](../governance/STAKEHOLDER-MAP.md).*

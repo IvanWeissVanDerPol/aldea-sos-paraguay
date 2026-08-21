@@ -1,4 +1,4 @@
-# EXTRACTED FACTS — Distilled from `01-evidence/`
+# EXTRACTED FACTS — Distilled from `evidence/`
 
 > **This is derived content** — quotes/paraphrases from the raw HTMLs in this folder. The HTMLs are ground truth; this file is our indexing of them.
 
@@ -154,6 +154,6 @@
 
 ---
 
-*For the analytic interpretation of these facts, see [`../02-dossier/`](../02-dossier/).*
-*For peer benchmarks, see [`../03-benchmark/`](../03-benchmark/).*
-*For revenue opportunities, see [`../05-revenue/`](../05-revenue/).*
+*For the analytic interpretation of these facts, see [`../about/`](../about/).*
+*For peer benchmarks, see [`../benchmark/`](../benchmark/).*
+*For revenue opportunities, see [`../revenue/`](../revenue/).*

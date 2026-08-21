@@ -18,21 +18,21 @@
 ## What to bring to the meeting
 
 ### Must-have (one-pager)
-→ [`06-pitch/executive-summary-pdf.md`](../06-pitch/executive-summary-pdf.md) — print 2 copies
+→ [`pitch/executive-summary-pdf.md`](../pitch/executive-summary-pdf.md) — print 2 copies
 
 ### Supporting (left behind)
-→ [`06-pitch/one-pager-sos-py.md`](../06-pitch/one-pager-sos-py.md) — single A4, tailored to them
+→ [`pitch/one-pager-sos-py.md`](../pitch/one-pager-sos-py.md) — single A4, tailored to them
 
 ### If they ask for depth
-→ [`02-dossier/executive-summary.md`](../02-dossier/executive-summary.md)
-→ [`02-dossier/digital-maturity.md`](../02-dossier/digital-maturity.md)
-→ [`05-revenue/top-15-recommended.md`](../05-revenue/top-15-recommended.md)
+→ [`about/executive-summary.md`](../about/executive-summary.md)
+→ [`about/digital-maturity.md`](../about/digital-maturity.md)
+→ [`revenue/top-15-recommended.md`](../revenue/top-15-recommended.md)
 
 ### If they want to see the peer benchmark
-→ [`03-benchmark/peers/paraguay-peers.md`](../03-benchmark/peers/paraguay-peers.md)
+→ [`benchmark/peers/paraguay-peers.md`](../benchmark/peers/paraguay-peers.md)
 
 ### If they want tech specs
-→ [`08-tech-spec/donation-gateway/recommended-stack.md`](../08-tech-spec/donation-gateway/recommended-stack.md)
+→ [`tech-spec/donation-gateway/recommended-stack.md`](../tech-spec/donation-gateway/recommended-stack.md)
 
 ## Who at SOS Paraguay to ask for
 
@@ -69,4 +69,4 @@
 
 ## After the meeting
 
-File the outcome in [`META/ACTION-BOARD.md`](../META/ACTION-BOARD.md) and email Ivan.
+File the outcome in [`governance/ACTION-BOARD.md`](../governance/ACTION-BOARD.md) and email Ivan.

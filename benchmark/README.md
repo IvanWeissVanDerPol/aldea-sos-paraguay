@@ -1,4 +1,4 @@
-# 03-benchmark — Peer Benchmark
+# Peer Benchmark — Peer Benchmark
 
 > Benchmark Aldea SOS Paraguay against (a) international peers and (b) local Paraguayan ONGs to find gaps and inspiration.
 
@@ -19,7 +19,7 @@
 
 ## Legacy file
 
-Original `PEER-BENCHMARK.md` (11K chars, 240 lines) is preserved in [`_archive-pre-restructure/comparison/PEER-BENCHMARK.md`](../_archive-pre-restructure/comparison/PEER-BENCHMARK.md) and as a copy at [`PEER-BENCHMARK.md`](./PEER-BENCHMARK.md).
+Original `PEER-BENCHMARK.md` (11K chars, 240 lines) is preserved in [`_originals/comparison/PEER-BENCHMARK.md`](../_originals/comparison/PEER-BENCHMARK.md) and as a copy at [`PEER-BENCHMARK.md`](./PEER-BENCHMARK.md).
 
 ---
 

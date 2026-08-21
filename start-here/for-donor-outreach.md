@@ -12,7 +12,7 @@
 - "Regalamos Sonrisas" expansion — replicate the TUPI 6-year partnership model
 - Skills-based volunteering — pro bono legal/tech/marketing days
 
-→ Use [`07-outreach/email/cold-outreach-corporate.md`](../07-outreach/email/cold-outreach-corporate.md) as the template.
+→ Use [`outreach/email/cold-outreach-corporate.md`](../outreach/email/cold-outreach-corporate.md) as the template.
 
 ### Foundations & tech-for-good (TechSoup, Google, Microsoft, Salesforce, AWS)
 **What they want**: case studies, logos, impact metrics.
@@ -21,7 +21,7 @@
 - They get measurable impact (donation volume, recurring donor count)
 - They get a story for their own quarterly impact reports
 
-→ Use [`07-outreach/email/cold-outreach-tech-partner.md`](../07-outreach/email/cold-outreach-tech-partner.md).
+→ Use [`outreach/email/cold-outreach-tech-partner.md`](../outreach/email/cold-outreach-tech-partner.md).
 
 ### Foundations (international, family foundations)
 **What they want**: outcomes, sustainability, evidence.
@@ -30,7 +30,7 @@
 - A copublished transparency report
 - Logo on the new transparency microsite
 
-→ Use [`07-outreach/email/cold-outreach-foundation.md`](../07-outreach/email/cold-outreach-foundation.md).
+→ Use [`outreach/email/cold-outreach-foundation.md`](../outreach/email/cold-outreach-foundation.md).
 
 ### Donor-Advised Funds (Fidelity Charitable, Schwab, NPT, Daffy)
 **What they want**: to fund international NGOs from US tax-advantaged accounts.
@@ -39,7 +39,7 @@
 - USD-denominated donation via Stripe for tax receipts
 - Quarterly impact reports emailed to DAF donors
 
-→ Use [`07-outreach/email/cold-outreach-donor-daf.md`](../07-outreach/email/cold-outreach-donor-daf.md).
+→ Use [`outreach/email/cold-outreach-donor-daf.md`](../outreach/email/cold-outreach-donor-daf.md).
 
 ## Numbers to cite (always with sources)
 
@@ -62,13 +62,13 @@
 ## Materials to send
 
 ### Tier 1 (cold outreach)
-[`06-pitch/one-pager-corporate-ally.md`](../06-pitch/one-pager-corporate-ally.md)
+[`pitch/one-pager-corporate-ally.md`](../pitch/one-pager-corporate-ally.md)
 
 ### Tier 2 (after first response)
-[`02-dossier/executive-summary.md`](../02-dossier/executive-summary.md) + [`05-revenue/top-15-recommended.md`](../05-revenue/top-15-recommended.md)
+[`about/executive-summary.md`](../about/executive-summary.md) + [`revenue/top-15-recommended.md`](../revenue/top-15-recommended.md)
 
 ### Tier 3 (after serious interest)
-The full [`02-dossier/`](../02-dossier/) + [`05-revenue/`](../05-revenue/) + [`11-policy/`](../11-policy/)
+The full [`about/`](../about/) + [`revenue/`](../revenue/) + [`policy/`](../policy/)
 
 ## Things to never promise in cold outreach
 
@@ -79,4 +79,4 @@ The full [`02-dossier/`](../02-dossier/) + [`05-revenue/`](../05-revenue/) + [`1
 
 ## Where to file outreach attempts
 
-After sending, log in [`META/ACTION-BOARD.md`](../META/ACTION-BOARD.md) with: who, when, what was sent, response status.
+After sending, log in [`governance/ACTION-BOARD.md`](../governance/ACTION-BOARD.md) with: who, when, what was sent, response status.

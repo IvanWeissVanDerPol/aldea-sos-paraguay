@@ -1,4 +1,4 @@
-# 06-pitch — Outbound Deliverables
+# Outbound Deliverables — Outbound Deliverables
 
 > Materials to **send** to people — pitch decks, executive summaries, one-pagers, FAQ.
 
@@ -13,9 +13,9 @@
 
 ## Audience-keyed entry
 
-If you landed here from `00-start-here/for-sos-py.md`, start with `one-pager-sos-py.md` + `pitch-deck-outline.md`.
+If you landed here from `start-here/for-sos-py.md`, start with `one-pager-sos-py.md` + `pitch-deck-outline.md`.
 
-If from `00-start-here/for-donor-outreach.md`, start with `one-pager-corporate-ally.md` + `executive-summary-pdf.md`.
+If from `start-here/for-donor-outreach.md`, start with `one-pager-corporate-ally.md` + `executive-summary-pdf.md`.
 
 ---
 

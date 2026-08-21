@@ -61,4 +61,4 @@ In Paraguay: **~1M children at risk** of losing parental care (their own stat, f
 
 ---
 
-*Source: [`../01-evidence/EXTRACTED-FACTS.md`](../01-evidence/EXTRACTED-FACTS.md). For peer benchmark on programs, see [`../03-benchmark/`](../03-benchmark/).*
+*Source: [`../evidence/EXTRACTED-FACTS.md`](../evidence/EXTRACTED-FACTS.md). For peer benchmark on programs, see [`../benchmark/`](../benchmark/).*

@@ -22,7 +22,7 @@ Hermann Gmeiner founded SOS Children's Villages in 1949 in Imst, Austria, after 
 | **Oct 24+ 2025** | 8 victims compensated (per midiario.com coverage) |
 | **Pending (future)** | Extraordinary General Assembly to vote on removing Austria's designated seat on International Board |
 
-Sources: `../01-evidence/aios_intl_urgent.html`, `../01-evidence/aios_py_comunicado.html`, plus third-party coverage in midiario.com, themunicheye.com, daraj.media, theinternational.at.
+Sources: `../evidence/aios_intl_urgent.html`, `../evidence/aios_py_comunicado.html`, plus third-party coverage in midiario.com, themunicheye.com, daraj.media, theinternational.at.
 
 ---
 
@@ -63,9 +63,9 @@ When pitching or proposing:
 
 ## Related documents
 
-- [`safeguarding-charter.md`](../11-policy/safeguarding-charter.md) — model child protection policy
-- [`RISK-REGISTER.md`](../META/RISK-REGISTER.md) — scandal relapse risk score 10/25 (high)
-- [`META/STYLE-GUIDE.md`](../META/STYLE-GUIDE.md) — language rules for scandal context
+- [`safeguarding-charter.md`](../policy/safeguarding-charter.md) — model child protection policy
+- [`RISK-REGISTER.md`](../governance/RISK-REGISTER.md) — scandal relapse risk score 10/25 (high)
+- [`governance/STYLE-GUIDE.md`](../governance/STYLE-GUIDE.md) — language rules for scandal context
 
 ---
 

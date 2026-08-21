@@ -15,9 +15,9 @@ This folder holds governance, planning, and decision-support documents for the `
 
 ## What this folder is NOT
 
-- Not research (that lives in `02-dossier/`, `03-benchmark/`, `04-research/`, `05-revenue/` once the restructure happens)
-- Not pitch / outbound (that lives in `06-pitch/` once added)
-- Not tech specs (that lives in `08-tech-spec/` once added)
+- Not research (that lives in `about/`, `benchmark/`, `research/`, `revenue/` once the restructure happens)
+- Not pitch / outbound (that lives in `pitch/` once added)
+- Not tech specs (that lives in `tech-spec/` once added)
 
 This folder is **about** the repo itself — its structure, plans, risks, people, glossary.
 
@@ -31,12 +31,12 @@ Currently in **PRE-RESTRUCTURE** state. The repo has:
 aldea-sos-paraguay/
 ├── README.md              (top-level only — no subfolder READMEs)
 ├── .gitignore
-├── source-of-truth/       (15 HTMLs + 1 SOURCES.md index)
+├── evidence/       (15 HTMLs + 1 SOURCES.md index)
 ├── sos/                   (1 DOSSIER.md, 15K chars)
 ├── comparison/            (1 PEER-BENCHMARK.md, 11K chars)
 ├── research/
 │   └── 1000-similar-projects/   (12 batch JSONs + assemble.py + CATALOG.csv + SYNTHESIS.md)
-└── revenue-avenues/       (1 REVENUE-AVENUES.md, 25K chars)
+└── revenue/       (1 REVENUE-AVENUES.md, 25K chars)
 ```
 
 **Issues for a new reader**:

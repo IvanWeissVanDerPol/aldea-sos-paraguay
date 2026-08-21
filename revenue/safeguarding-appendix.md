@@ -46,11 +46,11 @@ All- All revenue streams involving children require:
 
 ## See also
 
-- `../source-of-truth/SOURCES.md` — raw artifacts
+- `../evidence/SOURCES.md` — raw artifacts
 - `../sos/DOSSIER.md` — full organization profile
 - `../comparison/PEER-BENCHMARK.md` — peer benchmark
-- `../research/1000-similar-projects/CATALOG.csv` — 939 organizations
-- `../research/1000-similar-projects/SYNTHESIS.md` — distribution analysis
+- `../research/1000-orgs/batches/CATALOG.csv` — 939 organizations
+- `../research/1000-orgs/batches/SYNTHESIS.md` — distribution analysis
 
 ---
 

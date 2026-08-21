@@ -11,36 +11,36 @@
 ## What you can do today, by role
 
 ### If you're an engineer
-1. Read [`08-tech-spec/donation-gateway/recommended-stack.md`](../08-tech-spec/donation-gateway/recommended-stack.md) (5 min)
-2. Skim [`08-tech-spec/donation-gateway/wireframes.md`](../08-tech-spec/donation-gateway/wireframes.md) (5 min)
+1. Read [`tech-spec/donation-gateway/recommended-stack.md`](../tech-spec/donation-gateway/recommended-stack.md) (5 min)
+2. Skim [`tech-spec/donation-gateway/wireframes.md`](../tech-spec/donation-gateway/wireframes.md) (5 min)
 3. Estimate build time per component (1 hour)
-4. File in [`META/ACTION-BOARD.md`](../META/ACTION-BOARD.md) what you can take
+4. File in [`governance/ACTION-BOARD.md`](../governance/ACTION-BOARD.md) what you can take
 
 ### If you're on the business / BD side
-1. Read [`META/STAKEHOLDER-MAP.md`](../META/STAKEHOLDER-MAP.md) (5 min) — who's who
-2. Pick one email from [`07-outreach/email/`](../07-outreach/email/) (5 min each)
+1. Read [`governance/STAKEHOLDER-MAP.md`](../governance/STAKEHOLDER-MAP.md) (5 min) — who's who
+2. Pick one email from [`outreach/email/`](../outreach/email/) (5 min each)
 3. Send it. Track response in.
 
 ### If you're a designer
-1. Skim [`08-tech-spec/donation-gateway/wireframes.md`](../08-tech-spec/donation-gateway/wireframes.md) and [`08-tech-spec/transparency-microsite/wireframes.md`](../08-tech-spec/transparency-microsite/wireframes.md) (15 min)
+1. Skim [`tech-spec/donation-gateway/wireframes.md`](../tech-spec/donation-gateway/wireframes.md) and [`tech-spec/transparency-microsite/wireframes.md`](../tech-spec/transparency-microsite/wireframes.md) (15 min)
 2. Produce clickable mocks (Awwwards/Figma) — 1-2 weeks
 3. Hand off to engineering
 
 ### If you're an executive sponsor
-1. Read [`02-dossier/scandal-timeline.md`](../02-dossier/scandal-timeline.md) (5 min) — risk context
-2. Read [`05-revenue/top-15-recommended.md`](../05-revenue/top-15-recommended.md) (5 min)
+1. Read [`about/scandal-timeline.md`](../about/scandal-timeline.md) (5 min) — risk context
+2. Read [`revenue/top-15-recommended.md`](../revenue/top-15-recommended.md) (5 min)
 3. Approve the 90-day plan or push back
 
 ## What's NOT ready for you yet (gaps)
 
 These are in flight or planned:
 
-- ⚠️ Email outreach hasn't been sent yet (templates ready in `07-outreach/`)
+- ⚠️ Email outreach hasn't been sent yet (templates ready in `outreach/`)
 - ⚠️ SOS Paraguay hasn't been contacted yet (need your green light on the first email)
 - ⚠️ No actual tech build started (waiting on engineering prioritization)
 - ⚠️ No public-facing safeguarding policy yet (urgent given scandal)
-- ⚠️ No financial model projection document (drafts in `09-financial/`)
-- ⚠️ No pitch deck (outline in `06-pitch/pitch-deck-outline.md`)
+- ⚠️ No financial model projection document (drafts in `financial/`)
+- ⚠️ No pitch deck (outline in `pitch/pitch-deck-outline.md`)
 
 ## What you should NOT do
 

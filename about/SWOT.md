@@ -83,5 +83,5 @@
 
 ---
 
-*See [`../05-revenue/top-15-recommended.md`](../05-revenue/top-15-recommended.md) for the prioritized list with scoring.*
-*See [`../META/RISK-REGISTER.md`](../META/RISK-REGISTER.md) for full risk scoring.*
+*See [`../revenue/top-15-recommended.md`](../revenue/top-15-recommended.md) for the prioritized list with scoring.*
+*See [`../governance/RISK-REGISTER.md`](../governance/RISK-REGISTER.md) for full risk scoring.*

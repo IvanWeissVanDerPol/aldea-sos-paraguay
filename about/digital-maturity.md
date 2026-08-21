@@ -112,5 +112,5 @@ Priority 3 (medium-term):
 
 ---
 
-*See [`../05-revenue/`](../05-revenue/) for revenue opportunities tied to these gaps.*
-*See [`../08-tech-spec/`](../08-tech-spec/) for technical specifications.*
+*See [`../revenue/`](../revenue/) for revenue opportunities tied to these gaps.*
+*See [`../tech-spec/`](../tech-spec/) for technical specifications.*

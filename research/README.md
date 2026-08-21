@@ -1,4 +1,4 @@
-# 04-research — Pattern Research
+# Pattern Research — Pattern Research
 
 > Catalog of 939 distinct child-welfare / child-protection / child-sponsorship organizations worldwide, used to surface patterns and inspiration.
 

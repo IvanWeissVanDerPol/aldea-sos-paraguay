@@ -38,12 +38,12 @@
 |---|---|
 | Verify Paraguay RUC = 80016122 with public BCP data | [evidence: official] — ong.com.py profile |
 | Confirm Tupi 6th-edition Comilona = Gs. 1,391M (USD 190k) | [evidence: third-party] a24.com.py coverage |
-| Draft executive-summary-pdf.md content | for 06-pitch/ |
-| Draft FAQ.md | for 06-pitch/ (anticipated 20 questions) |
-| Draft donor-journey-map.md | for 10-strategy/ |
-| Draft 30-day-quick-wins.md | for 10-strategy/ |
-| Draft 90-day-plan.md | for 10-strategy/ |
-| Draft tech-spec processor-comparison.md | for 08-tech-spec/donation-gateway/ |
+| Draft executive-summary-pdf.md content | for pitch/ |
+| Draft FAQ.md | for pitch/ (anticipated 20 questions) |
+| Draft donor-journey-map.md | for strategy/ |
+| Draft 30-day-quick-wins.md | for strategy/ |
+| Draft 90-day-plan.md | for strategy/ |
+| Draft tech-spec processor-comparison.md | for tech-spec/donation-gateway/ |
 
 ---
 
@@ -58,9 +58,9 @@
 | Synthesis (distributions, top lists, themes) | 2026-08-21 |
 | Revenue avenues (65+ streams, TOP 15) | 2026-08-21 |
 | Repo restructured (numbered folders, subfolder READMEs) | 2026-08-21 |
-| META/ added (governance) | 2026-08-21 |
-| 00-start-here/ added (audience-keyed entry) | 2026-08-21 |
-| META/INDEX.md, GLOSSARY.md, STYLE-GUIDE.md, RISK-REGISTER.md, STAKEHOLDER-MAP.md | 2026-08-21 |
+| governance/ added (governance) | 2026-08-21 |
+| start-here/ added (audience-keyed entry) | 2026-08-21 |
+| governance/INDEX.md, GLOSSARY.md, STYLE-GUIDE.md, RISK-REGISTER.md, STAKEHOLDER-MAP.md | 2026-08-21 |
 
 ---
 

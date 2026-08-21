@@ -64,5 +64,5 @@ If they activate just the top 5 revenue streams (online donation, Ad Grants, spo
 ---
 
 *For the full dossier, see the other 7 files in this folder.*
-*For tactical next steps, see [`../10-strategy/`](../10-strategy/).*
-*For outreach scripts, see [`../07-outreach/`](../07-outreach/).*
+*For tactical next steps, see [`../strategy/`](../strategy/).*
+*For outreach scripts, see [`../outreach/`](../outreach/).*

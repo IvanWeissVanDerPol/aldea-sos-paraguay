@@ -1,4 +1,4 @@
-# 05-revenue — Revenue Avenues
+# Revenue Avenues — Revenue Avenues
 
 > Catalog of every revenue stream Aldea SOS Paraguay does NOT currently use, with evidence, market sizing, and 30/60/90 day plans.
 
@@ -43,7 +43,7 @@ Gs. 7,300 = USD 1 (approximate 2026). All estimates in PYG with USD conversion.
 
 ## Legacy
 
-Original `REVENUE-AVENUES.md` is preserved in [`_archive-pre-restructure/revenue-avenues/REVENUE-AVENUES.md`](../_archive-pre-restructure/revenue-avenues/REVENUE-AVENUES.md).
+Original `REVENUE-AVENUES.md` is preserved in [`_originals/revenue/REVENUE-AVENUES.md`](../_originals/revenue/REVENUE-AVENUES.md).
 
 ---
 

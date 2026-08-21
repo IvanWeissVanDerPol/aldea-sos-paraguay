@@ -48,7 +48,7 @@ A: (a) No identifying information in fundraising copy. (b) Sponsor portal is HOU
 A: Only when directly relevant and only with explicit review. The default is to talk about Paraguay's autonomous response, not name the founder.
 
 ### Q14: What's the safeguarding charter?
-A: Model child protection policy (in `../11-policy/`). Includes: incident reporting, whistleblower channel, training requirements, audit schedule. Public version can be published as competitive differentiator.
+A: Model child protection policy (in `../policy/`). Includes: incident reporting, whistleblower channel, training requirements, audit schedule. Public version can be published as competitive differentiator.
 
 ## About revenue potential
 
@@ -67,7 +67,7 @@ A: Niche. Recommended NOT to prioritize. Bitso Paraguay is the local exchange; T
 ## About the next 30 days
 
 ### Q19: What happens first?
-A: (1) Send cold email to Ana Medina or Zunilda Baruja (template in `../07-outreach/`). (2) Follow up within 5 business days. (3) If response: schedule 30-min discovery call. (4) If no response: pivot to approaching Tigo/Itaú/Ueno first, who can intro.
+A: (1) Send cold email to Ana Medina or Zunilda Baruja (template in `../outreach/`). (2) Follow up within 5 business days. (3) If response: schedule 30-min discovery call. (4) If no response: pivot to approaching Tigo/Itaú/Ueno first, who can intro.
 
 ### Q20: What if they ask "why should we work with you"?
 A: "We did the homework. 939-org catalog. 65 revenue streams. Peer benchmark. We know what 99% of your peers do that you don't, and we know exactly which 5 things to ship first. We've already mapped your tech stack gaps and your corporate partner portfolio. We're offering you a 90-day plan that costs you nothing in Year 1."

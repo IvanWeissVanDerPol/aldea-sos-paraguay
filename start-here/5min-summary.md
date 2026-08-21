@@ -60,7 +60,7 @@ They are **operationally solid but digitally behind**. Specific gaps:
 | Donor / foundation | USD 15-30k seed for the donation gateway + sponsor portal build | TBD |
 | Corporate ally (Tigo/Personal/Ueno) | In-kind donation: SIM cards, cloud credits, or volunteer engineering | TBD |
 | ParaguAI / Aiw team | Build the donation gateway + transparency microsite (est. 2-4 weeks engineering) | TBD |
-| ParaguAI / Aiw team | Draft the email templates in `07-outreach/email/` and send | TBD |
+| ParaguAI / Aiw team | Draft the email templates in `outreach/email/` and send | TBD |
 
 ---
 
@@ -70,4 +70,4 @@ They are **operationally solid but digitally behind**. Specific gaps:
 
 ---
 
-*Full detail in [`02-dossier/DOSSIER.md`](../02-dossier/DOSSIER.md) (15K chars). Tactical plan in [`05-revenue/REVENUE-AVENUES.md`](../05-revenue/REVENUE-AVENUES.md) (25K chars). Peer benchmark in [`03-benchmark/PEER-BENCHMARK.md`](../03-benchmark/PEER-BENCHMARK.md) (11K chars).*
+*Full detail in [`about/DOSSIER.md`](../about/DOSSIER.md) (15K chars). Tactical plan in [`revenue/REVENUE-AVENUES.md`](../revenue/REVENUE-AVENUES.md) (25K chars). Peer benchmark in [`benchmark/PEER-BENCHMARK.md`](../benchmark/PEER-BENCHMARK.md) (11K chars).*

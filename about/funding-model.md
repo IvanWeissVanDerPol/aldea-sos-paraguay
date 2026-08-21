@@ -100,5 +100,5 @@ Annual since ~2020. **6th edition: Aug 4-16, 2026**.
 
 ---
 
-*For peer benchmarks on revenue models, see [`../03-benchmark/`](../03-benchmark/).*
-*For revenue opportunities, see [`../05-revenue/`](../05-revenue/).*
+*For peer benchmarks on revenue models, see [`../benchmark/`](../benchmark/).*
+*For revenue opportunities, see [`../revenue/`](../revenue/).*

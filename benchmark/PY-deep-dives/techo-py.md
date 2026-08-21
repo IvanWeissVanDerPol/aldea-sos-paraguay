@@ -68,4 +68,4 @@ TECHO is volunteer-led. Their pipeline:
 
 ---
 
-*See also [`../../../05-revenue/streams/F-events.md`](../../../05-revenue/streams/F-events.md) for the Colecta-style event model.*
+*See also [`../../../revenue/streams/F-events.md`](../../../revenue/streams/F-events.md) for the Colecta-style event model.*
