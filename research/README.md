@@ -18,10 +18,10 @@
 
 ### patterns/
 
-- `patterns/recurring-giving-at-scale.md` — síntesis de modelos de donación recurrente
+- `patterns/donacion-recurrente-a-escala.md` — síntesis de modelos de donación recurrente
 - `patterns/digital-recaudación de fondos-trends.md` — tendencias en recaudación digital
-- `patterns/federation-model.md` — cómo SOS Intl + otros se federan
-- `patterns/diaspora-giving-models.md` — patrones de financiamiento de la diáspora
+- `patterns/modelo-de-federacion.md` — cómo SOS Intl + otros se federan
+- `patterns/modelos-de-donacion-de-la-diaspora.md` — patrones de financiamiento de la diáspora
 
 ## Para qué sirve el catálogo
 

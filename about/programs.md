@@ -61,4 +61,4 @@ En Paraguay: **~1M de niños en riesgo** de perder el cuidado parental (su propi
 
 ---
 
-*Fuente: [`../evidence/EXTRACTED-FACTS.md`](../evidence/EXTRACTED-FACTS.md). Para benchmark de pares sobre programas, ver [`../benchmark/`](../benchmark/).*
+*Fuente: [`../evidence/hechos-extraidos.md`](../evidence/hechos-extraidos.md). Para benchmark de pares sobre programas, ver [`../benchmark/`](../benchmark/).*

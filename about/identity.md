@@ -59,4 +59,4 @@
 
 ---
 
-*Fuente: [`../evidence/EXTRACTED-FACTS.md`](../evidence/EXTRACTED-FACTS.md).*
+*Fuente: [`../evidence/hechos-extraidos.md`](../evidence/hechos-extraidos.md).*

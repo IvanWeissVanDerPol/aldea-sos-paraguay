@@ -203,7 +203,7 @@ Los 5 detalles de contacto son **BRECHA** — no están listados públicamente.
 - [ ] Representante de Salesforce.org
 - [ ] Representante de Daffy / Fidelity Charitable / Schwab
 
-**Acción**: registrar estas brechas en [`ACTION-BOARD.md`](./ACTION-BOARD.md) cuando Ivan acepte iniciar el outreach.
+**Acción**: registrar estas brechas en [`ACTION-BOARD.md`](./tablero-de-acciones.md) cuando Ivan acepte iniciar el outreach.
 
 ---
 

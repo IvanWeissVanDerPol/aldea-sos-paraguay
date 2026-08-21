@@ -61,4 +61,4 @@ Son **operativamente sólidos pero digitalmente atrasados**. Brechas específica
 
 ---
 
-*Detalle completo en [`about/executive-summary.md`](../about/executive-summary.md). Plan táctico en [`revenue/top-15-recommended.md`](../revenue/top-15-recommended.md) + [`revenue/90-day-rápido-wins.md`](../revenue/90-day-rápido-wins.md). Benchmark de pares en [`benchmark/peers/paraguay-peers.md`](../benchmark/peers/paraguay-peers.md).*
+*Detalle completo en [`about/resumen-ejecutivo.md`](../about/resumen-ejecutivo.md). Plan táctico en [`revenue/top-15-recomendadas.md`](../revenue/top-15-recomendadas.md) + [`revenue/quick-wins-90-dias.md`](../revenue/quick-wins-90-dias.md). Benchmark de pares en [`benchmark/peers/paraguay-peers.md`](../benchmark/peers/paraguay-peers.md).*

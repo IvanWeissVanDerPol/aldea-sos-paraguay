@@ -18,21 +18,21 @@
 ## Qué llevar a la reunión
 
 ### Imprescindible (one-pager)
-→ [`pitch/executive-summary-pdf.md`](../pitch/executive-summary-pdf.md) — imprimir 2 copias
+→ [`pitch/resumen-ejecutivo-pdf.md`](../pitch/resumen-ejecutivo-pdf.md) — imprimir 2 copias
 
 ### De apoyo (dejar)
 → [`pitch/one-pager-sos-py.md`](../pitch/one-pager-sos-py.md) — single A4, personalizado para ellos
 
 ### Si piden profundidad
-→ [`about/executive-summary.md`](../about/executive-summary.md)
-→ [`about/digital-maturity.md`](../about/digital-maturity.md)
-→ [`revenue/top-15-recommended.md`](../revenue/top-15-recommended.md)
+→ [`about/resumen-ejecutivo.md`](../about/resumen-ejecutivo.md)
+→ [`about/madurez-digital.md`](../about/madurez-digital.md)
+→ [`revenue/top-15-recomendadas.md`](../revenue/top-15-recomendadas.md)
 
 ### Si quieren ver el benchmark
 → [`benchmark/peers/paraguay-peers.md`](../benchmark/peers/paraguay-peers.md)
 
 ### Si quieren ver tech specs
-→ [`tech-spec/email/sender-config.md`](../tech-spec/email/sender-config.md)
+→ [`tech-spec/email/configuracion-de-remitente.md`](../tech-spec/email/configuracion-de-remitente.md)
 → [`tech-spec/donation-gateway/`](../tech-spec/donation-gateway/) (cuando se llene)
 
 ## A quién pedir en SOS Paraguay
@@ -70,4 +70,4 @@
 
 ## Después de la reunión
 
-Anotá el resultado en [`governance/ACTION-BOARD.md`](../governance/ACTION-BOARD.md) y email a Ivan.
+Anotá el resultado en [`governance/tablero-de-acciones.md`](../governance/tablero-de-acciones.md) y email a Ivan.

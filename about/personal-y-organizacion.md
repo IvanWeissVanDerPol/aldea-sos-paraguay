@@ -52,4 +52,4 @@ Patrón: fuerte inversión en roles de fortalecimiento comunitario y familiar (p
 
 ---
 
-*Para todos los stakeholders, ver [`../governance/STAKEHOLDER-MAP.md`](../governance/STAKEHOLDER-MAP.md).*
+*Para todos los stakeholders, ver [`../governance/mapa-de-stakeholders.md`](../governance/mapa-de-stakeholders.md).*

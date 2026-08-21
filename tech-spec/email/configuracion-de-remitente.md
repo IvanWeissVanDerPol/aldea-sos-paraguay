@@ -98,11 +98,11 @@ For different email types, use different sender identities on the same domain:
 
 | File | Purpose |
 |---|---|
-| `tech-spec/email/sender-config.md` | This doc — Resend setup |
-| `tech-spec/email/api-integration.md` | SDK integration pattern (Node / Python) |
-| `tech-spec/email/dns-records.md` | DNS records agregar |
+| `tech-spec/email/configuracion-de-remitente.md` | This doc — Resend setup |
+| `tech-spec/email/integracion-api.md` | SDK integration pattern (Node / Python) |
+| `tech-spec/email/registros-dns.md` | DNS records agregar |
 | `outreach/email/` | Spanish email templates (cold outreach, donation, newsletter) |
-| `governance/email-policy.md` | Who can send from what address, language rules, frequency |
+| `governance/politica-de-email.md` | Who can send from what address, language rules, frequency |
 
 ---
 

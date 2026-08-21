@@ -53,4 +53,4 @@
 
 ---
 
-*Fuentes: [`../1000-orgs/slices/DIGITAL-PREVALENCE.md`](../1000-orgs/slices/DIGITAL-PREVALENCE.md) + free-rice + compassion + plataformas DAF.*
+*Fuentes: [`../1000-orgs/slices/prevalencia-de-senales-digitales.md`](../1000-orgs/slices/prevalencia-de-senales-digitales.md) + free-rice + compassion + plataformas DAF.*

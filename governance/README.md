@@ -4,15 +4,15 @@ Esta carpeta contiene documentos de gobernanza, planificación y soporte de deci
 
 ## Archivos
 
-- **[`INDEX.md`](./INDEX.md)** — índice maestro de cada archivo del repo
-- **[`GLOSSARY.md`](./GLOSSARY.md)** — acrónimos (SNNA, Ojoykére, Gs.), jerga, personas
-- **[`STYLE-GUIDE.md`](./STYLE-GUIDE.md)** — convenciones de idioma y citación
-- **[`RISK-REGISTER.md`](./RISK-REGISTER.md)** — seguimiento de riesgos vivo, incluyendo recaída del escándalo
-- **[`STAKEHOLDER-MAP.md`](./STAKEHOLDER-MAP.md)** — quién es quién en SOS Paraguay, gobierno, aliados
-- **[`ACTION-BOARD.md`](./ACTION-BOARD.md)** — Kanban vivo de próximas acciones
-- **[`CHANGELOG.md`](./CHANGELOG.md)** — qué cambió cuándo
-- **[`email-policy.md`](./email-policy.md)** — quién envía desde qué, reglas de idioma, frecuencia
-- **[`RESTRUCTURE-PLAN.md`](./RESTRUCTURE-PLAN.md)** — por qué el repo está estructurado así
+- **[`INDEX.md`](./../INDICE.md)** — índice maestro de cada archivo del repo
+- **[`GLOSSARY.md`](./glosario.md)** — acrónimos (SNNA, Ojoykére, Gs.), jerga, personas
+- **[`STYLE-GUIDE.md`](./guia-de-estilo.md)** — convenciones de idioma y citación
+- **[`RISK-REGISTER.md`](./registro-de-riesgos.md)** — seguimiento de riesgos vivo, incluyendo recaída del escándalo
+- **[`STAKEHOLDER-MAP.md`](./mapa-de-stakeholders.md)** — quién es quién en SOS Paraguay, gobierno, aliados
+- **[`ACTION-BOARD.md`](./tablero-de-acciones.md)** — Kanban vivo de próximas acciones
+- **[`CHANGELOG.md`](./cambios.md)** — qué cambió cuándo
+- **[`email-policy.md`](./politica-de-email.md)** — quién envía desde qué, reglas de idioma, frecuencia
+- **[`RESTRUCTURE-PLAN.md`](./plan-de-reestructuracion.md)** — por qué el repo está estructurado así
 
 ## Qué NO es esta carpeta
 

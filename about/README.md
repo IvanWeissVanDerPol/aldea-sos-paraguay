@@ -28,8 +28,8 @@ El dossier monolítico original `DOSSIER.md` (15K caracteres, 299 líneas) está
 
 Todos los hechos trazan a:
 - [`../evidence/`](../evidence/) — descargas HTML crudas
-- [`../evidence/EXTRACTED-FACTS.md`](../evidence/EXTRACTED-FACTS.md) — hechos destilados
-- [`../evidence/SOURCES.md`](../evidence/SOURCES.md) — índice original
+- [`../evidence/hechos-extraidos.md`](../evidence/hechos-extraidos.md) — hechos destilados
+- [`../evidence/fuentes.md`](../evidence/fuentes.md) — índice original
 
 ---
 

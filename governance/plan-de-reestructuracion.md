@@ -291,14 +291,14 @@ Este es the catalog of **missing** deliverables that any serious partner / donor
 
 ### A. Soporte de decisiones (alta prioridad — bloquea pitching hasta que esté hecho)
 
-1. **`governance/ACTION-BOARD.md`** — Kanban of siguiente actions with owners
-2. **`governance/RISK-REGISTER.md`** — Scandal relapse, donor flight, regulatory, key-person dependency, etc.
-3. **`governance/STAKEHOLDER-MAP.md`** — Who's who at SOS Paraguay (Ana Medina Zorrilla, Zunilda Baruja, others), at SNNA, at partner orgs, at media
-4. **`start-here/5min-summary.md`** — One-pager: who is SOS PY, what's broken, what we propose, what we need
-5. **`start-here/30min-deep-dive.md`** — Annotated reading order
-6. **`pitch/executive-summary-pdf.md`** — Content for a 2-pager PDF
-7. **`pitch/pitch-deck-outline.md`** — Slide structure (problem, opportunity, evidence, plan, ask)
-8. **`pitch/FAQ.md`** — 20 questions we'd be asked, with answers
+1. **`governance/tablero-de-acciones.md`** — Kanban of siguiente actions with owners
+2. **`governance/registro-de-riesgos.md`** — Scandal relapse, donor flight, regulatory, key-person dependency, etc.
+3. **`governance/mapa-de-stakeholders.md`** — Who's who at SOS Paraguay (Ana Medina Zorrilla, Zunilda Baruja, others), at SNNA, at partner orgs, at media
+4. **`start-here/resumen-5-minutos.md`** — One-pager: who is SOS PY, what's broken, what we propose, what we need
+5. **`start-here/deep-dive-30-minutos.md`** — Annotated reading order
+6. **`pitch/resumen-ejecutivo-pdf.md`** — Content for a 2-pager PDF
+7. **`pitch/estructura-del-pitch-deck.md`** — Slide structure (problem, opportunity, evidence, plan, ask)
+8. **`pitch/preguntas-frecuentes.md`** — 20 questions we'd be asked, with answers
 
 ### B. Tecnología y producto (prioridad media — bloquea implementación)
 
@@ -313,10 +313,10 @@ Este es the catalog of **missing** deliverables that any serious partner / donor
 
 ### C. Scripts de outreach (prioridad media — necesario para cualquier contacto)
 
-17. **`outreach/email/cold-outreach-corporate.md`** — For Tigo/Personal/Ueno/Areté/Tupi/etc.
-18. **`outreach/email/cold-outreach-tech-partner.md`** — For Donorbox/Funraise/Bancard
-19. **`outreach/email/cold-outreach-foundation.md`** — For TechSoup/Google/Microsoft
-20. **`outreach/email/cold-outreach-donor-daf.md`** — For Daffy/Fidelity/Schwab
+17. **`outreach/email/cold-outreach-corporativo.md`** — For Tigo/Personal/Ueno/Areté/Tupi/etc.
+18. **`outreach/email/cold-outreach-socio-tecnologico.md`** — For Donorbox/Funraise/Bancard
+19. **`outreach/email/cold-outreach-fundacion.md`** — For TechSoup/Google/Microsoft
+20. **`outreach/email/cold-outreach-donante-daf.md`** — For Daffy/Fidelity/Schwab
 21. **`outreach/email/cold-outreach-sos-py.md`** — First contact email to Ana Medina or Zunilda Baruja
 22. **`outreach/call/discovery-call-script.md`** — 30-min discovery call template
 23. **`outreach/call/objection-handling.md`** — Common objections + responses
@@ -357,17 +357,17 @@ Este es the catalog of **missing** deliverables that any serious partner / donor
 
 ### H. Extensión de investigación (menor prioridad)
 
-46. **`research/patterns/recurring-giving-at-scale.md`** — Synthesis of how top 10 sponsorships work
+46. **`research/patterns/donacion-recurrente-a-escala.md`** — Synthesis of how top 10 sponsorships work
 47. **`research/patterns/digital-recaudación de fondos-trends.md`** — Web3, AI, etc. trends
-48. **`research/patterns/federation-model.md`** — How SOS International + others federate
-49. **`research/patterns/diaspora-giving-models.md`** — How diaspora orgs fund home countries
+48. **`research/patterns/modelo-de-federacion.md`** — How SOS International + others federate
+49. **`research/patterns/modelos-de-donacion-de-la-diaspora.md`** — How diaspora orgs fund home countries
 50. **`research/datasets/`** — Structured subsets of CATALOG.csv for fácil slicing (Paraguay only, residential care only, top 100 revenue, etc.)
 
 ### I. Visual y presentación (menor prioridad pero útil)
 
 51. **`pitch/slides/01-problem.md`** etc. — Slide-by-slide content
 52. **Diagrams** — Donation flow, viaje del donante, stakeholder map, competitive positioning — as PNG/SVG
-53. **One-pager PDF** — Generated from `pitch/executive-summary-pdf.md`
+53. **One-pager PDF** — Generated from `pitch/resumen-ejecutivo-pdf.md`
 
 ---
 

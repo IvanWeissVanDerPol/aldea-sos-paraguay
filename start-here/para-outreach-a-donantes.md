@@ -12,7 +12,7 @@
 - Expansión de "Regalamos Sonrisas" — replicar el modelo TUPI de 6 años
 - Voluntariado de habilidades — días pro bono legales / tech / marketing
 
-→ Usar [`outreach/email/cold-outreach-corporate.md`](../outreach/email/cold-outreach-corporate.md) como plantilla.
+→ Usar [`outreach/email/cold-outreach-corporativo.md`](../outreach/email/cold-outreach-corporativo.md) como plantilla.
 
 ### Fundaciones y tech-for-good (TechSoup, Google, Microsoft, Salesforce, AWS)
 **Qué quieren**: casos de estudio, logos, métricas de impacto.
@@ -21,7 +21,7 @@
 - Obtienen impacto medible (volumen de donaciones, padrinos recurrentes)
 - Obtienen una historia para sus propios reportes trimestrales de impacto
 
-→ Usar [`outreach/email/cold-outreach-tech-partner.md`](../outreach/email/cold-outreach-tech-partner.md).
+→ Usar [`outreach/email/cold-outreach-socio-tecnologico.md`](../outreach/email/cold-outreach-socio-tecnologico.md).
 
 ### Fundaciones (internacionales, familiares)
 **Qué quieren**: outcomes, sustentabilidad, evidencia.
@@ -30,7 +30,7 @@
 - Reporte de transparencia co-publicado
 - Logo en nuestro micrositio de transparencia
 
-→ Usar [`outreach/email/cold-outreach-foundation.md`](../outreach/email/cold-outreach-foundation.md).
+→ Usar [`outreach/email/cold-outreach-fundacion.md`](../outreach/email/cold-outreach-fundacion.md).
 
 ### Donor-Advised Funds (Fidelity Charitable, Schwab, NPT, Daffy)
 **Qué quieren**: financiar ONGs internacionales desde cuentas con ventaja fiscal US.
@@ -39,7 +39,7 @@
 - Donación USD vía Stripe para recibos fiscales
 - Reportes trimestrales de impacto enviados a donantes DAF
 
-→ Usar [`outreach/email/cold-outreach-donor-daf.md`](../outreach/email/cold-outreach-donor-daf.md).
+→ Usar [`outreach/email/cold-outreach-donante-daf.md`](../outreach/email/cold-outreach-donante-daf.md).
 
 ## Números para citar (siempre con fuente)
 
@@ -62,10 +62,10 @@
 ## Materiales para enviar
 
 ### Tier 1 (outreach frío)
-[`pitch/one-pager-corporate-ally.md`](../pitch/one-pager-corporate-ally.md)
+[`pitch/one-pager-aliado-corporativo.md`](../pitch/one-pager-aliado-corporativo.md)
 
 ### Tier 2 (después de la primera respuesta)
-[`about/executive-summary.md`](../about/executive-summary.md) + [`revenue/top-15-recommended.md`](../revenue/top-15-recommended.md)
+[`about/resumen-ejecutivo.md`](../about/resumen-ejecutivo.md) + [`revenue/top-15-recomendadas.md`](../revenue/top-15-recomendadas.md)
 
 ### Tier 3 (después de interés serio)
 El [`about/`](../about/) completo + [`revenue/`](../revenue/) + [`policy/`](../policy/) (cuando se llene)
@@ -79,4 +79,4 @@ El [`about/`](../about/) completo + [`revenue/`](../revenue/) + [`policy/`](../p
 
 ## Dónde registrar los intentos de outreach
 
-Después de enviar, anotá en [`governance/ACTION-BOARD.md`](../governance/ACTION-BOARD.md): quién, cuándo, qué se envió, estado de respuesta.
+Después de enviar, anotá en [`governance/tablero-de-acciones.md`](../governance/tablero-de-acciones.md): quién, cuándo, qué se envió, estado de respuesta.

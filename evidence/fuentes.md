@@ -218,4 +218,4 @@ Esto es una brecha importante para due diligence.
 
 ---
 
-*Ver también: [`EXTRACTED-FACTS.md`](./EXTRACTED-FACTS.md).*
+*Ver también: [`EXTRACTED-FACTS.md`](./hechos-extraidos.md).*

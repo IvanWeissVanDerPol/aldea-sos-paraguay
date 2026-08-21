@@ -7,25 +7,25 @@
 ### Top-level
 - `REVENUE-AVENUES.md` — the master document (original monolithic file, kept for backward compat)
 - `top-15-recommended.md` — TOP 15 with 4-axis scoring (Speed + Fit + Defensibility + Safeguarding)
-- `90-day-rápido-wins.md` — concrete primero-90-day actions
+- `quick-wins-90-dias.md` — concrete primero-90-day actions
 - `safeguarding-appendix.md` — child-protection checklist
 - `split.py` — script that split REVENUE-AVENUES.md into the stream-group files
 
 ### streams/ — one file por theme
 
-- `streams/A-online-giving.md` — donación online expansion (10 streams)
-- `streams/B-sponsorship.md` — sponsor models (7 streams)
-- `streams/C-corporate.md` — corporate partnerships (6 streams)
-- `streams/D-government-multilateral.md` — gov/IGOs (7 streams)
-- `streams/E-earned-income.md` — social enterprise (7 streams)
-- `streams/F-events.md` — events & community (6 streams)
-- `streams/G-digital-content.md` — digital content (6 streams)
-- `streams/H-real-estate.md` — real estate (2 streams)
-- `streams/I-financial-instruments.md` — SIBs/DIBs (3 streams)
-- `streams/J-technology-data.md` — tech-for-good (5 streams)
+- `streams/A-donacion-online.md` — donación online expansion (10 streams)
+- `streams/B-padrinazgo.md` — sponsor models (7 streams)
+- `streams/C-corporativo.md` — corporate partnerships (6 streams)
+- `streams/D-gobierno-multilateral.md` — gov/IGOs (7 streams)
+- `streams/E-ingresos-propios.md` — social enterprise (7 streams)
+- `streams/F-eventos.md` — events & community (6 streams)
+- `streams/G-contenido-digital.md` — digital content (6 streams)
+- `streams/H-inmuebles.md` — real estate (2 streams)
+- `streams/I-instrumentos-financieros.md` — SIBs/DIBs (3 streams)
+- `streams/J-tecnologia-datos.md` — tech-for-good (5 streams)
 - `streams/K-diaspora.md` — diaspora (3 streams)
 - `streams/L-crisis.md` — crisis-specific (2 streams)
-- `streams/M-innovation-frontier.md` — frontier (4 streams)
+- `streams/M-frontera-de-innovacion.md` — frontier (4 streams)
 
 **Total: 65+ distinct fuentes de ingreso.**
 

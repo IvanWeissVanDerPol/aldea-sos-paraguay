@@ -13,9 +13,9 @@
 
 ## Audience-keyed entry
 
-If you landed here from `start-here/for-sos-py.md`, start with `one-pager-sos-py.md` + `pitch-deck-outline.md`.
+If you landed here from `start-here/para-presentar-a-sos-py.md`, start with `one-pager-sos-py.md` + `pitch-deck-outline.md`.
 
-If from `start-here/for-donor-outreach.md`, start with `one-pager-corporate-ally.md` + `executive-summary-pdf.md`.
+If from `start-here/para-outreach-a-donantes.md`, start with `one-pager-corporate-ally.md` + `executive-summary-pdf.md`.
 
 ---
 

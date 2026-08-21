@@ -5,7 +5,7 @@
 ## Archivos en esta carpeta
 
 - **`batches/CATALOG.csv`** — el archivo maestro: 939 filas × 12 columnas. Abrir en cualquier hoja de cálculo.
-- **`batches/SYNTHESIS.md`** — distribuciones, top 30 por ingresos, top 30 más innovadoras, prevalencia de financiamiento/digital, 12 temas de autoayuda, top 10 más aplicables a SOS PY.
+- **`batches/sintesis.md`** — distribuciones, top 30 por ingresos, top 30 más innovadoras, prevalencia de financiamiento/digital, 12 temas de autoayuda, top 10 más aplicables a SOS PY.
 - **`batches/assemble.py`** — script Python que regenera CATALOG.csv + SYNTHESIS.md desde los 12 batch JSONs.
 - **`batches/batch01..batch12.json`** — 12 archivos de datos crudos, uno por región/tema. Total 992 entradas; dedup a 939.
 

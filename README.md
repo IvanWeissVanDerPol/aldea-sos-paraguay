@@ -11,14 +11,14 @@
 
 ## 🚀 Empezar aquí
 
-- **[`start-here/5min-summary.md`](./start-here/5min-summary.md)** — una página, el panorama completo
-- **[`start-here/30min-deep-dive.md`](./start-here/30min-deep-dive.md)** — orden de lectura anotado
+- **[`start-here/resumen-5-minutos.md`](./start-here/resumen-5-minutos.md)** — una página, el panorama completo
+- **[`start-here/deep-dive-30-minutos.md`](./start-here/deep-dive-30-minutos.md)** — orden de lectura anotado
 - **[`start-here/`](./start-here/)** — todas las guías de entrada, incluyendo rutas por audiencia
 
 Si sabés quién sos:
-- 👥 **Soy del equipo de Ivan** → [`start-here/for-aiw-team.md`](./start-here/for-aiw-team.md)
-- 🎯 **Voy a presentar a Aldea SOS Paraguay** → [`start-here/for-sos-py.md`](./start-here/for-sos-py.md)
-- 💼 **Voy a hacer outreach a un donante / aliado corporativo** → [`start-here/for-donor-outreach.md`](./start-here/for-donor-outreach.md)
+- 👥 **Soy del equipo de Ivan** → [`start-here/para-equipo-aiw.md`](./start-here/para-equipo-aiw.md)
+- 🎯 **Voy a presentar a Aldea SOS Paraguay** → [`start-here/para-presentar-a-sos-py.md`](./start-here/para-presentar-a-sos-py.md)
+- 💼 **Voy a hacer outreach a un donante / aliado corporativo** → [`start-here/para-outreach-a-donantes.md`](./start-here/para-outreach-a-donantes.md)
 
 ---
 
@@ -28,11 +28,11 @@ El sistema de email usa **Resend** sobre el dominio `mail.paragu-ai.com` (regió
 
 | Documento | Contenido |
 |---|---|
-| [`tech-spec/email/sender-config.md`](./tech-spec/email/sender-config.md) | Setup de Resend, identidad del remitente (en español) |
-| [`tech-spec/email/dns-records.md`](./tech-spec/email/dns-records.md) | SPF + DKIM + DMARC records |
-| [`tech-spec/email/api-integration.md`](./tech-spec/email/api-integration.md) | SDK Node/Python |
+| [`tech-spec/email/configuracion-de-remitente.md`](./tech-spec/email/configuracion-de-remitente.md) | Setup de Resend, identidad del remitente (en español) |
+| [`tech-spec/email/registros-dns.md`](./tech-spec/email/registros-dns.md) | SPF + DKIM + DMARC records |
+| [`tech-spec/email/integracion-api.md`](./tech-spec/email/integracion-api.md) | SDK Node/Python |
 | [`outreach/email/`](./outreach/email/) | Plantillas de email en español |
-| [`governance/email-policy.md`](./governance/email-policy.md) | Quién envía desde qué, idioma, frecuencia |
+| [`governance/politica-de-email.md`](./governance/politica-de-email.md) | Quién envía desde qué, idioma, frecuencia |
 
 **Identidad del remitente por defecto**: `Aldeas Infantiles SOS Paraguay <amigos@paragu-ai.com>` (espeja el programa "Amigos SOS" existente).
 
@@ -79,10 +79,10 @@ El repo está organizado por **propósito**, alfabéticamente:
 ## 🔗 Archivos más útiles (por tema)
 
 ### ¿Querés la historia de la org?
-→ [`about/executive-summary.md`](./about/executive-summary.md)
+→ [`about/resumen-ejecutivo.md`](./about/resumen-ejecutivo.md)
 → [`about/identity.md`](./about/identity.md)
 → [`about/programs.md`](./about/programs.md)
-→ [`about/scandal-timeline.md`](./about/scandal-timeline.md)
+→ [`about/linea-de-tiempo-del-escandalo.md`](./about/linea-de-tiempo-del-escandalo.md)
 
 ### ¿Querés saber qué hacen otras ONGs?
 → [`benchmark/peers/international-peers.md`](./benchmark/peers/international-peers.md)
@@ -91,13 +91,13 @@ El repo está organizado por **propósito**, alfabéticamente:
 → [`benchmark/PY-deep-dives/`](./benchmark/PY-deep-dives/)
 
 ### ¿Querés una lista de ideas de ingresos?
-→ [`revenue/top-15-recommended.md`](./revenue/top-15-recommended.md)
-→ [`revenue/90-day-rápido-wins.md`](./revenue/90-day-rápido-wins.md)
+→ [`revenue/top-15-recomendadas.md`](./revenue/top-15-recomendadas.md)
+→ [`revenue/quick-wins-90-dias.md`](./revenue/quick-wins-90-dias.md)
 → [`revenue/streams/`](./revenue/streams/)
 
 ### ¿Querés el catálogo de 939 ONGs?
 → [`research/1000-orgs/batches/CATALOG.csv`](./research/1000-orgs/batches/CATALOG.csv)
-→ [`research/1000-orgs/batches/SYNTHESIS.md`](./research/1000-orgs/batches/SYNTHESIS.md)
+→ [`research/1000-orgs/batches/sintesis.md`](./research/1000-orgs/batches/sintesis.md)
 → [`research/1000-orgs/slices/`](./research/1000-orgs/slices/)
 
 ### ¿Querés las páginas crudas de SOS Paraguay?
@@ -120,36 +120,36 @@ El repo está organizado por **propósito**, alfabéticamente:
 ## 🛣️ Rutas de lectura
 
 ### Equipo de Ivan
-1. [`start-here/5min-summary.md`](./start-here/5min-summary.md)
-2. [`start-here/for-aiw-team.md`](./start-here/for-aiw-team.md)
-3. [`about/digital-maturity.md`](./about/digital-maturity.md)
-4. [`revenue/90-day-rápido-wins.md`](./revenue/90-day-rápido-wins.md)
+1. [`start-here/resumen-5-minutos.md`](./start-here/resumen-5-minutos.md)
+2. [`start-here/para-equipo-aiw.md`](./start-here/para-equipo-aiw.md)
+3. [`about/madurez-digital.md`](./about/madurez-digital.md)
+4. [`revenue/quick-wins-90-dias.md`](./revenue/quick-wins-90-dias.md)
 5. [`tech-spec/`](./tech-spec/)
 
 ### Presentando a Aldea SOS Paraguay
-1. [`start-here/for-sos-py.md`](./start-here/for-sos-py.md)
-2. [`about/executive-summary.md`](./about/executive-summary.md)
-3. [`revenue/top-15-recommended.md`](./revenue/top-15-recommended.md)
-4. [`pitch/executive-summary-pdf.md`](./pitch/executive-summary-pdf.md)
+1. [`start-here/para-presentar-a-sos-py.md`](./start-here/para-presentar-a-sos-py.md)
+2. [`about/resumen-ejecutivo.md`](./about/resumen-ejecutivo.md)
+3. [`revenue/top-15-recomendadas.md`](./revenue/top-15-recomendadas.md)
+4. [`pitch/resumen-ejecutivo-pdf.md`](./pitch/resumen-ejecutivo-pdf.md)
 5. [`pitch/one-pager-sos-py.md`](./pitch/one-pager-sos-py.md)
 
 ### Outreach a donante / aliado corporativo
-1. [`start-here/for-donor-outreach.md`](./start-here/for-donor-outreach.md)
-2. [`about/executive-summary.md`](./about/executive-summary.md)
+1. [`start-here/para-outreach-a-donantes.md`](./start-here/para-outreach-a-donantes.md)
+2. [`about/resumen-ejecutivo.md`](./about/resumen-ejecutivo.md)
 3. [`benchmark/`](./benchmark/)
-4. [`pitch/one-pager-corporate-ally.md`](./pitch/one-pager-corporate-ally.md)
+4. [`pitch/one-pager-aliado-corporativo.md`](./pitch/one-pager-aliado-corporativo.md)
 
 ---
 
 ## 📚 Documentos de referencia
 
-- **[`INDEX.md`](./INDEX.md)** — índice maestro de cada archivo del repo
-- **[`governance/GLOSSARY.md`](./governance/GLOSSARY.md)** — acrónimos y jerga
-- **[`governance/STYLE-GUIDE.md`](./governance/STYLE-GUIDE.md)** — convenciones de idioma y citación
-- **[`governance/RISK-REGISTER.md`](./governance/RISK-REGISTER.md)** — seguimiento de riesgos
-- **[`governance/STAKEHOLDER-MAP.md`](./governance/STAKEHOLDER-MAP.md)** — quién es quién
-- **[`governance/ACTION-BOARD.md`](./governance/ACTION-BOARD.md)** — Kanban vivo
-- **[`governance/CHANGELOG.md`](./governance/CHANGELOG.md)** — qué cambió cuándo
+- **[`INDEX.md`](./INDICE.md)** — índice maestro de cada archivo del repo
+- **[`governance/glosario.md`](./governance/glosario.md)** — acrónimos y jerga
+- **[`governance/guia-de-estilo.md`](./governance/guia-de-estilo.md)** — convenciones de idioma y citación
+- **[`governance/registro-de-riesgos.md`](./governance/registro-de-riesgos.md)** — seguimiento de riesgos
+- **[`governance/mapa-de-stakeholders.md`](./governance/mapa-de-stakeholders.md)** — quién es quién
+- **[`governance/tablero-de-acciones.md`](./governance/tablero-de-acciones.md)** — Kanban vivo
+- **[`governance/cambios.md`](./governance/cambios.md)** — qué cambió cuándo
 
 ---
 

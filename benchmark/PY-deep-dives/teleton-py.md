@@ -55,4 +55,4 @@ Many of these **overlap with SOS PY's aliados corporativos** — suggests a satu
 
 ---
 
-*Note*: this benchmark shows that **single events CAN raise USD 190k in PY**. SOS PY's TUPI campaign is currently anual and could grow toward this scale. Ver [`../../../revenue/streams/F-events.md`](../../revenue/streams/F-events.md) for the playbook.
+*Note*: this benchmark shows that **single events CAN raise USD 190k in PY**. SOS PY's TUPI campaign is currently anual and could grow toward this scale. Ver [`../../../revenue/streams/F-eventos.md`](../../revenue/streams/F-eventos.md) for the playbook.

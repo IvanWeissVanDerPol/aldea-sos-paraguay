@@ -137,9 +137,9 @@ Secret: store in env, verify signature with `resend.webhooks.verify()`
 
 ## Dónde poner esto en el repo
 
-- `tech-spec/email/api-integration.md` (este archivo)
+- `tech-spec/email/integracion-api.md` (este archivo)
 - `outreach/email/` — Spanish templates (HTML + plain text)
-- `governance/email-policy.md` — who/what/when rules
+- `governance/politica-de-email.md` — who/what/when rules
 
 ---
 

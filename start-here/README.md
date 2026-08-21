@@ -4,11 +4,11 @@
 
 ---
 
-## Si tenés 5 minutos → [`5min-summary.md`](./5min-summary.md)
+## Si tenés 5 minutos → [`5min-summary.md`](./resumen-5-minutos.md)
 
 Una página. Todo el repo resumido: quién es Aldea SOS Paraguay, cuál es la brecha, qué proponemos, qué necesitamos de vos.
 
-## Si tenés 30 minutos → [`30min-deep-dive.md`](./30min-deep-dive.md)
+## Si tenés 30 minutos → [`30min-deep-dive.md`](./deep-dive-30-minutos.md)
 
 Orden de lectura anotado. 7 archivos que te llevan de "qué" a "cómo" a "quién" a "próximos pasos".
 
@@ -17,23 +17,23 @@ Orden de lectura anotado. 7 archivos que te llevan de "qué" a "cómo" a "quién
 ## Si sos alguien específico
 
 ### Soy del equipo de Ivan (Aiw / ParaguAI / colaboradores)
-Leé [`for-aiw-team.md`](./for-aiw-team.md). Te dice qué es accionable hoy y qué está bloqueado por otras personas.
+Leé [`for-aiw-team.md`](./para-equipo-aiw.md). Te dice qué es accionable hoy y qué está bloqueado por otras personas.
 
 ### Voy a presentar a Aldea SOS Paraguay
-Leé [`for-sos-py.md`](./for-sos-py.md). Marco: "esto es lo que podemos ayudar, esto es lo que necesitamos de ustedes".
+Leé [`for-sos-py.md`](./para-presentar-a-sos-py.md). Marco: "esto es lo que podemos ayudar, esto es lo que necesitamos de ustedes".
 
 ### Voy a hacer outreach a un donante / aliado corporativo
-Leé [`for-donor-outreach.md`](./for-donor-outreach.md). Marco: "este es el impacto, este es el pedido, esta es la razón de ser de la org".
+Leé [`for-donor-outreach.md`](./para-outreach-a-donantes.md). Marco: "este es el impacto, este es el pedido, esta es la razón de ser de la org".
 
 ---
 
 ## Si solo necesitás algo específico
 
-- **¿Querés la historia de la org?** → [`../about/executive-summary.md`](../about/executive-summary.md)
+- **¿Querés la historia de la org?** → [`../about/resumen-ejecutivo.md`](../about/resumen-ejecutivo.md)
 - **¿Querés saber qué hacen otras ONGs?** → [`_originals/comparison/PEER-BENCHMARK.md`](../_originals/comparison/PEER-BENCHMARK.md) (el original 11K)
-- **¿Querés una lista de ideas de ingresos?** → [`../revenue/top-15-recommended.md`](../revenue/top-15-recommended.md)
+- **¿Querés una lista de ideas de ingresos?** → [`../revenue/top-15-recomendadas.md`](../revenue/top-15-recomendadas.md)
 - **¿Querés el catálogo de 939 ONGs?** → [`../research/1000-orgs/batches/CATALOG.csv`](../research/1000-orgs/batches/CATALOG.csv)
-- **¿Querés la síntesis?** → [`../research/1000-orgs/batches/SYNTHESIS.md`](../research/1000-orgs/batches/SYNTHESIS.md)
+- **¿Querés la síntesis?** → [`../research/1000-orgs/batches/sintesis.md`](../research/1000-orgs/batches/sintesis.md)
 - **¿Querés las páginas crudas de SOS Paraguay?** → [`../evidence/`](../evidence/)
 - **¿Querés gobernanza?** → [`../governance/`](../governance/)
 - **¿Querés materiales de pitch?** → [`../pitch/`](../pitch/)

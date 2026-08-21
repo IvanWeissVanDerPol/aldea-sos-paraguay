@@ -124,12 +124,12 @@ Todas las direcciones usan el dominio `paragu-ai.com` configurado en Resend.
 
 | Plantilla | Archivo |
 |---|---|
-| Outreach corporativo | `outreach/email/cold-outreach-corporate.md` |
-| Outreach tech-for-good | `outreach/email/cold-outreach-tech-partner.md` |
-| Outreach fundaciones | `outreach/email/cold-outreach-foundation.md` |
-| Outreach DAFs | `outreach/email/cold-outreach-donor-daf.md` |
+| Outreach corporativo | `outreach/email/cold-outreach-corporativo.md` |
+| Outreach tech-for-good | `outreach/email/cold-outreach-socio-tecnologico.md` |
+| Outreach fundaciones | `outreach/email/cold-outreach-fundacion.md` |
+| Outreach DAFs | `outreach/email/cold-outreach-donante-daf.md` |
 | Outreach a Aldea SOS PY | `outreach/email/cold-outreach-sos-py.md` |
-| Seguimientos | `outreach/email/followup-template.md` |
+| Seguimientos | `outreach/email/plantilla-de-seguimiento.md` |
 | Recibos + welcome + newsletter + ops | `outreach/email/templates/` (a crear) |
 
 ---

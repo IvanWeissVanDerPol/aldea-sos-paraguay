@@ -34,11 +34,11 @@
 
 ## Ver también
 
-- `../evidence/SOURCES.md` — raw artifacts
+- `../evidence/fuentes.md` — raw artifacts
 - `../sos/DOSSIER.md` — full organization profile
 - `../comparison/PEER-BENCHMARK.md` — benchmark de pares
 - `../research/1000-orgs/batches/CATALOG.csv` — 939 organizations
-- `../research/1000-orgs/batches/SYNTHESIS.md` — distribution analysis
+- `../research/1000-orgs/batches/sintesis.md` — distribution analysis
 
 ---
 

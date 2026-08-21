@@ -60,4 +60,4 @@ Para cada uno, enviar:
 
 ---
 
-*Fuentes: entradas del catálogo etiquetadas como "recurring-giving" + "sponsor-portal". Ver [`../1000-orgs/slices/FUNDING-PREVALENCE.md`](../1000-orgs/slices/FUNDING-PREVALENCE.md) para datos de prevalencia.*
+*Fuentes: entradas del catálogo etiquetadas como "recurring-giving" + "sponsor-portal". Ver [`../1000-orgs/slices/prevalencia-de-financiamiento.md`](../1000-orgs/slices/prevalencia-de-financiamiento.md) para datos de prevalencia.*

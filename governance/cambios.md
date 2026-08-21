@@ -18,7 +18,7 @@
 - Creado `INDEX.md` (índice maestro)
 - Actualizado `README.md` como punto de entrada con vista enlazada
 - Arregladas todas las referencias cruzadas (0 enlaces realmente rotos en carpetas pobladas)
-- **Sistema de email construido** (`tech-spec/email/`, `outreach/email/`, `governance/email-policy.md`)
+- **Sistema de email construido** (`tech-spec/email/`, `outreach/email/`, `governance/politica-de-email.md`)
   - Identidad de remitente Resend: `Aldeas Infantiles SOS Paraguay <amigos@paragu-ai.com>`
   - 3 registros DNS documentados (SPF, DKIM, DMARC)
   - Ejemplos de integración SDK Node + Python

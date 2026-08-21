@@ -1,33 +1,10 @@
-# Stream M. Innovation frontier (FLAGGED — review before pursuing)
-
-## M. Innovation frontier (FLAGGED — review before pursuing)
-
-### M1. DAO / cooperative governance of an aldea
-**Qué**: Web3 collective funds an aldea
-**Risks**: High regulatory uncertainty in PY
-**Plan**: Watch; flag for 2027
-
-### M2. NFT membership passes
-**Qué**: Buy NFT for exclusive content
-**Risks**: High reputational risk post-scandal
-**Plan**: NOT recommended
-
-### M3. AI tutoring for kids (bajo costo scale)
-**Qué**: Use AI to tutor Aldea youth
-**Risks**: Moderate
-**Plan**: Pilot
-
-### M4. RPA admin (back-office savings → more program $)
-**Qué**: Automate donor admin, freeing staff time
-**Plan**: Pilot with finance team
-
----
+# Safeguarding Appendix
 
 ## Safeguarding Appendix
 
 All- All fuentes de ingreso involving children require:
 - Written parental/guardian consent for any image use
-- No last names, no individual photos of children under 12 in digital recaudación de fondos materials
+- No último names, no individual photos of children under 12 in digital recaudación de fondos materials
 - All visitor/volunteer interactions with children follow Federation Safeguarding Policy
 - No identifying information in sponsorship letters (use house numbers, not child IDs)
 - Annual safeguarding audit
@@ -46,14 +23,14 @@ All- All fuentes de ingreso involving children require:
 
 **Day 30-60 (medium-term)**:
 6. Launch Donorbox + Tigo Money + Pix integration
-7. Pilot "Apadrina una Aldea" (sponsor a house) — 2 houses first
+7. Pilot "Apadrina una Aldea" (sponsor a house) — 2 houses primero
 8. Add Stripe for international donations
 10. Recruit 5 diaspora ambassadors (NY, Miami, Buenos Aires, São Paulo, Madrid)
 
 **Day 60-90 (launch)**:
 11. Launch "Regalamos Sonrisas" expansion with Personal or Tigo as 2nd retail partner
 12. Pilot Walmart/Personal volunteer days (with strict safeguarding)
-13. Launch YouTube channel with first documentary series
+13. Launch YouTube channel with primero documentary series
 14. Begin TikTok creator partnership campaign
 
 ---
@@ -61,7 +38,7 @@ All- All fuentes de ingreso involving children require:
 ## Gaps / Risks / Follow- Research
 
 - **No verified budget data for SOS Paraguay** — Need RUC data from BCP
-- **No verified NPO rating** — Apply for Charity Navigator-style rating via Fundación Lealtad model
+- **No verified NPO rating** — Apply for Charity Navigator-style rating vía Fundación Lealtad model
 - **Unknown board composition** — Important for partnership vetting
 - **No published safeguarding policy** — Critical given scandal; create + publish
 
@@ -69,11 +46,11 @@ All- All fuentes de ingreso involving children require:
 
 ## Ver también
 
-- `../evidence/SOURCES.md` — raw artifacts
+- `../evidence/fuentes.md` — raw artifacts
 - `../sos/DOSSIER.md` — full organization profile
 - `../comparison/PEER-BENCHMARK.md` — benchmark de pares
 - `../research/1000-orgs/batches/CATALOG.csv` — 939 organizations
-- `../research/1000-orgs/batches/SYNTHESIS.md` — distribution analysis
+- `../research/1000-orgs/batches/sintesis.md` — distribution analysis
 
 ---
 

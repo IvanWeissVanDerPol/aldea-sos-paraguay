@@ -83,5 +83,5 @@
 
 ---
 
-*Ver [`../revenue/top-15-recommended.md`](../revenue/top-15-recommended.md) para la lista priorizada con scoring.*
-*Ver [`../governance/RISK-REGISTER.md`](../governance/RISK-REGISTER.md) para scoring completo de riesgos.*
+*Ver [`../revenue/top-15-recomendadas.md`](../revenue/top-15-recomendadas.md) para la lista priorizada con scoring.*
+*Ver [`../governance/registro-de-riesgos.md`](../governance/registro-de-riesgos.md) para scoring completo de riesgos.*

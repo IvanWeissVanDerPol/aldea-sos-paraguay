@@ -37,7 +37,7 @@
 | Verificar RUC Paraguay = 80016122 con datos BCP públicos | [evidencia: official] — perfil ong.com.py |
 | Confirmar Comilona 6ª edición Tupi = Gs. 1.391M (USD 190k) | [evidencia: tercero-party] cobertura a24.com.py |
 | Agregar registros DNS (SPF/DKIM/DMARC) para `paragu-ai.com` en el proveedor DNS | esperando a Ivan |
-| Configurar identidad de remitente en español en Resend (`amigos@paragu-ai.com`) | documentado en tech-spec/email/sender-config.md |
+| Configurar identidad de remitente en español en Resend (`amigos@paragu-ai.com`) | documentado en tech-spec/email/configuracion-de-remitente.md |
 | Redactar donor-journey-map.md | para strategy/ |
 | Redactar 30-day-rápido-wins.md | para strategy/ |
 | Redactar 90-day-plan.md | para strategy/ |
@@ -58,7 +58,7 @@
 | Repo restructurado (carpetas numeradas, subcarpetas README) | 2026-08-21 |
 | Repo restructurado de nuevo (nombres de carpeta por propósito) | 2026-08-21 |
 | Renombrado governance → governance, _archive-pre-restructure → _originals | 2026-08-21 |
-| INDEX.md + governance/INDEX.md (índices maestros) | 2026-08-21 |
+| INDEX.md + governance/../INDICE.md (índices maestros) | 2026-08-21 |
 | Todas las referencias cruzadas arregladas (0 enlaces realmente rotos) | 2026-08-21 |
 | **Documentos del sistema de email** (setup de Resend, DNS, integración API) | 2026-08-21 |
 | **Plantillas de email en español** (recibo, bienvenida, newsletter) | 2026-08-21 |

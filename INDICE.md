@@ -66,43 +66,43 @@
 - `1000-orgs/README.md` — cómo navegar el catálogo
 - `1000-orgs/build_slices.py` — regenera los slices desde CATALOG.csv
 - `1000-orgs/batches/CATALOG.csv` — 939 ONGs × 12 columnas
-- `1000-orgs/batches/SYNTHESIS.md` — distribuciones, top lists, temas
+- `1000-orgs/batches/sintesis.md` — distribuciones, top lists, temas
 - `1000-orgs/batches/assemble.py` — regenera CSV + SYNTHESIS
 - `1000-orgs/batches/batch01..batch12.json` — 12 archivos de datos crudos
-- `1000-orgs/slices/CATALOG-by-region.md`
-- `1000-orgs/slices/CATALOG-by-model.md`
-- `1000-orgs/slices/CATALOG-funders.md`
-- `1000-orgs/slices/TOP-100-revenue.md`
-- `1000-orgs/slices/TOP-30-innovative.md`
-- `1000-orgs/slices/FUNDING-PREVALENCE.md`
-- `1000-orgs/slices/DIGITAL-PREVALENCE.md`
-- `1000-orgs/slices/PATTERNS-SELFHELP.md`
-- `1000-orgs/slices/TOP-10-APPLICABLE.md`
-- `patterns/recurring-giving-at-scale.md`
+- `1000-orgs/slices/CATALOG-por-region.md`
+- `1000-orgs/slices/CATALOG-por-modelo.md`
+- `1000-orgs/slices/CATALOG-financiadores.md`
+- `1000-orgs/slices/TOP-100-por-ingresos.md`
+- `1000-orgs/slices/TOP-30-mas-innovadoras.md`
+- `1000-orgs/slices/prevalencia-de-financiamiento.md`
+- `1000-orgs/slices/prevalencia-de-senales-digitales.md`
+- `1000-orgs/slices/patrones-de-autoayuda.md`
+- `1000-orgs/slices/TOP-10-mas-aplicables.md`
+- `patterns/donacion-recurrente-a-escala.md`
 - `patterns/digital-recaudación de fondos-trends.md`
-- `patterns/federation-model.md`
-- `patterns/diaspora-giving-models.md`
+- `patterns/modelo-de-federacion.md`
+- `patterns/modelos-de-donacion-de-la-diaspora.md`
 
 ## revenue/
 
 - `README.md` — guía de carpeta
 - `REVENUE-AVENUES-legacy.md` — archivo monolítico original
 - `top-15-recommended.md` — TOP 15 con scoring de 4 ejes
-- `90-day-rápido-wins.md` — acciones concretas para los primeros 90 días
+- `quick-wins-90-dias.md` — acciones concretas para los primeros 90 días
 - `safeguarding-appendix.md` — checklist de protección infantil
-- `streams/A-online-giving.md` — expansión de donación online (10 fuentes)
-- `streams/B-sponsorship.md` — modelos de apadrinamiento (7 fuentes)
-- `streams/C-corporate.md` — alianzas corporativas (6 fuentes)
-- `streams/D-government-multilateral.md` — gobierno/IGOs (7 fuentes)
-- `streams/E-earned-income.md` — empresa social (7 fuentes)
-- `streams/F-events.md` — eventos y comunidad (6 fuentes)
-- `streams/G-digital-content.md` — contenido digital (6 fuentes)
-- `streams/H-real-estate.md` — bienes raíces (2 fuentes)
-- `streams/I-financial-instruments.md` — SIBs/DIBs (3 fuentes)
-- `streams/J-technology-data.md` — tech-for-good (5 fuentes)
+- `streams/A-donacion-online.md` — expansión de donación online (10 fuentes)
+- `streams/B-padrinazgo.md` — modelos de apadrinamiento (7 fuentes)
+- `streams/C-corporativo.md` — alianzas corporativas (6 fuentes)
+- `streams/D-gobierno-multilateral.md` — gobierno/IGOs (7 fuentes)
+- `streams/E-ingresos-propios.md` — empresa social (7 fuentes)
+- `streams/F-eventos.md` — eventos y comunidad (6 fuentes)
+- `streams/G-contenido-digital.md` — contenido digital (6 fuentes)
+- `streams/H-inmuebles.md` — bienes raíces (2 fuentes)
+- `streams/I-instrumentos-financieros.md` — SIBs/DIBs (3 fuentes)
+- `streams/J-tecnologia-datos.md` — tech-for-good (5 fuentes)
 - `streams/K-diaspora.md` — diáspora (3 fuentes)
 - `streams/L-crisis.md` — crisis-específicas (2 fuentes)
-- `streams/M-innovation-frontier.md` — frontera (4 fuentes)
+- `streams/M-frontera-de-innovacion.md` — frontera (4 fuentes)
 
 ## pitch/
 
@@ -117,25 +117,25 @@
 ## outreach/
 
 - `README.md` — guía de carpeta
-- `email/cold-outreach-corporate.md` — español
-- `email/cold-outreach-tech-partner.md` — español + inglés
-- `email/cold-outreach-foundation.md` — español + inglés
-- `email/cold-outreach-donor-daf.md` — inglés (DAFs son US)
+- `email/cold-outreach-corporativo.md` — español
+- `email/cold-outreach-socio-tecnologico.md` — español + inglés
+- `email/cold-outreach-fundacion.md` — español + inglés
+- `email/cold-outreach-donante-daf.md` — inglés (DAFs son US)
 - `email/cold-outreach-sos-py.md` — español
-- `email/followup-template.md` — español
+- `email/plantilla-de-seguimiento.md` — español
 - `email/templates/README.md` — guía
-- `templates/donation-receipt.md` — español HTML + texto
-- `templates/amigos-welcome.md` — español HTML + texto
-- `templates/newsletter.md` — español HTML + texto
+- `templates/recibo-de-donacion.md` — español HTML + texto
+- `templates/bienvenida-amigos-sos.md` — español HTML + texto
+- `templates/boletin.md` — español HTML + texto
 - `call/` — vacío (planificado)
 - `social/` — vacío (planificado)
 
 ## tech-spec/
 
 - `README.md` — guía de carpeta
-- `email/sender-config.md` — setup de Resend + identidad del remitente
-- `email/dns-records.md` — SPF/DKIM/DMARC para paragu-ai.com
-- `email/api-integration.md` — SDK Node + Python
+- `email/configuracion-de-remitente.md` — setup de Resend + identidad del remitente
+- `email/registros-dns.md` — SPF/DKIM/DMARC para paragu-ai.com
+- `email/integracion-api.md` — SDK Node + Python
 - `donation-gateway/` — vacío (procesadores de pago)
 - `transparency-microsite/` — vacío (micrositio de transparencia)
 - `sponsor-portal/` — vacío (portal de apadrinamiento)
