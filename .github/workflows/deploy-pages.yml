@@ -27,6 +27,16 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
+      - name: Copy CNAME to site root for Pages custom domain
+        run: |
+          if [ ! -f site/CNAME ]; then
+            echo "aldea-sos.paragu-ai.com" > site/CNAME
+            echo "Created site/CNAME"
+          fi
+          # Verify
+          echo "=== CNAME content ==="
+          cat site/CNAME
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
