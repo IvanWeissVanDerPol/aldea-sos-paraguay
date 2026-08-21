@@ -208,3 +208,119 @@ button, .btn { font: inherit; cursor: pointer; }
 .text-center { text-align: center; }
 .mt-3 { margin-top: 1.5rem; }
 .mt-4 { margin-top: 2rem; }
+
+/* === Utility classes (replacing inline styles) === */
+.t-muted { color: var(--c-text-muted); }
+.t-muted-italic { font-size: 0.875rem; color: rgba(255,255,255,0.6); font-style: italic; margin-bottom: 0.75rem; }
+.t-narrow { max-width: 800px; margin-left: auto; margin-right: auto; }
+.t-mid { max-width: 900px; margin-left: auto; margin-right: auto; }
+.t-wide { max-width: 1000px; margin-left: auto; margin-right: auto; }
+.t-prose p { line-height: 1.7; font-size: 1.0625rem; }
+.mt-1 { margin-top: 0.75rem; }
+.mt-2 { margin-top: 1rem; }
+.mb-0 { margin-bottom: 0; }
+.flex-center { display: flex; justify-content: center; }
+.text-center { text-align: center; }
+
+/* === Print stylesheet === */
+@media print {
+  .site-header,
+  .site-footer,
+  .theme-toggle,
+  .nav-toggle,
+  .primary-nav,
+  .breadcrumbs,
+  .breadcrumb,
+  .skip-link,
+  .panel[role="note"],
+  .btn { display: none !important; }
+  body { background: white; color: black; font-size: 12pt; }
+  .hero { background: white !important; color: black !important; padding: 1rem 0; }
+  .hero h1, .hero h1 .accent, .hero-lead { color: black !important; text-shadow: none !important; }
+  .hero-illustration { display: none !important; }
+  .page-hero { background: white !important; color: black !important; padding: 1rem 0; }
+  .page-hero h1, .page-hero p { color: black !important; }
+  .breadcrumb { display: none !important; }
+  a { color: black !important; text-decoration: underline; }
+  a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 90%; }
+  .card, .panel { border: 1px solid #ccc !important; box-shadow: none !important; page-break-inside: avoid; }
+  h1, h2, h3 { page-break-after: avoid; }
+  .section { padding: 1rem 0; }
+}
+
+/* === Utility classes (page-level layout) === */
+.mt-0 { margin-top: 0; }
+.mt-1 { margin-top: 0.75rem; }
+.mt-2 { margin-top: 1rem; }
+.mb-0 { margin-bottom: 0; }
+.mb-3 { margin-bottom: 1.5rem; }
+.my-4 { margin-top: 1.5rem; margin-bottom: 1.5rem; }
+.max-w-900 { max-width: 900px; }
+
+.t-small { font-size: 0.875rem; }
+.t-meta { margin-top: 0.75rem; color: var(--c-text-muted); font-size: 0.875rem; }
+.t-muted-foot { margin-top: 1.5rem; font-size: 0.875rem; opacity: 0.8; }
+
+.text-lg { font-size: 1.0625rem; }
+.text-h3 { font-size: 1.5rem; font-weight: 600; color: var(--c-text); margin: 0 0 1rem; }
+.text-quote { font-style: italic; line-height: 1.7; font-size: 1.0625rem; }
+.prose-narrow { max-width: 14ch; }
+.text-italic { font-style: italic; }
+
+.section-spaced-alt { padding: 5rem 0; background: var(--c-bg-alt); }
+.t-footer-bottom { text-align: center; padding: 2rem 0; color: rgba(255,255,255,0.6); font-size: 0.875rem; }
+
+.hero-404 { font-size: 6rem; font-weight: 800; margin: 0; color: var(--c-primary); line-height: 1; }
+
+/* === Restored utility classes === */
+.brand-mark, .brand-logo {
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-md);
+  background: var(--c-accent);
+  color: #1A1A1A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 800;
+  flex-shrink: 0;
+}
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.875rem 1.5rem;
+  max-width: var(--container);
+  margin: 0 auto;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.hero-inner { position: relative; z-index: 1; }
+.hero-eyebrow .dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: var(--c-accent);
+  border-radius: 50%;
+  margin-right: 0.4rem;
+  vertical-align: middle;
+}
+.section-lead { font-size: 1.125rem; color: var(--c-text-muted); line-height: 1.6; margin: 0 auto; max-width: 720px; }
+.btn-secondary {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.875rem 1.75rem;
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  transition: all 0.2s ease;
+  text-decoration: none;
+  font-size: 1rem;
+  line-height: 1.2;
+}
+.btn-secondary:hover { background: rgba(255,255,255,0.18); transform: translateY(-2px); }
