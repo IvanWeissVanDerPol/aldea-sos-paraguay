@@ -16,10 +16,13 @@
   --c-primary-dark: #004C82;
   --c-accent: #F4A100;
   --c-accent-light: #FFD966;
-  --c-success: #2D8E5F;
-  --c-error: #D32F2F;
+  --c-accent-dark: #C57F00;  /* darker yellow for AA contrast on white */
+  --c-success: #1F6B42;     /* darker green, passes AA on light bg */
+  --c-success-light: #2D8E5F;  /* lighter green for buttons with white text */
+  --c-error: #C62828;        /* darker red for better contrast */
+  --c-warning: #B45309;
   --c-text: #1A1A1A;
-  --c-text-muted: #666666;
+  --c-text-muted: #595959;  /* darker for AAA contrast on white */
   --c-border: #E0E0E0;
   --c-bg: #FFFFFF;
   --c-bg-alt: #F5F5F5;
@@ -50,7 +53,7 @@
     --c-bg-alt: #252B3D;
     --c-bg-soft: #2A3142;
     --c-text: #F5F5F5;
-    --c-text-muted: #C0C0C0;
+    --c-text-muted: #B0B0B0;  /* lighter for dark mode AA */
     --c-border: #3A4253;
     --shadow-sm: 0 1px 2px rgba(0,0,0,0.4);
     --shadow-md: 0 4px 8px rgba(0,0,0,0.5);
@@ -70,6 +73,16 @@ body {
 img, svg { max-width: 100%; height: auto; }
 a { color: var(--c-primary); text-decoration: none; transition: color 0.2s ease; }
 a:hover { color: var(--c-primary-light); }
+
+/* Body links (not nav, footer, or button) get underline for a11y */
+main p a:not(.btn):not(.card-link):not(.story-link),
+main li a:not(.btn):not(.card-link),
+.framework-quote a,
+.problem-stats a {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
 button { font: inherit; cursor: pointer; }
 
 /* Container */
@@ -127,6 +140,7 @@ button { font: inherit; cursor: pointer; }
 .brand-text { display: flex; flex-direction: column; line-height: 1.1; }
 .brand-text strong { font-size: 1.125rem; }
 .brand-text small { font-size: 0.75rem; color: var(--c-text-muted); font-weight: 500; }
+.brand-logo .letter { color: var(--c-accent-light); }
 
 .primary-nav { display: flex; gap: 1.5rem; align-items: center; flex-wrap: wrap; }
 .primary-nav a {
@@ -216,8 +230,13 @@ button { font: inherit; cursor: pointer; }
   line-height: 1.1;
   font-weight: 800;
   letter-spacing: -0.02em;
+  max-width: 14ch;  /* prevents long lines, improves hero rhythm */
 }
-.hero h1 .accent { color: var(--c-accent); }
+.hero h1 .accent {
+  color: var(--c-accent-light);
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
+  font-weight: 800;
+}
 .hero-lead {
   font-size: clamp(1.0625rem, 2vw, 1.25rem);
   opacity: 0.95;
@@ -270,13 +289,14 @@ button { font: inherit; cursor: pointer; }
 }
 .btn-primary {
   background: var(--c-accent);
-  color: var(--c-primary-dark);
+  color: #1A1A1A;
+  font-weight: 700;
 }
 .btn-primary:hover {
   background: #FFB724;
   transform: translateY(-2px);
   box-shadow: var(--shadow-md);
-  color: var(--c-primary-dark);
+  color: #1A1A1A;
 }
 .btn-secondary {
   background: white;
@@ -314,15 +334,26 @@ button { font: inherit; cursor: pointer; }
   font-size: clamp(1.75rem, 4vw, 2.5rem);
   margin: 0 0 1rem;
   color: var(--c-text);
-  font-weight: 700;
-  letter-spacing: -0.02em;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+}
+.section h3 {
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  line-height: 1.3;
 }
 .section-lead {
   font-size: 1.125rem;
   color: var(--c-text-muted);
-  max-width: 700px;
+  max-width: 720px;
   margin: 0 auto;
-  line-height: 1.6;
+  line-height: 1.65;
+}
+
+/* All paragraphs in body should have good line-height */
+.markdown-content p, .container p, main p {
+  line-height: 1.65;
 }
 
 /* GRIDS */
@@ -792,15 +823,23 @@ button { font: inherit; cursor: pointer; }
 .breadcrumb a:hover { color: white; }
 .breadcrumb span { color: rgba(255,255,255,0.5); }
 
-/* PROTECTION/SALVAGUARDIA notice */
+/* === PROTECTION/SALVAGUARDIA notice === */
 .safeguard-notice {
   background: var(--c-success);
   color: white;
-  padding: 0.75rem 0;
+  padding: 0.875rem 0;
   text-align: center;
-  font-size: 0.875rem;
+  font-size: 0.9375rem;
+  line-height: 1.5;
 }
-.safeguard-notice a { color: white; text-decoration: underline; }
+.safeguard-notice strong { color: white; }
+.safeguard-notice a {
+  color: white;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 2px;
+  font-weight: 600;
+}
 
 /* FORM */
 .form-group { margin-bottom: 1.25rem; }
@@ -845,15 +884,19 @@ button { font: inherit; cursor: pointer; }
   align-items: center;
   gap: 3rem;
   flex-wrap: wrap;
-  font-size: 0.875rem;
-  color: var(--c-text-muted);
+  font-size: 0.9375rem;
+  color: var(--c-text);
 }
 .trust-item {
   display: flex;
   align-items: center;
   gap: 0.5rem;
 }
-.trust-item .icon { color: var(--c-success); }
+.trust-item .icon {
+  color: var(--c-success);
+  font-weight: 700;
+  font-size: 1.125rem;
+}
 
 /* PRINT */
 @media print {
@@ -1316,4 +1359,49 @@ button { font: inherit; cursor: pointer; }
   justify-content: center;
   border-radius: var(--radius-md);
   font-size: 1rem !important;
+}
+
+/* === READABILITY ENHANCEMENTS === */
+main p, main li {
+  line-height: 1.65;
+  max-width: 65ch;
+}
+main > section > .container > p,
+main > section > .container > ul,
+main > section > .container > ol {
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Ensure body text is not too pale */
+.text-muted {
+  color: var(--c-text-muted);
+}
+
+/* Better focus indicators for keyboard nav */
+:focus-visible {
+  outline: 3px solid var(--c-primary);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+button:focus-visible, .btn:focus-visible {
+  outline: 3px solid var(--c-primary);
+  outline-offset: 3px;
+}
+
+/* Larger tap targets on mobile */
+@media (max-width: 768px) {
+  button, .btn, .primary-nav a, .footer-list a {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+  }
+}
+
+/* Skip-link enhanced */
+.skip-link:focus {
+  outline: 3px solid var(--c-accent);
+  outline-offset: 2px;
 }
