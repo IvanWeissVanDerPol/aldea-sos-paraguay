@@ -1,49 +1,50 @@
-# One-Pager — ParaguAI / Aiw Team
+# One-Pager — Equipo ParaguAI / Aiw
 
-> For internal stakeholders. Why this project is worth our time.
+> Para stakeholders internos. Por qué este proyecto vale nuestro tiempo.
 
 ---
 
-## Why Aldea SOS Paraguay
+## Por qué Aldea SOS Paraguay
 
-**Client profile**: 55-year-old non-profit, 5 aldeas, 1,000+ children, 18+ corporate allies, RUC 80016122, autonomous member of SOS Children's Villages International.
+**Perfil del cliente**: organización sin fines de lucro con 55 años de historia, 5 aldeas, 1.000+ niños, 18+ aliados corporativos, RUC 80016122, miembro autónomo de SOS Children's Villages International.
 
-**Why this matters**:
-1. **Reputation-shielded**: They're autonomous from the 2025 Austrian scandal. Paraguay responded in 24 hours.
-2. **Operationally sound**: Multiple revenue streams already. Good corporate partners. 40+ staff hiring.
-3. **Digital lag = our opportunity**: They are functionally a generation behind in digital fundraising. We can ship the missing infrastructure in 90 days.
-4. **High-leverage**: 65+ revenue streams identified, 18+ corporate partners already aligned, top 15 have USD 70-275k/yr potential.
+**Por qué importa**:
+1. **Escudo reputacional**: son autónomos del escándalo austriaco 2025. Paraguay respondió en 24 horas.
+2. **Operativamente sólido**: múltiples fuentes de ingreso ya. Buenos aliados corporativos. 40+ contrataciones activas.
+3. **Brecha digital = nuestra oportunidad**: están funcionalmente una generación atrás en recaudación digital. Podemos entregar la infraestructura faltante en 90 días.
+4. **Alto apalancamiento**: 65+ fuentes de ingreso identificadas, 18+ aliados corporativos ya alineados, top 15 con potencial USD 70-275k/año.
 
-## What we're offering (in 90 days)
+## Qué entregamos (en 90 días)
 
-| Deliverable | Effort | Impact |
+| Entregable | Esfuerzo | Impacto |
 |---|---|---|
-| Online donation gateway (Donorbox + Tigo + Pix) | 1 week | Immediate donations start |
-| Transparency microsite | 2 weeks | Trust multiplier |
-| "Apadrina una Aldea" sponsor portal | 90 days | Big revenue unlock |
-| Tech-for-nonprofit SaaS stack (free) | 2 weeks | Operational savings |
+| Pasarela de donación online (Donorbox + Tigo + Pix) | 1 semana | Donaciones empiezan de inmediato |
+| Micrositio de transparencia | 2 semanas | Multiplicador de confianza |
+| Portal "Apadrina una Aldea" | 90 días | Gran desbloqueo de ingresos |
+| Stack SaaS tech-for-nonprofit (gratis) | 2 semanas | Ahorros operativos |
 
-#### What's blocked
+## Qué está bloqueado
 
--| **| | | **|
-- | Permission from Ivan to send first cold email | | | |
-- | Engineering capacity for 2-4 weeks | | | |
-- | First meeting with Ana or Zunilda | | | |
+| Bloqueo | Lo que se necesita |
+|---|---|
+| Permiso de Ivan para enviar primer email frío | Decisión de Ivan |
+| Capacidad de ingeniería por 2-4 semanas | Asignación del equipo |
+| Primera reunión con Ana o Zunilda | Contacto inicial |
 
-#### Why we should do this
+## Por qué deberíamos hacer esto
 
-1. **Mission fit**: ParaguAI exists to scale Paraguay-impact work. SOS PY is the largest child-welfare brand in PY.
-2. **Tech showcase**: Donation gateway + transparency microsite is a visible, deployable artifact for our portfolio.
-3. **Revenue potential**: If they convert even 5-7 of our top 15 streams, that's USD 70-275k/yr uplift for them + reputational upside for us.
-4. **Post-scandal opportunity**: We can be the partner that helps them lead on transparency.
-5. **Repeatable**: If this works for SOS PY, we can offer the same package to other PY NGOs (TECHO, CIRD, Alda, Cimientos).
+1. **Fit con misión**: ParaguAI existe para escalar trabajo de impacto en Paraguay. SOS PY es la marca más grande de bienestar infantil en PY.
+2. **Tech showcase**: pasarela de donación + micrositio de transparencia es un artefacto visible y deployable para nuestro portafolio.
+3. **Potencial de ingresos**: si convierten incluso 5-7 de nuestras top 15 fuentes, son USD 70-275k/año extra para ellos + upside reputacional para nosotros.
+4. **Oportunidad post-escándalo**: podemos ser el aliado que les ayuda a liderar en transparencia.
+5. **Replicable**: si funciona para SOS PY, podemos ofrecer el mismo paquete a otras ONGs PY (TECHO, CIRD, Alda, Cimientos).
 
-#### What we should NOT do
+## Qué NO deberíamos hacer
 
-- Email SOS PY without coordinating
-- Promise specific dates in pitches
-- Share scandal-related docs publicly without review
-- Treat revenue estimates as commitments
+- ❌ Email a SOS PY sin coordinar
+- ❌ Prometer fechas específicas en pitches
+- ❌ Compartir documentos del escándalo públicamente sin revisión
+- ❌ Tratar estimaciones de ingresos como compromisos
 
 ---
 

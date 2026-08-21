@@ -2,7 +2,24 @@
 
 ## 2026-08-21
 
-### Restructure (this commit)
+### Reshape v2 — word-based folders + Spanish-first + Email system (later today)
+- Renamed all numbered folders to word-based, purpose-driven names:
+  `start-here/`, `about/`, `evidence/`, `benchmark/`, `research/`, `revenue/`,
+  `pitch/`, `outreach/`, `tech-spec/`, `financial/`, `strategy/`, `policy/`,
+  `competitive/`, `archive/`, `governance/`, `_originals/`
+- Created `INDEX.md` (master index)
+- Updated `README.md` as entry point with linked overview
+- Fixed all cross-references (0 truly broken links in populated folders)
+- **Translated all client-facing docs to Spanish** (`pitch/`, `start-here/`)
+- **Email system built** (`tech-spec/email/`, `outreach/email/`, `governance/email-policy.md`)
+  - Resend sender identity: `Aldeas Infantiles SOS Paraguay <amigos@paragu-ai.com>`
+  - 3 DNS records documented (SPF, DKIM, DMARC)
+  - Node + Python SDK integration examples
+  - 5 cold-outreach templates (corporate, tech, foundation, DAF, SOS PY) — all Spanish
+  - 3 transactional email templates (donation receipt, welcome, newsletter) — all Spanish HTML + plain text
+  - Email policy (who sends from what, language rules, frequency, holidays)
+
+### Restructure v1 (earlier today)
 - Created numbered folder scheme: `start-here/` through `archive/` + `governance/` + `_originals/`
 - Moved originals to `_originals/` for safety
 - Added `start-here/` with 5min summary, 30min deep dive, and per-audience entry guides (Aiw team, SOS PY, donor outreach)

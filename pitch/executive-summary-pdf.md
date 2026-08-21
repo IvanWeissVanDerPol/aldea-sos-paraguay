@@ -1,87 +1,88 @@
-# Executive Summary PDF — Content
+# Executive Summary PDF — Contenido
 
-> This is the **content** for a 2-pager PDF. Designed to be exported to PDF and sent as a leave-behind.
+> Este es el **contenido** para un PDF de 2 hojas. Diseñado para exportarse a PDF y entregarse como material de leave-behind.
 
-## Page 1
+## Página 1
 
-### Aldeas Infantiles SOS Paraguay — Strategic Growth Proposal
+### Aldeas Infantiles SOS Paraguay — Propuesta de Crecimiento Estratégico
 
-**Prepared by**: [Author / Organization]
-**Date**: 2026-08-21
-**For**: Aldea SOS Paraguay leadership
-
----
-
-#### Who they are
-
-- 55-year-old Paraguayan non-profit (since 1970)
-- Autonomous member of SOS Children's Villages International (136 countries)
-- **5 aldeas** serving **1,000+ children**:
- - Asunción (Zeballos Cué)
- - Luque
- - San Ignacio (Misiones)
- - Hohenau (Itapúa)
- - Belén (Concepción)
-- Plus **Proyecto Ojoykére** (2024): prevention in vulnerable neighborhoods
-- Strong brand: 23k Facebook, 6.3k Instagram, 18+ corporate allies
-
-#### The opportunity
-
-Aldea SOS Paraguay is operationally solid but digitally behind. The single biggest unlock is **shipping an online donation gateway + transparency microsite within 90 days**.
-
-Benchmark: **99% of 939 peer child-welfare orgs accept online donations. Aldea PY does not.**
-
-#### The 5 quick wins (90 days)
-
-| # | Action | Effort | Revenue/yr | Safeguarding |
-|---|---|---|---|---|
-| 1 | Ship Donorbox online donation | 1 week | USD 7-27k | ✅ Strong |
-| 2 | Activate Google Ad Grants ($10k/mo free) | 4 weeks | USD 120k equiv | ✅ Strong |
-| 3 | Fix `/transparencia` + publish annual report | 2 weeks | Donor trust multiplier | ✅ Strong |
-| 4 | Launch "Apadrina una Aldea" sponsor-a-house | 90 days | USD 200-410k | ✅ Strong (house-level) |
-| 5 | Add Tigo/Personal wallet donations | 30 days | USD 7-20k | ✅ Strong |
-
-**Cumulative potential**: USD 70-275k/yr incremental revenue within 18 months.
+**Preparado por**: [Autor / Organización]
+**Fecha**: 2026-08-21
+**Para**: Liderazgo de Aldea SOS Paraguay
 
 ---
 
-## Page 2
+#### Quiénes son
 
-#### The crisis context (carefully framed)
+- Organización paraguaya sin fines de lucro con 55 años de historia (desde 1970)
+- Miembro autónomo de SOS Children's Villages International (136 países)
+- **5 aldeas** sirviendo a **1.000+ niños**:
+  - Asunción (Zeballos Cué)
+  - Luque
+  - San Ignacio (Misiones)
+  - Hohenau (Itapúa)
+  - Belén (Concepción)
+- Además, **Proyecto Ojoykére** (2024): prevención en barrios vulnerables
+- Marca fuerte: 23k en Facebook, 6,3k en Instagram, 18+ aliados corporativos
 
-In Oct 2025, SOS Children's Villages International disclosed that founder Hermann Gmeiner (deceased 1986) was accused of historical sexual abuse (Austria, 1950s-1980s). The Austrian branch was suspended.
+#### La oportunidad
 
-**Paraguay's response**:
-- Within 24 hours, Paraguay issued its own press release distancing itself
-- Stated autonomy under Paraguayan law
-- Confirmed their National Safeguarding Committee is real and active
+Aldea SOS Paraguay es operativamente sólida pero digitalmente atrasada. La mayor oportunidad única es **entregar una pasarela de donación online + micrositio de transparencia en 90 días**.
 
-**The opportunity**:
-- Public quarterly safeguarding reports = competitive differentiator
-- Transparency microsite = trust rebuild
-- No peer PY org has done this
+Benchmark: **el 99% de las 939 ONGs pares de bienestar infantil aceptan donaciones online. Aldea PY no.**
 
-#### What we offer (ParaguAI / Aiw team)
+#### Los 5 quick wins (90 días)
 
-- Donation gateway build (Donorbox + Tigo Money + Pix integration)
-- Transparency microsite (annual report + KPI dashboard)
-- Sponsor portal (sponsor-a-house model)
-- Tech-for-nonprofit SaaS stack (Salesforce NPSP free, Microsoft free, AWS free, Google Ad Grants)
-- Email templates + outreach playbooks
-- 90-day execution plan
+| # | Acción | Esfuerzo | Ingresos/año |
+|---|---|---|---|
+| 1 | Lanzar pasarela Donorbox | 1 semana | USD 7-27k |
+| 2 | Activar Google Ad Grants ($10k USD/mes gratis) | 4 semanas | USD 120k equivalente |
+| 3 | Arreglar `/transparencia` + publicar memoria anual | 2 semanas | Multiplicador de confianza |
+| 4 | Lanzar "Apadrina una Aldea" (apadrinar una casa) | 90 días | USD 200-410k |
+| 5 | Agregar donación vía Tigo/Personal | 30 días | USD 7-20k |
+| 6 | Reportes trimestrales de salvaguardia | 60 días | Diferenciador post-escándalo |
 
-#### What we need from you
+**Potencial acumulado**: USD 70-275k/año adicionales dentro de 18 meses.
 
-- **Aldea SOS PY**: First meeting with Ana Medina Zorrilla (Sustainability) or Zunilda Baruja (Corporate Partnerships, 0982 199 681)
-- **Engineering hours**: 2-4 weeks for build
-- **Outreach coordination**: Permission to send cold emails (Tigo, Itaú, Ueno, etc.)
-- **Founding partner**: USD 15-30k seed (optional, covers tech costs)
+---
 
-#### Sources
+## Página 2
 
-All research based on aldeasinfantiles.org.py (15 HTML pages, scraped 2026-08-21), 939-org catalog, and peer benchmark analysis. [Full dossier at github.com/IvanWeissVanDerPol/aldea-sos-paraguay]
+#### Contexto de la crisis (encuadrado con cuidado)
+
+En octubre de 2025, SOS Children's Villages International reveló que el fundador Hermann Gmeiner (fallecido en 1986) fue acusado de abuso sexual histórico (Austria, 1950-1980). La rama austriaca fue suspendida.
+
+**Respuesta de Paraguay**:
+- En 24 horas, Paraguay emitió su propio comunicado distanciándose
+- Declaró su autonomía bajo ley paraguaya
+- Confirmó que su Comité Nacional de Salvaguardia es real y activo
+
+**La oportunidad**:
+- Reportes trimestrales públicos de salvaguardia = diferenciador competitivo
+- Micrositio de transparencia = reconstrucción de confianza
+- Ninguna ONG paraguaya par ha hecho esto
+
+#### Qué ofrecemos (ParaguAI / equipo Aiw)
+
+- Construcción de pasarela de donación (Donorbox + Tigo Money + Pix)
+- Micrositio de transparencia (memoria anual + dashboard de KPIs)
+- Portal de apadrinamiento (modelo "apadrinar una casa")
+- Stack SaaS tech-for-nonprofit (Salesforce NPSP gratis, Microsoft gratis, AWS gratis, Google Ad Grants)
+- Plantillas de email + playbooks de outreach
+- Plan de ejecución de 90 días
+
+#### Qué necesitamos de ustedes
+
+- **Aldea SOS PY**: Primera reunión con Ana Medina Zorrilla (Sostenibilidad) o Zunilda Baruja (Alianzas Corporativas, 0982 199 681)
+- **Horas de ingeniería**: 2-4 semanas para la construcción
+- **Coordinación de outreach**: Permiso para enviar emails fríos (Tigo, Itaú, Ueno, etc.)
+- **Socio fundador**: USD 15-30k seed (opcional, cubre costos de tecnología)
+
+#### Fuentes
+
+Toda la investigación basada en aldeasinfantiles.org.py (15 páginas HTML, scrapeado 2026-08-21), catálogo de 939 ONGs, y análisis de benchmark de pares. [Dossier completo en github.com/IvanWeissVanDerPol/aldea-sos-paraguay]
 
 ---
 
 *Last updated: 2026-08-21*
-*Format note: designed for A4 portrait, 2 pages. Add logos, branding, and contact info when exporting.*
+*Nota de formato: diseñado para A4 vertical, 2 páginas. Agregar logos, branding e información de contacto al exportar.*

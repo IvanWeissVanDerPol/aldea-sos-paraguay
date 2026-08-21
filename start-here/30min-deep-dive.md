@@ -1,52 +1,52 @@
-# 30-Minute Deep Dive — Annotated Reading Order
+# Deep Dive de 30 Minutos — Orden de Lectura Anotado
 
-Read these 7 files in this order. Total ~30 minutes.
+Leé estos 7 archivos en este orden. Total ~30 minutos.
 
-| # | Time | File | Why |
+| # | Tiempo | Archivo | Por qué |
 |---|---|---|---|
-| 1 | 3 min | [`about/executive-summary.md`](../about/executive-summary.md) | Who is SOS PY in 1 page |
-| 2 | 5 min | [`about/digital-maturity.md`](../about/digital-maturity.md) | Where the gaps are, in detail |
-| 3 | 5 min | [`about/scandal-timeline.md`](../about/scandal-timeline.md) | What happened Oct 2025 and what it means for partnership risk |
-| 4 | 5 min | [`revenue/top-15-recommended.md`](../revenue/top-15-recommended.md) | The 15 highest-leverage revenue streams, ranked |
-| 5 | 5 min | [`revenue/90-day-quick-wins.md`](../revenue/90-day-quick-wins.md) | What to ship first, concretely |
-| 6 | 4 min | [`benchmark/feature-matrix.md`](../benchmark/peers/feature-matrix.md) | How SOS PY compares to 17 peers at a glance |
-| 7 | 3 min | [`governance/ACTION-BOARD.md`](../governance/ACTION-BOARD.md) | What's currently in flight, blocked, or done |
+| 1 | 3 min | [`about/executive-summary.md`](../about/executive-summary.md) | Quién es SOS PY en 1 hoja |
+| 2 | 5 min | [`about/digital-maturity.md`](../about/digital-maturity.md) | Dónde están los gaps, en detalle |
+| 3 | 5 min | [`about/scandal-timeline.md`](../about/scandal-timeline.md) | Qué pasó en octubre 2025 y qué significa para riesgo de alianza |
+| 4 | 5 min | [`revenue/top-15-recommended.md`](../revenue/top-15-recommended.md) | Las 15 fuentes de mayor apalancamiento, rankeadas |
+| 5 | 5 min | [`revenue/90-day-quick-wins.md`](../revenue/90-day-quick-wins.md) | Qué enviar primero, concretamente |
+| 6 | 4 min | [`benchmark/peers/feature-matrix.md`](../benchmark/peers/feature-matrix.md) | Cómo se compara SOS PY con 17 pares de un vistazo |
+| 7 | 3 min | [`governance/ACTION-BOARD.md`](../governance/ACTION-BOARD.md) | Qué está actualmente en curso, bloqueado, o hecho |
 
-**Total: 30 minutes**.
-
----
-
-## Optional deep dives (only if you have time)
-
-- **Want to know who at SOS PY to talk to?** → [`governance/STAKEHOLDER-MAP.md`](../governance/STAKEHOLDER-MAP.md)
-- **Want to understand the donor landscape in PY?** → [`competitive/`](../competitive/) (one teardown per peer)
-- **Want to see the raw data?** → [`research/1000-orgs/batches/CATALOG.csv`](../research/1000-orgs/batches/CATALOG.csv)
-- **Want to understand the safeguarding context?** → [`policy/safeguarding-charter.md`](../policy/safeguarding-charter.md)
-- **Want to know what tech we'd build?** → [`tech-spec/donation-gateway/recommended-stack.md`](../tech-spec/donation-gateway/recommended-stack.md)
-- **Want email templates ready to send?** → [`outreach/email/`](../outreach/email/)
-- **Want to know revenue potential?** → [`financial/revenue-model-projected.md`](../financial/revenue-model-projected.md)
+**Total: 30 minutos**.
 
 ---
 
-## Per-audience paths
+## Deep dives opcionales (solo si tenés tiempo)
 
-### Ivan's team (Aiw / ParaguAI / collaborators)
-1. This file (you are here)
-2. [`start-here/for-aiw-team.md`](./for-aiw-team.md) — what's actionable today
-3. [`about/digital-maturity.md`](../about/digital-maturity.md)
-4. [`revenue/90-day-quick-wins.md`](../revenue/90-day-quick-wins.md)
-5. [`tech-spec/`](../tech-spec/) (skim)
+- **¿Querés saber a quién contactar en SOS PY?** → [`governance/STAKEHOLDER-MAP.md`](../governance/STAKEHOLDER-MAP.md)
+- **¿Querés entender el panorama de donantes en PY?** → [`benchmark/`](../benchmark/) (deep dives de TECHO, CIRD, Alda, Cimientos, Teletón)
+- **¿Querés ver los datos crudos?** → [`research/1000-orgs/batches/CATALOG.csv`](../research/1000-orgs/batches/CATALOG.csv)
+- **¿Querés entender el contexto de salvaguardia?** → [`policy/`](../policy/) (cuando se llene)
+- **¿Querés saber qué tecnología construiríamos?** → [`tech-spec/donation-gateway/`](../tech-spec/donation-gateway/) (cuando se llene)
+- **¿Querés plantillas de email listas para enviar?** → [`outreach/email/`](../outreach/email/)
+- **¿Querés saber el potencial de ingresos?** → [`financial/`](../financial/) (cuando se llene)
 
-### Pitching to Aldea SOS Paraguay
-1. This file
-2. [`start-here/for-sos-py.md`](./for-sos-py.md)
-3. [`about/executive-summary.md`](../about/executive-summary.md)
-4. [`revenue/top-15-recommended.md`](../revenue/top-15-recommended.md)
-5. [`pitch/executive-summary-pdf.md`](../pitch/executive-summary-pdf.md)
+---
 
-### Pitching to a donor / corporate ally
-1. This file
-2. [`start-here/for-donor-outreach.md`](./for-donor-outreach.md)
-3. [`about/executive-summary.md`](../about/executive-summary.md)
-4. [`benchmark/`](../benchmark/) (skim — peer evidence)
-5. [`competitive/`](../competitive/) (if comparing to a specific org)
+## Caminos por audiencia
+
+### Equipo de Ivan (Aiw / ParaguAI / colaboradores)
+1. Este archivo (estás aquí)
+2. [`for-aiw-team.md`](./for-aiw-team.md) — qué es accionable hoy
+3. [`../about/digital-maturity.md`](../about/digital-maturity.md)
+4. [`../revenue/90-day-quick-wins.md`](../revenue/90-day-quick-wins.md)
+5. [`../tech-spec/`](../tech-spec/) (revisar)
+
+### Presentando a Aldea SOS Paraguay
+1. Este archivo
+2. [`for-sos-py.md`](./for-sos-py.md)
+3. [`../about/executive-summary.md`](../about/executive-summary.md)
+4. [`../revenue/top-15-recommended.md`](../revenue/top-15-recommended.md)
+5. [`../pitch/executive-summary-pdf.md`](../pitch/executive-summary-pdf.md)
+
+### Outreach a donante / aliado corporativo
+1. Este archivo
+2. [`for-donor-outreach.md`](./for-donor-outreach.md)
+3. [`../about/executive-summary.md`](../about/executive-summary.md)
+4. [`../benchmark/`](../benchmark/) (revisar)
+5. [`../pitch/one-pager-corporate-ally.md`](../pitch/one-pager-corporate-ally.md)

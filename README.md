@@ -9,14 +9,34 @@
 
 ## 🚀 Start here
 
-- **[`start-here/5min-summary.md`](./start-here/5min-summary.md)** — one page, the whole picture
-- **[`start-here/30min-deep-dive.md`](./start-here/30min-deep-dive.md)** — annotated reading order
-- **[`start-here/`](./start-here/)** — all entry-point guides, including per-audience paths
+- **[`start-here/5min-summary.md`](./start-here/5min-summary.md)** — una página, el panorama completo
+- **[`start-here/30min-deep-dive.md`](./start-here/30min-deep-dive.md)** — orden de lectura anotado
+- **[`start-here/`](./start-here/)** — todas las guías de entrada, incluyendo rutas por audiencia
+
+**Toda la documentación para el cliente está en español.** El cliente (Aldea SOS Paraguay) no habla inglés.
+
+---
+
+## 📧 Email Setup (Resend on `mail.paragu-ai.com`)
+
+El sistema de email usa **Resend** sobre el dominio `mail.paragu-ai.com` (región `sa-east-1` para baja latencia desde Paraguay).
+
+| Documento | Contenido |
+|---|---|
+| [`tech-spec/email/sender-config.md`](./tech-spec/email/sender-config.md) | Setup de Resend, identidad del remitente (en español) |
+| [`tech-spec/email/dns-records.md`](./tech-spec/email/dns-records.md) | SPF + DKIM + DMARC records |
+| [`tech-spec/email/api-integration.md`](./tech-spec/email/api-integration.md) | SDK Node/Python |
+| [`outreach/email/`](./outreach/email/) | Plantillas de email en español |
+| [`governance/email-policy.md`](./governance/email-policy.md) | Quién envía desde qué, idioma, frecuencia |
+
+**Identidad del remitente por defecto**: `Aldeas Infantiles SOS Paraguay <amigos@paragu-ai.com>` (espeja el programa "Amigos SOS" existente).
+
+Click tracking: habilitado. Open tracking: deshabilitado (Resend advierte que es poco fiable).
 
 If you know who you are:
-- 👥 **I'm from Ivan's team** → [`start-here/for-aiw-team.md`](./start-here/for-aiw-team.md)
-- 🎯 **I'm pitching to Aldea SOS Paraguay** → [`start-here/for-sos-py.md`](./start-here/for-sos-py.md)
-- 💼 **I'm pitching to a donor / corporate ally** → [`start-here/for-donor-outreach.md`](./start-here/for-donor-outreach.md)
+- 👥 **Soy del equipo de Ivan** → [`start-here/for-aiw-team.md`](./start-here/for-aiw-team.md)
+- 🎯 **Voy a presentar a Aldea SOS Paraguay** → [`start-here/for-sos-py.md`](./start-here/for-sos-py.md)
+- 💼 **Voy a hacer outreach a un donante / aliado corporativo** → [`start-here/for-donor-outreach.md`](./start-here/for-donor-outreach.md)
 
 ---
 
@@ -32,15 +52,15 @@ The repo is organized by **purpose**, alphabetically:
 | **[`competitive/`](./competitive/)** | Deep teardowns (skeleton — see benchmark/PY-deep-dives) | Reserved for dedicated competitor profiles |
 | **[`evidence/`](./evidence/)** | Raw artifacts (HTML downloads from SOS PY) | 15 HTMLs + SOURCES.md + EXTRACTED-FACTS.md + evidence-levels guide |
 | **[`financial/`](./financial/)** | Revenue model + budgets + cost estimates (skeleton) | Reserved |
-| **[`governance/`](./governance/)** | Repo governance | INDEX, GLOSSARY, STYLE-GUIDE, RISK-REGISTER, STAKEHOLDER-MAP, ACTION-BOARD, CHANGELOG, RESTRUCTURE-PLAN |
-| **[`outreach/`](./outreach/)** | Email/call/social scripts (skeleton) | Reserved |
-| **[`pitch/`](./pitch/)** | Outbound decks, one-pagers, FAQ | Pitch deck outline + executive summary + 3 one-pagers + FAQ |
+| **[`governance/`](./governance/)** | Repo governance | INDEX, GLOSSARY, STYLE-GUIDE, RISK-REGISTER, STAKEHOLDER-MAP, ACTION-BOARD, CHANGELOG, email-policy, RESTRUCTURE-PLAN |
+| **[`outreach/`](./outreach/)** | Email/call/social scripts | Cold outreach templates (es), email templates (es), call scripts (planned) |
+| **[`pitch/`](./pitch/)** | Outbound decks, one-pagers, FAQ (all in Spanish) | Pitch deck outline + executive summary + 3 one-pagers + FAQ |
 | **[`policy/`](./policy/)** | Child protection + ethics (skeleton — URGENT) | Reserved |
 | **[`research/`](./research/)** | 1000-org catalog + patterns | CATALOG.csv (939 orgs × 12 cols) + SYNTHESIS.md + 9 slices + 4 patterns |
 | **[`revenue/`](./revenue/)** | 65+ revenue streams | TOP 15 + 90-day quick wins + safeguarding appendix + 13 stream-group files |
-| **[`start-here/`](./start-here/)** | Audience-keyed entry points | 5min summary + 30min deep dive + per-audience guides |
+| **[`start-here/`](./start-here/)** | Audience-keyed entry points (in Spanish) | 5min summary + 30min deep dive + per-audience guides |
 | **[`strategy/`](./strategy/)** | 30/60/90 plans + donor journey (skeleton) | Reserved |
-| **[`tech-spec/`](./tech-spec/)** | Engineering specs (skeleton) | Reserved |
+| **[`tech-spec/`](./tech-spec/)** | Engineering specs | Email (sender config, DNS, API integration) — donation gateway/sponsor portal/transparency (skeleton) |
 | **[`_originals/`](./_originals/)** | Pre-restructure safety net | Originals of DOSSIER.md, PEER-BENCHMARK.md, REVENUE-AVENUES.md from before the split |
 
 ---
@@ -158,20 +178,24 @@ The repo is organized by **purpose**, alphabetically:
 
 | Folder | Status |
 |---|---|
-| `start-here/` | ✅ Complete (6 files) |
-| `about/` | ✅ Complete (10 files: README + 8 topical + legacy reference) |
-| `evidence/` | ✅ Complete (19 files: 15 HTMLs + 4 docs) |
-| `benchmark/` | ✅ Complete (13 files: README + framework + 5 peer files + 5 PY deep-dives + legacy) |
-| `research/` | ✅ Complete (31 files: README + 1000-orgs folder + 4 pattern files) |
-| `revenue/` | ✅ Complete (19 files: README + TOP15 + quick-wins + safeguarding + 13 streams + legacy + split.py) |
-| `pitch/` | ✅ Complete (7 files: README + executive-summary-pdf + pitch-deck-outline + 3 one-pagers + FAQ) |
-| `governance/` | ✅ Complete (9 files: README + INDEX + 7 governance docs) |
-| `outreach/` | ⚠️ Empty — needs cold-outreach templates + call scripts |
-| `tech-spec/` | ⚠️ Empty — needs donation gateway + transparency microsite + sponsor portal specs |
+| `start-here/` | ✅ Complete, all in Spanish (6 files) |
+| `about/` | ✅ Complete (10 files) |
+| `evidence/` | ✅ Complete (19 files) |
+| `benchmark/` | ✅ Complete (13 files) |
+| `research/` | ✅ Complete (31 files) |
+| `revenue/` | ✅ Complete (19 files) |
+| `pitch/` | ✅ Complete, all in Spanish (7 files) |
+| `governance/` | ✅ Complete, including email-policy (10 files) |
+| `outreach/email/` | ✅ Complete — 5 cold-outreach templates + 3 transactional email templates + followup (Spanish) |
+| `tech-spec/email/` | ✅ Complete — sender-config + dns-records + api-integration (3 files) |
+| `tech-spec/donation-gateway/` | ⚠️ Empty — needs processor comparison + recommended stack |
+| `tech-spec/transparency-microsite/` | ⚠️ Empty |
+| `tech-spec/sponsor-portal/` | ⚠️ Empty |
+| `tech-spec/infra/` | ⚠️ Empty |
 | `financial/` | ⚠️ Empty — needs revenue model + budgets |
 | `strategy/` | ⚠️ Empty — needs 30/60/90 plans + donor journey |
 | `policy/` | ⚠️ Empty — **URGENT**, needs safeguarding charter |
-| `competitive/` | ⚠️ Empty — needs deep teardowns (some live in `benchmark/PY-deep-dives/`) |
+| `competitive/` | ⚠️ Empty — needs dedicated competitor teardowns (some live in `benchmark/PY-deep-dives/`) |
 | `archive/` | (Reserved for future deprecated files) |
 | `_originals/` | ✅ Safety net of originals from before the split |
 

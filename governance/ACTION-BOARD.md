@@ -22,12 +22,10 @@
 ## 🟡 In Progress
 
 | Item | Owner | Started |
-|---|---|---|
+|---|---|---|---|
 | Build donation gateway (Donorbox MVP) | Engineering team | 2026-08-21 |
 | Draft safeguarding charter | Hermes (drafts) → SOS PY review | 2026-08-21 |
-| Draft outreach emails (×6 templates) | Hermes | 2026-08-21 |
-| Draft pitch deck outline | Hermes | 2026-08-21 |
-| Draft tech stack comparison (Donorbox vs Funraise vs Bancard) | Hermes | 2026-08-21 |
+| Configure Resend domain + send first email | Hermes / Ivan | 2026-08-21 |
 | Repositor restructure (split big MDs into subfolders) | Hermes | 2026-08-21 |
 
 ---
@@ -38,8 +36,8 @@
 |---|---|
 | Verify Paraguay RUC = 80016122 with public BCP data | [evidence: official] — ong.com.py profile |
 | Confirm Tupi 6th-edition Comilona = Gs. 1,391M (USD 190k) | [evidence: third-party] a24.com.py coverage |
-| Draft executive-summary-pdf.md content | for pitch/ |
-| Draft FAQ.md | for pitch/ (anticipated 20 questions) |
+| Add DNS records (SPF/DKIM/DMARC) for `paragu-ai.com` at DNS provider | waiting on Ivan |
+| Set Spanish sender identity in Resend (`amigos@paragu-ai.com`) | documented in tech-spec/email/sender-config.md |
 | Draft donor-journey-map.md | for strategy/ |
 | Draft 30-day-quick-wins.md | for strategy/ |
 | Draft 90-day-plan.md | for strategy/ |
@@ -57,10 +55,16 @@
 | 1000-org catalog (939 entries) | 2026-08-21 |
 | Synthesis (distributions, top lists, themes) | 2026-08-21 |
 | Revenue avenues (65+ streams, TOP 15) | 2026-08-21 |
-| Repo restructured (numbered folders, subfolder READMEs) | 2026-08-21 |
-| governance/ added (governance) | 2026-08-21 |
-| start-here/ added (audience-keyed entry) | 2026-08-21 |
-| governance/INDEX.md, GLOSSARY.md, STYLE-GUIDE.md, RISK-REGISTER.md, STAKEHOLDER-MAP.md | 2026-08-21 |
+| Repo restructured (numbered folders, subfolder) | 2026-08-21 |
+| Repo restructured again (word-based folder names) | 2026-08-21 |
+| Renamed META → governance, _archive-pre-restructure → _originals | 2026-08-21 |
+| INDEX.md + governance/INDEX.md (master indexes) | 2026-08-21 |
+| All cross-references fixed (0 truly broken links) | 2026-08-21 |
+| **Email system docs** (Resend setup, DNS, API integration) | 2026-08-21 |
+| **Spanish email templates** (receipt, welcome, newsletter) | 2026-08-21 |
+| **Spanish cold-outreach templates** (5 destinations + followup) | 2026-08-21 |
+| **Email policy** (who sends from what, language, frequency) | 2026-08-21 |
+| **Translated pitch/ + start-here/ to Spanish** | 2026-08-21 |
 
 ---
 

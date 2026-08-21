@@ -1,72 +1,73 @@
-# For pitching to Aldea SOS Paraguay
+# Para presentar a Aldea SOS Paraguay
 
-**Audience**: Whoever (Ivan or his team) is presenting this work to Aldeas Infantiles SOS Paraguay.
+**Audiencia**: Quien (Ivan o su equipo) esté presentando este trabajo a Aldeas Infantiles SOS Paraguay.
 
-## The framing
+## El encuadre
 
-**Do NOT lead with**: "here's everything you're doing wrong."
-**DO lead with**: "you're a 55-year-old brand serving 1,000 children. We're here to help you modernize the digital layer so you can serve 3,000."
+**NO empezar con**: "aquí está todo lo que están haciendo mal".
+**SÍ empezar con**: "son una marca de 55 años sirviendo a 1.000 niños. Estamos aquí para ayudarles a modernizar la capa digital para que puedan servir a 3.000".
 
-## The narrative arc
+## El arco narrativo
 
-1. **Acknowledge**: They have a strong brand, 5 aldeas, 18+ corporate allies, a 2024 prevention program (Ojoykére). They are operationally sound.
-2. **Show the gap**: peer orgs (99% of them) have online donation. They don't. Their `/transparencia` page is broken. They have no sponsor portal.
-3. **Frame the scandal carefully**: The 2025 Austrian scandal is the Federation's, not theirs. They were *fast* to publicly distance themselves (Oct 23, 2025 press release). Their National Safeguarding Committee is real. They have an opportunity to lead the Federation on transparency.
-4. **Offer help, not critique**: We're offering concrete actions with partners and engineering — not opinions.
-5. **Ask for permission + a small commitment**: First meeting to introduce, second meeting to scope, third meeting to sign an MOU.
+1. **Reconocer**: Tienen una marca fuerte, 5 aldeas, 18+ aliados corporativos, un programa de prevención 2024 (Ojoykére). Son operativamente sólidos.
+2. **Mostrar la brecha**: las ONGs pares (el 99% de ellas) tienen donación online. Ellos no. Su página `/transparencia` está rota. No tienen portal de apadrinamiento.
+3. **Encuadrar el escándalo con cuidado**: El escándalo austriaco 2025 es de la Federación, no de ellos. Fueron *rápidos* en distanciarse públicamente (comunicado del 23 de octubre de 2025). Su Comité Nacional de Salvaguardia es real. Tienen una oportunidad de liderar a la Federación en transparencia.
+4. **Ofrecer ayuda, no crítica**: Ofrecemos acciones concretas con aliados e ingeniería — no opiniones.
+5. **Pedir permiso + un compromiso menor**: Primera reunión para introducir, segunda para definir alcance, tercera para firmar un MOU.
 
-## What to bring to the meeting
+## Qué llevar a la reunión
 
-### Must-have (one-pager)
-→ [`pitch/executive-summary-pdf.md`](../pitch/executive-summary-pdf.md) — print 2 copies
+### Imprescindible (one-pager)
+→ [`pitch/executive-summary-pdf.md`](../pitch/executive-summary-pdf.md) — imprimir 2 copias
 
-### Supporting (left behind)
-→ [`pitch/one-pager-sos-py.md`](../pitch/one-pager-sos-py.md) — single A4, tailored to them
+### De apoyo (dejar)
+→ [`pitch/one-pager-sos-py.md`](../pitch/one-pager-sos-py.md) — single A4, personalizado para ellos
 
-### If they ask for depth
+### Si piden profundidad
 → [`about/executive-summary.md`](../about/executive-summary.md)
 → [`about/digital-maturity.md`](../about/digital-maturity.md)
 → [`revenue/top-15-recommended.md`](../revenue/top-15-recommended.md)
 
-### If they want to see the peer benchmark
+### Si quieren ver el benchmark
 → [`benchmark/peers/paraguay-peers.md`](../benchmark/peers/paraguay-peers.md)
 
-### If they want tech specs
-→ [`tech-spec/donation-gateway/recommended-stack.md`](../tech-spec/donation-gateway/recommended-stack.md)
+### Si quieren ver tech specs
+→ [`tech-spec/email/sender-config.md`](../tech-spec/email/sender-config.md)
+→ [`tech-spec/donation-gateway/`](../tech-spec/donation-gateway/) (cuando se llene)
 
-## Who at SOS Paraguay to ask for
+## A quién pedir en SOS Paraguay
 
-- **First contact**: Ana Medina Zorrilla, Directora de Sostenibilidad local (mentioned in Tupi 2026 press release)
-- **If she's unavailable**: Zunilda Baruja, Coordinadora de Alianzas Corporativas, 0982 199 681, Zunilda.Baruja@aldeasinfantiles.org.py
-- **General inbox**: sos.py@aldeasinfantiles.org.py
-- **Donor/newsletter**: info.boletin@aldeasinfantiles.org.py
+- **Primer contacto**: Ana Medina Zorrilla, Directora de Sostenibilidad local (mencionada en el comunicado de prensa de TUPI 2026)
+- **Si no está**: Zunilda Baruja, Coordinadora de Alianzas Corporativas, 0982 199 681, Zunilda.Baruja@aldeasinfantiles.org.py
+- **Inbox general**: sos.py@aldeasinfantiles.org.py
+- **Donantes / newsletter**: info.boletin@aldeasinfantiles.org.py
 
-## What NOT to bring up unsolicited
+## Qué NO mencionar sin que ellos lo traigan
 
-- The 2025 Austrian scandal in depth (let them bring it up)
-- Specific revenue numbers as commitments (frame as estimates)
-- Any mention of Gmeiner by name in print materials
-- Crypto/Web3 (not their audience)
-- Donor names or specific personal data
+- El escándalo austriaco 2025 en profundidad (que ellos lo traigan)
+- Números de ingresos específicos como compromisos (encuadrar como estimaciones)
+- Cualquier mención del nombre de Gmeiner en materiales impresos
+- Crypto/Web3 (no es su audiencia)
+- Nombres de donantes o datos personales específicos
 
-## Things they may push back on
+## Cosas que pueden objetar
 
-| Pushback | Response |
+| Objeción | Respuesta |
 |---|---|
-| "We already tried Donorbox" | "Let me check with their team — maybe integration issue." |
-| "We need to protect children's privacy" | "That's why our safeguarding charter is the first deliverable, before any donation gateway." |
-| "We can't afford to pay for tech" | "Donorbox is free for <1k donors. Salesforce NPSP is free. Google Ad Grants is free. Total cost = USD 0." |
-| "The Federation has rules about..." | "Yes — we'll align with the Federation's 2030 Strategy and Safeguarding Policy." |
-| "We're recovering from the scandal" | "That's exactly why public transparency is your biggest opportunity right now. We can help publish a quarterly safeguarding report." |
+| "Ya probamos Donorbox" | "Déjame chequear con su equipo — quizás fue un tema de integración." |
+| "Necesitamos proteger la privacidad de los niños" | "Por eso nuestra carta de salvaguardia es la primera entrega, antes de cualquier pasarela de donación." |
+| "No podemos pagar tecnología" | "Donorbox es gratis para <1k donantes. Salesforce NPSP es gratis. Google Ad Grants es gratis. Costo total = USD 0." |
+| "La Federación tiene reglas sobre..." | "Sí — nos alineamos con la Estrategia 2030 y la Política de Salvaguardia de la Federación." |
+| "Nos estamos recuperando del escándalo" | "Justamente por eso la transparencia pública es tu mayor oportunidad ahora. Podemos ayudar a publicar un reporte trimestral de salvaguardia." |
 
-## Logistics
+## Logística
 
-- **Language**: Spanish only (Paraguay). Don't translate to English unless asked.
-- **Formality**: Use "usted". Paraguay business culture is more formal than you'd expect.
-- **Dress code**: Business casual. Paraguay is warm year-round.
-- **Punctuality**: 10 min early is normal. 5 min late is rude.
-- **Meeting length**: First meeting 45-60 min max. Don't oversell.
+- **Idioma**: solo español (Paraguay). No traducir a inglés a menos que pidan.
+- **Formalidad**: usar "usted". La cultura de negocios paraguaya es más formal de lo que parece.
+- **Vestimenta**: business casual. Paraguay es cálido todo el año.
+- **Puntualidad**: 10 min antes es normal. 5 min tarde es descortés.
+- **Duración de reunión**: 45-60 min máximo la primera. No sobrevender.
 
-## After the meeting
+## Después de la reunión
 
-File the outcome in [`governance/ACTION-BOARD.md`](../governance/ACTION-BOARD.md) and email Ivan.
+Anotá el resultado en [`governance/ACTION-BOARD.md`](../governance/ACTION-BOARD.md) y email a Ivan.

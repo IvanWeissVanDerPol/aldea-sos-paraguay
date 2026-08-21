@@ -1,77 +1,79 @@
-# FAQ — Anticipated Questions + Answers
+# FAQ — Preguntas anticipadas + Respuestas
 
-> 20 most likely questions we'd be asked, with brief answers.
-
-## About Aldea SOS Paraguay
-
-### Q1: Why don't they just do this themselves?
-A: They have the will but not the digital engineering capacity. Their website is on Duda CMS — a template, not a custom platform. Building the missing infrastructure (donation gateway, sponsor portal, transparency dashboard) is exactly the kind of project they need help with. We're offering to do it for them, with their signoff.
-
-### Q2: Aren't they recovering from a scandal?
-A: Yes, but **not theirs**. The Oct 2025 scandal was about Hermann Gmeiner's historical abuse (Austria, 1950s-1980s) and the Austrian branch was suspended. Paraguay is autonomous under Paraguayan law and **responded within 24 hours**. They have a National Safeguarding Committee. Our value proposition is helping them lead on post-scandal transparency, not papering over anything.
-
-### Q3: What's their budget? Can they afford this?
-A: Their estimated annual revenue is USD 1.5-3M [evidence: estimate based on peer benchmarks]. Several of our proposed interventions are **free** (Google Ad Grants, Salesforce NPSP, Microsoft Philanthropies, AWS Imagine, Donorbox free under 1k donors). Total tech cost in Year 1 = ~USD 0-3k for them.
-
-### Q4: Who's the National Director? Who actually decides?
-A: **Unknown publicly**. We know two staff publicly: Ana Medina Zorrilla (Sustainability) and Zunilda Baruja (Corporate Partnerships, 0982 199 681). First meeting should be with them, who can introduce us to the National Director.
-
-### Q5: What's the Federation's role?
-A: SOS-Kinderdorf International (Innsbruck, Austria) sets global strategy + safeguarding standards. National associations are autonomous legal entities. Federation subsidies are part of SOS PY's revenue but the amount is not public.
-
-## About the project
-
-### Q6: What do you want from us?
-A: (a) Permission to contact SOS PY first, (b) introduction to Ana or Zunilda, (c) engineering capacity for 2-4 weeks, (d) optional USD 15-30k seed for tech.
-
-### Q7: How long does the build take?
-A: 90 days for the top 5 quick wins. 6-12 months for full sponsor portal + transparency microsite. Phased delivery — we don't need everything to launch.
-
-### Q8: What if they say no?
-A: We learn something valuable (their actual priorities), we still have the research catalog for other clients, and we re-engage in 6 months with progress on transparency as the door-opener.
-
-### Q9: Is this research generalizable?
-A: Yes — the same package (donation gateway + transparency microsite + sponsor portal) could be sold to other PY NGOs (TECHO, CIRD, Alda, Cimientos). It's a portfolio play.
-
-### Q10: Why ParaguAI / Aiw? Why not a specialist agency?
-A: We have local context + can move fast. Specialist agencies would be slower and more expensive. Plus the post-scandal moment requires cultural fluency that outside agencies lack.
-
-## About the technical approach
-
-### Q11: Why Donorbox? Why not Stripe / Bancard / Pix / Tigo Money?
-A: All of those. Donorbox for the MVP because it's free under 1k donors, has Spanish-language product, supports recurring natively. Stripe for international (USD/EUR). Bancard for PY local cards. Tigo Money + Pix + Wally for mobile wallets. We use all the rails.
-
-### Q12: How do we ensure children's privacy?
-A: (a) No identifying information in fundraising copy. (b) Sponsor portal is HOUSE-level, not child-level. (c) Image consent forms mandatory. (d) Quarterly safeguarding report published.
-
-### Q13: What about the scandal? Will our materials reference Gmeiner?
-A: Only when directly relevant and only with explicit review. The default is to talk about Paraguay's autonomous response, not name the founder.
-
-### Q14: What's the safeguarding charter?
-A: Model child protection policy (in `../policy/`). Includes: incident reporting, whistleblower channel, training requirements, audit schedule. Public version can be published as competitive differentiator.
-
-## About revenue potential
-
-### Q15: Are the revenue estimates real?
-A: They are **estimates** based on peer benchmarks. They are NOT commitments. Use language like "potential" and "based on similar orgs". The biggest single lever is online donation, which every peer uses.
-
-### Q16: How much of the 65+ streams can we realistically activate?
-A: Not all. Realistic goal in 18 months: 5-7 streams activated, including top 5 from the prioritized list. Total potential revenue uplift: USD 70-275k/yr.
-
-### Q17: What's the diaspora really worth?
-A: PY diaspora is ~600k in Argentina + 162k in Spain + large in USA. Even 0.01% participation = USD 100-500k/yr. DAFs are the key US channel.
-
-### Q18: What about crypto / Web3?
-A: Niche. Recommended NOT to prioritize. Bitso Paraguay is the local exchange; The Giving Block is the global platform. Could add later as a PR moment, not a primary channel.
-
-## About the next 30 days
-
-### Q19: What happens first?
-A: (1) Send cold email to Ana Medina or Zunilda Baruja (template in `../outreach/`). (2) Follow up within 5 business days. (3) If response: schedule 30-min discovery call. (4) If no response: pivot to approaching Tigo/Itaú/Ueno first, who can intro.
-
-### Q20: What if they ask "why should we work with you"?
-A: "We did the homework. 939-org catalog. 65 revenue streams. Peer benchmark. We know what 99% of your peers do that you don't, and we know exactly which 5 things to ship first. We've already mapped your tech stack gaps and your corporate partner portfolio. We're offering you a 90-day plan that costs you nothing in Year 1."
+> 20 preguntas más probables que nos harían, con respuestas breves.
 
 ---
 
-*Add to this FAQ as new questions come up.*
+## Sobre Aldea SOS Paraguay
+
+### P1: ¿Por qué no lo hacen ellos mismos?
+R: Tienen la voluntad pero no la capacidad de ingeniería digital. Su sitio web está en Duda CMS — una plantilla, no una plataforma custom. Construir la infraestructura que les falta (pasarela de donación, portal de apadrinamiento, dashboard de transparencia) es exactamente el tipo de proyecto en el que necesitan ayuda. Ofrecemos hacerlo por ellos, con su aprobación.
+
+### P2: ¿No están recuperándose de un escándalo?
+R: Sí, pero **no de uno propio**. El escándalo de octubre 2025 fue sobre Hermann Gmeiner (Austria, 1950-1980) y la rama austriaca fue suspendida. Paraguay es autónoma bajo ley paraguaya y **respondió en 24 horas**. Tienen un Comité Nacional de Salvaguardia. Nuestra propuesta de valor es ayudarles a liderar en transparencia post-escándalo, no tapar nada.
+
+### P3: ¿Cuál es su presupuesto? ¿Pueden pagarlo?
+R: Sus ingresos anuales estimados son USD 1.5-3M [evidencia: estimación basada en benchmarks de pares]. Varias de nuestras intervenciones propuestas son **gratuitas** (Google Ad Grants, Salesforce NPSP, Microsoft Philanthropies, AWS Imagine, Donorbox gratis para <1k donantes). Costo tecnológico total en Año 1 = ~USD 0-3k para ellos.
+
+### P4: ¿Quién es el Director Nacional? ¿Quién decide realmente?
+R: **Desconocido públicamente**. Conocemos dos personas: Ana Medina Zorrilla (Sostenibilidad) y Zunilda Baruja (Alianzas Corporativas, 0982 199 681). La primera reunión debería ser con ellas, que pueden presentarnos al Director Nacional.
+
+### P5: ¿Cuál es el rol de la Federación?
+R: SOS-Kinderdorf International (Innsbruck, Austria) define estrategia global + estándares de salvaguardia. Las asociaciones nacionales son entidades legales autónomas. Las subvenciones de la Federación son parte de los ingresos de SOS PY pero el monto exacto no es público.
+
+## Sobre el proyecto
+
+### P6: ¿Qué quieren de nosotros?
+R: (a) Permiso para contactar a SOS PY primero, (b) presentación con Ana o Zunilda, (c) capacidad de ingeniería por 2-4 semanas, (d) opcional USD 15-30k seed para tecnología.
+
+### P7: ¿Cuánto tarda la construcción?
+R: 90 días para los top 5 quick wins. 6-12 meses para el portal de apadrinamiento completo + micrositio de transparencia. Entrega por fases — no necesitamos todo para lanzar.
+
+### P8: ¿Qué pasa si dicen que no?
+R: Aprendemos algo valioso (sus prioridades reales), seguimos teniendo el catálogo de investigación para otros clientes, y re-enganchamos en 6 meses con el progreso de transparencia como puerta de entrada.
+
+### P9: ¿Es esta investigación generalizable?
+R: Sí — el mismo paquete (pasarela de donación + micrositio de transparencia + portal de apadrinamiento) podría venderse a otras ONGs paraguayas (TECHO, CIRD, Alda, Cimientos). Es una jugada de portafolio.
+
+### P10: ¿Por qué ParaguAI / Aiw? ¿Por qué no una agencia especializada?
+R: Tenemos contexto local + podemos movernos rápido. Las agencias especializadas serían más lentas y caras. Además, el momento post-escándalo requiere fluidez cultural que las agencias externas no tienen.
+
+## Sobre el enfoque técnico
+
+### P11: ¿Por qué Donorbox? ¿Por qué no Stripe / Bancard / Pix / Tigo Money?
+R: Todos. Donorbox para el MVP porque es gratis bajo 1k donantes, tiene producto en español, soporta recurrentes nativamente. Stripe para internacional (USD/EUR). Bancard para tarjetas locales PY. Tigo Money + Pix + Wally para billeteras móviles. Usamos todos los rieles.
+
+### P12: ¿Cómo aseguran la privacidad de los niños?
+R: (a) Sin información identificable en los textos de recaudación. (b) Portal de apadrinamiento es a nivel CASA, no a nivel niño. (c) Formularios de consentimiento de imagen obligatorios. (d) Reporte trimestral de salvaguardia publicado.
+
+### P13: ¿Qué hay del escándalo? ¿Nuestros materiales van a nombrar a Gmeiner?
+R: Solo cuando sea directamente relevante y solo con revisión explícita. Por defecto hablamos de la respuesta autónoma de Paraguay, no del fundador.
+
+### P14: ¿Qué es la carta de salvaguardia?
+R: Modelo de política de protección infantil (en `../11-policy/`). Incluye: reporte de incidentes, canal de whistleblower, requisitos de capacitación, calendario de auditorías. La versión pública puede publicarse como diferenciador competitivo.
+
+## Sobre el potencial de ingresos
+
+### P15: ¿Las estimaciones de ingresos son reales?
+R: Son **estimaciones** basadas en benchmarks de pares. NO son compromisos. Usar lenguaje como "potencial" y "basado en ONGs similares". El mayor motor es donación online, que todos los pares usan.
+
+### P16: ¿Cuántas de las 65+ fuentes podemos activar realmente?
+R: No todas. Meta realista en 18 meses: 5-7 fuentes activadas, incluyendo el top 5 de la lista priorizada. Potencial total: USD 70-275k/año extra.
+
+### P17: ¿Cuánto vale realmente la diáspora?
+R: La diáspora PY es ~600k en Argentina + 162k en España + grande en USA. Incluso 0.01% de participación = USD 100-500k/año. Los DAFs son el canal clave US.
+
+### P18: ¿Qué hay de crypto / Web3?
+R: Nicho. Recomendado NO priorizar. Bitso Paraguay es el exchange local; The Giving Block es la plataforma global. Podría agregarse después como momento de PR, no como canal principal.
+
+## Sobre los próximos 30 días
+
+### P19: ¿Qué pasa primero?
+R: (1) Enviar email frío a Ana Medina o Zunilda Baruja (plantilla en `../07-outreach/email/`). (2) Seguimiento en 5 días hábiles. (3) Si responden: agendar discovery call de 30 min. (4) Si no responden: pivotar a Tigo/Itaú/Ueno primero, que pueden presentar.
+
+### P20: ¿Qué pasa si preguntan "¿por qué deberíamos trabajar con ustedes"?
+R: "Hicimos la tarea. Catálogo de 939 ONGs. 65 fuentes de ingreso. Benchmark de pares. Sabemos qué hace el 99% de sus pares que ustedes no, y sabemos exactamente cuáles 5 cosas lanzar primero. Ya mapeamos sus gaps tecnológicos y su portafolio de aliados corporativos. Ofrecemos un plan de 90 días que les cuesta cero en el Año 1."
+
+---
+
+*Agregar a este FAQ cuando aparezcan nuevas preguntas.*

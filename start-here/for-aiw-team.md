@@ -1,60 +1,59 @@
-# For Ivan's team (Aiw / ParaguAI / collaborators)
+# Para el equipo de Ivan (Aiw / ParaguAI / colaboradores)
 
-**Who you are**: someone working with Ivan (ParaguAI / Aiw) who needs to know what's actionable today, what's blocked, and what you can pick up.
+**Quién eres**: alguien que trabaja con Ivan (ParaguAI / Aiw) y necesita saber qué es accionable hoy, qué está bloqueado y qué puedes tomar.
 
 ## TL;DR
 
-- **The research is done.** 939-org catalog + 65 revenue streams + deep dossier. No more reading required to know *what* to do.
-- **The bottleneck is execution.** Permission from SOS Paraguay + engineering hours + outbound emails.
-- **The biggest single unlock** = the donation gateway (Donorbox + Tigo Money + Pix). Ship this and everything downstream gets easier.
+- **La investigación está hecha.** Catálogo de 939 ONGs + 65 fuentes de ingreso + dossier profundo. No falta lectura para saber *qué* hacer.
+- **El cuello de botella es ejecución.** Permiso de SOS Paraguay + horas de ingeniería + emails de outreach.
+- **El mayor desbloqueo único** = la pasarela de donación (Donorbox + Tigo Money + Pix). Envíala y todo lo demás se vuelve más fácil.
 
-## What you can do today, by role
+## Qué puedes hacer hoy, según tu rol
 
-### If you're an engineer
-1. Read [`tech-spec/donation-gateway/recommended-stack.md`](../tech-spec/donation-gateway/recommended-stack.md) (5 min)
-2. Skim [`tech-spec/donation-gateway/wireframes.md`](../tech-spec/donation-gateway/wireframes.md) (5 min)
-3. Estimate build time per component (1 hour)
-4. File in [`governance/ACTION-BOARD.md`](../governance/ACTION-BOARD.md) what you can take
+### Si sos ingeniero/a
+1. Lee [`tech-spec/email/sender-config.md`](../tech-spec/email/sender-config.md) (5 min)
+2. Lee [`tech-spec/email/api-integration.md`](../tech-spec/email/api-integration.md) (5 min)
+3. Lee [`outreach/email/templates/donation-receipt.md`](../outreach/email/templates/donation-receipt.md) (5 min)
+4. Estima tiempo de construcción por componente (1 hora)
+5. Anotá en [`governance/ACTION-BOARD.md`](../governance/ACTION-BOARD.md) qué podés tomar
 
-### If you're on the business / BD side
-1. Read [`governance/STAKEHOLDER-MAP.md`](../governance/STAKEHOLDER-MAP.md) (5 min) — who's who
-2. Pick one email from [`outreach/email/`](../outreach/email/) (5 min each)
-3. Send it. Track response in.
+### Si sos del lado de negocio / BD
+1. Lee [`governance/STAKEHOLDER-MAP.md`](../governance/STAKEHOLDER-MAP.md) (5 min) — quién es quién
+2. Elegí un email de [`outreach/email/`](../outreach/email/) (5 min cada uno)
+3. Envialo. Registrá el seguimiento.
 
-### If you're a designer
-1. Skim [`tech-spec/donation-gateway/wireframes.md`](../tech-spec/donation-gateway/wireframes.md) and [`tech-spec/transparency-microsite/wireframes.md`](../tech-spec/transparency-microsite/wireframes.md) (15 min)
-2. Produce clickable mocks (Awwwards/Figma) — 1-2 weeks
-3. Hand off to engineering
+### Si sos diseñador/a
+1. Revisa las plantillas en [`outreach/email/templates/`](../outreach/email/templates/) (15 min)
+2. Producí mocks (Figma/Canva) para los 3 emails más importantes — 1-2 semanas
+3. Entregalos a ingeniería
 
-### If you're an executive sponsor
-1. Read [`about/scandal-timeline.md`](../about/scandal-timeline.md) (5 min) — risk context
-2. Read [`revenue/top-15-recommended.md`](../revenue/top-15-recommended.md) (5 min)
-3. Approve the 90-day plan or push back
+### Si sos sponsor ejecutivo
+1. Lee [`about/scandal-timeline.md`](../about/scandal-timeline.md) (5 min) — contexto de riesgo
+2. Lee [`revenue/top-15-recommended.md`](../revenue/top-15-recommended.md) (5 min)
+3. Aprueba el plan de 90 días o empujá para atrás
 
-## What's NOT ready for you yet (gaps)
+## Qué NO está listo aún (brechas)
 
-These are in flight or planned:
+- ⚠️ Outreach no se ha enviado todavía (plantillas listas en `outreach/email/`)
+- ⚠️ SOS Paraguay no ha sido contactada (necesitamos tu OK para el primer email)
+- ⚠️ Sin construcción técnica iniciada (esperando priorización de ingeniería)
+- ⚠️ Sin política pública de salvaguardia (urgente dado el escándalo)
+- ⚠️ Sin documento de proyección financiera (borradores en `financial/` cuando se llene)
+- ⚠️ Sin deck final (estructura en `pitch/pitch-deck-outline.md`)
 
-- ⚠️ Email outreach hasn't been sent yet (templates ready in `outreach/`)
-- ⚠️ SOS Paraguay hasn't been contacted yet (need your green light on the first email)
-- ⚠️ No actual tech build started (waiting on engineering prioritization)
-- ⚠️ No public-facing safeguarding policy yet (urgent given scandal)
-- ⚠️ No financial model projection document (drafts in `financial/`)
-- ⚠️ No pitch deck (outline in `pitch/pitch-deck-outline.md`)
+## Qué NO deberías hacer
 
-## What you should NOT do
+- ❌ No enviar email a SOS Paraguay sin coordinar con Ivan
+- ❌ No prometer fechas de entrega específicas — son borradores
+- ❌ No compartir documentos de la sección de salvaguardia públicamente sin revisión (referencian el escándalo que es reputacional)
+- ❌ No tratar estimaciones de ingresos como compromisos — son aproximaciones con supuestos
 
-- Don't email SOS Paraguay cold without coordinating with Ivan
-- Don't promise specific tech delivery dates — these are drafts
-- Don't share the safeguarding-section docs publicly without review (they reference the scandal which is reputational)
-- Don't treat revenue estimates as commitments — they are rough estimates with assumptions
+## Dónde viven las decisiones
 
-## Where decisions live
+El único decisor es **Ivan**. Sub-decisiones por tema:
 
-The single decision-maker is **Ivan**. Sub-decisions by topic:
-
-- Engineering tech stack: Ivan + engineering lead (TBD)
+- Stack técnico: Ivan + líder de ingeniería (TBD)
 - Outreach: Ivan
-- Partnerships with SOS Paraguay: Ivan
-- Pricing for ParaguAI services: Ivan
-- Public communications: Ivan
+- Alianzas con SOS Paraguay: Ivan
+- Pricing para servicios de ParaguAI: Ivan
+- Comunicaciones públicas: Ivan

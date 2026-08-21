@@ -1,4 +1,4 @@
-# One-Pager — Corporate Ally
+# One-Pager — Aliado Corporativo
 
 > Single A4 page, tailored for Tigo / Itaú / Ueno / Areté / Personal / Stock / etc.
 
@@ -10,7 +10,7 @@
 
 ### Quiénes son
 
-- 5 aldeas en Paraguay sirviendo **1,000+ niños**
+- 5 aldeas en Paraguay sirviendo a **1.000+ niños**
 - 18+ aliados corporativos activos (Itaú, Ueno, Areté, Tupi, Huawei, DHL, etc.)
 - Miembro autónomo de SOS Children's Villages International (136 países)
 - **Post-escándalo austriaco 2025**: Paraguay respondió en 24 horas; oportunidad de liderazgo
@@ -27,9 +27,9 @@
 
 ### Qué obtienen ustedes
 
-- **Brand association** con causa de 55 años
+- **Asociación de marca** con causa de 55 años
 - **Employee engagement** medible (horas donadas, equipos participando)
-- **ESG metrics** concretas y reportables
+- **Métricas ESG** concretas y reportables
 - **Historias para su propio reporte anual de RSE**
 - **Acceso a fotos y testimonios** (con consentimiento apropiado)
 
