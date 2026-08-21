@@ -5,6 +5,22 @@
 
 ---
 
+## ✅ Completado hoy (2026-08-21)
+
+| Item | Estado |
+|---|---|
+| Sitio web en vivo (GitHub Pages) | ✅ https://ivanweissvanderpol.github.io/aldea-sos-paraguay/ |
+| Dark mode + theme toggle | ✅ Persistencia localStorage + prefers-color-scheme |
+| Sitemap XML (118 URLs) | ✅ /sitemap.xml |
+| RSS feed | ✅ /feed.xml |
+| 404 page custom | ✅ /404.html |
+| robots.txt | ✅ |
+| Open Graph + Twitter Card meta tags | ✅ |
+| Skip-link + focus styles (WCAG AA) | ✅ |
+| Print styles | ✅ |
+| GitHub Pages workflow deploy | ✅ Auto-deploy en push a main |
+| Lighthouse prep (semantic HTML, lang attr) | ✅ |
+
 ## 🔴 Bloqueado (esperando a alguien)
 
 | Item | Esperando en | Desde |

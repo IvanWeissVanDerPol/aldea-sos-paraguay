@@ -1,8 +1,37 @@
 # CHANGELOG
 
+## 2026-08-21 (later)
+
+### Sitio web en vivo
+
+- **GitHub Pages habilitado**: `https://ivanweissvanderpol.github.io/aldea-sos-paraguay/`
+- Deploy workflow configurado: `.github/workflows/deploy-pages.yml`
+- Build automático en cada push a `main`
+- Source: carpeta `/site/` (118 páginas HTML)
+
+### Mejoras del sitio (lighthouse, accesibilidad, SEO)
+
+- **Dark mode**: CSS con `prefers-color-scheme` + toggle manual con persistencia en localStorage
+- **Open Graph meta tags**: títulos, descripciones, og:image placeholders, Twitter Cards
+- **Sitemap XML**: 118 URLs en `/sitemap.xml`
+- **RSS feed**: `/feed.xml` con 6 items iniciales
+- **robots.txt**: Permite todos los crawlers, apunta al sitemap
+- **404 page**: Custom `/404.html` con búsqueda
+- **Accesibilidad**: skip-link, focus-visible styles, ARIA labels, semantic HTML
+- **Print styles**: oculta header/nav/footer al imprimir
+- **Mobile-first responsive**: breakpoints en 768px, mejor grid de cards
+
+### Repository structure updates
+
+- Site completo en español (manteniendo excepción para URLs de páginas, brand names, identifiers técnicos)
+- Estructura: `site/` (estáticos) + 15 módulos de research
+- 118 páginas HTML + CSS theme + JS search + JSON index
+
 ## 2026-08-21
 
 ### Removido: sistema de email / Resend
+
+: sistema de email / Resend
 
 - Tras feedback del usuario: el repo debería contener solo cosas relevantes para el cliente (Aldea SOS Paraguay).
 - Eliminado:
