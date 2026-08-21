@@ -27,20 +27,25 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      - name: Copy CNAME to site root for Pages custom domain
+      - name: Verify deployable artifact
+        # Defensive: refuse to deploy if /investigacion-source or any non-public path leaked.
         run: |
-          if [ ! -f site/CNAME ]; then
-            echo "aldea-sos.paragu-ai.com" > site/CNAME
-            echo "Created site/CNAME"
+          echo "=== Top of public/ ==="
+          ls public/
+          echo "---"
+          if find public -type d -name "investigacion*" 2>/dev/null | grep -q .; then
+            echo "ERROR: investigacion path leaked into public/. Aborting."
+            exit 1
           fi
-          # Verify
-          echo "=== CNAME content ==="
-          cat site/CNAME
+          if find public -name "_originals" -o -name "investigacion-source" 2>/dev/null | grep -q .; then
+            echo "ERROR: source artefacts in public/. Aborting."
+            exit 1
+          fi
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './site'
+          path: './public'
 
       - name: Deploy to GitHub Pages
         id: deployment
