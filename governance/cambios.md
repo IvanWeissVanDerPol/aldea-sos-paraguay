@@ -2,6 +2,34 @@
 
 ## 2026-08-21
 
+### Removido: sistema de email / Resend
+
+- Tras feedback del usuario: el repo debería contener solo cosas relevantes para el cliente (Aldea SOS Paraguay).
+- Eliminado:
+  - `tech-spec/email/` (sender-config, dns-records, api-integration)
+  - `outreach/email/` (5 plantillas cold-outreach + 3 plantillas transaccionales + followup + templates/)
+  - `governance/politica-de-email.md`
+  - Sección "Sistema de Email" del README principal
+  - Todas las referencias en start-here/, pitch/, governance/
+- `outreach/` queda con solo subcarpetas `call/` y `social/` (esqueletos)
+- `tech-spec/` queda con skeletal subcarpetas (donation-gateway, sponsor-portal, transparency-microsite, infra) — email/ removido
+- `outreach/call/`, `outreach/social/`, `tech-spec/`, `financial/`, `strategy/`, `policy/`, `competitive/`, `archive/` siguen como esqueletos (con .gitkeep)
+
+## (más temprano este día)
+
+### Spanish-fy completo
+
+- **Todo el repositorio en español**: README, INDICE, governance, evidence, research, benchmark, revenue, about.
+- **Tres pasadas de traducción**:
+  1. Encabezados y nombres de sección traducidos al español
+  2. Cuerpo de los documentos traducido (frases, oraciones, jerga)
+  3. Todos los archivos renombrados a equivalentes en español
+- Subcarpetas renombradas previamente (palabras en lugar de números).
+- Identificadores técnicos (URLs, código, headers CSV) y nombres de marcas (Tigo, Itaú, Areté, Compassion, Plan, etc.) se mantienen en su forma original.
+- **Resultado**: 96 archivos markdown en español. 0 enlaces realmente rotos en carpetas pobladas. 2 enlaces intencionales (apuntan a esqueletos documentados en README).
+- Aplica regla: "el cliente no habla inglés → toda comunicación al cliente es en español".
+
+
 ### Spanish-fy completo (más tarde hoy)
 
 - **Todo el repositorio en español**: README, INDEX, governance, evidence, research, benchmark, revenue, about, META.
