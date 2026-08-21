@@ -1,7 +1,7 @@
 # Aldeas Infantiles SOS Paraguay — Strategic Research Repository
 
 > **Owner**: IvanWeissVanDerPol (Ivan Weiss)
-> **Status**: Private repo, active research
+> **Visibility**: Public
 > **Started**: 2026-08-21
 > **Purpose**: Build a complete research dossier on Aldeas Infantiles SOS Paraguay and discover every avenue for them to grow revenue, increase impact, and modernize digitally.
 
