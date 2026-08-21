@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi portal - Aldea SOS Paraguay (Demo)</title>
+<meta name="description" content="Portal demo del donante: historial de donaciones, patrocinios activos, y recibo de impuestos simulado.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://aldea-sos.paragu-ai.com/portal/">
+<meta property="og:title" content="Mi portal - Aldea SOS Paraguay">
+<meta property="og:description" content="Portal demo del donante.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://aldea-sos.paragu-ai.com/portal/">
+<meta property="og:image" content="https://aldea-sos.paragu-ai.com/assets/og-default.png">
+<link rel="icon" type="image/svg+xml" href="/assets/logo.svg">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<meta name="theme-color" content="#0066B3">
+<link rel="stylesheet" href="/css/style.css">
+<script src="/js/demo.js" defer></script>
+</head>
+<body>
+<div class="demo-banner" role="banner">
+  <div class="demo-banner-text">
+    <span class="demo-banner-dot" aria-hidden="true"></span>
+    <strong>Demo preview.</strong>
+    Esta es una propuesta pro-bono de rediseño del sitio de Aldeas Infantiles SOS Paraguay.
+    Para información real, donación o apadrinamiento, visitá
+    <a href="https://www.aldeasinfantiles.org.py/" rel="noopener" target="_blank">aldeasinfantiles.org.py</a>.
+  </div>
+</div>
+
+<header class="site-header" role="banner">
+  <div class="header-inner">
+    <a href="/" class="brand" aria-label="Inicio - Aldea SOS Paraguay">
+      <span class="brand-mark">A</span>
+      <span class="brand-text">
+        <strong>Aldea SOS Paraguay</strong>
+        <small>Iniciativa comunitaria</small>
+      </span>
+    </a>
+    <button class="nav-toggle" aria-label="Menú" aria-expanded="false">☰</button>
+    <nav class="primary-nav" aria-label="Navegación principal">
+      <a href="/sobre-nosotros/">Sobre</a>
+      <a href="/programs/">Programas</a>
+      <a href="/donar/">Donar</a>
+      <a href="/apadrina/">Apadriná</a>
+      <a href="/historias/">Historias</a>
+      <a href="/noticias/">Noticias</a>
+      <a href="/transparencia/">Transparencia</a>
+      <a href="/portal/" style="background: var(--c-bg-alt); color: var(--c-primary);">Mi portal</a>
+      <a href="https://www.aldeasinfantiles.org.py/" rel="noopener" target="_blank">Sitio oficial ↗</a>
+      <button class="theme-toggle" aria-label="Cambiar tema">🌙</button>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb">
+      <a href="/">Inicio</a> <span>›</span> <span>Mi portal</span>
+    </div>
+    <h1>Mi portal</h1>
+    <p>Tu historial de donaciones, patrocinios, y recibos. Demo: inicia sesión con <code>demo@aldeas-sos.paragu-ai.com / demo</code>.</p>
+  </div>
+</section>
+
+<section class="section" id="portal-app">
+  <div class="container t-mid">
+
+    <!-- Login state -->
+    <div id="portal-login" class="portal-login-card">
+      <h2>Iniciar sesión</h2>
+      <p class="t-muted">Esta es una demo. La cuenta es pública para que puedas ver la pantalla del portal.</p>
+      <form id="login-form" novalidate>
+        <div class="form-group">
+          <label for="login-email">Email</label>
+          <input type="email" id="login-email" required value="demo@aldeas-sos.paragu-ai.com">
+        </div>
+        <div class="form-group">
+          <label for="login-password">Contraseña</label>
+          <input type="password" id="login-password" required value="demo">
+        </div>
+        <button type="submit" class="btn btn-primary btn-large btn-block">Iniciar sesión (demo)</button>
+        <p class="t-muted t-small text-center mt-2">Demo: <code>demo@aldeas-sos.paragu-ai.com / demo</code></p>
+      </form>
+    </div>
+
+    <!-- Logged in state -->
+    <div id="portal-dashboard" hidden>
+      <div class="portal-header">
+        <div>
+          <h2>Hola, Demo</h2>
+          <p class="t-muted">Sesión demo. Los datos mostrados son representativos.</p>
+        </div>
+        <button class="btn btn-outline" id="logout-btn">Cerrar sesión</button>
+      </div>
+
+      <div class="portal-stats">
+        <div class="portal-stat">
+          <div class="portal-stat-num">Gs. 1.650.000</div>
+          <div class="portal-stat-label">Aporte total acumulado (demo)</div>
+        </div>
+        <div class="portal-stat">
+          <div class="portal-stat-num">3</div>
+          <div class="portal-stat-label">Donaciones realizadas</div>
+        </div>
+        <div class="portal-stat">
+          <div class="portal-stat-num">1</div>
+          <div class="portal-stat-label">Padrinazgo activo</div>
+        </div>
+        <div class="portal-stat">
+          <div class="portal-stat-num">2</div>
+          <div class="portal-stat-label">Recibos emitidos</div>
+        </div>
+      </div>
+
+      <div class="grid grid-2 mt-4">
+        <div class="card">
+          <h3>Historial de donaciones</h3>
+          <table class="portal-table">
+            <thead><tr><th>Fecha</th><th>Monto</th><th>Tipo</th><th>Recibo</th></tr></thead>
+            <tbody>
+              <tr>
+                <td>2026-08-15</td>
+                <td>Gs. 100.000</td>
+                <td>Mensual</td>
+                <td><a href="#" onclick="alert('Demo: recibo simulado'); return false;">DESCARGAR</a></td>
+              </tr>
+              <tr>
+                <td>2026-07-15</td>
+                <td>Gs. 100.000</td>
+                <td>Mensual</td>
+                <td><a href="#" onclick="alert('Demo: recibo simulado'); return false;">DESCARGAR</a></td>
+              </tr>
+              <tr>
+                <td>2026-03-22</td>
+                <td>Gs. 1.250.000</td>
+                <td>Única · Empresa</td>
+                <td><a href="#" onclick="alert('Demo: recibo simulado'); return false;">DESCARGAR</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="card">
+          <h3>Padrinazgo activo</h3>
+          <div class="sponsor-card">
+            <div class="sponsor-avatar" aria-hidden="true">👶</div>
+            <div class="sponsor-info">
+              <h4>Niño apadrinado (demo)</h4>
+              <p class="t-small">Asunción · Aldea central · Iniciado en marzo 2026</p>
+              <p class="t-small">Aporte mensual: <strong>Gs. 50.000</strong></p>
+            </div>
+          </div>
+          <p class="t-muted t-small mt-2">Esta es una demo. El portal real mostraría el perfil de tu ahijado (con consentimiento), sus cartas, y los informes escolares.</p>
+        </div>
+      </div>
+
+      <div class="card mt-3">
+        <h3>Próximos pasos</h3>
+        <p>¿Qué te gustaría hacer?</p>
+        <div class="portal-actions">
+          <a href="/donar/" class="btn btn-primary">Hacer una nueva donación</a>
+          <a href="/apadrina/" class="btn btn-outline">Iniciar un nuevo padrinazgo</a>
+          <button type="button" class="btn btn-outline" onclick="alert('Demo: en el portal real, esta función descargaría un PDF unificado con todas tus donaciones anuales para tu declaración de impuestos.')">Descargar recibo anual (demo)</button>
+        </div>
+      </div>
+
+      <p class="t-muted text-center mt-4">
+        Cuando esta demo se conecte al portal real, tus datos vivirán en infraestructura del proveedor que la organización elija (Auth0, Clerk, Supabase, etc.). Este demo usa localStorage del navegador — no persiste entre sesiones.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-about">
+        <h4>Sobre este sitio</h4>
+        <p class="t-muted-italic">Iniciativa comunitaria sin fines de lucro</p>
+        <p>Información pública extraída del sitio oficial de Aldeas Infantiles SOS Paraguay.</p>
+      </div>
+      <div>
+        <h4>Navegación</h4>
+        <ul class="footer-list">
+          <li><a href="/sobre-nosotros/">Sobre</a></li>
+          <li><a href="/donar/">Donar</a></li>
+          <li><a href="/apadrina/">Apadrinar</a></li>
+          <li><a href="/historias/">Historias</a></li>
+          <li><a href="/politicas/privacidad/">Privacidad</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Sitio oficial</h4>
+        <ul class="footer-list">
+          <li><a href="https://www.aldeasinfantiles.org.py/" target="_blank" rel="noopener">aldeasinfantiles.org.py</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Iniciativa Comunitaria. Demo pro-bono. Información pública extraída del sitio oficial de Aldeas Infantiles SOS Paraguay.</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+// Portal auth flow
+document.addEventListener('DOMContentLoaded', () => {
+  const loginDiv = document.getElementById('portal-login');
+  const dashboardDiv = document.getElementById('portal-dashboard');
+
+  function showDashboard() {
+    loginDiv.hidden = true;
+    dashboardDiv.hidden = false;
+  }
+  function showLogin() {
+    loginDiv.hidden = false;
+    dashboardDiv.hidden = true;
+  }
+
+  // If already logged in, show dashboard
+  if (Demo.auth.isLoggedIn()) {
+    showDashboard();
+  }
+
+  // Handle login
+  document.getElementById('login-form').addEventListener('submit', (e) => {
+    e.preventDefault();
+    const email = document.getElementById('login-email').value;
+    const password = document.getElementById('login-password').value;
+    const result = Demo.auth.login(email, password);
+    if (result.ok) {
+      showDashboard();
+    } else {
+      alert(result.error);
+    }
+  });
+
+  // Handle logout
+  document.getElementById('logout-btn').addEventListener('click', () => {
+    Demo.auth.logout();
+    showLogin();
+  });
+});
+</script>
+
+</body>
+</html>
