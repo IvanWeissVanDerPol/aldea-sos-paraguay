@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Aldea SOS Paraguay — Research Repository</title>
+    <link>https://aldea-sos.paragu-ai.com/</link>
+    <description>Dossier estratégico + 939-org catalog + 65+ revenue streams</description>
+    <language>es-py</language>
+    <lastBuildDate>Fri, 21 Aug 2026 07:45:42 +0000</lastBuildDate>
+    <item>
+      <title>Inicio del proyecto</title>
+      <link>https://aldea-sos.paragu-ai.com/start-here/</link>
+      <description>Documentos iniciales del proyecto</description>
+      <pubDate>Fri, 21 Aug 2026 07:45:42 +0000</pubDate>
+      <guid isPermaLink="false">start-here/</guid>
+    </item>
+    <item>
+      <title>Dossier completo</title>
+      <link>https://aldea-sos.paragu-ai.com/about/</link>
+      <description>Investigación profunda de la organización</description>
+      <pubDate>Fri, 14 Aug 2026 07:45:42 +0000</pubDate>
+      <guid isPermaLink="false">about/</guid>
+    </item>
+    <item>
+      <title>Análisis Estratégico</title>
+      <link>https://aldea-sos.paragu-ai.com/analysis-platforms-and-resources.html</link>
+      <description>Mapeo de plataformas tech-for-good y partners PY</description>
+      <pubDate>Fri, 07 Aug 2026 07:45:42 +0000</pubDate>
+      <guid isPermaLink="false">analysis-platforms-and-resources.html</guid>
+    </item>
+    <item>
+      <title>Estrategia</title>
+      <link>https://aldea-sos.paragu-ai.com/strategy/</link>
+      <description>Planes 30/90/180 días, posicionamiento, marca</description>
+      <pubDate>Fri, 31 Jul 2026 07:45:42 +0000</pubDate>
+      <guid isPermaLink="false">strategy/</guid>
+    </item>
+    <item>
+      <title>Tech Specs</title>
+      <link>https://aldea-sos.paragu-ai.com/tech-spec/</link>
+      <description>Cómo construir la infraestructura</description>
+      <pubDate>Fri, 24 Jul 2026 07:45:42 +0000</pubDate>
+      <guid isPermaLink="false">tech-spec/</guid>
+    </item>
+    <item>
+      <title>Políticas</title>
+      <link>https://aldea-sos.paragu-ai.com/policy/</link>
+      <description>Carta de salvaguardia, ética, datos</description>
+      <pubDate>Fri, 17 Jul 2026 07:45:42 +0000</pubDate>
+      <guid isPermaLink="false">policy/</guid>
+    </item>
+  </channel>
+</rss>
