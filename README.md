@@ -79,25 +79,35 @@ See `sos/DOSSIER.md` for the full picture.
 
 ---
 
-## Status
+## Status (final)
 
-| Folder | Status |
-|---|---|
-| `source-of-truth/` | ✅ Complete — 15 HTML artifacts + SOURCES.md |
-| `sos/` | ✅ Complete — DOSSIER.md (~15k chars) |
-| `comparison/` | ✅ Complete — PEER-BENCHMARK.md (~11k chars) |
-| `research/1000-similar-projects/` | 🔄 In progress (delegated) |
-| `revenue-avenues/` | 🔄 In progress (delegated) |
+| Folder | Status | Counts |
+|---|---|---|
+| `source-of-truth/` | ✅ Complete | 15 HTML artifacts + SOURCES.md (932K) |
+| `sos/` | ✅ Complete | DOSSIER.md — 15K chars |
+| `comparison/` | ✅ Complete | PEER-BENCHMARK.md — 11K chars |
+| `research/1000-similar-projects/` | ✅ Complete | CATALOG.csv = 939 rows, 12 columns, 174K; SYNTHESIS.md = 20K chars |
+| `revenue-avenues/` | ✅ Complete | REVENUE-AVENUES.md — 65+ streams across 13 themes, 32K chars |
 
-Live transcript files (read-only) at:
-- `/opt/data/cache/delegation/live/deleg_7ebbe53d/task-0.log` (catalog)
-- `/opt/data/cache/delegation/live/deleg_d718ade7/task-0.log` (revenue)
+**Total**: 17,700+ insertions across 39 files (committed in 2 pushes).
 
 ---
 
-## What's next (after research lands)
+## Headline numbers from research
 
-1. **Quick wins doc** — top 5 revenue streams with concrete next actions.
+- 939 distinct child-welfare orgs catalogued, covering **155 countries/regions**, **12 service models**, **13 funding-source types**, **12 digital-signal types**
+- Top 5 funding sources used by peer orgs: foundations (75%), individuals (71%), corporate (67%), government (21%), earned-income (9%)
+- Top 5 digital signals: online-donation (99%), recurring-giving (34%), annual-report (27%), multiling-site (14%), charity-rating (10%)
+- 65+ revenue avenues identified for Aldea SOS Paraguay
+- TOP 15 quick-win revenue potential: Gs. 500M-2,000M/yr (USD 70k-275k) on top of current revenue
+- **The single biggest unlock**: online donation gateway (Donorbox/Pix/Tigo Money) — every peer org uses it, Aldea PY doesn't
+- **The fastest 90-day wins**: fix /transparencia, activate Google Ad Grants, launch Donorbox, sponsor-a-house program, birthday fundraising
+
+---
+
+## What's next (actionable)
+
+1. **Quick wins doc** — top 5 revenue streams with concrete next actions. ← *start here*
 2. **Pitch deck outline** — for presenting to SOS Paraguay or ParaguAI.
 3. **Tech stack spec** — what we'd build if green-lit (donation gateway, sponsor portal, transparency microsite).
 4. **Safeguarding section** — explicit child-protection framing given the scandal.
