@@ -1,36 +1,36 @@
-# Pattern Research — Pattern Research
+# 04-research — Investigación de Patrones
 
-> Catalog of 939 distinct child-welfare / child-protection / child-sponsorship organizations worldwide, used to surface patterns and inspiration.
+> Catálogo de 939 organizaciones distintas de bienestar infantil / protección infantil / apadrinamiento en todo el mundo, usado para identificar patrones e inspiración.
 
-## Files
+## Archivos
 
 ### Top-level
 
-- `README.md` (this file)
-- `1000-orgs/` — the catalog + slices
-- `patterns/` — thematic deep dives (recurring-giving, digital trends, federation, diaspora)
+- `README.md` (este archivo)
+- `1000-orgs/` — el catálogo + slices
+- `patterns/` — análisis profundos temáticos (donación recurrente, tendencias digitales, modelo de federación, diáspora)
 
 ### 1000-orgs/
 
-- `1000-orgs/README.md` — how to navigate the catalog
-- `1000-orgs/batches/` — 12 raw data files + CATALOG.csv + SYNTHESIS.md + assemble.py
-- `1000-orgs/slices/` — pre-computed views of CATALOG.csv (by region, by model, by funding source, top 100 by revenue, top 30 innovative, etc.)
+- `1000-orgs/README.md` — cómo navegar el catálogo
+- `1000-orgs/batches/` — 12 archivos de datos crudos + CATALOG.csv + SYNTHESIS.md + assemble.py
+- `1000-orgs/slices/` — vistas pre-calculadas del CATALOG.csv (por región, modelo, fuente de financiamiento, top 100 por ingresos, top 30 innovadoras, etc.)
 
 ### patterns/
 
-- `patterns/recurring-giving-at-scale.md` — synthesis of recurring-giving models
-- `patterns/digital-fundraising-trends.md` — trends in digital fundraising
-- `patterns/federation-model.md` — how SOS Intl + others federate
-- `patterns/diaspora-giving-models.md` — diaspora funding patterns
+- `patterns/recurring-giving-at-scale.md` — síntesis de modelos de donación recurrente
+- `patterns/digital-fundraising-trends.md` — tendencias en recaudación digital
+- `patterns/federation-model.md` — cómo SOS Intl + otros se federan
+- `patterns/diaspora-giving-models.md` — patrones de financiamiento de la diáspora
 
-## What's the catalog good for?
+## Para qué sirve el catálogo
 
-- Find peer orgs that use specific tactics ("who else does recurring giving?")
-- Find peer orgs in specific regions ("what does Paraguay look like?")
-- Find peer orgs with specific models ("what other residential care models exist?")
-- Find peer orgs at specific scale (top 100 by revenue)
-- Find peer orgs doing novel things (top 30 most innovative)
+- Encontrar ONGs pares que usan tácticas específicas ("quién más hace donación recurrente?")
+- Encontrar ONGs pares en regiones específicas ("cómo se ve Paraguay?")
+- Encontrar ONGs pares con modelos específicos ("qué otros modelos de cuidado residencial existen?")
+- Encontrar ONGs pares en escala específica (top 100 por ingresos)
+- Encontrar ONGs pares haciendo cosas novedosas (top 30 más innovadoras)
 
 ---
 
-*Last updated: 2026-08-21*
+*Última actualización: 2026-08-21*

@@ -2,7 +2,7 @@
 
 Side-by-side comparison of capabilities. **Verdict**: Aldea SOS Paraguay is **functionally a generation behind** in digital fundraising, transparency, and donor UX vs its international peers. Even smaller PY orgs (TECHO, CIRD) outpace it on basic online giving + transparency.
 
-## Comparison
+## Comparación
 
 | Feature | SOS PY | SOS Intl | Compassion | Plan | World Vision | TECHO PY | Fundación Alda | CIRD |
 |---|---|---|---|---|---|---|---|---|
@@ -24,7 +24,7 @@ Side-by-side comparison of capabilities. **Verdict**: Aldea SOS Paraguay is **fu
 | Social media ad spend | ❌ | ✅ | ✅ | ✅ | ✅ | ⚠️ | ❌ | ⚠️ |
 | Google Ad Grants | ❌ | ⚠️ | ✅ | ✅ | ✅ | ⚠️ | ❌ | ⚠️ |
 
-## Capability gaps (top 8)
+## Brechas de capacidades (top 8)
 
 1. **No online donation** — every single peer has it. This is the #1 unlock.
 2. **No annual report download** — even TECHO Paraguay publishes one.
@@ -35,7 +35,7 @@ Side-by-side comparison of capabilities. **Verdict**: Aldea SOS Paraguay is **fu
 7. **No Google Ad Grants** — free $10k/mo available to any qualified nonprofit.
 8. **No volunteer portal** — separate from "trabaja con nosotros".
 
-## What SOS PY is doing right
+## Qué está haciendo bien SOS PY
 
 - 55-year brand trust
 - Strong corporate ally portfolio (18+)

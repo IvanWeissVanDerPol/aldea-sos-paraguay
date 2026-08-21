@@ -1,16 +1,16 @@
 # Sender Identity — Resend Config for `mail.paragu-ai.com`
 
-> **Purpose**: configure Resend to send all transactional + marketing email for Aldeas Infantiles SOS Paraguay from a Spanish sender identity on the client's branded domain.
+> **Propósito**: configure Resend to send all transactional + marketing email for Aldeas Infantiles SOS Paraguay from a Spanish sender identity on the client's branded domain.
 >
-> **Last updated**: 2026-08-21
+> **Última actualización**: 2026-08-21
 
 ---
 
-## Step-by-step Resend setup
+## Setup de Resend paso a paso
 
-### 1. Add the domain
+### 1. Agregar el dominio
 
-In Resend → **Domains** → **Add domain**:
+En Resend → **Domains** → **Add domain**:
 
 | Field | Value |
 |---|---|
@@ -21,7 +21,7 @@ In Resend → **Domains** → **Add domain**:
 | **Click tracking** | ✅ enabled |
 | **Open tracking** | ❌ disabled (Resend warns open tracking is unreliable) |
 
-### 2. DNS records to add at `paragu-ai.com`
+### 2. Registros DNS para agregar en `paragu-ai.com`
 
 Resend will return a list of records. Add these at your DNS provider (Cloudflare / Route53 / GoDaddy / NIC.py registrar):
 
@@ -35,7 +35,7 @@ Resend also provides **MX records** if you want to receive at `@paragu-ai.com`. 
 
 **Verification**: after adding DNS, Resend will auto-verify (usually within minutes, sometimes up to 48h). It shows a green checkmark when ready.
 
-### 3. Sender identity (the from-line)
+### 3. Identidad del remitente (el from-line)
 
 | Field | English placeholder shown | **Final Spanish value** |
 |---|---|---|
@@ -46,7 +46,7 @@ Resend also provides **MX records** if you want to receive at `@paragu-ai.com`. 
 
 **Reply-to**: `sos.py@aldeasinfantiles.org.py` (their existing inbox — they should keep ownership of replies)
 
-### 4. API key for sending
+### 4. API key para enviar
 
 In Resend → **API Keys** → **Create API key**:
 
@@ -62,7 +62,7 @@ In `tech-spec/email/` (to be created) we'll document the integration pattern usi
 
 ---
 
-## Sender identity variants
+## Variantes de identidad del remitente
 
 For different email types, use different sender identities on the same domain:
 
@@ -78,7 +78,7 @@ For different email types, use different sender identities on the same domain:
 
 ---
 
-## What's Spanish-only in the email system
+## Qué es solo en español en el sistema de email
 
 | Component | Spanish required? |
 |---|---|
@@ -94,7 +94,7 @@ For different email types, use different sender identities on the same domain:
 
 ---
 
-## Where to put these things in the repo
+## Dónde poner estas cosas en el repo
 
 | File | Purpose |
 |---|---|

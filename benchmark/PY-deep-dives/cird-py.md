@@ -38,13 +38,13 @@ Source: cird.org.py news June 2026.
 **Day 120**: Expand to 3 neighborhoods
 **Day 180**: Full rollout across all Ojoykére sites
 
-## What we don't know
+## Lo que no sabemos
 
 - CIRD's tech stack specifically (which WhatsApp provider, etc.)
 - Their funding model
 - Their relationship with META / WhatsApp
 
-## Sources
+## Fuentes
 
 - cird.org.py
 - cird.org.py news section

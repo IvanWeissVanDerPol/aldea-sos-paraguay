@@ -1,23 +1,28 @@
-# Aldeas Infantiles SOS Paraguay — Strategic Research Repository
+# Aldeas Infantiles SOS Paraguay — Repositorio de Investigación Estratégica
 
-> **Owner**: IvanWeissVanDerPol (Ivan Weiss)
-> **Visibility**: Public
-> **Started**: 2026-08-21
-> **Purpose**: Strategic research dossier on Aldeas Infantiles SOS Paraguay — their operations, peer benchmarks, 1000+ similar projects, 65+ revenue opportunities, and outbound materials for pitching partners/donors.
+> **Propietario**: IvanWeissVanDerPol (Ivan Weiss)
+> **Visibilidad**: Público
+> **Iniciado**: 2026-08-21
+> **Propósito**: Dossier de investigación estratégica sobre Aldeas Infantiles SOS Paraguay — sus operaciones, benchmarks de pares, 939 proyectos similares, 65+ oportunidades de ingresos, y materiales de outreach para presentar a aliados/donantes.
+
+**Todo el repositorio está en español.** El cliente (Aldea SOS Paraguay) no habla inglés.
 
 ---
 
-## 🚀 Start here
+## 🚀 Empezar aquí
 
 - **[`start-here/5min-summary.md`](./start-here/5min-summary.md)** — una página, el panorama completo
 - **[`start-here/30min-deep-dive.md`](./start-here/30min-deep-dive.md)** — orden de lectura anotado
 - **[`start-here/`](./start-here/)** — todas las guías de entrada, incluyendo rutas por audiencia
 
-**Toda la documentación para el cliente está en español.** El cliente (Aldea SOS Paraguay) no habla inglés.
+Si sabés quién sos:
+- 👥 **Soy del equipo de Ivan** → [`start-here/for-aiw-team.md`](./start-here/for-aiw-team.md)
+- 🎯 **Voy a presentar a Aldea SOS Paraguay** → [`start-here/for-sos-py.md`](./start-here/for-sos-py.md)
+- 💼 **Voy a hacer outreach a un donante / aliado corporativo** → [`start-here/for-donor-outreach.md`](./start-here/for-donor-outreach.md)
 
 ---
 
-## 📧 Email Setup (Resend on `mail.paragu-ai.com`)
+## 📧 Sistema de Email (Resend en `mail.paragu-ai.com`)
 
 El sistema de email usa **Resend** sobre el dominio `mail.paragu-ai.com` (región `sa-east-1` para baja latencia desde Paraguay).
 
@@ -31,119 +36,104 @@ El sistema de email usa **Resend** sobre el dominio `mail.paragu-ai.com` (regió
 
 **Identidad del remitente por defecto**: `Aldeas Infantiles SOS Paraguay <amigos@paragu-ai.com>` (espeja el programa "Amigos SOS" existente).
 
-Click tracking: habilitado. Open tracking: deshabilitado (Resend advierte que es poco fiable).
-
-If you know who you are:
-- 👥 **Soy del equipo de Ivan** → [`start-here/for-aiw-team.md`](./start-here/for-aiw-team.md)
-- 🎯 **Voy a presentar a Aldea SOS Paraguay** → [`start-here/for-sos-py.md`](./start-here/for-sos-py.md)
-- 💼 **Voy a hacer outreach a un donante / aliado corporativo** → [`start-here/for-donor-outreach.md`](./start-here/for-donor-outreach.md)
+Click tracking: habilitado. Open tracking: deshabilitado.
 
 ---
 
-## 📁 Repository structure
+## 📁 Estructura del repositorio
 
-The repo is organized by **purpose**, alphabetically:
+El repo está organizado por **propósito**, alfabéticamente:
 
-| Folder | Purpose | What's inside |
+| Carpeta | Propósito | Qué contiene |
 |---|---|---|
-| **[`about/`](./about/)** | Who/what/where of Aldea SOS Paraguay | 8 topical dossier files + executive summary + identity, programs, funding, digital maturity, scandal timeline, staffing, SWOT |
-| **[`archive/`](./archive/)** | Deprecated files (currently empty) | Reserved for future use |
-| **[`benchmark/`](./benchmark/)** | Peer comparison | 9 international + 8 PY peers + feature matrix + inspiration board + 5 PY deep-dives |
-| **[`competitive/`](./competitive/)** | Deep teardowns (skeleton — see benchmark/PY-deep-dives) | Reserved for dedicated competitor profiles |
-| **[`evidence/`](./evidence/)** | Raw artifacts (HTML downloads from SOS PY) | 15 HTMLs + SOURCES.md + EXTRACTED-FACTS.md + evidence-levels guide |
-| **[`financial/`](./financial/)** | Revenue model + budgets + cost estimates (skeleton) | Reserved |
-| **[`governance/`](./governance/)** | Repo governance | INDEX, GLOSSARY, STYLE-GUIDE, RISK-REGISTER, STAKEHOLDER-MAP, ACTION-BOARD, CHANGELOG, email-policy, RESTRUCTURE-PLAN |
-| **[`outreach/`](./outreach/)** | Email/call/social scripts | Cold outreach templates (es), email templates (es), call scripts (planned) |
-| **[`pitch/`](./pitch/)** | Outbound decks, one-pagers, FAQ (all in Spanish) | Pitch deck outline + executive summary + 3 one-pagers + FAQ |
-| **[`policy/`](./policy/)** | Child protection + ethics (skeleton — URGENT) | Reserved |
-| **[`research/`](./research/)** | 1000-org catalog + patterns | CATALOG.csv (939 orgs × 12 cols) + SYNTHESIS.md + 9 slices + 4 patterns |
-| **[`revenue/`](./revenue/)** | 65+ revenue streams | TOP 15 + 90-day quick wins + safeguarding appendix + 13 stream-group files |
-| **[`start-here/`](./start-here/)** | Audience-keyed entry points (in Spanish) | 5min summary + 30min deep dive + per-audience guides |
-| **[`strategy/`](./strategy/)** | 30/60/90 plans + donor journey (skeleton) | Reserved |
-| **[`tech-spec/`](./tech-spec/)** | Engineering specs | Email (sender config, DNS, API integration) — donation gateway/sponsor portal/transparency (skeleton) |
-| **[`_originals/`](./_originals/)** | Pre-restructure safety net | Originals of DOSSIER.md, PEER-BENCHMARK.md, REVENUE-AVENUES.md from before the split |
+| **[`about/`](./about/)** | Quién/qué/dónde de Aldea SOS Paraguay | 8 archivos del dossier + resumen ejecutivo + identidad, programas, financiamiento, madurez digital, escándalo, personal, SWOT |
+| **[`archive/`](./archive/)** | Archivos deprecados (actualmente vacía) | Reservada |
+| **[`benchmark/`](./benchmark/)** | Comparación con pares | 9 pares internacionales + 8 PY + matriz comparativa + inspiration board + 5 PY deep-dives |
+| **[`competitive/`](./competitive/)** | Análisis profundos de competidores (esqueleto) | Reservada |
+| **[`evidence/`](./evidence/)** | Artefactos crudos (HTMLs de SOS PY) | 15 HTMLs + SOURCES.md + EXTRACTED-FACTS.md + guía de niveles de evidencia |
+| **[`financial/`](./financial/)** | Modelo de ingresos + presupuestos (esqueleto) | Reservada |
+| **[`governance/`](./governance/)** | Gobernanza del repo | INDEX, GLOSSARY, STYLE-GUIDE, RISK-REGISTER, STAKEHOLDER-MAP, ACTION-BOARD, CHANGELOG, email-policy, RESTRUCTURE-PLAN |
+| **[`outreach/`](./outreach/)** | Scripts de email/llamada/redes | Plantillas de cold outreach (es), plantillas de email (es), scripts de llamada (planificados) |
+| **[`pitch/`](./pitch/)** | Decks de presentación, one-pagers, FAQ (todo en español) | Estructura del pitch deck + resumen ejecutivo + 3 one-pagers + FAQ |
+| **[`policy/`](./policy/)** | Protección infantil + ética (esqueleto — URGENTE) | Reservada |
+| **[`research/`](./research/)** | Catálogo de 1000 ONGs + patrones | CATALOG.csv (939 ONGs × 12 cols) + SYNTHESIS.md + 9 slices + 4 patrones |
+| **[`revenue/`](./revenue/)** | 65+ fuentes de ingreso | TOP 15 + quick wins 90 días + apéndice de salvaguardia + 13 archivos por grupo |
+| **[`start-here/`](./start-here/)** | Puntos de entrada por audiencia (en español) | Resumen 5 min + deep dive 30 min + guías por audiencia |
+| **[`strategy/`](./strategy/)** | Planes 30/60/90 + donor journey (esqueleto) | Reservada |
+| **[`tech-spec/`](./tech-spec/)** | Especificaciones técnicas | Email (sender config, DNS, API integration) — donation gateway/sponsor portal/transparency (esqueleto) |
+| **[`_originals/`](./_originals/)** | Red de seguridad pre-restructuración | Originales de DOSSIER.md, PEER-BENCHMARK.md, REVENUE-AVENUES.md antes del split |
 
 ---
 
-## 🔥 Headline findings
+## 🔥 Hallazgos principales
 
-1. **No aldea in San Lorenzo, Paraguay.** Paraguay's 5 aldeas are Asunción, Luque, San Ignacio, Hohenau, Belén. Only operational touchpoint in San Lorenzo is the Kingo supermarket "Convertí tu vuelto en sonrisas" campaign since March 2017.
-2. **Aldea SOS PY serves 1,000+ children** with a 55-year brand, 18+ corporate allies, and the 2024 prevention program "Proyecto Ojoykére."
-3. **2025 Gmeiner scandal** (Austria) — Paraguay was *quicker* than the Federation to publicly respond. They have a National Safeguarding Committee. Opportunity: lead on post-scandal transparency.
-4. **Digital maturity: 4/10.** No online donation, broken `/transparencia`, no annual report, no sponsor portal, no TikTok, no Google Ad Grants.
-5. **TOP 5 revenue quick wins** (90 days): Donorbox donation gateway, Google Ad Grants, fix `/transparencia` + annual report, "Apadrina una Aldea" sponsor-a-house, Tigo/Personal wallet donations. Potential uplift: USD 70-275k/yr.
-6. **939-org benchmark** confirmed: 99% of peers accept online donations, 34% have recurring giving, 27% publish annual reports. Aldea PY trails in all three.
+1. **No hay aldea en San Lorenzo, Paraguay.** Las 5 aldeas de Paraguay son Asunción, Luque, San Ignacio, Hohenau, Belén. El único punto operativo en San Lorenzo es la campaña "Convertí tu vuelto en sonrisas" del supermercado Kingo desde marzo de 2017.
+2. **Aldea SOS PY sirve a 1.000+ niños** con marca de 55 años, 18+ aliados corporativos, y el programa de prevención "Proyecto Ojoykére" de 2024.
+3. **Escándalo Gmeiner 2025** (Austria) — Paraguay fue *más rápida* que la Federación en responder públicamente. Tienen un Comité Nacional de Salvaguardia. Oportunidad: liderar en transparencia post-escándalo.
+4. **Madurez digital: 4/10.** Sin donación online, `/transparencia` roto, sin reporte anual, sin portal de apadrinamiento, sin TikTok, sin Google Ad Grants.
+5. **TOP 5 quick wins de ingresos** (90 días): pasarela de donación Donorbox, Google Ad Grants, arreglar `/transparencia` + reporte anual, "Apadrina una Aldea" sponsor-a-house, donaciones vía Tigo/Personal. Aumento potencial: USD 70-275k/año.
+6. **Benchmark de 939 ONGs** confirma: 99% de los pares aceptan donaciones online, 34% tienen donación recurrente, 27% publican reportes anuales. Aldea PY está atrás en los tres.
 
 ---
 
-## 🔗 Most useful files (by topic)
+## 🔗 Archivos más útiles (por tema)
 
-### Want the org's story?
+### ¿Querés la historia de la org?
 → [`about/executive-summary.md`](./about/executive-summary.md)
 → [`about/identity.md`](./about/identity.md)
 → [`about/programs.md`](./about/programs.md)
 → [`about/scandal-timeline.md`](./about/scandal-timeline.md)
 
-### Want to know what other NGOs do?
+### ¿Querés saber qué hacen otras ONGs?
 → [`benchmark/peers/international-peers.md`](./benchmark/peers/international-peers.md)
 → [`benchmark/peers/paraguay-peers.md`](./benchmark/peers/paraguay-peers.md)
 → [`benchmark/peers/feature-matrix.md`](./benchmark/peers/feature-matrix.md)
 → [`benchmark/PY-deep-dives/`](./benchmark/PY-deep-dives/)
 
-### Want a list of revenue ideas?
+### ¿Querés una lista de ideas de ingresos?
 → [`revenue/top-15-recommended.md`](./revenue/top-15-recommended.md)
 → [`revenue/90-day-quick-wins.md`](./revenue/90-day-quick-wins.md)
 → [`revenue/streams/`](./revenue/streams/)
-→ [`_originals/revenue-avenues/REVENUE-AVENUES.md`](./_originals/revenue-avenues/REVENUE-AVENUES.md) (full original 25K)
 
-### Want the 939-org catalog?
+### ¿Querés el catálogo de 939 ONGs?
 → [`research/1000-orgs/batches/CATALOG.csv`](./research/1000-orgs/batches/CATALOG.csv)
 → [`research/1000-orgs/batches/SYNTHESIS.md`](./research/1000-orgs/batches/SYNTHESIS.md)
 → [`research/1000-orgs/slices/`](./research/1000-orgs/slices/)
 
-### Want raw SOS Paraguay web pages?
+### ¿Querés las páginas crudas de SOS Paraguay?
 → [`evidence/`](./evidence/)
 
-### Want pitch materials?
+### ¿Querés materiales de pitch?
 → [`pitch/`](./pitch/)
 
-### Want outreach scripts?
-→ [`outreach/`](./outreach/) *(empty — to be filled)*
+### ¿Querés plantillas de email?
+→ [`outreach/`](./outreach/) — plantillas de email en español
 
-### Want tech specs?
-→ [`tech-spec/`](./tech-spec/) *(empty — to be filled)*
+### ¿Querés specs técnicas?
+→ [`tech-spec/`](./tech-spec/)
 
-### Want financial modeling?
-→ [`financial/`](./financial/) *(empty — to be filled)*
-
-### Want strategy / planning?
-→ [`strategy/`](./strategy/) *(empty — to be filled)*
-
-### Want safeguarding policy?
-→ [`policy/`](./policy/) *(empty — to be filled — URGENT)*
-
-### Want repo governance?
+### ¿Querés gobernanza del repo?
 → [`governance/`](./governance/)
 
 ---
 
-## 🛣️ Reading paths
+## 🛣️ Rutas de lectura
 
-### Ivan's team
+### Equipo de Ivan
 1. [`start-here/5min-summary.md`](./start-here/5min-summary.md)
 2. [`start-here/for-aiw-team.md`](./start-here/for-aiw-team.md)
 3. [`about/digital-maturity.md`](./about/digital-maturity.md)
 4. [`revenue/90-day-quick-wins.md`](./revenue/90-day-quick-wins.md)
-5. [`tech-spec/`](./tech-spec/) *(when filled)*
+5. [`tech-spec/`](./tech-spec/)
 
-### Pitching to Aldea SOS Paraguay
+### Presentando a Aldea SOS Paraguay
 1. [`start-here/for-sos-py.md`](./start-here/for-sos-py.md)
 2. [`about/executive-summary.md`](./about/executive-summary.md)
 3. [`revenue/top-15-recommended.md`](./revenue/top-15-recommended.md)
 4. [`pitch/executive-summary-pdf.md`](./pitch/executive-summary-pdf.md)
 5. [`pitch/one-pager-sos-py.md`](./pitch/one-pager-sos-py.md)
 
-### Pitching to a donor / corporate ally
+### Outreach a donante / aliado corporativo
 1. [`start-here/for-donor-outreach.md`](./start-here/for-donor-outreach.md)
 2. [`about/executive-summary.md`](./about/executive-summary.md)
 3. [`benchmark/`](./benchmark/)
@@ -151,55 +141,55 @@ The repo is organized by **purpose**, alphabetically:
 
 ---
 
-## 📚 Reference docs
+## 📚 Documentos de referencia
 
-- **[`INDEX.md`](./INDEX.md)** — master index of every file in the repo
-- **[`governance/GLOSSARY.md`](./governance/GLOSSARY.md)** — acronyms and jargon
-- **[`governance/STYLE-GUIDE.md`](./governance/STYLE-GUIDE.md)** — language and citation conventions
-- **[`governance/RISK-REGISTER.md`](./governance/RISK-REGISTER.md)** — live risk tracking
-- **[`governance/STAKEHOLDER-MAP.md`](./governance/STAKEHOLDER-MAP.md)** — who's who
-- **[`governance/ACTION-BOARD.md`](./governance/ACTION-BOARD.md)** — live Kanban
-- **[`governance/CHANGELOG.md`](./governance/CHANGELOG.md)** — what changed when
-
----
-
-## 📐 Repository conventions
-
-- **Folders**: lowercase, hyphen-separated, purpose-named (no numbered prefixes)
-- **Subfolder indexes**: `README.md` (always)
-- **Currency**: Gs. (Guaraníes) primary, USD alongside with conversion. ~Gs. 7,300 = USD 1.
-- **Languages**: Spanish (default), English for international audiences, Guaraní for cultural terms
-- **Evidence levels**: `[official]` / `[third-party]` / `[ddgs]` / `[estimate]` / `[unknown]`
-- **No secrets** — no donor lists, no child names, no internal docs
+- **[`INDEX.md`](./INDEX.md)** — índice maestro de cada archivo del repo
+- **[`governance/GLOSSARY.md`](./governance/GLOSSARY.md)** — acrónimos y jerga
+- **[`governance/STYLE-GUIDE.md`](./governance/STYLE-GUIDE.md)** — convenciones de idioma y citación
+- **[`governance/RISK-REGISTER.md`](./governance/RISK-REGISTER.md)** — seguimiento de riesgos
+- **[`governance/STAKEHOLDER-MAP.md`](./governance/STAKEHOLDER-MAP.md)** — quién es quién
+- **[`governance/ACTION-BOARD.md`](./governance/ACTION-BOARD.md)** — Kanban vivo
+- **[`governance/CHANGELOG.md`](./governance/CHANGELOG.md)** — qué cambió cuándo
 
 ---
 
-## 📊 Status (2026-08-21)
+## 📐 Convenciones del repositorio
 
-| Folder | Status |
+- **Carpetas**: lowercase, separadas por guión, con nombre de propósito (sin prefijos numéricos)
+- **Índices de subcarpeta**: `README.md` (siempre)
+- **Moneda**: Gs. (Guaraníes) primaria, USD entre paréntesis con conversión. ~Gs. 7,300 = USD 1.
+- **Idiomas**: Español (default), inglés solo para audiencias internacionales
+- **Niveles de evidencia**: `[official]` / `[third-party]` / `[ddgs]` / `[estimate]` / `[unknown]`
+- **Sin secretos** — sin listas de donantes, sin nombres de niños, sin documentos internos
+
+---
+
+## 📊 Estado (2026-08-21)
+
+| Carpeta | Estado |
 |---|---|
-| `start-here/` | ✅ Complete, all in Spanish (6 files) |
-| `about/` | ✅ Complete (10 files) |
-| `evidence/` | ✅ Complete (19 files) |
-| `benchmark/` | ✅ Complete (13 files) |
-| `research/` | ✅ Complete (31 files) |
-| `revenue/` | ✅ Complete (19 files) |
-| `pitch/` | ✅ Complete, all in Spanish (7 files) |
-| `governance/` | ✅ Complete, including email-policy (10 files) |
-| `outreach/email/` | ✅ Complete — 5 cold-outreach templates + 3 transactional email templates + followup (Spanish) |
-| `tech-spec/email/` | ✅ Complete — sender-config + dns-records + api-integration (3 files) |
-| `tech-spec/donation-gateway/` | ⚠️ Empty — needs processor comparison + recommended stack |
-| `tech-spec/transparency-microsite/` | ⚠️ Empty |
-| `tech-spec/sponsor-portal/` | ⚠️ Empty |
-| `tech-spec/infra/` | ⚠️ Empty |
-| `financial/` | ⚠️ Empty — needs revenue model + budgets |
-| `strategy/` | ⚠️ Empty — needs 30/60/90 plans + donor journey |
-| `policy/` | ⚠️ Empty — **URGENT**, needs safeguarding charter |
-| `competitive/` | ⚠️ Empty — needs dedicated competitor teardowns (some live in `benchmark/PY-deep-dives/`) |
-| `archive/` | (Reserved for future deprecated files) |
-| `_originals/` | ✅ Safety net of originals from before the split |
+| `start-here/` | ✅ Completo, todo en español (6 archivos) |
+| `about/` | ✅ Completo (10 archivos) |
+| `evidence/` | ✅ Completo (19 archivos) |
+| `benchmark/` | ✅ Completo (13 archivos) |
+| `research/` | ✅ Completo (31 archivos) |
+| `revenue/` | ✅ Completo (19 archivos) |
+| `pitch/` | ✅ Completo, todo en español (7 archivos) |
+| `governance/` | ✅ Completo, incluye email-policy (10 archivos) |
+| `outreach/email/` | ✅ Completo — 5 plantillas cold-outreach + 3 plantillas transaccionales + followup (español) |
+| `tech-spec/email/` | ✅ Completo — sender-config + dns-records + api-integration (3 archivos) |
+| `tech-spec/donation-gateway/` | ⚠️ Vacío |
+| `tech-spec/transparency-microsite/` | ⚠️ Vacío |
+| `tech-spec/sponsor-portal/` | ⚠️ Vacío |
+| `tech-spec/infra/` | ⚠️ Vacío |
+| `financial/` | ⚠️ Vacío |
+| `strategy/` | ⚠️ Vacío |
+| `policy/` | ⚠️ Vacío — **URGENTE**, necesita carta de salvaguardia |
+| `competitive/` | ⚠️ Vacío |
+| `archive/` | (Reservada) |
+| `_originals/` | ✅ Red de seguridad |
 
 ---
 
-*Last updated: 2026-08-21 by Hermes agent.*
-*Currency: Gs. 7,300 = USD 1 (approx. 2026).*
+*Última actualización: 2026-08-21 por Hermes.*
+*Moneda: Gs. 7,300 = USD 1 (aprox. 2026).*

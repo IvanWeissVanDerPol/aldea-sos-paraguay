@@ -2,7 +2,7 @@
 
 > Catalog of every revenue stream Aldea SOS Paraguay does NOT currently use, with evidence, market sizing, and 30/60/90 day plans.
 
-## Files
+## Archivos
 
 ### Top-level
 - `REVENUE-AVENUES.md` — the master document (original monolithic file, kept for backward compat)
@@ -29,7 +29,7 @@
 
 **Total: 65+ distinct revenue streams.**
 
-## Scoring
+## Puntuación
 
 Each stream scored on 4 axes (1-5, higher = better):
 - **Speed** — how fast to first PYG in

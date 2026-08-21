@@ -1,8 +1,8 @@
 # Funding Source Prevalence
 
-Of 939 cataloged orgs, how many use each funding mechanism?
+De las 939 ONGs catalogadas, ¿cuántas usan cada mecanismo de financiamiento?
 
-| Funding source | Count | % |
+| Fuente de financiamiento | Cantidad | % |
 |---|---:|---:|
 | foundations | 701 | 74.7% |
 | individuals | 663 | 70.6% |

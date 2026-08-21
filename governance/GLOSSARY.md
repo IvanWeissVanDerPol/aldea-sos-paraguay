@@ -1,89 +1,87 @@
-# GLOSSARY — Acronyms, Jargon, and People
+# GLOSSARY — Acrónimos, Jerga y Personas
 
-> Quick reference for anyone reading the repo. Definitions here are deliberate; please keep them consistent.
-
----
-
-## Acronyms
-
-| Term | Full | Meaning |
-|---|---|---|
-| **SOS PY** | Aldeas Infantiles SOS Paraguay | The client. National association member of SOS Children's Villages International |
-| **SOS Intl** | SOS-Kinderdorf International | Federation HQ in Innsbruck, Austria |
-| **SNNA** | Secretaría Nacional de la Niñez y la Adolescencia | Paraguayan child protection agency |
-| **Ojoykére** | (Guaraní: "son of joy") | SOS PY's 2024 prevention + family-strengthening program |
-| **CONÉVIO** | (no acronym) | Paraguayan directory of NGOs at ong.com.py |
-| **GS.** / **Gs.** | Guaraníes (₲) | Paraguayan currency. USD 1 ≈ Gs. 7,300 (2026) |
-| **PY** | Paraguay | Country code in tables |
-| **AR** | Argentina | Country code in tables |
-| **BR** | Brazil | Country code in tables |
-| **MX** | Mexico | Country code in tables |
-| **CO** | Colombia | Country code in tables |
-| **CL** | Chile | Country code in tables |
-| **LATAM** | Latin America | Region code in tables |
-| **CSPFA** | Confederación de Sociedades Protectoras de Animales | (not used here, but referenced for context) |
-| **RUC** | Registro Único del Contribuyente | Paraguayan tax ID number |
-| **DGPR** | Dirección General de los Registros Públicos | Entity registration authority in PY |
-| **BCP** | Banco Central del Paraguay | Central bank |
-| **SET** | Subsecretaría de Estado de Tributación | Tax authority that audits donations in PY |
-| **MAWAS** | (no acronym) | PY municipal animal control (cited in unrelated context) |
-| **CEPEP** | Centro de Estudios y Programas para el Desarrollo | PY NGO comparator |
-| **CIRD** | Centro de Información y Recursos para el Desarrollo | PY NGO comparator |
-| **TECHO** | (was "Un Techo para mi País") | LatAm housing nonprofit (PY office) |
-| **DAF** | Donor-Advised Fund | US tax-advantaged giving vehicle |
-| **PSP** | Payment Service Provider | E.g., Stripe, Bancard, Tigo Money |
-| **CRM** | Customer Relationship Management | E.g., Salesforce NPSP, HubSpot, Airtable |
-| **SaaS** | Software as a Service | Cloud software subscription |
-| **SIB** | Social Impact Bond | Government pays for outcomes, investors fund upfront |
-| **DIB** | Development Impact Bond | Same as SIB but with donors as outcome payers |
-| **NGO** / **ONG** | (Spanish: Organización No Gubernamental) | Non-governmental organization |
-| **CSR** | Corporate Social Responsibility | Corporate giving programs |
-| **ESG** | Environmental, Social, Governance | Corporate impact reporting framework |
-| **TIN** | Taxpayer Identification Number | US IRS equivalent |
-| **COPPA** | Children's Online Privacy Protection Act | US child privacy law |
-| **GDPR-K** | GDPR for Kids | EU child-specific data rules |
-| **OOH** | Out-of-Home advertising | Billboards, transit ads |
-
-## Jargon
-
-- **Aldea** — "Village" in Spanish. In this context: a residential child care community with multiple family-style houses, a "madre SOS" (long-term caregiver), and local school integration.
-- **Casa / Family house** — One house within an aldea, typically housing 6-10 children with a caregiver.
-- **Padrinazgo** — "Sponsorship" of a specific child, house, or program by a recurring donor.
-- **Acogimiento Familiar Residencial** — Residential family-style care (as opposed to foster care with external families).
-- **Familia SOS** — The model of caregiver(s) raising children in a family-like setting within the aldea.
-- **Madre SOS** — Primary caregiver in a family SOS house (typically long-term).
-- **"Convirtió tu vuelto en sonrisas"** — "Turn your change into smiles" — SOS PY's supermarket round-up campaign.
-- **"Regalamos Sonrisas"** — "We give smiles as gifts" — TUPI's annual campaign with SOS PY (6th edition Aug 2026).
-- **"Amigos SOS"** — "SOS Friends" — SOS PY's recurring individual donor program (Gs. 50k+/month).
-- **"Hacete Amigo de VERDAD"** — "Become a TRUE Friend" — higher-tier recurring ask.
-
-## People (Paraguayan staff of SOS PY, public knowledge)
-
-| Name | Role | Source |
-|---|---|---|
-| **Ana Medina Zorrilla** | Directora de Sostenibilidad local | TUPI 2026 press release |
-| **Zunilda Baruja** | Coordinadora de Alianzas Corporativas | TUPI 2026 press release — 0982 199 681 |
-| *(National Director)* | Unknown — not publicly disclosed | gap |
-| *(Board members)* | Unknown — not publicly disclosed | gap |
-
-## People (Federation leadership, public knowledge)
-
-| Name | Role | Source |
-|---|---|---|
-| **Hermann Gmeiner** | Founder (deceased 1986) | historical — and subject of 2025 abuse scandal |
-| **Mimmo (Domenico) Parisi** | President of the International Board | aios_intl_urgent.html (Oct 24 2025) |
-| **Andreas Kovar** | Representative of Austrian branch — suspended Oct 2025 | aios_intl_urgent.html |
-| **Pedro Puig** | President of SOS España | aios_es_2024.html |
-| **Danny Thomas** | Founder of St. Jude (not SOS — included for context) | Wikipedia |
-
-## Other entities
-
-- **Aldea SOS Asunción** is in the **Zeballos Cué** neighborhood of Asunción.
-- The closest aldea to **San Lorenzo (Central)** is Aldea Asunción. There is **no aldea in San Lorenzo**.
-- The only operational touchpoint in San Lorenzo is the **Kingo supermarket** (Avda. Avelino Martínez 9957 c/ Paz del Chaco, Barcequillo) — a "Convertí tu vuelto en sonrisas" partner since March 2017.
-- **Areté** has 4 supermarket locations participating: Shopping Pinedo, Lambaré, Primer Presidente, Sausalito.
-- **Gran Vía Luque** is a round-up partner for Aldea Luque since May 8, 2017.
+> Referencia rápida para cualquier persona que lea el repo. Las definiciones aquí son deliberadas; por favor mantenerlas consistentes.
 
 ---
 
-*Add to this glossary as needed. Keep alphabetical.*
+## Acrónimos
+
+| Término | Significado |
+|---|---|
+| **SOS PY** | Aldeas Infantiles SOS Paraguay. El cliente. Asociación miembro nacional de SOS Children's Villages International |
+| **SOS Intl** | SOS-Kinderdorf International. Sede de la Federación en Innsbruck, Austria |
+| **SNNA** | Secretaría Nacional de la Niñez y la Adolescencia. Agencia paraguaya de protección infantil |
+| **Ojoykére** | (Guaraní: "hijo de la alegría") Programa de prevención + fortalecimiento familiar de SOS PY lanzado en 2024 |
+| **CONÉVIO** | (sin acrónimo) Directorio paraguayo de ONGs en ong.com.py |
+| **Gs.** / **₲** | Guaraníes. Moneda paraguaya. USD 1 ≈ Gs. 7,300 (2026) |
+| **PY** | Paraguay. Código de país en tablas |
+| **AR** | Argentina |
+| **BR** | Brasil |
+| **MX** | México |
+| **CO** | Colombia |
+| **CL** | Chile |
+| **LATAM** | América Latina |
+| **RUC** | Registro Único del Contribuyente. ID fiscal paraguayo |
+| **DGPR** | Dirección General de los Registros Públicos. Autoridad de registro de entidades en PY |
+| **BCP** | Banco Central del Paraguay |
+| **SET** | Subsecretaría de Estado de Tributación. Autoridad fiscal que audita donaciones en PY |
+| **CEPEP** | Centro de Estudios y Programas para el Desarrollo. Comparador PY |
+| **CIRD** | Centro de Información y Recursos para el Desarrollo. Comparador PY |
+| **TECHO** | (antes "Un Techo para mi País"). ONG latinoamericana de vivienda (oficina PY) |
+| **DAF** | Donor-Advised Fund. Vehículo de donación con ventaja fiscal US |
+| **PSP** | Payment Service Provider. Ej: Stripe, Bancard, Tigo Money |
+| **CRM** | Customer Relationship Management. Ej: Salesforce NPSP, HubSpot, Airtable |
+| **SaaS** | Software as a Service. Suscripción de software en la nube |
+| **SIB** | Social Impact Bond. El gobierno paga por resultados, los inversores financian por adelantado |
+| **DIB** | Development Impact Bond. Igual que SIB pero con donantes como pagadores de resultados |
+| **ONG** | Organización No Gubernamental |
+| **RSE** | Responsabilidad Social Empresarial. Programas de donación corporativa |
+| **ESG** | Environmental, Social, Governance. Marco de reporte de impacto corporativo |
+| **TIN** | Taxpayer Identification Number. Equivalente IRS US |
+| **COPPA** | Children's Online Privacy Protection Act. Ley US de privacidad infantil |
+| **GDPR-K** | GDPR para niños. Reglas UE específicas para niños |
+| **OOH** | Out-of-Home advertising. Vallas, anuncios en transporte |
+
+## Jerga
+
+- **Aldea** — "Pueblo" en español. En este contexto: comunidad residencial de cuidado infantil con múltiples casas tipo familia, una "madre SOS" (cuidadora de largo plazo), e integración escolar local.
+- **Casa / Casa familia** — Una casa dentro de una aldea, típicamente alberga a 6-10 niños con una cuidadora.
+- **Padrinazgo** — "Sponsorship" de un niño, casa o programa específico por un donante recurrente.
+- **Acogimiento Familiar Residencial** — Cuidado residencial tipo familia (a diferencia del cuidado en hogares externos).
+- **Familia SOS** — Modelo de cuidadora(s) criando niños en un entorno familiar dentro de la aldea.
+- **Madre SOS** — Cuidadora primaria en una casa SOS (típicamente de largo plazo).
+- **"Convirtió tu vuelto en sonrisas"** — "Convierte tu cambio en sonrisas". Campaña de redondeo en supermercado de SOS PY.
+- **"Regalamos Sonrisas"** — "Regalamos sonrisas". Campaña anual de TUPI con SOS PY (6ª edición agosto 2026).
+- **"Amigos SOS"** — "Amigos SOS". Programa de donante recurrente de SOS PY (Gs. 50k+/mes).
+- **"Hacete Amigo de VERDAD"** — "Conviértete en Amigo de VERDAD". Versión de mayor compromiso del programa.
+
+## Personas (personal paraguayo de SOS PY, conocimiento público)
+
+| Nombre | Rol | Fuente |
+|---|---|---|
+| **Ana Medina Zorrilla** | Directora de Sostenibilidad local | Comunicado de prensa TUPI 2026 |
+| **Zunilda Baruja** | Coordinadora de Alianzas Corporativas | Comunicado de prensa TUPI 2026 — 0982 199 681 |
+| *(Director Nacional)* | _desconocido_ | — brecha |
+| *(Miembros del Directorio)* | _desconocido_ | — brecha |
+
+## Personas (liderazgo de la Federación, conocimiento público)
+
+| Nombre | Rol | Fuente |
+|---|---|---|
+| **Hermann Gmeiner** | Fundador (fallecido 1986) | histórico — y objeto del escándalo de abuso 2025 |
+| **Mimmo (Domenico) Parisi** | Presidente del Directorio Internacional | aios_intl_urgent.html (24 oct 2025) |
+| **Andreas Kovar** | Representante de la rama austriaca — suspendido oct 2025 | aios_intl_urgent.html |
+| **Pedro Puig** | Presidente de SOS España | aios_es_2024.html |
+| **Danny Thomas** | Fundador de St. Jude (no SOS — incluido por contexto) | Wikipedia |
+
+## Otras entidades
+
+- **Aldea SOS Asunción** está en el barrio **Zeballos Cué** de Asunción.
+- La aldea más cercana a **San Lorenzo (Central)** es Aldea Asunción. **No hay aldea en San Lorenzo.**
+- El único punto operativo en San Lorenzo es el **supermercado Kingo** (Avda. Avelino Martínez 9957 c/ Paz del Chaco, Barcequillo) — aliado de "Convertí tu vuelto en sonrisas" desde marzo de 2017.
+- **Areté** tiene 4 supermercados participantes: Shopping Pinedo, Lambaré, Primer Presidente, Sausalito.
+- **Gran Vía Luque** es aliado de redondeo para Aldea Luque desde el 8 de mayo de 2017.
+
+---
+
+*Agregar a este glosario según sea necesario. Mantener alfabético.*

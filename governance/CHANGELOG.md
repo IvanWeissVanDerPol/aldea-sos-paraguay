@@ -2,43 +2,52 @@
 
 ## 2026-08-21
 
-### Reshape v2 — word-based folders + Spanish-first + Email system (later today)
-- Renamed all numbered folders to word-based, purpose-driven names:
+### Spanish-fy completo (más tarde hoy)
+
+- **Todo el repositorio en español**: README, INDEX, governance, evidence, research, benchmark, revenue, about, META.
+- Subcarpetas renombradas previamente (palabras en lugar de números).
+- Identificadores técnicos (URLs, nombres de archivos, código) y nombres de marcas (Tigo, Itaú, Areté, etc.) se mantienen en su forma original.
+- Aplica regla: "el cliente no habla inglés → toda comunicación al cliente es en español".
+
+### Reshape v2 — carpetas por propósito + Email system (más tarde hoy)
+
+- Renombradas todas las carpetas numeradas a nombres por propósito:
   `start-here/`, `about/`, `evidence/`, `benchmark/`, `research/`, `revenue/`,
   `pitch/`, `outreach/`, `tech-spec/`, `financial/`, `strategy/`, `policy/`,
   `competitive/`, `archive/`, `governance/`, `_originals/`
-- Created `INDEX.md` (master index)
-- Updated `README.md` as entry point with linked overview
-- Fixed all cross-references (0 truly broken links in populated folders)
-- **Translated all client-facing docs to Spanish** (`pitch/`, `start-here/`)
-- **Email system built** (`tech-spec/email/`, `outreach/email/`, `governance/email-policy.md`)
-  - Resend sender identity: `Aldeas Infantiles SOS Paraguay <amigos@paragu-ai.com>`
-  - 3 DNS records documented (SPF, DKIM, DMARC)
-  - Node + Python SDK integration examples
-  - 5 cold-outreach templates (corporate, tech, foundation, DAF, SOS PY) — all Spanish
-  - 3 transactional email templates (donation receipt, welcome, newsletter) — all Spanish HTML + plain text
-  - Email policy (who sends from what, language rules, frequency, holidays)
+- Creado `INDEX.md` (índice maestro)
+- Actualizado `README.md` como punto de entrada con vista enlazada
+- Arregladas todas las referencias cruzadas (0 enlaces realmente rotos en carpetas pobladas)
+- **Sistema de email construido** (`tech-spec/email/`, `outreach/email/`, `governance/email-policy.md`)
+  - Identidad de remitente Resend: `Aldeas Infantiles SOS Paraguay <amigos@paragu-ai.com>`
+  - 3 registros DNS documentados (SPF, DKIM, DMARC)
+  - Ejemplos de integración SDK Node + Python
+  - 5 plantillas de cold outreach (corporativo, tech, fundación, DAF, SOS PY) — todas en español
+  - 3 plantillas de email transaccional (recibo de donación, bienvenida, newsletter) — todas en español HTML + texto plano
+  - Política de email (quién envía desde qué, reglas de idioma, frecuencia, feriados)
 
-### Restructure v1 (earlier today)
-- Created numbered folder scheme: `start-here/` through `archive/` + `governance/` + `_originals/`
-- Moved originals to `_originals/` for safety
-- Added `start-here/` with 5min summary, 30min deep dive, and per-audience entry guides (Aiw team, SOS PY, donor outreach)
-- Added `governance/` with INDEX, GLOSSARY, STYLE-GUIDE, RISK-REGISTER, STAKEHOLDER-MAP, ACTION-BOARD, RESTRUCTURE-PLAN
-- Created empty folder skeletons for `benchmark/`, `research/`, `revenue/`, `pitch/`, `outreach/`, `tech-spec/`, `financial/`, `strategy/`, `policy/`, `competitive/`
-- Original big MDs (`DOSSIER.md`, `PEER-BENCHMARK.md`, `REVENUE-AVENUES.md`, `SYNTHESIS.md`) preserved in `_originals/` until split into subfolder topic files
+### Reshape v1 (más temprano hoy)
 
-### Earlier today
-- 02:57 UTC — research session began
-- 03:10 — repo created (private)
-- 03:11 — initial dossier + sources pushed (17,720 insertions, 20 files)
-- 03:14–03:24 — dispatched 2 subagents (catalog + revenue); both stuck in verification loops
-- 03:25–03:43 — Hermes authored 11 more catalog batches + assembler script; CSV with 939 unique rows + SYNTHESIS written
-- 03:43 — second commit pushed (CATALOG + SYNTHESIS + REVENUE)
-- 03:49 — repo temporarily flipped public (Ivan asked); flipped back to private; then re-flipped public per Ivan's second instruction (current state: public)
-- 03:54 — governance/ added (RESTRUCTURE-PLAN.md, README.md)
-- 03:56 — folder restructure begins; originals archived; subfolders created
-- 03:57+ — entry-point files + META governance docs written
+- Creado esquema de carpetas numeradas: `start-here/` hasta `archive/` + `governance/` + `_originals/`
+- Movidos originales a `_originals/` por seguridad
+- Agregado `start-here/` con resumen 5min, deep dive 30min, y guías de entrada por audiencia (equipo Aiw, SOS PY, outreach a donantes)
+- Agregado `governance/` con INDEX, GLOSSARY, STYLE-GUIDE, RISK-REGISTER, STAKEHOLDER-MAP, ACTION-BOARD, RESTRUCTURE-PLAN
+- Creados esqueletos de carpetas vacías para `benchmark/`, `research/`, `revenue/`, `pitch/`, `outreach/`, `tech-spec/`, `financial/`, `strategy/`, `policy/`, `competitive/`
+- Archivos MD grandes originales (`DOSSIER.md`, `PEER-BENCHMARK.md`, `REVENUE-AVENUES.md`, `SYNTHESIS.md`) preservados en `_originals/` hasta dividirlos en archivos temáticos de subcarpeta
+
+### Más temprano en el día
+
+- 02:57 UTC — comenzó la sesión de investigación
+- 03:10 — repo creado (privado)
+- 03:11 — dossier inicial + fuentes pusheadas (17.720 inserciones, 20 archivos)
+- 03:14–03:24 — despachados 2 subagentes (catálogo + ingresos); ambos atascados en loops de verificación
+- 03:25–03:43 — Hermes escribió 11 batches más de catálogo + script ensamblador; CSV con 939 filas únicas + SYNTHESIS escrito
+- 03:43 — segundo commit pusheado (CATALOG + SYNTHESIS + REVENUE)
+- 03:49 — repo temporalmente flipeado a público (Ivan pidió); flipeado de vuelta a privado; luego re-flippeado público por segunda instrucción de Ivan (estado actual: público)
+- 03:54 — governance/ agregado (RESTRUCTURE-PLAN.md, README.md)
+- 03:56 — comienza restructuración de carpetas; originales archivados; subcarpetas creadas
+- 03:57+ — archivos de punto de entrada + documentos de gobernanza escritos
 
 ---
 
-*Major events only. Minor edits don't go here.*
+*Solo eventos mayores. Ediciones menores no van aquí.*

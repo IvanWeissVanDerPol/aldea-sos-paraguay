@@ -1,8 +1,8 @@
 # CATALOG — by Funding Source
 
-Total entries: **939** | Funding source tags: **13**
+Total entries: **939** | Etiquetas de fuente de financiamiento: **13**
 
-| Funding source | Count | % of catalog |
+| Fuente de financiamiento | Cantidad | % del catálogo |
 |---|---:|---:|
 | foundations | 701 | 74.7% |
 | individuals | 663 | 70.6% |

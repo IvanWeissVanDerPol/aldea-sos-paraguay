@@ -4,7 +4,7 @@ import csv
 from collections import Counter, defaultdict
 from pathlib import Path
 
-BASE = Path("/opt/data/projects/aldea-sos-paraguay/04-research/1000-orgs")
+BASE = Path("/opt/data/projects/aldea-sos-paraguay/research/1000-orgs")
 CSV = BASE / "batches" / "CATALOG.csv"
 SLICES = BASE / "slices"
 SLICES.mkdir(exist_ok=True)
@@ -88,7 +88,7 @@ region_counts = Counter(r["country_or_region"] for r in rows)
 with open(SLICES / "CATALOG-by-region.md", "w", encoding="utf-8") as f:
     f.write(f"# CATALOG — by Region\n\n")
     f.write(f"Total entries: **{TOTAL}** | Unique regions: **{len(region_counts)}**\n\n")
-    f.write("| Region | Count | % |\n|---|---:|---:|\n")
+    f.write("| Región | Cantidad | % |\n|---|---:|---:|\n")
     for region, count in region_counts.most_common():
         pct = 100 * count / TOTAL
         f.write(f"| {region} | {count} | {pct:.1f}% |\n")
@@ -98,7 +98,7 @@ model_counts = Counter(r["model"] for r in rows)
 with open(SLICES / "CATALOG-by-model.md", "w", encoding="utf-8") as f:
     f.write(f"# CATALOG — by Service Model\n\n")
     f.write(f"Total entries: **{TOTAL}** | Unique models: **{len(model_counts)}**\n\n")
-    f.write("| Model | Count | % |\n|---|---:|---:|\n")
+    f.write("| Modelo | Cantidad | % |\n|---|---:|---:|\n")
     for model, count in model_counts.most_common():
         pct = 100 * count / TOTAL
         f.write(f"| {model} | {count} | {pct:.1f}% |\n")
@@ -111,7 +111,7 @@ for r in rows:
 with open(SLICES / "CATALOG-funders.md", "w", encoding="utf-8") as f:
     f.write(f"# CATALOG — by Funding Source\n\n")
     f.write(f"Total entries: **{TOTAL}** | Funding source tags: **{len(fund_counts)}**\n\n")
-    f.write("| Funding source | Count | % of catalog |\n|---|---:|---:|\n")
+    f.write("| Fuente de financiamiento | Cantidad | % del catálogo |\n|---|---:|---:|\n")
     for tag, count in fund_counts.most_common():
         pct = 100 * count / TOTAL
         f.write(f"| {tag} | {count} | {pct:.1f}% |\n")
@@ -127,7 +127,7 @@ with open(SLICES / "TOP-100-revenue.md", "w", encoding="utf-8") as f:
     f.write(f"# TOP 100 by Revenue\n\n")
     f.write(f"From {TOTAL} catalog entries with parseable revenue figures. ")
     f.write(f"({TOTAL - len(rev_rows)} entries had `unknown` revenue.)\n\n")
-    f.write("| Rank | Name | Revenue | Country | Model | Funding Sources |\n")
+    f.write("| Rank | Nombre | Ingresos | País | Modelo | Fuentes de financiamiento |\n")
     f.write("|---:|---|---|---|---|---|\n")
     for i, (name, rev, country, model, fs) in enumerate(rev_rows[:100], 1):
         f.write(f"| {i} | {name} | {fmt_money(rev)} | {country} | {model} | {fs[:60]}{'...' if len(fs) > 60 else ''} |\n")
@@ -145,7 +145,7 @@ for r in rows:
 inv_rows.sort(key=lambda x: -x[3])
 with open(SLICES / "TOP-30-innovative.md", "w", encoding="utf-8") as f:
     f.write(f"# TOP 30 Most Innovative\n\n")
-    f.write("Innovation scoring: keyword-based heuristic for funding, distribution, or engagement channels\n")
+    f.write("Scoring de innovación: heurística basada en palabras clave para canales de financiamiento, distribución, o engagement\n")
     f.write("(crypto, blockchain, TikTok, AI, WhatsApp, NFT, DAO, alumni networks, Patreon, YouTube, etc.)\n\n")
     f.write("| Rank | Name | Founded | Innovation | Score | Country |\n|---:|---|---|---:|---:|---|\n")
     for i, (name, year, innovation, score, country) in enumerate(inv_rows[:30], 1):
@@ -218,7 +218,7 @@ top10 = [
 ]
 with open(SLICES / "TOP-10-APPLICABLE.md", "w", encoding="utf-8") as f:
     f.write(f"# TOP 10 Most Directly Applicable to Aldea SOS Paraguay\n\n")
-    f.write("Filtered for PY operational feasibility, fit-with-existing-assets, and quick-win potential.\n\n")
+    f.write("Filtrado por factibilidad operativa PY, fit con activos existentes, y potencial de quick-win.\n\n")
     for i, (title, why) in enumerate(top10, 1):
         f.write(f"## {i}. {title}\n\n")
         f.write(f"**Why applicable**: {why}\n\n")

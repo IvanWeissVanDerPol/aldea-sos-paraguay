@@ -1,62 +1,62 @@
-# Identity
+# Identidad
 
-## Legal & contact
+## Legal y contacto
 
-| Field | Value |
+| Campo | Valor |
 |---|---|
-| Legal name | Aldeas Infantiles SOS Paraguay (Asociación Nacional) |
-| RUC (tax ID) | **80016122** [evidence: third-party — ong.com.py] |
-| Affiliation | SOS Children's Villages International (Innsbruck) — autonomous member [evidence: official] |
-| Founded in Paraguay | **1970** (55 years) [evidence: official — aios_py_about.html] |
-| Global origin | 1949, Imst, Austria, by Hermann Gmeiner [evidence: official + Wikipedia] |
-| Status | **Autonomous legal entity** in Paraguay under national law [evidence: official — aios_py_comunicado.html] |
+| Nombre legal | Aldeas Infantiles SOS Paraguay (Asociación Nacional) |
+| RUC (ID fiscal) | **80016122** [evidencia: third-party — ong.com.py] |
+| Afiliación | SOS Children's Villages International (Innsbruck) — miembro autónomo [evidencia: official] |
+| Fundación en Paraguay | **1970** (55 años) [evidencia: official — aios_py_about.html] |
+| Origen global | 1949, Imst, Austria, por Hermann Gmeiner [evidencia: official + Wikipedia] |
+| Estatus | **Entidad legal autónoma** en Paraguay bajo ley nacional [evidencia: official — aios_py_comunicado.html] |
 
 ## HQ
 
-| Field | Value |
+| Campo | Valor |
 |---|---|
-| Address | Cerro Corá 1155 c/ Brasil, Asunción, Paraguay |
-| Phone | (021) 247 4000 |
-| Website | https://www.aldeasinfantiles.org.py/ |
+| Dirección | Cerro Corá 1155 c/ Brasil, Asunción, Paraguay |
+| Teléfono | (021) 247 4000 |
+| Sitio web | https://www.aldeasinfantiles.org.py/ |
 
-## Emails (public)
+## Emails (públicos)
 
-| Use | Email |
+| Uso | Email |
 |---|---|
 | General | sos.py@aldeasinfantiles.org.py |
-| Donors / newsletter | info.boletin@aldeasinfantiles.org.py |
-| Donations | amigos.sos@aldeasinfantiles.org.py |
-| Corporate partnerships | (via Zunilda Baruja directly) |
+| Donantes / newsletter | info.boletin@aldeasinfantiles.org.py |
+| Donaciones | amigos.sos@aldeasinfantiles.org.py |
+| Alianzas corporativas | (vía Zunilda Baruja directamente) |
 
-## Other public-facing channels
+## Otros canales públicos
 
-| Channel | URL/handle |
+| Canal | URL/handle |
 |---|---|
-| Facebook | https://www.facebook.com/aldeasinfantilessos.paraguay — 23,188 likes |
-| Instagram | @aldeasparaguay — 6,296 followers |
+| Facebook | https://www.facebook.com/aldeasinfantilessos.paraguay — 23.188 likes |
+| Instagram | @aldeasparaguay — 6.296 seguidores |
 | Twitter/X | @AldeasParaguay |
-| LinkedIn | company/aldeas-infantiles-sos-paraguay |
+| LinkedIn | company |
 | YouTube | user/aldeassosparaguay |
-| TikTok | NOT DETECTED |
-| Newsletter | (form on website) |
+| TikTok | NO DETECTADO |
+| Newsletter | (formulario en el sitio web) |
 
-## Headcount (estimated)
+## Plantilla (estimada)
 
-| Metric | Estimate | Source |
+| Métrica | Estimación | Fuente |
 |---|---|---|
-| Paid staff | 80-120 (estimated) | 40 active vacancies per aios_py_jobs.html suggests this scale |
-| Volunteers | Unknown | Not disclosed |
-| Board members | Unknown | Not publicly disclosed |
+| Personal pagado | 80-120 (estimado) | 40 vacantes activas en aios_py_jobs.html sugiere esta escala |
+| Voluntarios | Desconocido | No divulgado |
+| Miembros del directorio | Desconocido | No divulgado públicamente |
 
-## Unknown / gaps
+## Desconocido / Brechas
 
-- [ ] Full board composition
-- [ ] National Director name
-- [ ] Annual budget breakdown
-- [ ] Auditor name
-- [ ] Bylaws (public)
-- [ ] Annual reports (public)
+- [ ] Composición completa del directorio
+- [ ] Nombre del Director Nacional
+- [ ] Desglose del presupuesto anual
+- [ ] Nombre del auditor
+- [ ] Estatutos (públicos)
+- [ ] Reportes anuales (públicos)
 
 ---
 
-*Source: [`../evidence/EXTRACTED-FACTS.md`](../evidence/EXTRACTED-FACTS.md).*
+*Fuente: [`../evidence/EXTRACTED-FACTS.md`](../evidence/EXTRACTED-FACTS.md).*

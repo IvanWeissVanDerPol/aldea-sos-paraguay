@@ -1,99 +1,99 @@
-# 1000-orgs — Catalog
+# 1000-orgs — Catálogo
 
-> A catalog of **939 distinct** child-welfare / child-protection / child-sponsorship organizations across **155 countries / regions**, with **12 columns** of structured data per row.
+> Un catálogo de **939 organizaciones distintas** de bienestar infantil / protección infantil / apadrinamiento en **155 países/regiones**, con **12 columnas** de datos estructurados por fila.
 
-## Files in this folder
+## Archivos en esta carpeta
 
-- **`batches/CATALOG.csv`** — the master file: 939 rows × 12 columns. Open in any spreadsheet.
-- **`batches/SYNTHESIS.md`** — distributions, top 30 by revenue, top 30 most innovative, funding/digital prevalence, 12 self-help themes, top 10 most applicable to SOS PY.
-- **`batches/assemble.py`** — Python script that regenerates CATALOG.csv + SYNTHESIS.md from the 12 batch JSONs.
-- **`batches/batch01..batch12.json`** — 12 raw data files, one per region/topic. Total 992 entries; dedup to 939.
+- **`batches/CATALOG.csv`** — el archivo maestro: 939 filas × 12 columnas. Abrir en cualquier hoja de cálculo.
+- **`batches/SYNTHESIS.md`** — distribuciones, top 30 por ingresos, top 30 más innovadoras, prevalencia de financiamiento/digital, 12 temas de autoayuda, top 10 más aplicables a SOS PY.
+- **`batches/assemble.py`** — script Python que regenera CATALOG.csv + SYNTHESIS.md desde los 12 batch JSONs.
+- **`batches/batch01..batch12.json`** — 12 archivos de datos crudos, uno por región/tema. Total 992 entradas; dedup a 939.
 
-## Column schema (12)
+## Esquema de columnas (12)
 
-| Column | Example | Type |
+| Columna | Ejemplo | Tipo |
 |---|---|---|
-| id | "0001" | sequential |
+| id | "0001" | secuencial |
 | name | "Compassion International" | string |
 | country_or_region | "USA" | string |
 | url | "https://www.compassion.com" | URL |
-| model | "sponsorship" / "residential care" / etc. | controlled vocab |
+| model | "sponsorship" / "residential care" / etc. | vocabulario controlado |
 | year_founded | 1952 | int |
 | beneficiaries_estimate | "2M" | int (k/M/B) |
 | revenue_annual_usd_estimate | "USD 1B+" | string |
-| funding_sources | "individuals;foundations;corporate" | semicolon-separated tags |
-| digital_signals | "online-donation;recurring-giving" | semicolon-separated tags |
+| funding_sources | "individuals;foundations;corporate" | tags separados por ; |
+| digital_signals | "online-donation;recurring-giving" | tags separados por ; |
 | innovations | "sponsor letter portal + photo quarterly" | string |
 | notes | "largest sponsorship model globally" | string |
 
-## Top-line numbers
+## Números principales
 
-- **939 unique orgs** (after dedup of 992 raw entries)
-- **155 countries / regions**
-- **12 service models**
-- **13 funding-source tags**
-- **12 digital-signal tags**
+- **939 ONGs únicas** (después de dedup de 992 entradas crudas)
+- **155 países / regiones**
+- **12 modelos de servicio**
+- **13 etiquetas de fuente de financiamiento**
+- **12 etiquetas de señal digital**
 
-## Pre-computed slices
+## Slices pre-calculados
 
-In [`./slices/`](./slices/):
-- `CATALOG-by-region.md` — slice by country/region
-- `CATALOG-by-model.md` — slice by service type
-- `CATALOG-funders.md` — slice by funding sources
-- `TOP-100-revenue.md` — biggest 100 by revenue
-- `TOP-30-innovative.md` — most novel 30
-- `FUNDING-PREVALENCE.md` — % of orgs using each funding type
-- `DIGITAL-PREVALENCE.md` — % of orgs using each digital signal
-- `PATTERNS-SELFHELP.md` — how they helped themselves (12 themes)
-- `TOP-10-APPLICABLE.md` — most relevant to SOS PY
+En [`./slices/`](./slices/):
+- `CATALOG-by-region.md` — vista por país
+- `CATALOG-by-model.md` — vista por tipo de servicio
+- `CATALOG-funders.md` — vista por fuente de financiamiento
+- `TOP-100-revenue.md` — las 100 más grandes por ingresos
+- `TOP-30-innovative.md` — las 30 más novedosas
+- `FUNDING-PREVALENCE.md` — % de ONGs usando cada tipo de financiamiento
+- `DIGITAL-PREVALENCE.md` — % de ONGs usando cada señal digital
+- `PATTERNS-SELFHELP.md` — cómo se ayudaron a sí mismas
+- `TOP-10-APPLICABLE.md` — las más relevantes para SOS PY
 
-## Methodology
+## Metodología
 
-- Each entry = ONE distinct project, org, or initiative (not generic categories)
-- Mix of well-known orgs (Compassion, Plan, UNICEF, SOS Intl) and a long tail of country-specific affiliates
-- URLs chosen as canonical homepages or Wikipedia entries
-- Revenue figures from publicly reported financials; "unknown" used when no reliable figure
-- Funding-source and digital-signal tags use a controlled vocabulary for clean aggregation
-- If a fact isn't findable, marked "unknown" or "needs primary research"
+- Cada entrada = UN proyecto, ONG o iniciativa distinta (no categorías genéricas)
+- Mezcla de ONGs conocidas (Compassion, Plan, UNICEF, SOS Intl) y una larga cola de afiliados específicos por país
+- URLs elegidas como páginas principales canónicas o entradas de Wikipedia
+- Cifras de ingresos de reportes financieros publicados; "unknown" cuando no hay cifra confiable
+- Etiquetas de fuente de financiamiento y señal digital usan vocabulario controlado para agregación limpia
+- Si un dato no se encuentra, marcado como "unknown" o "needs primary research"
 
-## Coverage by region (top 10)
+## Cobertura por región (top 10)
 
-| Region | Count |
+| Región | Cantidad |
 |---|---:|
 | USA | 309 |
 | Paraguay | 98 |
-| Spain | 73 |
-| (other LatAm) | ~100 |
-| EU (other) | ~120 |
-| Asia/Pacific | ~140 |
-| Africa | ~120 |
-| Middle East | ~30 |
-| Oceania | ~30 |
+| España | 73 |
+| (otro LatAm) | ~100 |
+| EU (otro) | ~120 |
+| Asia/Pacífico | ~140 |
+| África | ~120 |
+| Medio Oriente | ~30 |
+| Oceanía | ~30 |
 | Global/multilateral | 13 |
 
-## Coverage by model
+## Cobertura por modelo
 
-| Model | Count |
+| Modelo | Cantidad |
 |---|---:|
-| rights | 301 |
-| residential care | 210 |
-| education | 159 |
-| mixed | 100 |
-| health | 60 |
-| sponsorship | 50 |
-| foster | 30 |
-| prevention | 15 |
-| mentorship | 10 |
-| (others) | small |
+| derechos | 301 |
+| cuidado residencial | 210 |
+| educación | 159 |
+| mixto | 100 |
+| salud | 60 |
+| apadrinamiento | 50 |
+| familias acogedoras | 30 |
+| prevención | 15 |
+| mentoría | 10 |
+| (otros) | pequeño |
 
-## How to use
+## Cómo usar
 
-1. **Pattern matching**: sort by funding_sources / digital_signals to find orgs using tactics Aldea PY could adopt
-2. **Geography**: search by country for local peers
-3. **Innovation hunting**: filter by innovation keywords
-4. **Revenue model scouting**: cross-reference funding_source tags with revenue_annual_usd_estimate
-5. **Partnership discovery**: orgs in PY are direct candidates; international orgs in LatAm are regional peers
+1. **Búsqueda de patrones**: ordenar por funding_sources / digital_signals para encontrar ONGs usando tácticas que Aldea PY podría adoptar
+2. **Geografía**: buscar por país para pares locales
+3. **Búsqueda de innovación**: filtrar por palabras clave de innovación
+4. **Scouting de modelo de ingresos**: cruzar etiquetas de funding_source con revenue_annual_usd_estimate
+5. **Descubrimiento de socios**: las ONGs en PY son candidatos directos; las ONGs internacionales en LatAm son pares regionales
 
 ---
 
-*Last updated: 2026-08-21*
+*Última actualización: 2026-08-21*

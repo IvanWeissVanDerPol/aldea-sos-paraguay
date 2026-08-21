@@ -1,116 +1,115 @@
-# Digital Maturity Assessment
+# Evaluación de Madurez Digital
 
-## Score: **4/10**
+## Puntuación: **4/10**
 
-What's there works but is incomplete. What's missing represents the biggest revenue opportunity.
+Lo que está funciona pero está incompleto. Lo que falta representa la mayor oportunidad de ingresos.
 
 ---
 
-## ✅ What's there (works)
+## ✅ Lo que está (funciona)
 
-- Functional website at aldeasinfantiles.org.py
-- Donation intent form ("Hacete Amigo SOS")
-- Volunteer / bolsa de trabajo page (40 vacancies active)
-- Social media presence: FB, IG, LinkedIn, X, YouTube
-- Embedded Twitter feed
-- Email subscription form
-- Newsletter signup
-- Mobile-responsive design (Duda CMS)
+- Sitio web funcional en aldeasinfantiles.org.py
+- Formulario de donación ("Hacete Amigo SOS")
+- Página de bolsa de trabajo / voluntariado (40 vacantes activas)
+- Presencia en redes sociales: FB, IG, LinkedIn, X, YouTube
+- Feed de Twitter embebido
+- Formulario de suscripción al newsletter
+- Diseño responsive (CMS Duda)
 
-## ⚠️ What's broken
+## ⚠️ Lo que está roto
 
-| Issue | Impact |
+| Issue | Impacto |
 |---|---|
-| `/transparencia` URL returns 404 | Major trust signal broken — donors can't verify impact |
-| `/dona` URL returns 404 (correct: `/como-ayudar/dona`) | Donor friction |
-| `/conocenos/que-hacemos/bolsa-de-trabajo` returns 404 | Application friction |
-| No donation payment gateway | Form only — requires human follow-up |
-| No public annual report | Trust issue, especially post-scandal |
-| No public board composition | Governance opacity |
-| No published safeguarding policy | Reputational risk |
+| URL `/transparencia` devuelve 404 | Señal de confianza rota — los donantes no pueden verificar el impacto |
+| URL `/dona` devuelve 404 (correcto: `/como-ayudar/dona`) | Fricción para el donante |
+| `/conocenos/que-hacemos/bolsa-de-trabajo` devuelve 404 | Fricción para aplicar |
+| Sin pasarela de pago | Solo formulario — requiere seguimiento humano |
+| Sin reporte anual público | Problema de confianza, especialmente post-escándalo |
+| Sin composición pública del directorio | Opacidad de gobernanza |
+| Sin política publicada de salvaguardia | Riesgo reputacional |
 
-## ❌ What's missing entirely
+## ❌ Lo que falta por completo
 
-### Online fundraising (the #1 gap)
-- No online donation via card (Stripe/Bancard/etc.)
-- No Pix, Tigo Money, Personal Pay integration
-- No crypto donations
-- No recurring online donation infrastructure
-- No sponsor portal (Compassion/Plan model)
-- No "Donate your FX gain" or round-up app integration
-- No DAF registration (US tax-advantaged giving blocked)
+### Recaudación online (la brecha #1)
+- Sin donación online vía tarjeta (Stripe/Bancard/etc.)
+- Sin Pix, Tigo Money, Personal Pay
+- Sin donaciones en crypto
+- Sin infraestructura de donación recurrente online
+- Sin portal de apadrinamiento (modelo Compassion/Plan)
+- Sin integración con apps de redondeo
+- Sin registro DAF (bloquea donaciones con ventaja fiscal US)
 
-### Transparency
-- No `/transparencia` page working
-- No annual report PDF
-- No KPIs dashboard
-- No charity rating (Charity Navigator or PY equivalent)
+### Transparencia
+- Sin página `/transparencia` funcionando
+- Sin PDF de reporte anual
+- Sin dashboard de KPIs
+- Sin rating de caridad (Charity Navigator o equivalente PY)
 
 ### Engagement
-- No TikTok
-- No YouTube content (channel exists but no uploads visible)
-- No WhatsApp Business widget
-- No chatbot
-- No event ticketing
-- No volunteer signup portal (separate from job board)
-- No online store / merchandise
-- No "donate in someone's honor" memorial giving
+- Sin TikTok
+- Sin contenido de YouTube (canal existe pero sin contenido visible)
+- Sin widget de WhatsApp Business
+- Sin chatbot
+- Sin venta de entradas para eventos
+- Sin portal de inscripción de voluntarios
+- Sin tienda online / merchandising
+- Sin donaciones conmemorativas "en memoria de"
 
-### Operations
-- No donor CRM (donors can't see their history)
-- No CSR microsite (corporate partners can't download impact reports)
-- No FAQ / help center
-- No multilingual (es + en at minimum)
+### Operaciones
+- Sin CRM para donantes (los donantes no pueden ver su historial)
+- Sin microsite de RSE (los aliados corporativos no pueden descargar reportes de impacto)
+- Sin FAQ / centro de ayuda
+- Sin multi-idioma (es + en como mínimo)
 
-### Tech stack (inferred)
-- Website: **Duda CMS** (template footer reference) — basic template-based
-- No SPA, no headless CMS, no JS interactions beyond forms
-- No confirmed CRM, email marketing tool, donation processor
+### Stack técnico (inferido)
+- Sitio web: **Duda CMS** (referencia de copyright en footer) — template básico
+- Sin SPA, sin headless CMS, sin interacciones JS más allá de formularios
+- Sin CRM confirmado, sin email marketing tool, sin procesador de donaciones
 
 ---
 
-## Where they rank vs peers
+## Comparación con pares
 
-From our 939-org catalog analysis:
+De nuestro análisis del catálogo de 939 ONGs:
 
-| Capability | Aldea PY | Top 30% of peers |
+| Capacidad | Aldea PY | Top 30% de pares |
 |---|---|---|
-| Online donation | ❌ | ✅ (99% have it) |
-| Recurring giving | ⚠️ form only | ✅ (34% have it) |
-| Annual report public | ❌ | ✅ (27% have it) |
-| Multilingual site | ❌ (es only) | ✅ (14% have it) |
-| Charity rating | ❌ | ✅ (10% have it) |
-| Mobile app | ❌ | ⚠️ |
-| TikTok | ❌ | ⚠️ (~5-10% emerging) |
+| Donación online | ❌ | ✅ (99% tienen) |
+| Donación recurrente | ⚠️ solo formulario | ✅ (34% tienen) |
+| Reporte anual público | ❌ | ✅ (27% tienen) |
+| Sitio multi-idioma | ❌ (solo es) | ✅ (14% tienen) |
+| Rating de caridad | ❌ | ✅ (10% tienen) |
+| App móvil | ❌ | ⚠️ |
+| TikTok | ❌ | ⚠️ (~5-10% emergente) |
 
-**Verdict**: they are 1-2 generations behind in fundraising tech, governance transparency, and donor UX.
-
----
-
-## Why the gaps matter
-
-- **Online donation gap** = largest single revenue unlock. 99% of peers accept online donations. Conversion friction = lost donations.
-- **Transparency gap** = blocks institutional donors who require proof of impact before giving. Probably Gs. 100M-300M/yr in lost grants.
-- **Sponsor portal gap** = blocks recurring padrino model that Compassion/Plan/ChildFund use to retain donors for years.
-
-## What they need to ship (90 days)
-
-Priority 1 (fix what's broken):
-- Fix `/transparencia` URL → render annual report
-- Fix `/dona` URL → redirect to `/como-ayudar/dona`
-- Activate Google Ad Grants ($10k/mo free)
-
-Priority 2 (add what's missing):
-- Donation gateway (Donorbox + Tigo Money + Pix)
-- Transparency microsite (annual report + KPIs)
-- Basic CRM (Salesforce NPSP free)
-
-Priority 3 (medium-term):
-- TikTok channel
-- Sponsor portal (sponsor-a-house model)
-- Multilingual landing page
+**Veredicto**: están 1-2 generaciones atrás en tecnología de recaudación, transparencia y UX del donante.
 
 ---
 
-*See [`../revenue/`](../revenue/) for revenue opportunities tied to these gaps.*
-*See [`../tech-spec/`](../tech-spec/) for technical specifications.*
+## Por qué importan las brechas
+
+- **Brecha de donación online** = mayor desbloqueo único de ingresos. El 99% de los pares aceptan donaciones online. La fricción de conversión = donaciones perdidas.
+- **Brecha de transparencia** = bloquea donantes institucionales que requieren prueba de impacto antes de dar. Probablemente Gs. 100M-300M/año en grants perdidos.
+- **Brecha de portal de apadrinamiento** = bloquea el modelo recurrente que Compassion/Plan/ChildFund usan para retener donantes por años.
+
+## Qué enviar (90 días)
+
+Prioridad 1 (arreglar lo roto):
+- Arreglar URL `/transparencia` → renderizar reporte anual
+- Arreglar URL `/dona` → redirigir a `/como-ayudar/dona`
+- Activar Google Ad Grants ($10k/mes gratis)
+
+Prioridad 2 (agregar lo que falta):
+- Pasarela de donación (Donorbox + Tigo Money + Pix)
+- Micrositio de transparencia (reporte anual + KPIs)
+- CRM básico (Salesforce NPSP gratis)
+
+Prioridad 3 (mediano plazo):
+- Canal de TikTok
+- Portal de apadrinamiento (modelo sponsor-a-house)
+- Landing page multi-idioma
+
+---
+
+*Ver [`../revenue/`](../revenue/) para oportunidades de ingresos vinculadas a estas brechas.*
+*Ver [`../tech-spec/`](../tech-spec/) para especificaciones técnicas.*

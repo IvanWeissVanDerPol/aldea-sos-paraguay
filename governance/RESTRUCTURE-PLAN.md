@@ -1,14 +1,14 @@
-# Repo Restructure Plan & Gap Analysis
+# Plan de Reestructuración del Repo y Análisis de Brechas
 
-> **Status**: Proposal — awaiting Ivan's approval before I touch the existing tree
-> **Author**: Hermes (drafted 2026-08-21 after the 4-deep-dive session)
-> **Context**: This document lays out a proposed reorganization of the `aldea-sos-paraguay` repo to make it easy for the Polki Squad (Ivan's team / ParaguAI / Aiw crew) to find what they need quickly, and identifies ~25 additional files/folders we should prepare but don't have yet.
+> **Estado**: Propuesta — esperando aprobación de Ivan antes de tocar el árbol existente
+> **Autor**: Hermes (borrador 2026-08-21 después de la sesión de 4 deep-dives)
+> **Contexto**: Este documento presenta una reorganización propuesta del repo `aldea-sos-paraguay` para facilitar al Polki Squad (equipo de Ivan / ParaguAI / Aiw) encontrar lo que necesita rápidamente, e identifica ~25 archivos/carpetas adicionales que deberíamos preparar pero aún no tenemos.
 
 ---
 
-## Part 1 — Why the current structure is hard for a new reader
+## Parte 1 — Por qué la estructura actual es difícil para un nuevo lector
 
-### Symptom: A teammate opens the repo. What happens?
+### Síntoma: Un miembro del equipo abre el repo. ¿Qué pasa?
 
 1. They see 5 top-level folders: `evidence/`, `sos/`, `comparison/`, `research/`, `revenue/`.
 2. They open `README.md` — it explains **what's there** but not **where to start for their role**.
@@ -17,7 +17,7 @@
 5. They try `evidence/` — see 15 HTML files named `aios_py_*.html`. They have no idea which one to open. `SOURCES.md` is the only map.
 6. They give up and Slack someone: "wtf is in here?"
 
-### Concrete problems
+### Problemas concretos
 
 | # | Problem | Where it hurts |
 |---|---|---|
@@ -39,9 +39,9 @@
 
 ---
 
-## Part 2 — Proposed restructure
+## Parte 2 — Reestructuración propuesta
 
-### 2.1 Top-level layout
+### 2.1 Layout de nivel superior
 
 ```
 aldea-sos-paraguay/
@@ -251,7 +251,7 @@ aldea-sos-paraguay/
     └── revenue/              (original REVENUE-AVENUES.md)
 ```
 
-### 2.2 Why this layout
+### 2.2 Por qué este layout
 
 - **Numbered prefixes** (`00-`, `01-`, ...): sort order matches reading order. ` `00-start-here` is the entry point. Then evidence → dossier → benchmark → research → revenue → outward deliverables → tech → financial → strategy → policy → competitive → archive.
 - **Split big files into small subfolder files**: each big MD gets `README.md`, `executive-summary.md`, `topic.md` extracted sections. Easier to update, easier to cite.
@@ -261,7 +261,7 @@ aldea-sos-paraguay/
 - **`archive/` and `_originals/`**: nothing is ever deleted; deprecated content is moved to archives with a README.
 - **One META layer**: governance (glossary, style, risk register, stakeholder map, action board, changelog).
 
-### 2.3 What I'd do today (Day 1 of the restructure)
+### 2.3 Qué haría hoy (Día 1 de la reestructuración)
 
 1. **Create the full directory skeleton** — empty folders, no content moves yet
 2. **Move evidence/, sos/, comparison/, research/1000-orgs/batches/, revenue/ → _originals/** for safety
@@ -276,7 +276,7 @@ aldea-sos-paraguay/
 7. **Single atomic commit** titled "Restructure: numbered folders, subfolder READMEs, audience-keyed entry point" — so the history stays clean
 8. **Push to GitHub**
 
-### 2.4 What I'd do Day 2 (this isn't asking for now, just listing)
+### 2.4 Qué haría el Día 2 (no estoy pidiendo esto ahora, solo listando)
 
 - Fill out the pitch deck outline into a real slide structure
 - Write the email templates in `outreach/`
@@ -285,11 +285,11 @@ aldea-sos-paraguay/
 
 ---
 
-## Part 3 — Additional files/folders we should prepare (gap list)
+## Parte 3 — Archivos/carpetas adicionales que deberíamos preparar (lista de brechas)
 
 This is the catalog of **missing** deliverables that any serious partner / donor / SOS board member would expect to find.
 
-### A. Decision-support (high priority — block pitching until done)
+### A. Soporte de decisiones (alta prioridad — bloquea pitching hasta que esté hecho)
 
 1. **`governance/ACTION-BOARD.md`** — Kanban of next actions with owners
 2. **`governance/RISK-REGISTER.md`** — Scandal relapse, donor flight, regulatory, key-person dependency, etc.
@@ -300,7 +300,7 @@ This is the catalog of **missing** deliverables that any serious partner / donor
 7. **`pitch/pitch-deck-outline.md`** — Slide structure (problem, opportunity, evidence, plan, ask)
 8. **`pitch/FAQ.md`** — 20 questions we'd be asked, with answers
 
-### B. Tech & product (medium priority — blocks implementation)
+### B. Tecnología y producto (prioridad media — bloquea implementación)
 
 9. **`tech-spec/donation-gateway/processor-comparison.md`** — Donorbox vs Funraise vs Bancard vs Stripe vs Pix vs Tigo Money
 10. **`tech-spec/donation-gateway/recommended-stack.md`** — Concrete choice + why
@@ -311,7 +311,7 @@ This is the catalog of **missing** deliverables that any serious partner / donor
 15. **`tech-spec/sponsor-portal/design-doc.md`** — Sponsor a house: letter exchange model
 16. **`tech-spec/infra/CRM-recommendation.md`** — Salesforce NPSP vs HubSpot Nonprofit vs Airtable
 
-### C. Outreach scripts (medium priority — needed for any contact)
+### C. Scripts de outreach (prioridad media — necesario para cualquier contacto)
 
 17. **`outreach/email/cold-outreach-corporate.md`** — For Tigo/Personal/Ueno/Areté/Tupi/etc.
 18. **`outreach/email/cold-outreach-tech-partner.md`** — For Donorbox/Funraise/Bancard
@@ -321,7 +321,7 @@ This is the catalog of **missing** deliverables that any serious partner / donor
 22. **`outreach/call/discovery-call-script.md`** — 30-min discovery call template
 23. **`outreach/call/objection-handling.md`** — Common objections + responses
 
-### D. Financial modeling (medium priority)
+### D. Modelado financiero (prioridad media)
 
 24. **`financial/revenue-model-baseline.md`** — Estimate current revenue from clues + SOS PY federation
 25. **`financial/revenue-model-projected.md`** — 18-month projection with each new stream enabled
@@ -329,7 +329,7 @@ This is the catalog of **missing** deliverables that any serious partner / donor
 27. **`financial/budget-90-day.md`** — What does the first quarter cost?
 28. **`financial/budget-12-month.md`** — Full first-year budget
 
-### E. Strategy & planning (medium priority)
+### E. Estrategia y planificación (prioridad media)
 
 29. **`strategy/30-day-quick-wins.md`** — Concrete actions, owners, deadlines
 30. **`strategy/90-day-plan.md`** — Quarterly plan
@@ -337,7 +337,7 @@ This is the catalog of **missing** deliverables that any serious partner / donor
 32. **`strategy/donor-journey-map.md`** — Touchpoints from awareness to recurring giver
 33. **`strategy/competitor-strategy.md`** — How we differentiate from Compassion PY / WV PY
 
-### F. Policy & safeguarding (high priority given scandal)
+### F. Política y salvaguarda (alta prioridad dado el escándalo)
 
 34. **`policy/safeguarding-charter.md`** — Model child protection policy
 35. **`policy/safeguarding-incident-protocol.md`** — What to do if allegation surfaces
@@ -345,7 +345,7 @@ This is the catalog of **missing** deliverables that any serious partner / donor
 37. **`policy/sponsor-ethics.md`** — Rules for sponsor communications (no identifying info, etc.)
 38. **`policy/image-consent-policy.md`** — Template consent forms
 
-### G. Competitive deep-dives (medium priority)
+### G. Análisis profundos de competidores (prioridad media)
 
 39. **`competitive/compassion-py.md`** — Operational model + revenue model + digital stack
 40. **`competitive/world-vision-py.md`** — Same
@@ -355,7 +355,7 @@ This is the catalog of **missing** deliverables that any serious partner / donor
 44. **`competitive/fundacion-huesped-ar.md`** — Health/welfare crossover
 45. **`competitive/casa-de-esperanza-ar.md`** — Argentina children home reference
 
-### H. Research extension (lower priority)
+### H. Extensión de investigación (menor prioridad)
 
 46. **`research/patterns/recurring-giving-at-scale.md`** — Synthesis of how top 10 sponsorships work
 47. **`research/patterns/digital-fundraising-trends.md`** — Web3, AI, etc. trends
@@ -363,7 +363,7 @@ This is the catalog of **missing** deliverables that any serious partner / donor
 49. **`research/patterns/diaspora-giving-models.md`** — How diaspora orgs fund home countries
 50. **`research/datasets/`** — Structured subsets of CATALOG.csv for easy slicing (Paraguay only, residential care only, top 100 revenue, etc.)
 
-### I. Visual & presentation (lower priority but helpful)
+### I. Visual y presentación (menor prioridad pero útil)
 
 51. **`pitch/slides/01-problem.md`** etc. — Slide-by-slide content
 52. **Diagrams** — Donation flow, donor journey, stakeholder map, competitive positioning — as PNG/SVG
@@ -371,7 +371,7 @@ This is the catalog of **missing** deliverables that any serious partner / donor
 
 ---
 
-## Part 4 — Key questions for you
+## Parte 4 — Preguntas clave para vos
 
 Before I touch anything, I want to make sure I'm aligned:
 
@@ -382,9 +382,9 @@ Before I touch anything, I want to make sure I'm aligned:
 
 ---
 
-## Part 5 — Estimated effort
+## Parte 5 — Esfuerzo estimado
 
-| Phase | Effort | Output |
+| Fase | Esfuerzo | Entregable |
 |---|---|---|
 | Restructure skeleton + subfolder READMEs | 1 hour | 12 numbered folders, ~30 READMEs |
 | Split big MDs into topical subfiles | 2 hours | ~30 new topical files extracted from existing |
@@ -395,7 +395,7 @@ Before I touch anything, I want to make sure I'm aligned:
 | Push + verify | 30 min | One atomic commit, pushed to GitHub |
 | **Total** | **~12 hours** | 50+ new files, single atomic commit |
 
-I can do this in one session today if you greenlight.
+Puedo hacer esto en una sesión hoy si das luz verde.
 
 ---
 

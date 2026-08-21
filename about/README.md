@@ -1,36 +1,36 @@
-# About Aldea SOS Paraguay — Deep Dossier on Aldea SOS Paraguay
+# About Aldea SOS Paraguay — Dossier Profundo
 
-> The dossier is split into 8 topical files for easy reading, easy updating, and easy citation.
+> El dossier está dividido en 8 archivos temáticos para facilitar la lectura, actualización y citación.
 
-## Files
+## Archivos
 
-- **`executive-summary.md`** — 1-page "who is Aldea SOS PY"
-- **`identity.md`** — legal name, RUC, HQ, contact info
+- **`executive-summary.md`** — 1 página "quién es Aldea SOS PY"
+- **`identity.md`** — nombre legal, RUC, HQ, información de contacto
 - **`programs.md`** — 5 aldeas + cuidados alternativos + Ojoykére + advocacy
-- **`funding-model.md`** — current revenue streams
-- **`digital-maturity.md`** — what works / what's broken / what's missing
-- **`scandal-timeline.md`** — 2025 Gmeiner crisis + Paraguay's response
-- **`staffing-org.md`** — who's who + governance gaps
-- **`SWOT.md`** — strengths / weaknesses / opportunities / threats
+- **`funding-model.md`** — fuentes de ingresos actuales
+- **`digital-maturity.md`** — qué funciona / qué está roto / qué falta
+- **`scandal-timeline.md`** — crisis Gmeiner 2025 + respuesta de Paraguay
+- **`staffing-org.md`** — quién es quién + brechas de gobernanza
+- **`SWOT.md`** — fortalezas / debilidades / oportunidades / amenazas
 
-## Legacy file
+## Archivo legacy
 
-The original monolithic `DOSSIER.md` (15K chars, 299 lines) is preserved in [`_originals/sos/DOSSIER.md`](../_originals/sos/DOSSIER.md) for reference. Its content is distributed across the 8 files above.
+El dossier monolítico original `DOSSIER.md` (15K caracteres, 299 líneas) está preservado en [`_originals/sos/DOSSIER.md`](../_originals/sos/DOSSIER.md) como referencia. Su contenido está distribuido en los 8 archivos de arriba.
 
-## How to update
+## Cómo actualizar
 
-- **Update a topic**: edit the relevant topic file directly. No more scrolling through 300 lines.
-- **Add new info**: append to the relevant topic file, citing the source.
-- **New topic?**: add a new file with the topic name. Keep it small.
-- **Deprecate**: move to `archive/` with a note.
+- **Actualizar un tema**: editá el archivo del tema relevante directamente. No más scroll por 300 líneas.
+- **Agregar nueva información**: agregá al archivo del tema relevante, citando la fuente.
+- **¿Tema nuevo?**: agregá un archivo nuevo con el nombre del tema. Mantenelo pequeño.
+- **Deprecar**: mové a `archive/` con una nota.
 
-## Sources
+## Fuentes
 
-All facts trace back to:
-- [`../evidence/`](../evidence/) — raw HTML downloads
-- [`../evidence/EXTRACTED-FACTS.md`](../evidence/EXTRACTED-FACTS.md) — distilled facts
-- [`../evidence/SOURCES.md`](../evidence/SOURCES.md) — original index
+Todos los hechos trazan a:
+- [`../evidence/`](../evidence/) — descargas HTML crudas
+- [`../evidence/EXTRACTED-FACTS.md`](../evidence/EXTRACTED-FACTS.md) — hechos destilados
+- [`../evidence/SOURCES.md`](../evidence/SOURCES.md) — índice original
 
 ---
 
-*Last updated: 2026-08-21*
+*Última actualización: 2026-08-21*

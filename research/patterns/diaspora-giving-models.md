@@ -1,58 +1,58 @@
-# Diaspora Giving Models
+# Modelos de Donación de la Diáspora
 
-> Patterns for reaching Paraguayan diaspora abroad. The diaspora is the **single biggest untapped revenue source** for Aldea SOS Paraguay.
+> Patrones para alcanzar a la diáspora paraguaya en el extranjero. La diáspora es la **mayor fuente única sin explotar** de ingresos para Aldea SOS Paraguay.
 
-## PY diaspora populations (estimates)
+## Poblaciones de la diáspora PY (estimaciones)
 
-| Country | PY diaspora | Notes |
+| País | Diáspora PY | Notas |
 |---|---:|---|
-| Argentina | ~600,000 | Largest community; speak Spanish; close cultural ties |
-| Spain | ~162,000 | EU; Spanish-speaking; growing since 2010 |
-| Brazil | ~100,000+ | Border areas (Paraná, Mato Grosso do Sul) |
-| USA | large (NY, Miami, LA) | Spanish-speaking communities |
-| Canada | smaller | |
-| Others | smaller | |
+| Argentina | ~600.000 | Comunidad más grande; habla español; lazos culturales cercanos |
+| España | ~162.000 | UE; hispanohablante; creciendo desde 2010 |
+| Brasil | ~100.000+ | Áreas fronterizas (Paraná, Mato Grosso do Sul) |
+| USA | grande (NY, Miami, LA) | Comunidades hispanohablantes |
+| Canadá | más pequeña | |
+| Otros | más pequeña | |
 
-Source: ddgs research Aug 2026.
+Fuente: investigación ddgs agosto 2026.
 
-## How diaspora orgs typically fund home-country causes
+## Cómo las ONGs diáspora típicamente financian causas de su país
 
-### USA model
-- **Donor-Advised Funds (DAFs)**: tax-advantaged giving via Fidelity, Schwab, Vanguard, NPT, Daffy
-- **Employer matching**: corporate match programs
-- **501(c)(3) "Friends of" orgs**: e.g., "Friends of Paraguay" — separate US entity that raises for PY causes
-- **Wire transfers** to home-country org
-- **Crowdfunding platforms** (GoFundMe Charity, etc.)
+### Modelo US
+- **Donor-Advised Funds (DAFs)**: donaciones con ventaja fiscal vía Fidelity, Schwab, Vanguard, NPT, Daffy
+- **Employer matching**: programas de matcheo corporativo
+- **501(c)(3) "Friends of" orgs**: ej: "Friends of Paraguay" — entidad US separada que recauda para causasPY
+- **Wire transfers** a la ONG del país de origen
+- **Plataformas de crowdfunding** (GoFundMe Charity, etc.)
 
-### Argentina model
-- **Western Union** style remittance-with-donation (untested at scale)
-- **Argentinian banks** with PY correspondent relationships (Galicia PY)
+### Modelo argentino
+- **Remesas con donación** estilo Western Union (no probado a escala)
+- **Bancos argentinos** con corresponales PY (Galicia PY)
 
-## Tactical playbook (for SOS PY)
+## Playbook táctico (para SOS PY)
 
-**Day 1-30**: Register with Daffy (handles stock + crypto + cash DAF donations automatically)
-**Day 30-60**: Build an es-only landing page for "donar desde el exterior"
-**Day 60-90**: Apply for DAF registration on NPT, Schwab Charitable, Fidelity Charitable
-**Day 90-120**: Recruit 5 diaspora ambassadors (1 each in NY, Miami, Buenos Aires, São Paulo, Madrid)
-**Day 120-180**: Quarterly diaspora email newsletter + impact reports
+**Día 1-30**: Registrarse en Daffy (maneja donaciones en stock + crypto + efectivo DAF automáticamente)
+**Día 30-60**: Construir una landing page solo en español para "donar desde el exterior"
+**Día 60-90**: Aplicar para registro DAF en NPT, Schwab Charitable, Fidelity Charitable
+**Día 90-120**: Reclutar 5 embajadores de la diáspora (1 cada uno en NY, Miami, Buenos Aires, São Paulo, Madrid)
+**Día 120-180**: Newsletter trimestral para la diáspora + reportes de impacto
 
-## Potential revenue
+## Potencial de ingresos
 
-| Stream | Estimate/yr |
+| Fuente | Estimación/año |
 |---|---|
-| 100 diaspora donors × $25/mo | USD 30k/yr |
-| 1 large donor × USD 5k/yr | USD 5k/yr |
-| 50 DAF grants × USD 1k avg | USD 50k/yr |
-| Diaspora event in NY (annual) | USD 20-50k/yr |
-| Diaspora event in Buenos Aires (annual) | USD 10-30k/yr |
-| **Total** | **USD 100-500k/yr** [evidence: estimate] |
+| 100 donantes diáspora × $25/mes | USD 30k/año |
+| 1 donante grande × USD 5k/año | USD 5k/año |
+| 50 grants DAF × USD 1k prom | USD 50k/año |
+| Evento diáspora en NY (anual) | USD 20-50k/año |
+| Evento diáspora en Buenos Aires (anual) | USD 10-30k/año |
+| **Total** | **USD 100-500k/año** [evidencia: estimate] |
 
-## What we don't know
+## Lo que no sabemos
 
-- Whether SOS PY has any diaspora outreach today (likely not — no evidence on site)
-- PY diaspora orgs in target countries
-- DAF registrations in place (likely none)
+- Si SOS PY tiene algún outreach a diáspora hoy (probablemente no — sin evidencia en el sitio)
+- Organizaciones de diáspora PY en países objetivo
+- Registros DAF existentes (probablemente ninguno)
 
 ---
 
-*Sources: catalog entries tagged "diaspora" + DAF platforms (Daffy, NPT, Schwab, Fidelity) + PY diaspora estimates from ddgs research.*
+*Fuentes: entradas del catálogo etiquetadas como "diaspora" + plataformas DAF (Daffy, NPT, Schwab, Fidelity) + estimaciones de diáspora PY de investigación ddgs.*

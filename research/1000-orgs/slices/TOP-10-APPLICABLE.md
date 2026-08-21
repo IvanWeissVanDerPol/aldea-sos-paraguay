@@ -1,6 +1,6 @@
 # TOP 10 Most Directly Applicable to Aldea SOS Paraguay
 
-Filtered for PY operational feasibility, fit-with-existing-assets, and quick-win potential.
+Filtrado por factibilidad operativa PY, fit con activos existentes, y potencial de quick-win.
 
 ## 1. Compassion International — sponsor portal with letter exchange
 

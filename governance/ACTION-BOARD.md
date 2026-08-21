@@ -1,91 +1,89 @@
-# ACTION BOARD — Live Kanban
+# ACTION BOARD — Kanban Vivo
 
-> Last updated: 2026-08-21
-> Update by editing in place. Keep entries dated.
+> Última actualización: 2026-08-21
+> Actualizar editando in situ. Mantener entradas con fecha.
 
 ---
 
-## 🔴 Blocked (waiting on someone else)
+## 🔴 Bloqueado (esperando a alguien)
 
-| Item | Waiting on | Since |
+| Item | Esperando en | Desde |
 |---|---|---|
-| First contact to Aldea SOS Paraguay | Ivan's approval to send `cold-outreach-sos-py.md` | 2026-08-21 |
-| Donor pitch to Tigo / Itaú / Ueno | Ivan's approval + Zunilda's introduction | 2026-08-21 |
-| Apply for Google Ad Grants | Need TECH-PY verified nonprofit status (EIN equivalent) | 2026-08-21 |
-| Apply for Salesforce NPSP free CRM | Same | 2026-08-21 |
-| Apply for Microsoft Philanthropies | Same | 2026-08-21 |
-| Apply for AWS Imagine | Same | 2026-08-21 |
-| Donorbox production account | Need RUC + bank account verification (we have RUC = 80016122, need bank acct) | 2026-08-21 |
+| Primer contacto con Aldea SOS Paraguay | Aprobación de Ivan para enviar `cold-outreach-sos-py.md` | 2026-08-21 |
+| Pitch de donante a Tigo / Itaú / Ueno | Aprobación de Ivan + introducción de Zunilda | 2026-08-21 |
+| Aplicar a Google Ad Grants | Necesitamos estado de ONG verificada TECH-PY (equivalente EIN) | 2026-08-21 |
+| Aplicar a Salesforce NPSP CRM gratis | Igual | 2026-08-21 |
+| Aplicar a Microsoft Philanthropies | Igual | 2026-08-21 |
+| Aplicar a AWS Imagine | Igual | 2026-08-21 |
+| Cuenta de producción de Donorbox | Necesitamos verificación de RUC + cuenta bancaria (tenemos RUC = 80016122, falta cuenta bancaria) | 2026-08-21 |
 
 ---
 
-## 🟡 In Progress
+## 🟡 En Progreso
 
-| Item | Owner | Started |
-|---|---|---|---|
-| Build donation gateway (Donorbox MVP) | Engineering team | 2026-08-21 |
-| Draft safeguarding charter | Hermes (drafts) → SOS PY review | 2026-08-21 |
-| Configure Resend domain + send first email | Hermes / Ivan | 2026-08-21 |
-| Repositor restructure (split big MDs into subfolders) | Hermes | 2026-08-21 |
+| Item | Dueño | Iniciado |
+|---|---|---|
+| Construir pasarela de donación (Donorbox MVP) | Equipo de ingeniería | 2026-08-21 |
+| Redactar carta de salvaguardia | Hermes (borrador) → revisión SOS PY | 2026-08-21 |
+| Configurar dominio Resend + enviar primer email | Hermes / Ivan | 2026-08-21 |
+| Restructurar repo (dividir MDs grandes en subcarpetas) | Hermes | 2026-08-21 |
 
 ---
 
-## 🟢 Todo (this week)
+## 🟢 Por hacer (esta semana)
 
-| Item | Notes |
+| Item | Notas |
 |---|---|
-| Verify Paraguay RUC = 80016122 with public BCP data | [evidence: official] — ong.com.py profile |
-| Confirm Tupi 6th-edition Comilona = Gs. 1,391M (USD 190k) | [evidence: third-party] a24.com.py coverage |
-| Add DNS records (SPF/DKIM/DMARC) for `paragu-ai.com` at DNS provider | waiting on Ivan |
-| Set Spanish sender identity in Resend (`amigos@paragu-ai.com`) | documented in tech-spec/email/sender-config.md |
-| Draft donor-journey-map.md | for strategy/ |
-| Draft 30-day-quick-wins.md | for strategy/ |
-| Draft 90-day-plan.md | for strategy/ |
-| Draft tech-spec processor-comparison.md | for tech-spec/donation-gateway/ |
+| Verificar RUC Paraguay = 80016122 con datos BCP públicos | [evidencia: official] — perfil ong.com.py |
+| Confirmar Comilona 6ª edición Tupi = Gs. 1.391M (USD 190k) | [evidencia: third-party] cobertura a24.com.py |
+| Agregar registros DNS (SPF/DKIM/DMARC) para `paragu-ai.com` en el proveedor DNS | esperando a Ivan |
+| Configurar identidad de remitente en español en Resend (`amigos@paragu-ai.com`) | documentado en tech-spec/email/sender-config.md |
+| Redactar donor-journey-map.md | para strategy/ |
+| Redactar 30-day-quick-wins.md | para strategy/ |
+| Redactar 90-day-plan.md | para strategy/ |
+| Redactar comparación de procesadores en tech-spec | para tech-spec/donation-gateway/ |
 
 ---
 
-## ✅ Done (recent)
+## ✅ Hecho (reciente)
 
-| Item | Date |
+| Item | Fecha |
 |---|---|
-| Initial research dossier on Aldea SOS Paraguay | 2026-08-21 |
-| Deep dive dossier (identity, programs, scandal, SWOT) | 2026-08-21 |
-| Peer benchmark (9 international + 8 PY) | 2026-08-21 |
-| 1000-org catalog (939 entries) | 2026-08-21 |
-| Synthesis (distributions, top lists, themes) | 2026-08-21 |
-| Revenue avenues (65+ streams, TOP 15) | 2026-08-21 |
-| Repo restructured (numbered folders, subfolder) | 2026-08-21 |
-| Repo restructured again (word-based folder names) | 2026-08-21 |
-| Renamed META → governance, _archive-pre-restructure → _originals | 2026-08-21 |
-| INDEX.md + governance/INDEX.md (master indexes) | 2026-08-21 |
-| All cross-references fixed (0 truly broken links) | 2026-08-21 |
-| **Email system docs** (Resend setup, DNS, API integration) | 2026-08-21 |
-| **Spanish email templates** (receipt, welcome, newsletter) | 2026-08-21 |
-| **Spanish cold-outreach templates** (5 destinations + followup) | 2026-08-21 |
-| **Email policy** (who sends from what, language, frequency) | 2026-08-21 |
-| **Translated pitch/ + start-here/ to Spanish** | 2026-08-21 |
+| Dossier inicial de investigación sobre Aldea SOS Paraguay | 2026-08-21 |
+| Dossier profundo (identidad, programas, escándalo, SWOT) | 2026-08-21 |
+| Benchmark de pares (9 internacionales + 8 PY) | 2026-08-21 |
+| Catálogo de 1000 ONGs (939 entradas) | 2026-08-21 |
+| Síntesis (distribuciones, top lists, temas) | 2026-08-21 |
+| Fuentes de ingreso (65+ fuentes, TOP 15) | 2026-08-21 |
+| Repo restructurado (carpetas numeradas, subcarpetas README) | 2026-08-21 |
+| Repo restructurado de nuevo (nombres de carpeta por propósito) | 2026-08-21 |
+| Renombrado governance → governance, _archive-pre-restructure → _originals | 2026-08-21 |
+| INDEX.md + governance/INDEX.md (índices maestros) | 2026-08-21 |
+| Todas las referencias cruzadas arregladas (0 enlaces realmente rotos) | 2026-08-21 |
+| **Documentos del sistema de email** (setup de Resend, DNS, integración API) | 2026-08-21 |
+| **Plantillas de email en español** (recibo, bienvenida, newsletter) | 2026-08-21 |
+| **Plantillas de cold outreach en español** (5 destinos + seguimiento) | 2026-08-21 |
+| **Política de email** (quién envía desde qué, idioma, frecuencia) | 2026-08-21 |
+| **Traducción de pitch/ + start-here/ al español** | 2026-08-21 |
+| **Todo el repo en español** (incluyendo governance/, evidence/, research/, benchmark/, revenue/) | 2026-08-21 |
 
 ---
 
-## Backlog (next 30 days)
+## Backlog (próximos 30 días)
 
-- [ ] Fix SOS PY `/transparencia` page (their team)
-- [ ] Activate Meta Donate button on FB page (their team)
-- [ ] Register on Daffy DAF platform
-- [ ] Pilot "Apadrina una Aldea" program (their team)
-- [ ] Pilot Tigo/Personal wallet giving
-- [ ] Build transparency microsite
-- [ ] Quarterly impact report template
-- [ ] Annual report 2024 PDF
-- [ ] TikTok account activation
-- [ ] Volunteer portal (Notion-based)
-- [ ] Bilingual (es/en) site version
-- [ ] 5 testimonial videos from Ojoykére beneficiaries
-- [ ] Press release on the partnership (after SOS PY approves)
-- [ ] Press coverage in ABC / Última Hora / La Nación
-- [ ] Strategic plan for 2027 (SOS PY board)
+- [ ] Arreglar página `/transparencia` de SOS PY (su equipo)
+- [ ] Activar botón Donar de Meta en página de FB (su equipo)
+- [ ] Registrarse en plataforma DAF Daffy
+- [ ] Pilotar programa "Apadrina una Aldea" (su equipo)
+- [ ] Pilotar donaciones vía billetera Tigo/Personal
+- [ ] Construir micrositio de transparencia
+- [ ] Plantilla de reporte trimestral de impacto
+- [ ] PDF de memoria anual 2024
+- [ ] Activar cuenta de TikTok
+- [ ] Portal de voluntariado (basado en Notion)
+- [ ] Versión bilingüe (es/en) del sitio
+- [ ] 5 videos testimoniales de beneficiarios Ojoykére
 
 ---
 
-*Move items between columns as they progress. Add date to status changes.*
+*Mover items entre columnas a medida que progresen. Agregar fecha a los cambios de estado.*

@@ -35,7 +35,7 @@
 - Digital stack
 - Local partnerships
 
-## Sources
+## Fuentes
 
 - worldvision.org
 - worldvision.org/about-us/annual-reports (5 2025 Global Annual Report)

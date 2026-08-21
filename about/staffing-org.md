@@ -1,55 +1,55 @@
-# Staffing & Organization
+# Personal y Organización
 
-## Identified staff (public)
+## Personal identificado (público)
 
-| Role | Name | Source | Evidence |
+| Rol | Nombre | Fuente | Evidencia |
 |---|---|---|---|
-| **Directora de Sostenibilidad local** | **Ana Medina Zorrilla** | TUPI 2026 press release (aios_py_regalamos.html) | `[official]` |
-| **Coordinadora de Alianzas Corporativas** | **Zunilda Baruja** | TUPI 2026 press release; 0982 199 681; Zunilda.Baruja@aldeasinfantiles.org.py | `[official]` |
-| **(Per-aldea directors)** | _unknown ×5_ | — | `[unknown]` |
-| **Communications / Press** | _unknown_ | — | `[unknown]` |
-| **National Director** | _unknown_ | — | `[unknown]` |
+| **Directora de Sostenibilidad local** | **Ana Medina Zorrilla** | Comunicado de prensa TUPI 2026 (aios_py_regalamos.html) | `[official]` |
+| **Coordinadora de Alianzas Corporativas** | **Zunilda Baruja** | Comunicado de prensa TUPI 2026; 0982 199 681; Zunilda.Baruja@aldeasinfantiles.org.py | `[official]` |
+| **Coordinadores por aldea** | _desconocido ×5_ | — | `[unknown]` |
+| **Comunicaciones / Prensa** | _desconocido_ | — | `[unknown]` |
+| **Director Nacional** | _desconocido_ | — | `[unknown]` |
 
-## Decision-making bodies (inferred)
+## Órganos de decisión (inferidos)
 
-| Body | Role | Members |
+| Cuerpo | Rol | Miembros |
 |---|---|---|
-| **National Director** (Director Ejecutivo Nacional) | Day-to-day ops | 1 + directs |
-| **Board of Directors** (Junta Directiva) | Governance | Size unknown; members unknown |
-| **National Safeguarding Committee** (Comité Especial Nacional de Salvaguardia Infantil, Juvenil y de Adultos) | Child protection oversight | Members unknown |
-| **Per-aldea coordinators** | Local ops | 5 (one per aldea) |
+| **Director Nacional** (Director Ejecutivo Nacional) | Operaciones día a día | 1 + directs |
+| **Directorio** (Junta Directiva) | Gobernanza | Tamaño desconocido; miembros desconocidos |
+| **Comité Nacional de Salvaguardia** (Comité Especial Nacional de Salvaguardia Infantil, Juvenil y de Adultos) | Supervisión de protección infantil | Miembros desconocidos |
+| **Coordinadores por aldea** | Operaciones locales | 5 (uno por aldea) |
 
-## What we don't know (gaps)
+## Lo que no sabemos (brechas)
 
-- [ ] Full board member list (names, roles, terms)
-- [ ] National Director name
-- [ ] Total paid headcount (estimate: 80-120 based on 40 vacancies)
-- [ ] Volunteer count
-- [ ] Per-aldea director names
-- [ ] Auditor name + last audit date
-- [ ] Bylaws (public)
-- [ ] Org chart
-- [ ] HR policies (public)
-- [ ] Pay scale / comp philosophy
+- [ ] Lista completa de miembros del directorio (nombres, roles, períodos)
+- [ ] Nombre del Director Nacional
+- [ ] Total de personal pagado (estimación: 80-120 basado en 40 vacantes activas)
+- [ ] Cantidad de voluntarios
+- [ ] Nombres de coordinadores por aldea
+- [ ] Nombre del auditor + fecha de la última auditoría
+- [ ] Estatutos (públicos)
+- [ ] Organigrama
+- [ ] Políticas de RRHH (públicas)
+- [ ] Escala salarial / filosofía de compensación
 
-## What to ask when meeting SOS PY
+## Qué preguntar cuando nos reunamos con SOS PY
 
-1. "Can you share your board composition?" (governance + due diligence)
-2. "Do you have an org chart?" (org maturity indicator)
-3. "What's your annual budget and how is it allocated?" (gap)
-4. "Do you publish financial statements? To whom and how often?" (transparency indicator)
-5. "What's your National Safeguarding Committee composition?" (post-scandal key)
-6. "Who's the spokesperson for press?" (communications gap)
+1. "¿Pueden compartir la composición del directorio?" (gobernanza + due diligence)
+2. "¿Tienen un organigrama?" (indicador de madurez organizacional)
+3. "¿Cuál es su presupuesto anual y cómo se asigna?" (brecha)
+4. "¿Publican estados financieros? ¿A quién y con qué frecuencia?" (indicador de transparencia)
+5. "¿Cuál es la composición de su Comité Nacional de Salvaguardia?" (clave post-escándalo)
+6. "¿Quién es el portavoz de prensa?" (brecha de comunicaciones)
 
-## Job postings (Aug 2026, from bolsa de trabajo)
+## Vacantes activas (agosto 2026, de bolsa de trabajo)
 
-40 vacancies open. Examples:
-- Coordinador/a de Gestión Social y Territorial (Hohenau) — June 23 2026
-- Coordinador/a de Gestión Social y Territorial (San Ignacio) — June 23 2026
-- Gestor Comunitario de Fortalecimiento Familiar — June 2 2026
+40 vacantes abiertas. Ejemplos:
+- Coordinador/a de Gestión Social y Territorial (Hohenau) — 23 de junio de 2026
+- Coordinador/a de Gestión Social y Territorial (San Ignacio) — 23 de junio de 2026
+- Gestor Comunitario de Fortalecimiento Familiar — 2 de junio de 2026
 
-Pattern: heavy investment in community/family strengthening roles (post-Ojoykére launch).
+Patrón: fuerte inversión en roles de fortalecimiento comunitario y familiar (post-lanzamiento de Ojoykére).
 
 ---
 
-*For all stakeholders, see [`../governance/STAKEHOLDER-MAP.md`](../governance/STAKEHOLDER-MAP.md).*
+*Para todos los stakeholders, ver [`../governance/STAKEHOLDER-MAP.md`](../governance/STAKEHOLDER-MAP.md).*

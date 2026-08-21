@@ -1,56 +1,56 @@
-# Digital Fundraising Trends (2024-2026)
+# Tendencias de Recaudación Digital (2024-2026)
 
-> Patterns from the catalog. Trends that affect what SOS Paraguay should consider.
+> Patrones del catálogo. Tendencias que afectan lo que SOS Paraguay debería considerar.
 
-## Established (every major org does)
+## Establecidas (todas las ONGs importantes las hacen)
 
-- **Online donation via card** — 99% of catalog
-- **Monthly recurring giving** — 34%
-- **Annual report public** — 27%
-- **Multilingual site** — 14%
+- **Donación online vía tarjeta** — 99% del catálogo
+- **Donación mensual recurrente** — 34%
+- **Reporte anual público** — 27%
+- **Sitio multi-idioma** — 14%
 
-## Growing (last 5 years)
+## En crecimiento (últimos 5 años)
 
 - **Donor-Advised Funds (DAFs)** — Fidelity Charitable, Schwab Charitable, NPT, Daffy
-- **Crypto donations** — UNICEF, Save the Children, Red Cross accept
-- **TikTok as donor acquisition** — Patitas Callejeras (Peru) grew from 30k to 130k in 18 months
-- **WhatsApp Business for nonprofits** — emerging, esp. in LatAm
-- **Branded mobile games** (FreeRice model)
-- **YouTube sponsored content** for fundraising
-- **Crypto / Web3 community giving** — niche but growing
+- **Donaciones en crypto** — UNICEF, Save the Children, Red Cross aceptan
+- **TikTok como adquisición de donantes** — Patitas Callejeras (Perú) creció de 30k a 130k en 18 meses
+- **WhatsApp Business para ONGs** — emergente, especialmente en LatAm
+- **Juegos móviles de marca** (modelo FreeRice)
+- **Contenido de YouTube patrocinado** para recaudación
+- **Membresía en comunidad / cripto / Web3** — nicho pero creciendo
 
-## Emerging (last 1-2 years)
+## Emergentes (último 1-2 años)
 
-- **AI for back-office automation** — saving costs → more program $
-- **AI for donor stewardship** (personalized emails)
-- **NFT membership passes** (controversial)
-- **DAO-governed charities** (very early)
-- **AI tutoring for kids** (educational programs)
+- **IA para automatización de back-office** — ahorrando costos → más $ para programas
+- **IA para stewardship de donantes** (emails personalizados)
+- **Pases de membresía NFT** (controversial)
+- **ONGs gobernadas por DAO** (muy temprano)
+- **Tutoría con IA para niños** (programas educativos)
 
-## Waning or risky
+## Decreciendo o riesgosas
 
-- **Cold mail / phone** — declining
-- **Print mail appeals** — declining
-- **Single-platform reliance** (Facebook organic only)
+- **Email frío / teléfono** — declinando
+- **Apelaciones por correo impreso** — declinando
+- **Dependencia de una sola plataforma** (solo Facebook orgánico)
 
-## What this means for SOS PY
+## Qué significa para SOS PY
 
 **Quick wins**:
-- ✅ Online donation via card (the standard — missing)
-- ✅ Recurring giving (form only, missing infrastructure)
-- ✅ Annual report (missing)
-- ✅ DAF registration (missing)
-- ✅ Ad Grants (missing)
+- ✅ Donación online vía tarjeta (el estándar — falta)
+- ✅ Donación recurrente (solo formulario, falta infraestructura)
+- ✅ Reporte anual (falta)
+- ✅ Registro DAF (falta)
+- ✅ Ad Grants (falta)
 
-**Medium-term investments**:
-- ⚠️ WhatsApp Business (PY-specific opportunity, replicable from CIRD)
-- ⚠️ TikTok channel (missing, fast-growing channel)
-- ⚠️ Daffy / modern DAF platforms (US diaspora)
+**Inversiones a mediano plazo**:
+- ⚠️ WhatsApp Business (oportunidad específica PY, replicable desde CIRD)
+- ⚠️ Canal TikTok (falta, canal de rápido crecimiento)
+- ⚠️ Plataformas DAF modernas (Daffy para diáspora US)
 
-**Wait-and-see**:
-- ❌ Crypto / NFT / Web3 (not their audience)
-- ❌ DAO governance (too early for child welfare)
+**Esperar y ver**:
+- ❌ Crypto / NFT / Web3 (no es su audiencia)
+- ❌ Gobernanza por DAO (muy temprano para bienestar infantil)
 
 ---
 
-*Sources: [`../1000-orgs/slices/DIGITAL-PREVALENCE.md`](../1000-orgs/slices/DIGITAL-PREVALENCE.md) + [free-rice](https://freerice.com) + [compassion sponsorship portal](https://www.compassion.com) + [DAF platforms](https://www.daffy.org).*
+*Fuentes: [`../1000-orgs/slices/DIGITAL-PREVALENCE.md`](../1000-orgs/slices/DIGITAL-PREVALENCE.md) + free-rice + compassion + plataformas DAF.*

@@ -3,7 +3,7 @@
 ## B. Sponsorship & individual giving
 
 ### B1. "Apadrina una Aldea" / sponsor a family house
-**What**: Recurring monthly sponsorship of a specific Aldea house (not a child) — like a "house patron"
+**Qué**: Recurring monthly sponsorship of a specific Aldea house (not a child) — like a "house patron"
 **Evidence**: Aldeas SOS Spain runs "Apadrinar una casa" — 60,000+ sponsors. Plan Intl runs similar "village sponsorship."
 **Market size**: PY diaspora + corporate CSR market could absorb 100-500 sponsors at Gs. 200-500k/mo each
 **Why positioned**: 5 aldeas × 8-12 houses each = 40-60 houses available
@@ -14,7 +14,7 @@
 **Safeguarding**: Strong — NO child details revealed, just house number
 
 ### B2. Sponsor a child / youth (transparency model)
-**What**: Letter-based sponsorship with quarterly updates
+**Qué**: Letter-based sponsorship with quarterly updates
 **Evidence**: Compassion, Plan, ChildFund all do this; sponsor LTV USD 25-45/mo per child
 **Market size**: Even 50 sponsors = USD 18k/yr
 **Why positioned**: Same as B1
@@ -24,33 +24,33 @@
 **Safeguarding**: Mediocre — child-level info shared is risk
 
 ### B3. Sponsor an education path (colegiatura)
-**What**: PY education is expensive; sponsor a kid's university tuition
+**Qué**: PY education is expensive; sponsor a kid's university tuition
 **Evidence**: NGOs like Ceilán run similar; Aldea youth transitioning out of care
 **Market size**: 100 youth × USD 500/yr = USD 50k
 **Why positioned**: Direct; tangible
 **Plan**: Launch within alumni program
 
 ### B4. Sponsor a sports team / cultural activity
-**What**: Football or music program sponsorship
+**Qué**: Football or music program sponsorship
 **Evidence**: Common in PY football sponsorships (Fundación Real Madrid, Barça)
 **Why positioned**: Recent IG shows sports focus
 
 ### B5. Wedding favor donation pages
-**What**: "In lieu of wedding favors, donate to Aldea SOS"
+**Qué**: "In lieu of wedding favors, donate to Aldea SOS"
 **Evidence**: Standard practice in US weddings via platforms like Honeyfund + charity integration. Cute, viral.
 **Market size**: PY weddings 20-30k/yr; even 5% participation
 **Why positioned**: Niche but high-LTV (Gs. 1-5M per wedding)
 **Plan**: Create templated page; partner with PY wedding planners
 
 ### B6. Payroll giving (descuento por nómina)
-**What**: Employees of partner corporations can opt-in to a small monthly payroll deduction
+**Qué**: Employees of partner corporations can opt-in to a small monthly payroll deduction
 **Evidence**: Common in US/UK via Benevity/YourCause; nascent in PY
 **Market size**: All employees at Itaú/Ueno/Tigo/Personal — large
 **Why positioned**: 18 existing corp allies
 **Plan**: Pilot with Tupi (already 6-year partner); expand
 
 ### B7. "Compra un juguete" registries
-**What**: Toy registries like Amazon Wish List, but for NGO needs
+**Qué**: Toy registries like Amazon Wish List, but for NGO needs
 **Evidence**: Toys R Us ran Wish Lists; now Amazon Charity Lists do this
 **Plan**: Create Amazon Charity List for Aldea needs (toys, school supplies)
 

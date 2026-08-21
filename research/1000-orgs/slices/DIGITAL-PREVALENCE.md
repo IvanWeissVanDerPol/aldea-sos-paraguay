@@ -1,8 +1,8 @@
 # Digital Signal Prevalence
 
-Of 939 cataloged orgs, how many have each digital property?
+De las 939 ONGs catalogadas, ¿cuántas tienen cada propiedad digital?
 
-| Digital signal | Count | % |
+| Señal digital | Cantidad | % |
 |---|---:|---:|
 | online-donation | 928 | 98.8% |
 | recurring-giving | 316 | 33.7% |

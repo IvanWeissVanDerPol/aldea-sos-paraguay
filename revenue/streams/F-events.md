@@ -20,7 +20,7 @@
 **Plan**: Annual online auction with donated items (hotel stays, restaurant dinners)
 
 ### F5. Birthday fundraising pages (Galilea model)
-**What**: Individuals raise money for SOS instead of receiving birthday gifts
+**Qué**: Individuals raise money for SOS instead of receiving birthday gifts
 **Evidence**: Standard on Facebook Causes, GoFundMe Charity
 **Plan**: Templated page; viral social push
 **Revenue potential**: Gs. 20-60M/yr

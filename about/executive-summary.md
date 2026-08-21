@@ -1,68 +1,68 @@
-# Executive Summary — Aldea SOS Paraguay in 1 Page
+# Resumen Ejecutivo — Aldea SOS Paraguay en 1 Página
 
-## Who they are
+## Quiénes son
 
-**Aldeas Infantiles SOS Paraguay** (RUC 80016122) — a 55-year-old Paraguayan non-profit serving children who have lost or are at risk of losing parental care. Autonomous member of SOS Children's Villages International (136 countries, founded 1949 in Austria).
+**Aldeas Infantiles SOS Paraguay** (RUC 80016122) — una organización sin fines de lucro paraguaya con 55 años de historia que sirve a niños que han perdido o están en riesgo de perder el cuidado parental. Miembro autónoma de SOS Children's Villages International (136 países, fundada en 1949 en Austria).
 
-## Where they operate
+## Dónde operan
 
-**5 aldeas (residential villages) in Paraguay**:
+**5 aldeas (pueblos residenciales) en Paraguay**:
 
-| Aldea | Location | Notes |
+| Aldea | Ubicación | Notas |
 |---|---|---|
-| Asunción | Zeballos Cué neighborhood | HQ region |
-| Luque | Central dept | 15km from San Lorenzo |
-| San Ignacio | Misiones | South-central |
-| Hohenau | Itapúa | South |
-| Belén | Concepción | North |
+| Asunción | Barrio Zeballos Cué | Zona HQ |
+| Luque | Depto. Central | 15km de San Lorenzo |
+| San Ignacio | Misiones | Centro-sur |
+| Hohenau | Itapúa | Sur |
+| Belén | Concepción | Norte |
 
-Plus **Proyecto Ojoykére** (2024): prevention + family strengthening in vulnerable neighborhoods.
+Además, **Proyecto Ojoykére** (2024): prevención + fortalecimiento familiar en barrios vulnerables.
 
-## What they do
+## Qué hacen
 
-1. **Residential care**: each aldea has multiple "family houses" with long-term caregivers (madre SOS)
-2. **Alternative care**: foster care, kinship care, adoption advocacy
-3. **Prevention**: family strengthening to keep kids from needing residential care
-4. **Advocacy**: policy work with the Paraguayan state
+1. **Cuidado residencial**: cada aldea tiene múltiples "casas familiares" con cuidadoras de largo plazo (madre SOS)
+2. **Cuidado alternativo**: familias acogedoras, cuidado con familia extendida, advocacy por adopción
+3. **Prevención**: fortalecimiento familiar para evitar que los niños necesiten cuidado residencial
+4. **Advocacy**: trabajo de política para empujar al Estado paraguayo a fortalecer los sistemas de protección infantil
 
-**1,000+ children served** annually.
+**1.000+ niños servidos** anualmente.
 
-## How they fund it
+## Cómo se financian
 
-- **"Amigos SOS"** monthly donors (Gs. 50k+/month)
-- **18+ corporate allies**: Itaú, Ueno, Areté, Tupi, Kingo, etc.
-- **"Convertí tu vuelto"**: supermarket round-up (Areté, Kingo San Lorenzo, Gran Vía Luque)
-- **"Regalamos Sonrisas"**: annual TUPI partnership (6th edition Aug 2026)
-- **Federation transfers** from SOS-Kinderdorf International
+- **"Amigos SOS"** donantes mensuales (Gs. 50k+/mes)
+- **18+ aliados corporativos**: Itaú, Ueno, Areté, Tupi, Kingo, etc.
+- **"Convertí tu vuelto en sonrisas"**: redondeo en supermercado (Areté, Kingo, Gran Vía)
+- **"Regalamos Sonrisas"**: campaña anual con TUPI (6ª edición agosto 2026)
+- **Transferencias de la Federación** de SOS-Kinderdorf International
 
-**Estimated total annual revenue**: USD 1.5-3M (rough, by peer benchmark).
+**Ingresos totales estimados**: USD 1.5-3M/año (estimación por benchmark de pares).
 
-## What's broken
+## Qué está roto
 
-| Gap | Impact |
+| Brecha | Impacto |
 |---|---|
-| ❌ No online donation gateway | Every donation needs a human follow-up; majority of peer orgs accept online |
-| ❌ `/transparencia` 404 | Trust signal broken — donors can't verify impact |
-| ❌ No public annual report | Major trust issue, especially post-scandal |
-| ❌ No sponsor portal | Can't replicate Compassion/Plan sponsorship model |
-| ❌ No TikTok | Missing the biggest growth channel for nonprofits |
-| ❌ No Google Ad Grants ($10k/mo free) | Leaving free money on the table |
-| ❌ No public safeguarding policy | Reputational risk post-2025 scandal |
+| ❌ Sin pasarela de donación online | Cada donación necesita seguimiento humano; mayoría de pares acepta online |
+| ❌ `/transparencia` 404 | Señal de confianza rota — donantes no pueden verificar impacto |
+| ❌ Sin reporte anual público | Problema mayor, especialmente post-escándalo |
+| ❌ Sin portal de apadrinamiento | No puede replicar el modelo Compassion/Plan |
+| ❌ Sin TikTok | Falta el mayor canal de crecimiento para ONGs |
+| ❌ Sin Google Ad Grants ($10k/mes gratis) | Dinero gratis sin aprovechar |
+| ❌ Sin política pública de salvaguardia | Riesgo reputacional post-escándalo 2025 |
 
-## What they're doing right
+## Qué están haciendo bien
 
-- 55 years of brand trust
-- 23k Facebook likes (strong for PY)
-- Active corporate ally portfolio
-- Quick press response to the 2025 scandal (within 24 hours)
-- Innovation: Ojoykére launched 2024
+- 55 años de confianza de marca
+- 23k likes en Facebook (fuerte para PY)
+- Portafolio activo de aliados corporativos
+- Programas activos (Ojoykére 2024)
+- Respuesta rápida de prensa al escándalo (dentro de 24h)
 
-## What's the opportunity
+## Cuál es la oportunidad
 
-If they activate just the top 5 revenue streams (online donation, Ad Grants, sponsor-a-house, diaspora, transparency microsite), they could increase revenue **50-100%** within 18 months while rebuilding post-scandal trust.
+Si activan solo las 5 fuentes de ingreso principales (donación online, Ad Grants, sponsor-a-house, diáspora, micrositio de transparencia), podrían **aumentar ingresos 50-100%** dentro de 18 meses mientras reconstruyen la confianza post-escándalo.
 
 ---
 
-*For the full dossier, see the other 7 files in this folder.*
-*For tactical next steps, see [`../strategy/`](../strategy/).*
-*For outreach scripts, see [`../outreach/`](../outreach/).*
+*Para el dossier completo, ver los otros 7 archivos en esta carpeta.*
+*Para pasos tácticos, ver [`../10-strategy/`](../10-strategy/).*
+*Para scripts de outreach, ver [`../07-outreach/`](../07-outreach/).*

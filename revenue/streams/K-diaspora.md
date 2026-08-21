@@ -3,7 +3,7 @@
 ## K. Diaspora
 
 ### K1. Diaspora community crowdfunding
-**What**: Reach PY diaspora in AR/BR/US/ES
+**Qué**: Reach PY diaspora in AR/BR/US/ES
 **Market size**: PY diaspora populations: AR (600k+), BR, USA, Spain (162k), others
 **Plan**: 30/60/90: Recruit diaspora ambassadors in 4 cities
 **Revenue potential**: Gs. 100-500M/yr

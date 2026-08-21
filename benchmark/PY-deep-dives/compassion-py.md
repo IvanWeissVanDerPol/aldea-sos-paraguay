@@ -41,7 +41,7 @@
 - PY-specific digital infrastructure
 - Local partnerships
 
-## Sources
+## Fuentes
 
 - Compassion International Wikipedia entry
 - compassion.com

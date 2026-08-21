@@ -2,7 +2,7 @@
 
 Total entries: **939** | Unique regions: **155**
 
-| Region | Count | % |
+| Región | Cantidad | % |
 |---|---:|---:|
 | USA | 309 | 32.9% |
 | Paraguay | 98 | 10.4% |

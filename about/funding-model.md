@@ -1,41 +1,41 @@
-# Funding Model — Current
+# Modelo de Financiamiento — Actual
 
-## Recurring: "Amigos SOS" / "Hacete Amigo de VERDAD"
+## Recurrente: "Amigos SOS" / "Hacete Amigo de VERDAD"
 
-- Monthly donors (socios): **Gs. 50,000 a 200,000/mes** + custom
-- Form-only — no online payment gateway
-- Subject to "strict external audits (national and international)"
+- Donantes mensuales (socios): **Gs. 50.000 a 200.000/mes** + monto personalizado
+- Solo formulario — sin pasarela de pago online
+- Sujeto a "auditorías externas estrictas (nacionales e internacionales)"
 
-**Estimated monthly donor count**: probably <500 active. Without CRM visibility, hard to confirm.
+**Cantidad estimada de donantes mensuales activos**: probablemente <500. Sin visibilidad CRM, difícil de confirmar.
 
-## Corporate partnerships — 18+ active allies
+## Alianzas corporativas — 18+ aliados activos
 
-### Banks / financial (5)
-- Itaú (via Fundación Itaú)
+### Bancos / financieros (5)
+- Itaú (vía Fundación Itaú)
 - Ueno Bank
 - Banco Familiar
 - Cooperativa La Holanda
-- Sudameris (legacy)
+- Sudameris (legado)
 
-### Tech / telecom (4)
+### Tech / telecomunicaciones (4)
 - Huawei
-- Personal (legacy mentions)
-- Inventiva, DLS, Excelsis (legacy)
+- Personal (menciones legadas)
+- Inventiva, DLS, Excelsis (legado)
 
 ### Retail / FMCG (5+)
-- **Tupi S.A.** — annual campaign partner since 2020, 6th edition Aug 2026
-- **Areté Supermercados** — 4 stores (Shopping Pinedo, Lambaré, Primer Presidente since Nov 2022, Sausalito since Dec 2022)
-- **Kingo** — San Lorenzo store since March 2017
-- **Gran Vía** — Luque store since May 8 2017
+- **Tupi S.A.** — aliado de campaña anual desde 2020, 6ª edición agosto 2026
+- **Areté Supermercados** — 4 tiendas (Shopping Pinedo, Lambaré, Primer Presidente, Sausalito)
+- **Kingo** — tienda San Lorenzo desde marzo 2017
+- **Gran Vía** — tienda Luque desde 8 de mayo 2017
 - Comercial El Torito II, Farmaoliva, Stock, Walmart
 
-### Logistics
+### Logística
 - DHL
 
-### Real estate / auto (3)
+### Bienes raíces / auto (3)
 - Remax Paraguay, Toyotoshi, Grupo Laso
 
-### Foundations (1)
+### Fundaciones (1)
 - Fundación José de la Sovera Raatz
 
 ### Industrial (3)
@@ -47,58 +47,58 @@
 ### Legal (1)
 - Escribanía Wapënka
 
-## Supermarket round-up: "Convertí tu vuelto en sonrisas"
+## Redondeo en supermercado: "Convertí tu vuelto en sonrisas"
 
-Since **at least 2012** (Areté) / 2017 (Kingo + Gran Vía).
-- Round-up at supermarket checkout
-- Legalized via SET (Ministry of Finance) oversight
-- Donor sees the round-up on their factura (receipt)
-- **SET-fiscalizado** — adds credibility
+Desde **al menos 2012** (Areté) / 2017 (Kingo + Gran Vía).
+- Redondeo en caja del supermercado
+- Legalizado vía supervisión SET (Ministerio de Hacienda)
+- El donante ve el redondeo en su factura (recibo)
+- **Fiscalizado por SET** — agrega credibilidad
 
-**Revenue potential**: depends on transaction volume per store. Conservative estimate: Gs. 5-20M per month per partner = Gs. 50-200M/yr.
+**Potencial de ingresos**: depende del volumen de transacciones por tienda. Estimación conservadora: Gs. 5-20M por mes por aliado = Gs. 50-200M/año.
 
-## Retail campaign: "Regalamos Sonrisas" with TUPI
+## Campaña de retail: "Regalamos Sonrisas" con TUPI
 
-Annual since ~2020. **6th edition: Aug 4-16, 2026**.
+Anual desde ~2020. **6ª edición: 4-16 de agosto, 2026**.
 
-- TUPI donates % of kids' products during the period
-- Win-win: TUPI drives traffic, SOS gets corporate donation
-- Online at www.tupi.com.py + pickup + delivery + in-store
+- TUPI dona un % de las ventas de productos infantiles durante el período
+- Win-win: TUPI genera tráfico, SOS recibe donación corporativa
+- Online en www.tupi.com.py + pickup + delivery + en tienda
 
-**Reference benchmark**: Teletón's Comilona 2026 raised **Gs. 1,391,035,000 (USD ~190k) in a single event** [evidence: third-party a24.com.py]. Tupi campaign is similar in scale.
+**Benchmark de referencia**: La Comilona 2026 de Teletón recaudó **Gs. 1.391.035.000 (USD ~190k) en un solo evento** [evidencia: third-party a24.com.py]. La campaña de Tupi tiene escala similar.
 
-## Federation transfers
+## Transferencias de la Federación
 
-- Subsidies from SOS-Kinderdorf International, distributed by formula
-- **Exact amount to Paraguay: not public**
+- Subsidios de SOS-Kinderdorf Internacional, distribuidos por fórmula
+- **Monto exacto a Paraguay: no público**
 
 ## Grants
 
-- International cooperation
-- Universidad de Comillas (Spain) — research partnership (no cash component identified)
+- Cooperación internacional
+- Universidad de Comillas (España) — asociación de investigación (sin componente de efectivo identificado)
 
-## Total revenue (estimated)
+## Ingresos totales (estimados)
 
-| Source | Annual (USD estimate) | Confidence |
+| Fuente | Anual (estimación USD) | Confianza |
 |---|---|---|
-| Amigos SOS recurring | 20-50k | `[estimate]` based on <500 donors × Gs. 50k/mo avg |
-| Corporate alliances (cash) | 100-300k | `[estimate]` — Tupi alone could be 30k+ |
-| Supermarket round-up | 10-50k | `[estimate]` based on store volume |
-| TUPI campaign | 30-100k | `[estimate]` based on 6-yr partnership |
-| Federation transfers | unknown | `[unknown]` |
-| Other grants | unknown | `[unknown]` |
-| **Total** | **1.5M - 3M range** | `[estimate]` — based on peer benchmark |
+| Amigos SOS recurrente | 20-50k | `[estimate]` basado en <500 donantes × Gs. 50k/mes prom |
+| Alianzas corporativas (efectivo) | 100-300k | `[estimate]` — Tupi sola podría ser 30k+ |
+| Redondeo en supermercado | 10-50k | `[estimate]` basado en volumen de tienda |
+| Campaña TUPI | 30-100k | `[estimate]` basado en alianza de 6 años |
+| Transferencias Federación | desconocido | `[unknown]` |
+| Otros grants | desconocido | `[unknown]` |
+| **Total** | **1.5M - 3M rango** | `[estimate]` — basado en benchmark de pares |
 
-## What we don't know
+## Lo que no sabemos
 
-- [ ] Federation transfer amount to PY
-- [ ] Annual budget breakdown (% programs vs admin vs fundraising)
-- [ ] Revenue per aldea
-- [ ] Auditor + last audit date
-- [ ] Effective tax rate
-- [ ] In-kind donation valuation
+- [ ] Monto de transferencia de Federación a PY
+- [ ] Desglose del presupuesto anual (% programas vs admin vs recaudación)
+- [ ] Ingresos por aldea
+- [ ] Auditor + fecha de última auditoría
+- [ ] Tasa fiscal efectiva
+- [ ] Valuación de donaciones en especie
 
 ---
 
-*For peer benchmarks on revenue models, see [`../benchmark/`](../benchmark/).*
-*For revenue opportunities, see [`../revenue/`](../revenue/).*
+*Para benchmarks de pares sobre modelos de ingresos, ver [`../benchmark/`](../benchmark/).*
+*Para oportunidades de ingresos, ver [`../revenue/`](../revenue/).*

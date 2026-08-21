@@ -1,53 +1,53 @@
-# RISK REGISTER — Live Risk Tracking
+# RISK REGISTER — Seguimiento de Riesgos Vivo
 
-> Risks scored on **Likelihood × Impact** (each 1-5, so max score 25).
-> **Color code**: 🟢 1-6 (low), 🟡 7-12 (medium), 🟠 13-18 (high), 🔴 19-25 (critical).
+> Riesgos puntuados con **Probabilidad × Impacto** (cada uno 1-5, máximo 25).
+> **Código de color**: 🟢 1-6 (bajo), 🟡 7-12 (medio), 🟠 13-18 (alto), 🔴 19-25 (crítico).
 
-Last reviewed: 2026-08-21 by Hermes
+Última revisión: 2026-08-21 por Hermes
 
 ---
 
-## Top 12 risks
+## Top 12 riesgos
 
-| # | Risk | Likelihood | Impact | Score | Mitigation | Owner |
+| # | Riesgo | Probabilidad | Impacto | Puntuación | Mitigación | Dueño |
 |---|---|---:|---:|---:|---|---|
-| 1 | **Scandal relapse** — new allegations surface in Paraguay branch or elsewhere | 2 | 5 | **🟠 10** | Public safeguarding policy + quarterly transparency reports + immediate press response | Ivan + SOS PY |
-| 2 | **Donor flight** — international padrinos pause giving post-scandal | 3 | 4 | **🟠 12** | Diversify donor base; emphasize Paraguay's autonomy from Austrian branch | Ivan + SOS PY |
-| 3 | **Federation pull-back** — SOS Intl reduces Paraguay funding due to scandal | 2 | 4 | **🟡 8** | Position PY as strong national association; offer to host safeguarding conference | SOS PY leadership |
-| 4 | **Regulatory friction** — Paraguayan gov imposes new NGO requirements | 3 | 3 | **🟡 9** | Pre-empt: align with SNNA standards; publish full compliance docs | SOS PY |
-| 5 | **Key-person dependency** — Ana Medina or Zunilda Baruja leaves | 3 | 4 | **🟠 12** | Document institutional knowledge; ensure 2+ people can do any role | SOS PY |
-| 6 | **Tech delivery risk** — donation gateway launch slips or breaks | 3 | 3 | **🟡 9** | Use no-code tools (Donorbox) for MVP; custom code only after validation | Engineering team |
-| 7 | **Payment processor refusal** — Bancard or Stripe rejects NGO application | 2 | 4 | **🟡 8** | Multi-processor strategy (Donorbox + Tigo Money + Pix + Stripe); no single point of failure | Ivan + Engineering |
-| 8 | **Child protection incident** — abuse allegation against SOS PY staff | 1 | 5 | **🟡 5** | Robust safeguarding charter; mandatory training; whistleblower channel | SOS PY National Safeguarding Committee |
-| 9 | **Public backlash** — criticism of digital fundraising tactics (e.g., "padrinazgo" framed as child-sponsorship) | 2 | 3 | **🟡 6** | "Apadrina una CASA" framing (not a child); transparent communications | Ivan + SOS PY |
-| 10 | **Donor concentration risk** — too few big donors (e.g., Tupi) | 3 | 3 | **🟡 9** | Diversify via TUPI + Personal + Tigo + Areté + Gran Vía + Kingo | Zunilda Baruja |
-| 11 | **Scope creep** — too many tech features before validation | 4 | 3 | **🟠 12** | Ship Donorbox MVP first; add features only after each is proven | Engineering |
-| 12 | **PR crisis from fundraising copy** — "sponsor a child" framed as transactional | 3 | 4 | **🟠 12** | Use "Apadrina una Aldea" / "Sponsor a HOUSE" framing, not child sponsorship | Ivan + Comms |
+| 1 | **Recaída del escándalo** — nuevas acusaciones surgen en la rama paraguaya u otra | 2 | 5 | **🟠 10** | Política pública de salvaguardia + reportes trimestrales de transparencia + respuesta inmediata de prensa | Ivan + SOS PY |
+| 2 | **Fuga de donantes** — padrinos internacionales pausan sus donaciones post-escándalo | 3 | 4 | **🟠 12** | Diversificar la base de donantes; enfatizar la autonomía de Paraguay respecto a la rama austriaca | Ivan + SOS PY |
+| 3 | **Retirada de la Federación** — SOS Intl reduce el financiamiento a Paraguay si el escándalo se expande | 2 | 4 | **🟡 8** | Posicionar a PY como asociación nacional sólida; ofrecer albergar conferencia de salvaguardia | Liderazgo SOS PY |
+| 4 | **Fricción regulatoria** — el gobierno paraguayo impone nuevos requisitos para ONGs | 3 | 3 | **🟡 9** | Adelantarse: alinearse con estándares SNNA; publicar documentos de cumplimiento completos | SOS PY |
+| 5 | **Dependencia de personas clave** — Ana Medina o Zunilda Baruja se van | 3 | 4 | **🟠 12** | Documentar conocimiento institucional; asegurar que 2+ personas puedan hacer cualquier rol | SOS PY |
+| 6 | **Riesgo de entrega técnica** — lanzamiento de la pasarela de donación se atrasa o se rompe | 3 | 3 | **🟡 9** | Usar herramientas no-code (Donorbox) para el MVP; código custom solo después de la validación | Equipo de ingeniería |
+| 7 | **Rechazo del procesador de pago** — Bancard o Stripe rechaza la solicitud de la ONG | 2 | 4 | **🟡 8** | Estrategia multi-procesador (Donorbox + Tigo Money + Pix + Stripe); sin punto único de fallo | Ivan + Ingeniería |
+| 8 | **Incidente de protección infantil** — acusación de abuso contra personal de SOS PY | 1 | 5 | **🟡 5** | Carta de salvaguardia robusta; entrenamiento obligatorio; canal de denuncia | Comité Nacional de Salvaguardia SOS PY |
+| 9 | **Reacción pública negativa** — crítica de las tácticas de recaudación digital (ej: "padrinazgo" enmarcado como apadrinamiento de niños) | 2 | 3 | **🟡 6** | Encuadre "Apadrina una CASA" (no a un niño); comunicaciones transparentes | Ivan + Comunicaciones |
+| 10 | **Riesgo de concentración de donantes** — muy pocos donantes grandes (ej: Tupi) | 3 | 3 | **🟡 9** | Diversificar vía Tupi + Personal + Tigo + Areté + Gran Via + Kingo | Zunilda Baruja |
+| 11 | **Scope creep** — demasiadas características técnicas antes de validación | 4 | 3 | **🟠 12** | Enviar MVP de Donorbox primero; agregar características solo después de que cada una esté probada | Ingeniería |
+| 12 | **Crisis de PR por copy de recaudación** — "apadrina un niño" enmarcado como transaccional | 3 | 4 | **🟠 12** | Usar encuadre "Apadrina una Aldea" / "Sponsor a CASA", no apadrinamiento de niños | Ivan + Comunicaciones |
 
-## Strategic risks (lower priority, monitor)
+## Riesgos estratégicos (menor prioridad, monitorear)
 
-- **Climate events** disrupt fundraising — Paraguay floods
-- **Inflation in PY** (Gs. devaluation) compresses foreign donor ROI
-- **Political pressure** on child welfare NGOs (left/right swings)
-- **Tech-for-nonprofit partnerships** (Google Ad Grants, Microsoft Philanthropies) get discontinued
-- **Paraguayan diaspora loyalty shifts** away from home-country causes
-- **Crypto/Web3 giving** remains niche — over-investing in it = wasted cycles
+- **Eventos climáticos** interrumpen la recaudación — Paraguay tiene inundaciones
+- **Inflación en PY** (devaluación del Guaraní) comprime el ROI de donantes extranjeros
+- **Presión política** sobre ONGs de bienestar infantil (giros a izquierda/derecha en PY)
+- **Discontinuación de programas tech-for-nonprofit** (Google Ad Grants, Microsoft Philanthropies)
+- **Cambios en lealtad de la diáspora PY** hacia causas de su país de origen
+- **Donaciones en crypto/Web3** permanecen nicho — sobreinvertir en ellas = ciclos desperdiciados
 
-## Done / Resolved
+## Hecho / Resuelto
 
-- _none yet_
-
----
-
-## How to use this register
-
-1. **Weekly** during active project: review top 12
-2. **Monthly**: review full list, retire risks that are no longer relevant
-3. **After any incident**: add a new risk, mark resolved ones
-4. **For pitches**: cite relevant risks + mitigations
-
-When a risk is added: include source / context. When a risk changes: update score + mitigation. When resolved: move to "Done" with date + resolution note.
+- _ninguno aún_
 
 ---
 
-*Add risks as they emerge. Don't delete resolved ones — keep the audit trail.*
+## Cómo usar este registro
+
+1. **Semanalmente** durante el proyecto activo: revisar top 12
+2. **Mensualmente**: revisar la lista completa, retirar riesgos que ya no son relevantes
+3. **Después de cualquier incidente**: agregar un nuevo riesgo, marcar resueltos
+4. **Para pitches**: citar riesgos relevantes + mitigaciones
+
+Cuando se agregue un riesgo: incluir fuente / contexto. Cuando un riesgo cambie: actualizar puntuación + mitigación. Cuando se resuelva: mover a "Hecho" con fecha + nota de resolución.
+
+---
+
+*Agregar riesgos a medida que surjan. No borrar los resueltos — mantener el rastro de auditoría.*

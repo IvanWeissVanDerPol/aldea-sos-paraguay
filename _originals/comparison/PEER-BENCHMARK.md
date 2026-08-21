@@ -6,9 +6,9 @@
 
 ---
 
-## A. International peers — child sponsorship / residential care / protection
+## A. Pares internacionales — apadrinamiento infantil / cuidado residencial / protección
 
-### A1. SOS Children's Villages INTERNATIONAL (the umbrella)
+### A1. SOS Children's Villages INTERNATIONAL (el paraguas)
 
 | Metric | Value |
 |---|---|
@@ -36,7 +36,7 @@
 | Spain programs: 32 Day Centers, 9 Family Programs, 5 Early Childhood Education Centers | active network |
 | President (Pedro Puig) publicly advocates on child poverty rates | strong public profile |
 
-**Comparison vs Paraguay**:
+**Comparación vs Paraguay**:
 - Spain serves 60× more beneficiaries than Paraguay (59,317 vs ~1,000)
 - Spain has a documented **Memory 2024** (annual report) download — Paraguay doesn't
 - Spain president actively appears in press — Paraguay's director is invisible in public
@@ -54,9 +54,9 @@
 | Public financial integrity page | Yes (Charity Navigator rated) |
 | Tech | Full SPA, login portals for sponsors |
 
-**Key insight**: This is the *exact* product Aldea SOS Paraguay is missing. Compassion is a sponsorship machine — letters, photos, portal login, dashboards. SOS Paraguay could launch a similar model for PY sponsorships.
+**Conclusión clave**: This is the *exact* product Aldea SOS Paraguay is missing. Compassion is a sponsorship machine — letters, photos, portal login, dashboards. SOS Paraguay could launch a similar model for PY sponsorships.
 
-### A4. Plan International (formerly Foster Parents Plan)
+### A4. Plan International (anteriormente Foster Parents Plan)
 
 | Metric | Value |
 |---|---|
@@ -66,7 +66,7 @@
 | Active sponsor visit program | In-person visits to sponsored child |
 | Tech | Online child-selection portal |
 
-**Key insight**: Plan has a donor-visit experience. Paraguay's tourism + diaspora market could power a "visit your sponsored child" program — but this needs safeguarding around child protection.
+**Conclusión clave**: Plan has a donor-visit experience. Paraguay's tourism + diaspora market could power a "visit your sponsored child" program — but this needs safeguarding around child protection.
 
 ### A5. ChildFund International
 
@@ -103,7 +103,7 @@
 
 ---
 
-## B. Paraguayan ONGs (local peers)
+## B. ONGs paraguayas (pares locales)
 
 ### B1. Fundación Paraguaya (Martin Burt)
 
@@ -115,7 +115,7 @@
 | Programs | Poverty solutions via entrepreneurship |
 | Notable | Self-sufficient "San Francisco" farm; teaches poverty graduation methodology globally |
 
-**Different from SOS**: Not child-welfare, but youth economic empowerment. They are the gold-standard Paraguayan NGO brand for innovative anti-poverty models. SOS could partner on transition-to-adulthood programs for Aldea youth.
+**Diferente de SOS**: No es bienestar infantil, sino empoderamiento económico juvenil. Son la marca ONG paraguaya gold-standard para modelos innovadores anti-pobreza. SOS podría asociarse en programas de transición a la adultez para jóvenes de Aldea.
 
 ### B2. CIRD (Centro de Información y Recursos para el Desarrollo)
 
@@ -125,7 +125,7 @@
 | Programs | Training, immunization advocacy (currently using WhatsApp + RVE to send 25K+ messages to parents for child immunization) |
 | Tech | **Actually using WhatsApp at scale** for child welfare — direct model SOS could adopt |
 
-**Insight**: CIRD's WhatsApp-based child immunization model is exactly the kind of digital low-cost high-impact intervention that SOS Paraguay could replicate for family-strengthening communication.
+**Conclusión**: CIRD's WhatsApp-based child immunization model is exactly the kind of digital low-cost high-impact intervention that SOS Paraguay could replicate for family-strengthening communication.
 
 ### B3. UNICEF Paraguay
 
@@ -167,16 +167,16 @@
 | Transparency page | paraguay.techo.org/rendicion-de-cuentas |
 | **Donation timing** | Active 2024 campaign exceeded goal |
 
-**Insight**: TECHO's public **"rendición de cuentas"** (accountability) page is exactly what SOS Paraguay's `/transparencia` *should* be.
+**Conclusión**: TECHO's public **"rendición de cuentas"** (accountability) page is exactly what SOS Paraguay's `/transparencia` *should* be.
 
-### B8. Fundación La Caixa (Proinfancia) — Spanish but active in LatAm
+### B8. Fundación La Caixa (Proinfancia) — española pero activa en LatAm
 
 - CaixaProinfancia program: childhood poverty prevention in Spain + collaboration with EU FSE+
 - Has "childcare, education, health, leisure" integrated service model
 
 ---
 
-## C. Feature comparison matrix
+## C. Matriz de comparación de características
 
 | Feature | SOS PY | SOS Intl | Compassion | Plan | World Vision | TECHO PY | Fundación Alda | CIRD |
 |---|---|---|---|---|---|---|---|---|
@@ -198,11 +198,11 @@
 | Social media ad spend | ❌ | ✅ | ✅ | ✅ | ✅ | ⚠️ | ❌ | ⚠️ |
 | Google Ad Grants | ❌ | ⚠️ | ✅ | ✅ | ✅ | ⚠️ | ❌ | ⚠️ |
 
-**Verdict**: Aldea SOS Paraguay is **functionally a generation behind** in digital fundraising, transparency, and donor UX compared to its international peers. Even smaller Paraguayan ONGs (TECHO, CIRD) are outpacing it on basic online giving + transparency reporting.
+**Veredicto**: Aldea SOS Paraguay está **funcionalmente una generación atrás** en recaudación digital, transparencia y UX del donante comparado con sus pares internacionales. Incluso ONGs paraguayas más pequeñas (TECHO, CIRD) lo superan en donación online básica + reporte de transparencia.
 
 ---
 
-## D. What we can learn from each peer (inspiration board)
+## D. Qué podemos aprender de cada par (inspiration board)
 
 | Peer | Steal this |
 |---|---|
@@ -221,7 +221,7 @@
 
 ---
 
-## E. Specific competitive gaps for SOS Paraguay
+## E. Brechas competitivas específicas para SOS Paraguay
 
 1. **No online donation** — every single peer above has it. This is the #1 unlock.
 2. **No annual report download** — even TECHO Paraguay publishes one.
@@ -234,7 +234,7 @@
 
 ---
 
-## Next steps
+## Próximos pasos
 
 - See `../revenue-avenues/` for which of these gaps map directly to new income streams
 - See `../research/1000-similar-projects/` for the broader pattern research

@@ -2,7 +2,7 @@
 
 > Benchmark Aldea SOS Paraguay against (a) international peers and (b) local Paraguayan ONGs to find gaps and inspiration.
 
-## Files
+## Archivos
 
 - `framework/how-to-compare.md` — rubric
 - `peers/international-peers.md` — 9 international peer orgs

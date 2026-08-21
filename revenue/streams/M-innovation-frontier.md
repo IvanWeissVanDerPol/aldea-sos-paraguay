@@ -3,22 +3,22 @@
 ## M. Innovation frontier (FLAGGED — review before pursuing)
 
 ### M1. DAO / cooperative governance of an aldea
-**What**: Web3 collective funds an aldea
+**Qué**: Web3 collective funds an aldea
 **Risks**: High regulatory uncertainty in PY
 **Plan**: Watch; flag for 2027
 
 ### M2. NFT membership passes
-**What**: Buy NFT for exclusive content
+**Qué**: Buy NFT for exclusive content
 **Risks**: High reputational risk post-scandal
 **Plan**: NOT recommended
 
 ### M3. AI tutoring for kids (low-cost scale)
-**What**: Use AI to tutor Aldea youth
+**Qué**: Use AI to tutor Aldea youth
 **Risks**: Moderate
 **Plan**: Pilot
 
 ### M4. RPA admin (back-office savings → more program $)
-**What**: Automate donor admin, freeing staff time
+**Qué**: Automate donor admin, freeing staff time
 **Plan**: Pilot with finance team
 
 ---
@@ -67,7 +67,7 @@ All- All revenue streams involving children require:
 
 ---
 
-## See also
+## Ver también
 
 - `../evidence/SOURCES.md` — raw artifacts
 - `../sos/DOSSIER.md` — full organization profile

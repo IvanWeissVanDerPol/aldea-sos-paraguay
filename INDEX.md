@@ -1,60 +1,60 @@
-# Master Index — Every File in the Repo
+# Índice Maestro — Todos los Archivos del Repositorio
 
-> **Last updated**: 2026-08-21 by Hermes
-> **Purpose**: One-line description of every file in the repo.
+> **Última actualización**: 2026-08-21 por Hermes
+> **Propósito**: Descripción de una línea de cada archivo del repo.
 
 ---
 
 ## Top-level
 
-- `README.md` — top-level entry point with links to every folder
-- `INDEX.md` — this file
-- `.gitignore` — excludes caches + live transcripts
+- `README.md` — punto de entrada principal con links a cada carpeta
+- `INDEX.md` — este archivo
+- `.gitignore` — excluye cachés + transcripciones en vivo
 
 ## start-here/
 
-- `README.md` — folder guide
-- `5min-summary.md` — 1-page exec summary
-- `30min-deep-dive.md` — annotated reading order
-- `for-aiw-team.md` — entry guide for Ivan's team
-- `for-sos-py.md` — entry guide for pitching SOS Paraguay
-- `for-donor-outreach.md` — entry guide for cold donor outreach
+- `README.md` — guía de carpeta
+- `5min-summary.md` — resumen ejecutivo de 1 página
+- `30min-deep-dive.md` — orden de lectura anotado
+- `for-aiw-team.md` — guía para el equipo de Ivan
+- `for-sos-py.md` — guía para presentar a SOS Paraguay
+- `for-donor-outreach.md` — guía para outreach a donantes
 
 ## about/
 
-- `README.md` — folder guide
-- `executive-summary.md` — 1-page "who is SOS PY"
-- `identity.md` — legal name, RUC, HQ, contact info
+- `README.md` — guía de carpeta
+- `executive-summary.md` — 1 página "quién es SOS PY"
+- `identity.md` — nombre legal, RUC, direcciones, personal clave
 - `programs.md` — 5 aldeas + cuidados alternativos + Ojoykére + advocacy
-- `funding-model.md` — current revenue streams + estimated size
-- `digital-maturity.md` — what works / what's broken / what's missing
-- `scandal-timeline.md` — 2025 Gmeiner crisis + Paraguay's response
-- `staffing-org.md` — who's who + governance gaps
-- `SWOT.md` — strengths / weaknesses / opportunities / threats
-- `DOSSIER-legacy.md` — original monolithic dossier (kept for reference)
+- `funding-model.md` — fuentes de ingresos actuales + tamaño estimado
+- `digital-maturity.md` — qué funciona / qué está roto / qué falta
+- `scandal-timeline.md` — crisis Gmeiner 2025 + respuesta de Paraguay
+- `staffing-org.md` — quién es quién + brechas de gobernanza
+- `SWOT.md` — fortalezas / debilidades / oportunidades / amenazas
+- `DOSSIER-legacy.md` — dossier monolítico original (referencia)
 
 ## evidence/
 
-- `README.md` — folder guide
-- `SOURCES.md` — catalog of all 15 HTML files + what they contain
-- `EXTRACTED-FACTS.md` — distilled facts from all HTMLs, organized by topic
-- `evidence-levels.md` — how to read these files + reliability notes
-- `aios_py_*.html` (×11) — verbatim downloads of aldeasinfantiles.org.py pages
-- `aios_intl.html` — global SOS homepage
-- `aios_intl_urgent.html` — Oct 24 2025 international scandal announcement
-- `aios_py_comunicado.html` — Oct 23 2025 Paraguay distancing press release
+- `README.md` — guía de carpeta
+- `SOURCES.md` — catálogo de los 15 archivos HTML + qué contienen
+- `EXTRACTED-FACTS.md` — hechos destilados de los HTMLs, organizados por tema
+- `evidence-levels.md` — cómo leer estos archivos + notas de confiabilidad
+- `aios_py_*.html` (×11) — descargas verbatim de aldeasinfantiles.org.py
+- `aios_intl.html` — homepage global de SOS
+- `aios_intl_urgent.html` — anuncio del escándalo internacional del 24 oct 2025
+- `aios_py_comunicado.html` — comunicado de Paraguay del 23 oct 2025
 
 ## benchmark/
 
-- `README.md` — folder guide
-- `PEER-BENCHMARK-legacy.md` — original monolithic benchmark
-- `framework/how-to-compare.md` — rubric for evaluating peers
-- `peers/international-peers.md` — 9 international peer orgs
-- `peers/latam-peers.md` — Spanish + Portuguese-speaking LatAm peers
-- `peers/paraguay-peers.md` — 8 PY peer orgs
-- `peers/feature-matrix.md` — comparison across 13 capabilities
-- `peers/inspiration-board.md` — what to steal from each peer
-- `PY-deep-dives/compassion-py.md` — focused teardown
+- `README.md` — guía de carpeta
+- `PEER-BENCHMARK-legacy.md` — benchmark monolítico original
+- `framework/how-to-compare.md` — rúbrica
+- `peers/international-peers.md` — 9 ONGs pares internacionales
+- `peers/latam-peers.md` — pares hispanohablantes de LatAm
+- `peers/paraguay-peers.md` — 8 ONGs pares PY
+- `peers/feature-matrix.md` — comparación de 13 capacidades
+- `peers/inspiration-board.md` — qué copiar de cada par
+- `PY-deep-dives/compassion-py.md`
 - `PY-deep-dives/world-vision-py.md`
 - `PY-deep-dives/cird-py.md`
 - `PY-deep-dives/techo-py.md`
@@ -62,94 +62,117 @@
 
 ## research/
 
-- `README.md` — folder guide
-- `1000-orgs/README.md` — how to navigate the catalog
-- `1000-orgs/build_slices.py` — regenerates slice files from CATALOG.csv
-- `1000-orgs/batches/CATALOG.csv` — 939 orgs × 12 columns
-- `1000-orgs/batches/SYNTHESIS.md` — distributions, top lists, prevalence, themes
-- `1000-orgs/batches/assemble.py` — regenerates CSV + synthesis from batches
-- `1000-orgs/batches/batch01..batch12.json` — 12 raw data files (~1000 entries total)
-- `1000-orgs/slices/CATALOG-by-region.md` — view by country
-- `1000-orgs/slices/CATALOG-by-model.md` — view by service type
-- `1000-orgs/slices/CATALOG-funders.md` — view by funding source
-- `1000-orgs/slices/TOP-100-revenue.md` — biggest 100 by revenue
-- `1000-orgs/slices/TOP-30-innovative.md` — most novel 30
-- `1000-orgs/slices/FUNDING-PREVALENCE.md` — % of orgs using each funding type
-- `1000-orgs/slices/DIGITAL-PREVALENCE.md` — % of orgs using each digital signal
-- `1000-orgs/slices/PATTERNS-SELFHELP.md` — how they helped themselves
-- `1000-orgs/slices/TOP-10-APPLICABLE.md` — most relevant to SOS PY
-- `patterns/recurring-giving-at-scale.md` — synthesis of recurring-giving models
-- `patterns/digital-fundraising-trends.md` — trends in digital fundraising
-- `patterns/federation-model.md` — how SOS Intl + others federate
-- `patterns/diaspora-giving-models.md` — diaspora funding patterns
+- `README.md` — guía de carpeta
+- `1000-orgs/README.md` — cómo navegar el catálogo
+- `1000-orgs/build_slices.py` — regenera los slices desde CATALOG.csv
+- `1000-orgs/batches/CATALOG.csv` — 939 ONGs × 12 columnas
+- `1000-orgs/batches/SYNTHESIS.md` — distribuciones, top lists, temas
+- `1000-orgs/batches/assemble.py` — regenera CSV + SYNTHESIS
+- `1000-orgs/batches/batch01..batch12.json` — 12 archivos de datos crudos
+- `1000-orgs/slices/CATALOG-by-region.md`
+- `1000-orgs/slices/CATALOG-by-model.md`
+- `1000-orgs/slices/CATALOG-funders.md`
+- `1000-orgs/slices/TOP-100-revenue.md`
+- `1000-orgs/slices/TOP-30-innovative.md`
+- `1000-orgs/slices/FUNDING-PREVALENCE.md`
+- `1000-orgs/slices/DIGITAL-PREVALENCE.md`
+- `1000-orgs/slices/PATTERNS-SELFHELP.md`
+- `1000-orgs/slices/TOP-10-APPLICABLE.md`
+- `patterns/recurring-giving-at-scale.md`
+- `patterns/digital-fundraising-trends.md`
+- `patterns/federation-model.md`
+- `patterns/diaspora-giving-models.md`
 
 ## revenue/
 
-- `README.md` — folder guide
-- `REVENUE-AVENUES-legacy.md` — original monolithic file (kept for reference)
-- `split.py` — script that splits REVENUE-AVENUES into stream-group files
-- `top-15-recommended.md` — TOP 15 with 4-axis scoring
-- `90-day-quick-wins.md` — concrete first-90-day actions
-- `safeguarding-appendix.md` — child-protection checklist
-- `streams/A-online-giving.md` — online donation expansion (10 streams)
-- `streams/B-sponsorship.md` — sponsor models (7 streams)
-- `streams/C-corporate.md` — corporate partnerships (6 streams)
-- `streams/D-government-multilateral.md` — gov/IGOs (7 streams)
-- `streams/E-earned-income.md` — social enterprise (7 streams)
-- `streams/F-events.md` — events & community (6 streams)
-- `streams/G-digital-content.md` — digital content (6 streams)
-- `streams/H-real-estate.md` — real estate (2 streams)
-- `streams/I-financial-instruments.md` — SIBs/DIBs (3 streams)
-- `streams/J-technology-data.md` — tech-for-good (5 streams)
-- `streams/K-diaspora.md` — diaspora (3 streams)
-- `streams/L-crisis.md` — crisis-specific (2 streams)
-- `streams/M-innovation-frontier.md` — frontier (4 streams)
+- `README.md` — guía de carpeta
+- `REVENUE-AVENUES-legacy.md` — archivo monolítico original
+- `top-15-recommended.md` — TOP 15 con scoring de 4 ejes
+- `90-day-quick-wins.md` — acciones concretas para los primeros 90 días
+- `safeguarding-appendix.md` — checklist de protección infantil
+- `streams/A-online-giving.md` — expansión de donación online (10 fuentes)
+- `streams/B-sponsorship.md` — modelos de apadrinamiento (7 fuentes)
+- `streams/C-corporate.md` — alianzas corporativas (6 fuentes)
+- `streams/D-government-multilateral.md` — gobierno/IGOs (7 fuentes)
+- `streams/E-earned-income.md` — empresa social (7 fuentes)
+- `streams/F-events.md` — eventos y comunidad (6 fuentes)
+- `streams/G-digital-content.md` — contenido digital (6 fuentes)
+- `streams/H-real-estate.md` — bienes raíces (2 fuentes)
+- `streams/I-financial-instruments.md` — SIBs/DIBs (3 fuentes)
+- `streams/J-technology-data.md` — tech-for-good (5 fuentes)
+- `streams/K-diaspora.md` — diáspora (3 fuentes)
+- `streams/L-crisis.md` — crisis-específicas (2 fuentes)
+- `streams/M-innovation-frontier.md` — frontera (4 fuentes)
 
 ## pitch/
 
-- `README.md` — folder guide
-- `executive-summary-pdf.md` — content for 2-pager PDF
-- `pitch-deck-outline.md` — slide-by-slide structure
-- `one-pager-paraguai.md` — what's in it for ParaguAI
-- `one-pager-sos-py.md` — what's in it for SOS Paraguay
-- `one-pager-corporate-ally.md` — what's in it for Tigo/Itaú/Ueno
-- `FAQ.md` — 20 anticipated questions + answers
+- `README.md` — guía de carpeta
+- `executive-summary-pdf.md` — contenido para PDF de 2 páginas
+- `pitch-deck-outline.md` — estructura de slides
+- `one-pager-paraguai.md` — para ParaguAI
+- `one-pager-sos-py.md` — para Aldea SOS Paraguay
+- `one-pager-corporate-ally.md` — para aliados corporativos
+- `FAQ.md` — 20 preguntas anticipadas + respuestas
 
-## outreach/ *(empty — needs filling)*
+## outreach/
 
-## tech-spec/ *(empty — needs filling)*
+- `README.md` — guía de carpeta
+- `email/cold-outreach-corporate.md` — español
+- `email/cold-outreach-tech-partner.md` — español + inglés
+- `email/cold-outreach-foundation.md` — español + inglés
+- `email/cold-outreach-donor-daf.md` — inglés (DAFs son US)
+- `email/cold-outreach-sos-py.md` — español
+- `email/followup-template.md` — español
+- `email/templates/README.md` — guía
+- `templates/donation-receipt.md` — español HTML + texto
+- `templates/amigos-welcome.md` — español HTML + texto
+- `templates/newsletter.md` — español HTML + texto
+- `call/` — vacío (planificado)
+- `social/` — vacío (planificado)
 
-## financial/ *(empty — needs filling)*
+## tech-spec/
 
-## strategy/ *(empty — needs filling)*
-
-## policy/ *(empty — needs filling)*
-
-## competitive/ *(empty — needs filling)*
+- `README.md` — guía de carpeta
+- `email/sender-config.md` — setup de Resend + identidad del remitente
+- `email/dns-records.md` — SPF/DKIM/DMARC para paragu-ai.com
+- `email/api-integration.md` — SDK Node + Python
+- `donation-gateway/` — vacío (procesadores de pago)
+- `transparency-microsite/` — vacío (micrositio de transparencia)
+- `sponsor-portal/` — vacío (portal de apadrinamiento)
+- `infra/` — vacío (infraestructura general)
 
 ## governance/
 
-- `README.md` — folder guide
-- `INDEX.md` — this folder's index (now at top-level)
-- `GLOSSARY.md` — acronyms and jargon
-- `STYLE-GUIDE.md` — Spanish/English conventions, citation style
-- `RISK-REGISTER.md` — live risk tracking
-- `STAKEHOLDER-MAP.md` — who's who
-- `ACTION-BOARD.md` — live Kanban
-- `CHANGELOG.md` — what changed when
-- `RESTRUCTURE-PLAN.md` — why the repo is structured this way
+- `README.md` — guía de carpeta
+- `INDEX.md` — índice de governance
+- `GLOSSARY.md` — acrónimos y jerga
+- `STYLE-GUIDE.md` — convenciones de idioma y citación
+- `RISK-REGISTER.md` — seguimiento de riesgos
+- `STAKEHOLDER-MAP.md` — quién es quién
+- `ACTION-BOARD.md` — Kanban vivo
+- `CHANGELOG.md` — qué cambió cuándo
+- `email-policy.md` — quién envía desde qué, idioma, frecuencia
+- `RESTRUCTURE-PLAN.md` — por qué el repo está estructurado así
+
+## financial/ *(vacío)*
+
+## strategy/ *(vacío)*
+
+## policy/ *(vacío — URGENTE)*
+
+## competitive/ *(vacío)*
 
 ## archive/
 
-- (Reserved for future deprecated files)
+- (Reservado para archivos deprecados futuros)
 
 ## _originals/
 
-- `_originals/sos/DOSSIER.md` — original monolithic SOS PY dossier (15067 bytes)
-- `_originals/comparison/PEER-BENCHMARK.md` — original peer benchmark (10980 bytes)
-- `_originals/revenue/REVENUE-AVENUES.md` — original revenue avenues (25754 bytes)
-- `_originals/research/1000-orgs/batches/` — empty (research files were moved, not copied)
+- `_originals/sos/DOSSIER.md`
+- `_originals/comparison/PEER-BENCHMARK.md`
+- `_originals/revenue-avenues/REVENUE-AVENUES.md`
 
 ---
 
-*Last full inventory: 2026-08-21.*
+*Último inventario completo: 2026-08-21.*
+*Todo el repo está en español. Identificadores técnicos (URLs, nombres de archivos, código) y nombres de marcas se mantienen en su forma original.*

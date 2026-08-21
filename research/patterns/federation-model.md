@@ -1,66 +1,66 @@
-# Federation Model — How SOS Intl + Others Federate
+# Modelo de Federación — Cómo SOS Intl + Otros se Federan
 
-> Patterns from the catalog on how large child-welfare orgs federate national associations.
+> Patrones del catálogo sobre cómo las grandes ONGs de bienestar infantil federan asociaciones nacionales.
 
-## Models observed
+## Modelos observados
 
-### Model A: Federal federation with autonomous national members
-**Examples**: SOS Children's Villages International, Plan International, World Vision, Save the Children, War Child Alliance
+### Modelo A: Federación federal con miembros nacionales autónomos
+**Ejemplos**: SOS Children's Villages International, Plan International, World Vision, Save the Children, War Child Alliance
 
-- **HQ** sets global strategy + safeguarding standards
-- **National associations** are autonomous legal entities in their countries
-- **Funding flows**: National members raise locally + receive federation subsidies
-- **Brand**: shared globally with local variation
+- **HQ** define estrategia global + estándares de salvaguarda
+- **Asociaciones nacionales** son entidades legales autónomas en sus países
+- **Flujos de financiamiento**: Los miembros nacionales recaudan localmente + reciben subsidios de la federación
+- **Marca**: compartida globalmente con variación local
 
-**Pros**: local relevance + global standards
-**Cons**: complex governance; vulnerable to scandal in one country (e.g., Austria 2025)
+**Pros**: relevancia local + estándares globales
+**Contras**: gobernanza compleja; vulnerable al escándalo en un país (ej: Austria 2025)
 
-### Model B: Centralized HQ with country offices
-**Examples**: UNICEF, Compassion International, ChildFund International
+### Modelo B: HQ centralizado con oficinas de país
+**Ejemplos**: UNICEF, Compassion International, ChildFund International
 
-- **HQ** controls most operations
-- **Country offices** are branches, not legal entities
-- **Funding flows**: HQ decides allocation
+- **HQ** controla la mayoría de las operaciones
+- **Oficinas de país** son sucursales, no entidades legales
+- **Flujos de financiamiento**: HQ decide la asignación
 
-**Pros**: stronger brand consistency
-**Cons**: less local autonomy
+**Pros**: consistencia de marca más fuerte
+**Contras**: menos autonomía local
 
-### Model C: Loose network of independent charities
-**Examples**: Cáritas Internationalis, Red Cross / Red Crescent
+### Modelo C: Red suelta de ONGs independientes
+**Ejemplos**: Cáritas Internationalis, Red Cross / Red Crescent
 
-- **Member charities** are fully independent
-- **HQ** coordinates shared identity + standards
-- **Funding flows**: members raise locally; minimal redistribution
+- **ONGs miembros** son totalmente independientes
+- **HQ** coordina identidad + estándares compartidos
+- **Flujos de financiamiento**: los miembros recaudan localmente; redistribución mínima
 
-**Pros**: maximum local autonomy
-**Cons**: weakest shared brand
+**Pros**: máxima autonomía local
+**Contras**: marca compartida más débil
 
-## How this affects SOS Paraguay
+## Cómo afecta a SOS Paraguay
 
-SOS PY is in **Model A** (federal federation). Specifically:
-- Paraguay is a national member since 1970
-- Legally autonomous under Paraguayan law
-- Receives federation subsidies (amount unknown)
-- Shares global brand (with reputational risk from Austrian scandal)
-- Has local governance (national director + board, names unknown)
-- Implements federation's 2030 Strategy locally (Proyecto Ojoykére = local instantiation)
+SOS PY está en **Modelo A** (federación federal). Específicamente:
+- Paraguay es miembro nacional desde 1970 (55 años)
+- Legalmente autónoma bajo ley paraguaya
+- Recibe subsidios de la federación (monto desconocido)
+- Comparte marca global (con riesgo reputacional del escándalo austriaco)
+- Tiene gobernanza local (director nacional + directorio, nombres desconocidos)
+- Implementa Estrategia 2030 de la federación localmente (Proyecto Ojoykére = instanciación local)
 
-## Lessons for fundraising
+## Lecciones para recaudación
 
-- **Brand leverage**: can use "55-year global brand" in pitches
-- **Federation subsidies**: uncertain amount; could ask for visibility into the formula
-- **Safeguarding alignment**: must follow federation standards (publishable as competitive advantage post-scandal)
-- **Crisis management**: federation handles globally; PY handles locally
-- **Cross-pollination**: can learn from SOS España (much more sophisticated)
+- **Apalancamiento de marca**: pueden usar "marca global de 55 años" en pitches
+- **Subsidios de federación**: monto incierto; podría preguntar por la fórmula
+- **Alineación de salvaguarda**: deben seguir estándares de la federación (publicable como ventaja competitiva post-escándalo)
+- **Gestión de crisis**: la federación maneja globalmente; PY maneja localmente
+- **Intercambio**: pueden aprender de SOS España (mucho más sofisticado)
 
-## What to ask SOS PY in first meeting
+## Qué preguntar a SOS PY en primera reunión
 
-1. What's the federation subsidy formula for Paraguay?
-2. How are safeguarding standards verified locally?
-3. Are there federation-wide fundraising tools (CRMs, donation platforms) we can use?
-4. Has the scandal affected PY-specific federation support?
-5. What does the SOS España playbook say that could apply here?
+1. ¿Cuál es la fórmula del subsidio de federación para Paraguay?
+2. ¿Cómo se verifican los estándares de salvaguarda localmente?
+3. ¿Hay herramientas de recaudación de toda la federación (CRMs, plataformas de donación) que podamos usar?
+4. ¿Ha afectado el escándalo el apoyo de la federación a PY específicamente?
+5. ¿Qué dice el playbook de SOS España que podría aplicar aquí?
 
 ---
 
-*Sources: catalog entries tagged "federation", SOS International's [Strategy 2030](https://www.sos-childrensvillages.org/getmedia/66662326-e546-4529-a111-8b998eb5adf0/Strategy-2030-refreshed-June2025.pdf) + [Financial Data](https://www.sos-childrensvillages.org/financial-data).*
+*Fuentes: entradas del catálogo etiquetadas como "federation", Estrategia 2030 de SOS International + [Datos Financieros](https://www.sos-childrensvillages.org/financial-data).*

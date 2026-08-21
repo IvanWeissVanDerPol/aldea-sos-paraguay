@@ -1,51 +1,51 @@
-# Evidence — Source-of-Truth
+# 01-evidence — Fuente de Verdad
 
-This folder holds **raw evidence** — verbatim downloads of every Aldea SOS Paraguay web page we cited in our analysis. We do not edit these files. They are evidence.
+Esta carpeta contiene **evidencia cruda** — descargas verbatim de cada página web de Aldea SOS Paraguay que citamos en nuestro análisis. No editamos estos archivos. Son evidencia.
 
-If you want to **verify any claim** in this repo, open the HTML file in this folder.
+Si querés **verificar cualquier afirmación** en este repo, abrí el archivo HTML en esta carpeta.
 
-## Files
+## Archivos
 
-### Paraguay National Office (aldeasinfantiles.org.py)
+### Oficina Nacional de Paraguay (aldeasinfantiles.org.py)
 
-| File | URL | Topic |
+| Archivo | URL | Tema |
 |---|---|---|
-| `aios_py_home.html` | https://www.aldeasinfantiles.org.py/ | Homepage — mission, programs, hero content |
-| `aios_py_contact.html` | https://www.aldeasinfantiles.org.py/web/contactanos | Contact form + HQ address |
-| `aios_py_about.html` | https://www.aldeasinfantiles.org.py/conocenos/quienes-somos | "Quiénes somos" — history + programs |
-| `aios_py_qhacemos.html` | https://www.aldeasinfantiles.org.py/conocenos/que-hacemos | "Qué hacemos" — program details |
-| `aios_py_xq.html` | https://www.aldeasinfantiles.org.py/conocenos/por-que-lo-hacemos | "Por qué lo hacemos" — stats |
-| `aios_py_dona2.html` | https://www.aldeasinfantiles.org.py/como-ayudar/dona | "Hacete Amigo SOS" — donation form |
-| `aios_py_aliados.html` | https://www.aldeasinfantiles.org.py/como-ayudar/aliados-corporativos | 18+ corporate allies |
-| `aios_py_campanas.html` | https://www.aldeasinfantiles.org.py/como-ayudar/campanas | "Convertí tu vuelto en sonrisas" — supermarket roundup |
-| `aios_py_regalamos.html` | https://www.aldeasinfantiles.org.py/vuelve-regalamos-sonrisas-,-la-campana-solidaria-de-tupi-y-aldeas-infantiles-sos | TUPI 6th edition campaign |
-| `aios_py_news.html` | https://www.aldeasinfantiles.org.py/noticias | News index (160+ entries) |
-| `aios_py_jobs.html` | https://www.aldeasinfantiles.org.py/bolsa-de-trabajo | Job postings (40 active vacancies) |
-| `aios_py_comunicado.html` | https://www.aldeasinfantiles.org.py/comunicado-de-prensa | Oct 23, 2025 distancing press release |
-| `aios_py_ong.html` | http://ong.com.py/organizacion/aldeas-infantiles-sos-paraguay/ | Conévio/PRO ONG profile — RUC + 5 aldeas |
+| `aios_py_home.html` | https://www.aldeasinfantiles.org.py/ | Homepage — misión, programas, contenido destacado |
+| `aios_py_contact.html` | https://www.aldeasinfantiles.org.py/web/contactanos | Formulario de contacto + dirección HQ |
+| `aios_py_about.html` | https://www.aldeasinfantiles.org.py/conocenos/quienes-somos | "Quiénes somos" — historia + programas |
+| `aios_py_qhacemos.html` | https://www.aldeasinfantiles.org.py/conocenos/que-hacemos | "Qué hacemos" — detalles de programas |
+| `aios_py_xq.html` | https://www.aldeasinfantiles.org.py/conocenos/por-que-lo-hacemos | "Por qué lo hacemos" — estadísticas |
+| `aios_py_dona2.html` | https://www.aldeasinfantiles.org.py/como-ayudar/dona | "Hacete Amigo SOS" — formulario de donación |
+| `aios_py_aliados.html` | https://www.aldeasinfantiles.org.py/como-ayudar/aliados-corporativos | 18+ aliados corporativos |
+| `aios_py_campanas.html` | https://www.aldeasinfantiles.org.py/como-ayudar/campaps | | "Convertí tu vuelto en sonrisas" — redondeo en supermercado |
+| `aios_py_regalamos.html` | https://www.aldeasinfantiles.org.py/vuelve-regalamos-sonrisas-,-la-campana-solidaria-de-tupi-y-aldeas-infantiles-sos | Campaña TUPI 6ª edición |
+| `aios_py_news.html` | https://www.aldeasinfantiles.org.py/noticias | Índice de noticias (160+ entradas) |
+| `aios_py_jobs.html` | https://www.aldeasinfantiles.org.py/bolsa-de-trabajo | Vacantes (40 activas) |
+| `aios_py_comunicado.html` | https://www.aldeasinfantiles.org.py/comunicado-de-prensa | Comunicado de Paraguay del 23 oct 2025 |
+| `aios_py_ong.html` | http://ong.com.py/organizacion/aldeas-infantiles-sos-paraguay/ | Perfil Conévio/PRO ONG — RUC + 5 aldeas |
 
-### International Federation (aldeasinfantiles.org)
+### Federación Internacional (aldeasinfantiles.org)
 
-| File | URL | Topic |
+| Archivo | URL | Tema |
 |---|---|---|
-| `aios_intl.html` | https://www.aldeasinfantiles.org/ | Global landing — references 2025 scandal |
-| `aios_intl_urgent.html` | https://www.aldeasinfantiles.org/anuncio-urgente-sobre-decisiones-de-la-junta-internacional-de-aldeas-infantiles-sos | Oct 24, 2025 — Austrian branch suspended |
+| `aios_intl.html` | https://www.aldeasinfantiles.org/ | Homepage global — referencias al escándalo 2025 |
+| `aios_intl_urgent.html` | https://www.aldeasinfantiles.org/anuncio-urgente-sobre-decisiones-de-la-junta-internacional-de-aldeas-infantiles-sos | 24 oct 2025 — rama austriaca suspendida |
 
-## Catalogs and extracted views
+## Catálogos y vistas extraídas
 
-- `SOURCES.md` — original index (kept for backward compat)
-- `EXTRACTED-FACTS.md` — distilled facts from all these HTMLs, organized by topic
-- `evidence-levels.md` — how to read these files + reliability notes
+- `SOURCES.md` — índice original (mantenido por compatibilidad)
+- `EXTRACTED-FACTS.md` — hechos destilados de todos los HTMLs, organizados por tema
+- `evidence-levels.md` — cómo leer estos archivos + notas de confiabilidad
 
 ---
 
-## ⚠️ Notes on reliability
+## ⚠️ Notas sobre confiabilidad
 
-- All Paraguay pages scraped **2026-08-21**. They may have been edited since.
-- The HTML files include Duda CMS scaffolding (template engine references). Ignore the noise.
-- The `SOURCES.md` and `EXTRACTED-FACTS.md` are derived; treat the raw HTMLs as ground truth.
-- The `/transparencia`, `/dona` (without `/como-ayudar/`), and `/conocenos/que-hacemos/bolsa-de-trabajo` URLs all return **404**. Evidence: `[evidence: official]` via curl 2026-08-21.
+- Todas las páginas de Paraguay scrapeadas el **2026-08-21**. Pueden haber sido editadas desde entonces.
+- Los archivos HTML incluyen andamiaje del CMS Duda (referencias del motor de template). Ignorar el ruido.
+- `SOURCES.md` y `EXTRACTED-FACTS.md` son derivados; tratar los HTMLs crudos como verdad fundamental.
+- Las URLs `/transparencia`, `/dona` (sin `/como-ayudar/`), y `/conocenos/que-hacemos/bolsa-de-trabajo` devuelven **404**. Evidencia: `[official]` vía curl 2026-08-21.
 
 ---
 
-*Last updated: 2026-08-21*
+*Última actualización: 2026-08-21*

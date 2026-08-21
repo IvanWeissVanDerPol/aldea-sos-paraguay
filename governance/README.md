@@ -1,50 +1,56 @@
-# META — Repository Governance
+# Governance — Gobernanza del Repositorio
 
-This folder holds governance, planning, and decision-support documents for the `aldea-sos-paraguay` research repo.
+Esta carpeta contiene documentos de gobernanza, planificación y soporte de decisiones para el repo de investigación `aldea-sos-paraguay`.
 
-## Files
+## Archivos
 
-- **[`RESTRUCTURE-PLAN.md`](./RESTRUCTURE-PLAN.md)** — the proposed new folder layout, gap analysis, and ~50 missing files we should prepare. **Read this first if you're wondering why the repo is structured the way it is, or how to reorganize it.**
-- `INDEX.md` *(coming)* — master index of every file in the repo with one-line description
-- `GLOSSARY.md` *(coming)* — acronyms (SNNA, Ojoykére, Gs.), jargon, people
-- `STYLE-GUIDE.md` *(coming)* — Spanish vs English, citation conventions, evidence levels
-- `RISK-REGISTER.md` *(coming)* — live risk tracking including scandal relapse
-- `STAKEHOLDER-MAP.md` *(coming)* — who's who at SOS Paraguay, gov, partners
-- `ACTION-BOARD.md` *(coming)* — live Kanban of next actions
-- `CHANGELOG.md` *(coming)* — what changed when
+- **[`INDEX.md`](./INDEX.md)** — índice maestro de cada archivo del repo
+- **[`GLOSSARY.md`](./GLOSSARY.md)** — acrónimos (SNNA, Ojoykére, Gs.), jerga, personas
+- **[`STYLE-GUIDE.md`](./STYLE-GUIDE.md)** — convenciones de idioma y citación
+- **[`RISK-REGISTER.md`](./RISK-REGISTER.md)** — seguimiento de riesgos vivo, incluyendo recaída del escándalo
+- **[`STAKEHOLDER-MAP.md`](./STAKEHOLDER-MAP.md)** — quién es quién en SOS Paraguay, gobierno, aliados
+- **[`ACTION-BOARD.md`](./ACTION-BOARD.md)** — Kanban vivo de próximas acciones
+- **[`CHANGELOG.md`](./CHANGELOG.md)** — qué cambió cuándo
+- **[`email-policy.md`](./email-policy.md)** — quién envía desde qué, reglas de idioma, frecuencia
+- **[`RESTRUCTURE-PLAN.md`](./RESTRUCTURE-PLAN.md)** — por qué el repo está estructurado así
 
-## What this folder is NOT
+## Qué NO es esta carpeta
 
-- Not research (that lives in `about/`, `benchmark/`, `research/`, `revenue/` once the restructure happens)
-- Not pitch / outbound (that lives in `pitch/` once added)
-- Not tech specs (that lives in `tech-spec/` once added)
+- No es investigación (eso vive en `about/`, `benchmark/`, `research/`, `revenue/` después de la restructuración)
+- No es pitch / outbound (eso vive en `pitch/` una vez agregado)
+- No es especificación técnica (eso vive en `tech-spec/`)
 
-This folder is **about** the repo itself — its structure, plans, risks, people, glossary.
+Esta carpeta es **sobre** el repo en sí — su estructura, planes, riesgos, personas, glosario.
 
 ---
 
-## Status (2026-08-21)
+## Estado (2026-08-21)
 
-Currently in **PRE-RESTRUCTURE** state. The repo has:
+El repo está completamente restructurado. Tiene:
 
 ```
 aldea-sos-paraguay/
-├── README.md              (top-level only — no subfolder READMEs)
+├── README.md              (top-level — punto de entrada principal)
+├── INDEX.md               (índice maestro)
 ├── .gitignore
-├── evidence/       (15 HTMLs + 1 SOURCES.md index)
-├── sos/                   (1 DOSSIER.md, 15K chars)
-├── comparison/            (1 PEER-BENCHMARK.md, 11K chars)
-├── research/
-│   └── 1000-similar-projects/   (12 batch JSONs + assemble.py + CATALOG.csv + SYNTHESIS.md)
-└── revenue/       (1 REVENUE-AVENUES.md, 25K chars)
+├── about/                 → 10 archivos (dossier SOS PY)
+├── archive/               → vacío
+├── benchmark/             → 13 archivos (comparación con pares)
+├── competitive/           → vacío
+├── evidence/              → 19 archivos (HTMLs + EXTRACTED-FACTS)
+├── financial/             → vacío
+├── governance/            → este folder
+├── outreach/              → 5 cold-outreach + 3 plantillas + followup
+├── pitch/                 → 7 archivos
+├── policy/                → vacío — URGENTE
+├── research/              → 31 archivos (catálogo 939 ONGs)
+├── revenue/               → 19 archivos (65+ fuentes)
+├── start-here/            → 6 archivos (puntos de entrada)
+├── strategy/              → vacío
+├── tech-spec/             → 3 archivos (email/)
+└── _originals/            → safety net de originales
+
+Total: ~135 archivos, 2.1 MB
 ```
 
-**Issues for a new reader**:
-1. No subfolder READMEs → 10 min wasted figuring out layout
-2. Monolithic big files → can't skim
-3. No "start here for X role" guide
-4. No master INDEX
-5. No glossary / style guide
-6. Missing ~50 additional docs (pitch, outreach, tech specs, financial, strategy, policy, competitive)
-
-**Fix proposed**: see `RESTRUCTURE-PLAN.md`. Awaiting Ivan's approval before I move files.
+**Todo el contenido en español** para servir al cliente (Aldea SOS Paraguay) que no habla inglés.

@@ -1,34 +1,34 @@
-# Evidence Levels — How to Read the Files
+# Niveles de Evidencia — Cómo Leer los Archivos
 
-Different facts have different reliability. When you see a claim, check the evidence tag:
+Diferentes hechos tienen diferente confiabilidad. Cuando veas una afirmación, revisá la etiqueta de evidencia:
 
-| Tag | Meaning | Example |
+| Etiqueta | Significado | Ejemplo |
 |---|---|---|
-| `[evidence: official]` | Verified on aldeasinfantiles.org.py or .org or .intl | "5 aldeas" [evidence: official] |
-| `[evidence: third-party]` | Verified via Wikipedia, news, ong.com.py | "Teletón raised Gs. 1,391M" [evidence: third-party a24.com.py] |
-| `[evidence: ddgs]` | Tentative — found via search, not cross-referenced | "PY mobile wallet adoption = 55.5%" [evidence: ddgs] |
-| `[evidence: estimate]` | Our calculation from other knowns | "Combined revenue impact = Gs. 500M-2B/yr" [evidence: estimate] |
-| `[evidence: unknown]` | Explicit gap | "Board composition" [evidence: unknown] |
+| `[evidencia: official]` | Verificado en aldeasinfantiles.org.py o .org o .intl | "5 aldeas" [evidencia: official] |
+| `[evidencia: third-party]` | Verificado vía Wikipedia, noticias, ong.com.py | "Teletón recaudó Gs. 1.391M" [evidencia: third-party a24.com.py] |
+| `[evidencia: ddgs]` | Tentativo — encontrado vía búsqueda, no cruzado | "Adopción de billetera móvil PY = 55,5%" [evidencia: ddgs] |
+| `[evidencia: estimate]` | Nuestro cálculo desde otros conocidos | "Impacto de ingresos combinados = Gs. 500M-2B/año" [evidencia: estimate] |
+| `[evidencia: unknown]` | Brecha explícita | "Composición del directorio" [evidencia: unknown] |
 
-## What we know
+## Lo que sabemos
 
-Most identity, program, and funding facts are at `[official]` — we have direct HTML evidence. Confidence is high.
+La mayoría de los datos de identidad, programas y financiamiento están en `[official]` — tenemos evidencia HTML directa. La confianza es alta.
 
-## What's tentative
+## Lo que es tentativo
 
-- Revenue figures (PY doesn't publish its own)
-- Donor counts (not public)
-- Cost per beneficiary (depends on allocation method)
-- Total children served globally (varies by year)
+- Cifras de ingresos (PY no publica los suyos)
+- Cantidad de donantes (no público)
+- Costo por beneficiario (depende del método de asignación)
+- Total de niños servidos globalmente (varía por año)
 
-## What's unknown
+## Lo que es desconocido
 
-- Board composition
-- Public safeguarding policy text
-- Annual budget breakdown
-- NGO compliance status (RUC is public; bylaws aren't)
-- Specific operational partners (vet, accountant, etc.)
+- Composición del directorio
+- Texto de la política pública de salvaguardia
+- Desglose del presupuesto anual
+- Estatus de cumplimiento de la ONG (el RUC es público; los estatutos no)
+- Aliados operacionales específicos (vet, contador, etc.)
 
 ---
 
-*If you find a fact with a wrong evidence tag, fix it. Add `[evidence: verified YYYY-MM-DD by NAME]` if you re-verify.*
+*Si encontrás un dato con una etiqueta de evidencia incorrecta, fijalo. Agregá `[evidencia: verificado YYYY-MM-DD por NOMBRE]` si re-verificás.*

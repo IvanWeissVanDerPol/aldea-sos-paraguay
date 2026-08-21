@@ -1,64 +1,64 @@
-# Programs
+# Programas
 
-## Three pillars
+## Tres pilares
 
-### 1. Prevención (Prevention)
-Strengthen families to prevent separation. Tools:
-- Daily pedagogical childcare
-- Individual family accompaniment
-- Capacity-building for families
-- Local network coordination
+### 1. Prevención
+Fortalecer a las familias para evitar la separación. Herramientas:
+- Cuidado pedagógico diario
+- Acompañamiento familiar individual
+- Capacitación para familias
+- Coordinación con redes locales
 
-### 2. Cuidados Alternativos (Alternative Care)
-When prevention fails:
-- **Residential family-style care** — the aldea model (family houses with madre SOS caregiver)
-- **Foster families** — children placed with external families
-- **Kinship care** — placed with extended family (tíos, abuelos, primos)
-- **Adoption advocacy** — for children with no possibility of reintegration
+### 2. Cuidados Alternativos
+Cuando la prevención falla:
+- **Cuidado residencial tipo familia** — el modelo aldea (casas familiares con cuidadora madre SOS)
+- **Familias acogedoras** — niños ubicados con familias externas
+- **Cuidado con familia extendida** — ubicados con familia extendida (tíos, abuelos, primos)
+- **Advocacy por adopción** — cuando proceda
 
-Guiding principle = "last resort" (UN Guidelines on Alternative Care).
+Principio rector = "último recurso" (Directrices de NNUU sobre Cuidados Alternativos).
 
-### 3. Abogacía (Advocacy)
-Policy work to push the Paraguayan state to strengthen child protection systems. Cooperation with Universidad de Comillas (Spain) on Latin America standards research.
+### 3. Abogacía
+Trabajo de política para empujar al Estado paraguayo a fortalecer los sistemas de protección infantil. Cooperación con la Universidad de Comillas (España) en investigación de estándares para América Latina.
 
-## The 5 aldeas
+## Las 5 aldeas
 
-| # | Aldea | City | Department | Notes |
+| # | Aldea | Ciudad | Departamento | Notas |
 |---|---|---|---|---|
-| 1 | Asunción | Asunción (Zeballos Cué) | Central | HQ region, closest to San Lorenzo |
-| 2 | Luque | Luque | Central | 15km from San Lorenzo |
-| 3 | San Ignacio | San Ignacio | Misiones | South-central |
-| 4 | Hohenau | Hohenau | Itapúa | South |
-| 5 | Belén | Belén | Concepción | Northernmost |
+| 1 | Asunción | Asunción (Zeballos Cué) | Central | Zona HQ, más cercana a San Lorenzo |
+| 2 | Luque | Luque | Central | 15km de San Lorenzo |
+| 3 | San Ignacio | San Ignacio | Misiones | Centro-sur |
+| 4 | Hohenau | Hohenau | Itapúa | Sur |
+| 5 | Belén | Belén | Concepción | Más al norte |
 
-**Discrepancy**: `quienes-somos.html` says "4 aldeas" while `ong.com.py` and `comunicado-de-prensa` say 5. Likely: Belén was opened after `quienes-somos` was last edited.
+**Discrepancia**: `quienes-somos.html` dice "4 aldeas" mientras que `ong.com.py` y `comunicado-de-prensa` dicen 5. Probablemente: Belén se abrió después de la última edición de `quienes-somos`.
 
-**San Lorenzo clarification**: **No aldea in San Lorenzo.** Closest is Asunción (Zeballos Cué). The only operational touchpoint in San Lorenzo is the Kingo supermarket campaign since March 2017.
+**Aclaración sobre San Lorenzo**: **No hay aldea en San Lorenzo.** La más cercana es Asunción Zeballos Cué. El único punto operativo en San Lorenzo es la campaña del supermercado Kingo desde marzo de 2017.
 
-## Proyecto Ojoykére (Prevention + family strengthening)
+## Proyecto Ojoykére (Prevención + fortalecimiento familiar)
 
-**Launched 2024** as the local instantiation of the international "Strategy 2030" (refreshed June 2025).
+**Lanzado en 2024** como implementación local de la Estrategia 2030 internacional (refrescada en junio de 2025).
 
-- Community-level work in vulnerable neighborhoods
-- Daily childcare + family accompaniment + capacity-building
-- Aug 14, 2026: Feria de Servicios in Tablada Nueva — 300+ attendees
+- Trabajo comunitario en barrios vulnerables
+- Cuidado diario + acompañamiento familiar + capacitación
+- 14 de agosto de 2026: Feria de Servicios en Tablada Nueva — 3.000+ asistentes
 
-Spelling varies: "Ojoykére" (home page) vs "Ojoykéré" (news page). Both refer to same program.
+La ortografía varía: "Ojoykére" (home page) vs "Ojoykéré" (news page). Ambas se refieren al mismo programa.
 
-## Beneficiaries
+## Beneficiarios
 
-**1,000+ children** annually across all programs (their own stat).
+**1.000+ niños** anualmente a través de todos los programas (su propia estadística).
 
-In Paraguay: **~1M children at risk** of losing parental care (their own stat, from por-que-lo-hacemos.html) — clear TAM for expansion.
+En Paraguay: **~1M de niños en riesgo** de perder el cuidado parental (su propia estadística, de por-que-lo-hacemos.html) — mercado total claro para expansión.
 
-## What we don't know
+## Lo que no sabemos
 
-- [ ] Ojoykére's specific neighborhoods served (we have only Tablada Nueva from one event)
-- [ ] Number of foster families vs residential
-- [ ] Adoption success rates
-- [ ] Alumni program (if any) for youth who age out of care
-- [ ] Reintegration success rates
+- [ ] Alcance geográfico específico de Ojoykére (solo tenemos Tablada Nueva de un evento)
+- [ ] Número de familias acogedoras vs residenciales
+- [ ] Tasas de éxito de adopción
+- [ ] Programa de alumni (si existe) para jóvenes que egresan del cuidado
+- [ ] Tasas de éxito de reintegración
 
 ---
 
-*Source: [`../evidence/EXTRACTED-FACTS.md`](../evidence/EXTRACTED-FACTS.md). For peer benchmark on programs, see [`../benchmark/`](../benchmark/).*
+*Fuente: [`../evidence/EXTRACTED-FACTS.md`](../evidence/EXTRACTED-FACTS.md). Para benchmark de pares sobre programas, ver [`../benchmark/`](../benchmark/).*

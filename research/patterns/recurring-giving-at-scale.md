@@ -1,63 +1,63 @@
-# Recurring Giving at Scale — Pattern Synthesis
+# Donación Recurrente a Escala — Síntesis de Patrones
 
-> Drawn from 939-org catalog. Patterns observed in how child-welfare orgs structure recurring-donor programs.
+> Extraído del catálogo de 939 ONGs. Patrones observados en cómo las ONGs de bienestar infantil estructuran programas de donantes recurrentes.
 
-## What works
+## Qué funciona
 
-### Tied to specific beneficiary
-- **Compassion**: $43/mo per child, quarterly photo + letter exchange
-- **Plan International**: sponsor a child, can visit in person
-- **ChildFund**: per-child sponsorship
-- **WWF**: symbolic adoption of specific animals (panda, elephant)
+### Ligado a beneficiario específico
+- **Compassion**: $43/mes por niño, foto trimestral + intercambio de cartas
+- **Plan International**: apadrina un niño, se puede visitar en persona
+- **ChildFund**: apadrinamiento por niño
+- **WWF**: adopción simbólica de animales específicos (panda, elefante)
 
-**Why it works**: emotional investment → high retention
+**Por qué funciona**: inversión emocional → alta retención
 
-### Tied to specific program or house
-- **SOS Children's Villages Spain**: "Apadrina una casa" — sponsor a house, not a child (better safeguarding)
-- **Sponsor a Bed** (hospitals)
+### Ligado a programa o casa específica
+- **Aldeas Infantiles SOS España**: "Apadrina una casa" — apadrina una casa, no un niño (mejor salvaguarda)
+- **Sponsor a Bed** (hospitales)
 - **Sponsor a School Day** (Education Cannot Wait)
 
-**Why it works**: less safeguarding risk; tangible outcome
+**Por qué funciona**: menor riesgo de salvaguarda; outcome tangible
 
-### Tiered monthly amounts
-- Most orgs offer Gs. 50k / 100k / 200k / 500k tiers
-- "Custom amount" always available
-- Average sponsor = $25-45/mo globally
+### Montos mensuales escalonados
+- La mayoría de las ONGs ofrecen Gs. 50k / 100k / 200k / 500k tiers
+- "Monto personalizado" siempre disponible
+- Padrino promedio = $25-45/mes globalmente
 
-### Pad-rinazgo (sponsorship) framework
-- Spanish/LatAm equivalent
-- "Padrino" is a godparent metaphor
-- Long-term cultural resonance in Catholic LatAm
-- Periodic updates (monthly / quarterly)
+### Marco de padrinazgo (sponsorship)
+- Equivalente español/latinoamericano
+- "Padrino" es una metáfora de padrino/madrina
+- Resonancia cultural de largo plazo en LatAm católica
+- Actualizaciones periódicas (mensual / trimestral)
 
-## How to ship
+## Cómo enviar
 
-For Aldea SOS Paraguay specifically:
+Para Aldea SOS Paraguay específicamente:
 
-1. **"Apadrina una Aldea"** (sponsor a house) — biggest single revenue stream
-2. **"Apadrina una mamá SOS"** (sponsor a caregiver) — emotional hook
-3. **"Amigo SOS"** (recurring donor — generic, existing)
-4. **"Padrino del programa Ojoykére"** (sponsor a specific prevention program)
+1. **"Apadrina una Aldea"** (apadrinar una casa) — mayor fuente única de ingresos
+2. **"Apadrina una mamá SOS"** (apadrinar una cuidadora) — gancho emocional
+3. **"Amigo SOS"** (donante recurrente — genérico, existente)
+4. **"Padrino del programa Ojoykére"** (apadrinar un programa de prevención específico)
 
-For each, ship:
-- Login portal (sponsor dashboard)
-- Monthly update email
-- Annual impact report tied to the sponsorship
+Para cada uno, enviar:
+- Portal de login (dashboard del padrino)
+- Email de actualización mensual
+- Reporte anual de impacto vinculado al apadrinamiento
 
-## Tech stack for recurring giving
+## Stack tecnológico para donación recurrente
 
-- **Donorbox** (recommended for <1k donors)
-- **Funraise** (recommended for >1k donors)
-- **Givebutter** (free, with caveats)
-- **Stripe** + custom build (for advanced)
-- **Bancard VPOS** (PY local, for recurring via local cards)
+- **Donorbox** (recomendado para <1k donantes)
+- **Funraise** (recomendado para >1k donantes)
+- **Givebutter** (gratis, con caveats)
+- **Stripe** + build custom (para avanzado)
+- **Bancard VPOS** (PY local, para recurrentes vía tarjetas locales)
 
-## Revenue potential
+## Potencial de ingresos
 
-- **Conservative**: 100 sponsors × $10/mo = $1,000/mo = $12k/yr
-- **Realistic**: 200 sponsors × $25/mo = $5,000/mo = $60k/yr
-- **Aspirational**: 500 sponsors × $40/mo = $20,000/mo = $240k/yr
+- **Conservador**: 100 padrinos × $10/mes = $1.000/mes = $12k/año
+- **Realista**: 200 padrinos × $25/mes = $5.000/mes = $60k/año
+- **Aspiracional**: 500 padrinos × $40/mes = $20.000/mes = $240k/año
 
 ---
 
-*Sources: catalog entries tagged "recurring-giving" + "sponsor-portal". See [`../1000-orgs/slices/FUNDING-PREVALENCE.md`](../1000-orgs/slices/FUNDING-PREVALENCE.md) for prevalence data.*
+*Fuentes: entradas del catálogo etiquetadas como "recurring-giving" + "sponsor-portal". Ver [`../1000-orgs/slices/FUNDING-PREVALENCE.md`](../1000-orgs/slices/FUNDING-PREVALENCE.md) para datos de prevalencia.*

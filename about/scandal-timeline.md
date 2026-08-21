@@ -1,72 +1,72 @@
-# Scandal Timeline — Oct 2025 Gmeiner Crisis
+# Línea de Tiempo del Escándalo — Crisis Gmeiner 2025
 
-> **CRITICAL CONTEXT**: This crisis affects the global SOS Children's Villages brand. Paraguay is autonomous and not implicated. Use this doc to ground any partnership / pitch language.
+> **⚠️ CONTEXTO CRÍTICO**: Esta crisis afecta la marca global de SOS Children's Villages. Paraguay es autónoma y no estuvo implicada. Usá este doc para fundamentar cualquier lenguaje de alianza / pitch.
 
-> ⚠️ **Safeguarding rules** when referencing this in any public-facing doc: do NOT name Hermann Gmeiner in pitch materials without explicit review. Always specify "Austrian branch" (not "SOS globally"). Always cite Paraguay's distancing press release.
+> ⚠️ **Reglas de salvaguardia** al referenciar esto en cualquier doc público: NO incluyas el nombre Hermann Gmeiner en materiales de pitch sin revisión explícita. Siempre especificá "rama austriaca" (no "SOS global"). Siempre citá el comunicado de distanciamiento de Paraguay.
 
 ---
 
-## Background
+## Contexto
 
-Hermann Gmeiner founded SOS Children's Villages in 1949 in Imst, Austria, after WWII. He died in 1986. Celebrated as a humanitarian icon for decades. The org operates in 136 countries with combined revenue €1.72B (2024).
+Hermann Gmeiner fundó SOS Children's Villages en 1949 en Imst, Austria, después de la Segunda Guerra Mundial. Murió en 1986. Celebrado como ícono humanitario por décadas. La organización opera en 136 países con ingresos combinados de €1.72B (2024).
 
-## Full timeline
+## Línea de tiempo completa
 
-| Date (local) | Event |
+| Fecha (local) | Evento |
 |---|---|
-| **Pre-2025** | No public allegations |
-| **Oct 23, 2025 (daytime, Austria)** | Austrian media (APA + others) publish investigation revealing historical allegations of **sexual violence and physical abuse** against children by Hermann Gmeiner in Austria between the 1950s-1980s |
-| **Oct 23, 2025 (daytime, Paraguay)** | Paraguay issues its own press release **before** the International federation's official statement. Distances itself: "Aldeas Infantiles SOS en Paraguay... legalmente constituida en el país... organización autónoma." Establishes that Paraguay has a "Comité Especial Nacional de Salvaguardia Infantil, Juvenil y de Adultos" |
-| **Oct 23, 2025 (night)** | International Board holds **emergency session**. Suspends **SOS-Kinderdorf Österreich** (Austrian association) as member federation. Suspends representative Andreas Kovar |
-| **Oct 24, 2025** | International press release issued. Quoting Dominico (Mimmo) Parisi, Board President: "Los corazones de la Junta Internacional están con todos aquellos que sufrieron por las acciones de un hombre... tolerancia cero..." |
-| **Oct 24+ 2025** | 8 victims compensated (per midiario.com coverage) |
-| **Pending (future)** | Extraordinary General Assembly to vote on removing Austria's designated seat on International Board |
+| **Pre-2025** | Sin acusaciones públicas |
+| **23 de octubre de 2025 (día, Austria)** | Medios austriacos (APA + otros) publican investigación revelando acusaciones históricas de **abuso sexual y físico** contra niños por Hermann Gmeiner en Austria entre las décadas de 1950 y 1980 |
+| **23 de octubre de 2025 (día, Paraguay)** | Paraguay emite su propio comunicado **antes** del comunicado oficial de la Federación Internacional. Se distancia: "Aldeas Infantiles SOS en Paraguay... legalmente constituida en el país... organización autónoma". Establece que Paraguay tiene un "Comité Especial Nacional de Salvaguardia Infantil, Juvenil y de Adultos" |
+| **23 de octubre de 2025 (noche)** | El Directorio Internacional realiza **sesión de emergencia**. Suspende a **SOS-Kinderdorf Österreich** (asociación austriaca) como miembro de la federación. Suspende al representante Andreas Kovar |
+| **24 de octubre de 2025** | Comunicado internacional emitido. Citando a Dominico (Mimmo) Parisi, Presidente del Directorio: "Los corazones del Directorio Internacional están con todos aquellos que sufrieron por las acciones de un hombre... tolerancia cero..." |
+| **24+ de octubre de 2025** | 8 víctimas compensadas (según cobertura de midiario.com) |
+| **Pendiente (futuro)** | Asamblea General Extraordinaria para votar sobre la remoción del asiento designado de Austria en el Directorio Internacional |
 
-Sources: `../evidence/aios_intl_urgent.html`, `../evidence/aios_py_comunicado.html`, plus third-party coverage in midiario.com, themunicheye.com, daraj.media, theinternational.at.
+Fuentes: `../evidence/aios_intl_urgent.html`, `../evidence/aios_py_comunicado.html`, más cobertura de terceros en midiario.com, themunicheye.com, daraj.media, theinternational.at.
 
 ---
 
-## Impact on Paraguay
+## Impacto en Paraguay
 
-| Dimension | Status |
+| Dimensión | Estatus |
 |---|---|
-| Direct operations | ✅ Not affected — Paraguay is autonomous, no investigation |
-| Legal status | ✅ Not implicated |
-| Board actions | ✅ Paraguay issued distancing statement within 24h |
-| Reputation | ⚠️ Collateral damage — brand shaken globally |
-| Donor sentiment | ⚠️ Likely affected — international padrinos may pause |
-| Comms response | ✅ Paraguay was *quicker* than the Federation to publicly respond |
-| Safeguarding infrastructure | ✅ National Safeguarding Committee confirmed real |
+| Operaciones directas | ✅ No afectadas — Paraguay es autónoma, sin investigación |
+| Estatus legal | ✅ No implicado |
+| Acciones del directorio | ✅ Paraguay emitió comunicado de distanciamiento dentro de 24h |
+| Reputación | ⚠️ Daño colateral — marca sacudida globalmente |
+| Sentimiento de donantes | ⚠️ Probablemente afectado — padrinos internacionales pueden pausar |
+| Respuesta de comunicaciones | ✅ Paraguay fue *más rápida* que la Federación en responder públicamente |
+| Infraestructura de salvaguardia | ✅ Comité Nacional de Salvaguardia confirmado como real |
 
 ---
 
-## What this means for any partnership
+## Qué significa esto para cualquier alianza
 
-When pitching or proposing:
-1. Don't bring up the scandal — let them bring it up
-2. Frame language as "Federation's crisis, not Paraguay's"
-3. Offer to help **publish a quarterly safeguarding report** — this is a competitive opportunity (no peer PY org has done this)
-4. Emphasize Paraguay's autonomous legal status
-5. Offer practical help that demonstrates integrity (safeguarding policy doc, transparency microsite, etc.)
+Al presentar o proponer:
+1. No traer el escándalo — dejar que ellos lo traigan
+2. Encuadrar el lenguaje como "crisis de la Federación, no de Paraguay"
+3. Ofrecer ayudar a **publicar un reporte trimestral de salvaguardia** — esto es una oportunidad competitiva (ningún par PY lo ha hecho)
+4. Enfatizar el estatus legal autónomo de Paraguay
+5. Ofrecer ayuda práctica que demuestre integridad (doc de política de salvaguardia, micrositio de transparencia, etc.)
 
-## What this means for fundraising copy
+## Qué significa esto para el copy de recaudación
 
-- Avoid language that could be read as insensitive to abuse victims
-- Don't compare SOS PY favorably to "bad" actors (no need)
-- Use language that emphasizes **child protection** explicitly:
+- Evitar lenguaje que pueda leerse como insensible a las víctimas de abuso
+- No comparar SOS PY favorablemente con actores "malos" (no es necesario)
+- Usar lenguaje que enfatice **protección infantil** explícitamente:
   - "Con el cuidado y la protección que merecen"
   - "En un entorno familiar protector"
   - "Con salvaguardia infantil activa"
-- Cite Paraguay's Oct 23 press release and National Safeguarding Committee as proof points
+- Citar el comunicado del 23 de octubre de Paraguay y el Comité Nacional de Salvaguardia como pruebas
 
 ---
 
-## Related documents
+## Documentos relacionados
 
-- [`safeguarding-charter.md`](../policy/safeguarding-charter.md) — model child protection policy
-- [`RISK-REGISTER.md`](../governance/RISK-REGISTER.md) — scandal relapse risk score 10/25 (high)
-- [`governance/STYLE-GUIDE.md`](../governance/STYLE-GUIDE.md) — language rules for scandal context
+- [`../policy/safeguarding-charter.md`](../policy/safeguarding-charter.md) — modelo de política de protección infantil (a crear — URGENTE)
+- [`RISK-REGISTER.md`](../governance/RISK-REGISTER.md) — puntuación de riesgo de recaída del escándalo: 10/25 (alto)
+- [`STYLE-GUIDE.md`](../governance/STYLE-GUIDE.md) — reglas de lenguaje para contexto de escándalo
 
 ---
 
-*Last updated: 2026-08-21*
+*Última actualización: 2026-08-21*

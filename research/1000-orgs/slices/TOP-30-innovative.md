@@ -1,6 +1,6 @@
 # TOP 30 Most Innovative
 
-Innovation scoring: keyword-based heuristic for funding, distribution, or engagement channels
+Scoring de innovación: heurística basada en palabras clave para canales de financiamiento, distribución, o engagement
 (crypto, blockchain, TikTok, AI, WhatsApp, NFT, DAO, alumni networks, Patreon, YouTube, etc.)
 
 | Rank | Name | Founded | Innovation | Score | Country |

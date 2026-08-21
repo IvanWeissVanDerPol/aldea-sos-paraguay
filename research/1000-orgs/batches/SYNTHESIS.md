@@ -3,17 +3,17 @@
 > Generated from 939 catalog entries across 12 batches of research.
 > Source: [`CATALOG.csv`](./CATALOG.csv)
 
-## Methodology
+## Metodología
 
 Catalog entries were built by drawing on documented public knowledge of well-established child welfare organizations, residential care providers, sponsorship programs, child rights NGOs, child health programs, education foundations, emergency response organizations, and the broader non-profit ecosystem. URLs were chosen as canonical homepages or Wikipedia entries. Revenue figures are taken from publicly reported financials where available; "unknown" is used when no reliable figure could be cited. Funding-source and digital-signal tags use a controlled vocabulary so they can be aggregated cleanly.
 
 This is **breadth research**: it covers both well-known mega-orgs (Compassion, Plan, UNICEF, SOS International) and a long tail of country-specific affiliates, foundation sub-entities, and platform/service providers that an Aldea SOS Paraguay might learn from or partner with.
 
-## Section 1: Counts and Distribution
+## Sección 1: Conteos y Distribución
 
 **Total entries:** 939
 
-### 1.1 By region
+### 1.1 Por región
 
 | Region | Count | % |
 |---|---:|---:|
@@ -173,7 +173,7 @@ This is **breadth research**: it covers both well-known mega-orgs (Compassion, P
 | South Asia | 1 | 0.1% |
 | Malaysia | 1 | 0.1% |
 
-### 1.2 By service model
+### 1.2 Por modelo de servicio
 
 | Model | Count | % |
 |---|---:|---:|
@@ -190,7 +190,7 @@ This is **breadth research**: it covers both well-known mega-orgs (Compassion, P
 | mentorship | 1 | 0.1% |
 | media | 1 | 0.1% |
 
-### 1.3 By decade founded
+### 1.3 Por década de fundación
 
 | Decade | Count | % |
 |---|---:|---:|
@@ -214,7 +214,7 @@ This is **breadth research**: it covers both well-known mega-orgs (Compassion, P
 | 2010s | 131 | 14.0% |
 | 2020s | 6 | 0.6% |
 
-## Section 2: Top 30 by Revenue
+## Sección 2: Top 30 por Ingresos
 
 Sorted by reported annual USD revenue, highest first.
 
@@ -251,7 +251,7 @@ Sorted by reported annual USD revenue, highest first.
 | 29 | Jewish Communal Fund | $3.0B | USA | rights |
 | 30 | GIZ Germany | $3.0B | Germany | rights |
 
-## Section 3: Top 30 Most Innovative
+## Sección 3: Top 30 Más Innovadoras
 
 Innovation scoring: heuristic lookup for keywords signaling unconventional funding, distribution, or engagement channels (crypto, blockchain, TikTok, AI, WhatsApp, NFT, DAO, alumni networks, Patreon, YouTube, ambassador programs, etc.).
 
@@ -288,7 +288,7 @@ Innovation scoring: heuristic lookup for keywords signaling unconventional fundi
 | 29 | The Giving Block | 2018 | crypto donation platform for nonprofits | 1 | USA |
 | 30 | Engiven | 2020 | crypto donation platform | 1 | USA |
 
-## Section 4: Funding Source Prevalence
+## Sección 4: Prevalencia de Fuentes de Financiamiento
 
 Of the catalogued orgs, how many use each funding mechanism?
 
@@ -308,7 +308,7 @@ Of the catalogued orgs, how many use each funding mechanism?
 | church groups | 1 | 0.1% |
 | social-enterprise | 1 | 0.1% |
 
-## Section 5: Digital Signal Prevalence
+## Sección 5: Prevalencia de Señales Digitales
 
 Of the catalogued orgs, how many have each digital property?
 
@@ -327,11 +327,11 @@ Of the catalogued orgs, how many have each digital property?
 | tiktok | 7 | 0.7% |
 | instagram | 2 | 0.2% |
 
-## Section 6: Patterns of 'Self-Help' — How These Orgs Helped Themselves Be Better
+## Sección 6: Patrones de 'Autoayuda' — Cómo se Ayudaron a Sí Mismas
 
 Concrete themes that emerged from the catalog. Each theme has 3-5 examples.
 
-### Tech adoption (AI, blockchain, crypto)
+### Adopción de tecnología (AI, blockchain, crypto)
 
 - **BitPay** — Bitcoin payment processor used by NGOs globally
 - **The Giving Block** — Crypto donation platform for nonprofits
@@ -339,7 +339,7 @@ Concrete themes that emerged from the catalog. Each theme has 3-5 examples.
 - **Code.org / Girls Who Code** — AI + coding curriculum for K-12
 - **Be My Eyes** — AI-assisted visual aid for blind users
 
-### Corporate alliances / cause-related marketing
+### Alianzas corporativas / marketing con causa
 
 - **Girl Scouts cookie program** — USD 1B+ youth-powered product sale
 - **(RED) / Product RED** — Branded product percentage to AIDS
@@ -347,7 +347,7 @@ Concrete themes that emerged from the catalog. Each theme has 3-5 examples.
 - **Kingo + Aldea SOS** — PY supermarket redondeo campaign
 - **Hewlett, MacArthur, Gates** — Foundation-led systematic funding
 
-### Earned income / social enterprise
+### Ingresos generados / empresa social
 
 - **BRAC Enterprises** — Social businesses finance NGO programs
 - **Fundación Paraguaya** — Self-sufficient farm social enterprise
@@ -355,7 +355,7 @@ Concrete themes that emerged from the catalog. Each theme has 3-5 examples.
 - **Heifer International** — Gift catalog model for livestock
 - **Girl Scouts cookie sales** — Product program for mission
 
-### Alumni networks / lifelong connection
+### Redes de alumni / conexión de por vida
 
 - **SOS Children's Villages alumni** — Ex-residents stay connected globally
 - **Boys & Girls Clubs alumni network** — US model connects former members
@@ -363,7 +363,7 @@ Concrete themes that emerged from the catalog. Each theme has 3-5 examples.
 - **Big Brothers Big Sisters** — Long-term mentor relationships
 - **Ashoka network for life** — Fellows stay connected as changemakers
 
-### Mergers and consolidation
+### Fusiones y consolidación
 
 - **Candid = Foundation Center + GuideStar** — US nonprofits merged in 2019
 - **WE Charity / Free the Children** — Multiple brand consolidation
@@ -371,7 +371,7 @@ Concrete themes that emerged from the catalog. Each theme has 3-5 examples.
 - **SOS International federation** — 137 autonomous national members
 - **Cáritas Internationalis** — 165 national Caritas orgs
 
-### Geographic expansion
+### Expansión geográfica
 
 - **Compassion International** — From Korea to 25+ countries
 - **Plan International** — From Spain war relief to global
@@ -379,7 +379,7 @@ Concrete themes that emerged from the catalog. Each theme has 3-5 examples.
 - **Right to Play** — From Canada to 20+ countries
 - **SOS International** — From Austria to 137 countries
 
-### Advocacy to government
+### Advocacy al gobierno
 
 - **UNICEF** — UN advocacy mandate
 - **Children's Defense Fund** — US child policy advocacy
@@ -387,7 +387,7 @@ Concrete themes that emerged from the catalog. Each theme has 3-5 examples.
 - **Ipas / Pathfinder** — Reproductive rights advocacy
 - **KIND** — Pro bono legal for migrant children
 
-### Fiscal sponsorship / intermediaries
+### Patrocinio fiscal / intermediarios
 
 - **Tides Foundation** — Fiscal sponsor for 100s of projects
 - **New Venture Fund** — Fiscal sponsor model
@@ -395,7 +395,7 @@ Concrete themes that emerged from the catalog. Each theme has 3-5 examples.
 - **NED** — Funds NGOs worldwide
 - **TechSoup** — Discounted tech via fiscal sponsorship
 
-### Digital fundraising infrastructure
+### Infraestructura de recaudación digital
 
 - **Stripe Atlas** — Company formation for impact startups
 - **Donorbox / Funraise / Givebutter** — Modern donation platforms
@@ -403,7 +403,7 @@ Concrete themes that emerged from the catalog. Each theme has 3-5 examples.
 - **Salesforce Power of Us** — Discounted CRM
 - **Microsoft Tech for Social Impact** — Cloud + Office discount
 
-### Recurring giving at scale
+### Donación recurrente a escala
 
 - **Compassion** — 9M+ sponsor letters/year
 - **Aldeas Infantiles SOS Spain** — 60k+ recurring donors
@@ -411,7 +411,7 @@ Concrete themes that emerged from the catalog. Each theme has 3-5 examples.
 - **Plan International** — 1M+ sponsors
 - **WWF** — 5M+ recurring supporters
 
-### Crisis-specific fundraising
+### Recaudación específica de crisis
 
 - **UNICEF emergency appeals** — Crisis fundraising
 - **Red Cross / Red Crescent** — Crisis model globally
@@ -419,7 +419,7 @@ Concrete themes that emerged from the catalog. Each theme has 3-5 examples.
 - **CARE** — Crisis food relief
 - **World Vision emergency** — Disaster fundraising
 
-### Diaspora + international giving
+### Diáspora + donaciones internacionales
 
 - **Asha for Education** — Indian diaspora funding India
 - **BRAC USA / BRAC UK** — Bangladeshi diaspora chapters
@@ -427,7 +427,7 @@ Concrete themes that emerged from the catalog. Each theme has 3-5 examples.
 - **Plan USA + diaspora** — Diaspora engagement in fundraising
 - **Aldea SOS USA** — Federation diaspora chapter
 
-### Innovation frontier (high-risk / high-upside)
+### Frontera de innovación (alto riesgo / alta recompensa)
 
 - **DAOs funding orphanages** — Web3 collective giving
 - **NFT membership passes** — Crypto-tied donor access
@@ -435,51 +435,51 @@ Concrete themes that emerged from the catalog. Each theme has 3-5 examples.
 - **AI tutoring for kids** — Low-cost scaling of education
 - **Robot Process Automation** — Back-office savings → more program $
 
-## Section 7: Top 10 Most Directly Applicable to Aldea SOS Paraguay
+## Sección 7: Top 10 Más Directamente Aplicables a Aldea SOS Paraguay
 
-Filtered for PY operational feasibility, fit-with-existing-assets, and quick-win potential.
+Filtrado por factibilidad operativa PY, fit con activos existentes, y potencial de quick-win.
 
-### 1. Compassion International — sponsor portal with letter exchange
-**Why applicable:** SOS PY already does residential care (compassion's same model). Sponsor letters portal = recurring revenue + transparency.
-**Adoption path:** launch "Apadrina una Aldea" microsite within 90 days; existing allies (Itaú, Ueno, Tupi) can sponsor houses.
+### 1. Compassion International — portal de apadrinamiento con intercambio de cartas
+**Por qué aplica:** SOS PY ya hace cuidado residencial (el mismo modelo de Compassion). Portal de cartas de padrinos = ingresos recurrentes + transparencia.
+**Camino de adopción:** lanzar micrositio "Apadrina una Aldea" en 90 días; los aliados existentes (Itaú, Ueno, Tupi) pueden apadrinar casas.
 
-### 2. Plan International — sponsor visit program
-**Why applicable:** Paraguayan diaspora in Argentina/Brazil/USA/Spain can visit sponsored kids in Zeballos Cué. Safeguarding via Federation framework.
-**Adoption path:** low-risk for diaspora PY — partner with Paraguayan embassies.
+### 2. Plan International — programa de visitas de padrinos
+**Por qué aplica:** La diáspora paraguaya en Argentina/Brasil/USA/España puede visitar niños apadrinados en Zeballos Cué. Salvaguardia vía marco de la Federación.
+**Camino de adopción:** bajo riesgo para la diáspora PY — alianza con embajadas paraguayas.
 
-### 3. TECHO Paraguay — public rendición de cuentas page
-**Why applicable:** TECHO publishes one. SOS PY `/transparencia` returns 404. Fix is low-effort, high-trust.
-**Adoption path:** rebuild page in 2 weeks with annual report PDF + KPIs.
+### 3. TECHO Paraguay — página pública de rendición de cuentas
+**Por qué aplica:** TECHO publica una. SOS PY `/transparencia` devuelve 404. La solución es de bajo esfuerzo y alta confianza.
+**Camino de adopción:** reconstruir la página en 2 semanas con reporte anual PDF + KPIs.
 
-### 4. CIRD Paraguay — WhatsApp at scale
-**Why applicable:** CIRD's RVE+WhatsApp 25k-message program for immunization is directly applicable to family strengthening in Proyecto Ojoykére.
-**Adoption path:** partner with CIRD; reuse their WhatsApp templates for parent outreach.
+### 4. CIRD Paraguay — WhatsApp a escala
+**Por qué aplica:** El programa RVE+WhatsApp de CIRD con 25k-mensajes para inmunización es directamente aplicable al fortalecimiento familiar en Proyecto Ojoykére.
+**Camino de adopción:** alianza con CIRD; reutilizar sus plantillas de WhatsApp para outreach a padres.
 
-### 5. Teletón Paraguay — televised annual fundraiser
-**Why applicable:** Teletón raised Gs. 1,391 million in one event (Comilona 2026). Same broadcast model could power SOS PY's first televised fundraiser.
-**Adoption path:** partner with a TV channel; replicate the Comilona format.
+### 5. Teletón Paraguay — recaudación anual televisada
+**Por qué aplica:** Teletón recaudó Gs. 1.391 millones en un evento (Comilona 2026). El mismo modelo televisado podría impulsar la primera recaudación televisada de SOS PY.
+**Camino de adopción:** alianza con un canal de TV; replicar el formato Comilona.
 
-### 6. Benevity / Funraise / Donorbox — donation gateway
-**Why applicable:** SOS PY's donation form doesn't connect to a payment processor. DonorBox, Funraise, or Givebutter can plug in within days.
-**Adoption path:** ship a Donorbox or Stripe integration in week 1.
+### 6. Benevity / Funraise / Donorbox — pasarela de donación
+**Por qué aplica:** El formulario de donación de SOS PY no conecta con un procesador de pagos. DonorBox, Funraise, o Givebutter se pueden integrar en días.
+**Camino de adopción:** enviar una integración de Donorbox o Stripe en la semana 1.
 
-### 7. Google Ad Grants — free $10k/mo in Google Ads
-**Why applicable:** SOS PY has organic search traffic but no paid search. Ad Grants = $120k/year in free acquisition.
-**Adoption path:** 4-week approval process; well within reach.
+### 7. Google Ad Grants — $10k/mes gratis en Google Ads
+**Por qué aplica:** SOS PY tiene tráfico orgánico pero sin búsqueda paga. Ad Grants = $120k/año en adquisición gratuita.
+**Camino de adopción:** proceso de aprobación de 4 semanas; totalmente accesible.
 
-### 8. Fundación Paraguaya — social enterprise model
-**Why applicable:** Paraguay-based social enterprise model (San Francisco farm) is homegrown and proven. Aldea could run social businesses (bakery, training center).
-**Adoption path:** pilot a social enterprise within the Luque or Hohenau aldea.
+### 8. Fundación Paraguaya — modelo de empresa social
+**Por qué aplica:** El modelo de empresa social paraguayo (granja San Francisco) es local y probado. Aldea podría operar negocios sociales (panadería, centro de capacitación).
+**Camino de adopción:** pilotar una empresa social dentro de la aldea de Luque o Hohenau.
 
-### 9. Fundación Alda — 23-year education specialist
-**Why applicable:** PY-local, similar mission, education focus. Strong partnership opportunity for Proyecto Ojoykére.
-**Adoption path:** joint program in vulnerable neighborhoods.
+### 9. Fundación Alda — 23 años de educación
+**Por qué aplica:** Local PY, misión similar, foco en educación. Gran oportunidad de alianza para Proyecto Ojoykére.
+**Camino de adopción:** programa conjunto en barrios vulnerables.
 
-### 10. Donor-Advised Funds (DAFs) — international donor access
-**Why applicable:** Diaspora in USA/Spain/Canada uses DAFs. SOS PY could become a recommended grantee.
-**Adoption path:** register with NPT, Schwab Charitable, Fidelity Charitable, etc.
+### 10. Donor-Advised Funds (DAFs) — acceso internacional de donantes
+**Por qué aplica:** La diáspora en USA/España/Canadá usa DAFs. SOS PY podría convertirse en beneficiario recomendado.
+**Camino de adopción:** registrarse en NPT, Schwab Charitable, Fidelity Charitable, etc.
 
-## Section 8: Numeric summary
+## Sección 8: Resumen numérico
 
 - **Total cataloged**: 939
 - **Countries represented**: 155
@@ -488,7 +488,7 @@ Filtered for PY operational feasibility, fit-with-existing-assets, and quick-win
 - **Distinct digital-signal tags**: 12
 - **Funding sources not currently used by SOS PY** (based on `comparison/PEER-BENCHMARK.md`): crypto, social-enterprise, crowdfunding, royalties, sponsorships. Aldea PY uses individuals + corporate + foundations + government + sponsorships (via event tickets); misses: earned-income, merchandise, donations-in-kind, events (limited), crowdfunding, crypto. Most peer orgs (90+%) use events + online donation + corporate — SOS PY does corporate + a partial event model (TUPI) but lacks events at scale.
 
-## Section 9: How to use this catalog
+## Sección 9: Cómo usar este catálogo
 
 1. **Pattern matching**: sort by funding_sources / digital_signals to find orgs using tactics Aldea PY could adopt.
 2. **Geography**: search by country for local-peers (PY, AR, BR, CO).

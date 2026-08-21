@@ -1,108 +1,108 @@
-# STYLE GUIDE — Conventions for the Repo
+# STYLE GUIDE — Convenciones del Repositorio
 
-> Keep these conventions consistent across all docs in this repo. Update this file when conventions change.
+> Mantener estas convenciones consistentes en todos los docs de este repo. Actualizar este archivo cuando cambien las convenciones.
 
 ---
 
-## Languages
+## Idiomas
 
-- **Primary**: Spanish (es). The client is Paraguayan. Most audiences speak Spanish.
-- **Secondary**: English (en). For sharing with international donors or global partners.
-- **Tertiary**: Guaraní (gn). For names and culturally specific terms (e.g., "Ojoykére"). Don't translate these.
+- **Primario**: Español (es). El cliente es paraguayo. La mayoría de las audiencias habla español.
+- **Secundario**: Inglés (en). Para compartir con donantes internacionales o aliados globales.
+- **Terciario**: Guaraní (gn). Para nombres y términos culturalmente específicos (ej: "Ojoykére"). No traducir estos.
 
-When unsure, write in **Spanish** by default. Translate to English only when explicitly serving an English-speaking audience.
+Cuando tengas dudas, escribí en **español** por defecto. Traducí a inglés solo cuando sirvas a una audiencia explícitamente angloparlante.
 
-## Naming conventions
+## Convenciones de nombres
 
-- **Folders**: lowercase, hyphen-separated (`revenue/`, `donation-gateway/`)
-- **Files**: `kebab-case.md` (`executive-summary.md`, `top-15-recommended.md`)
-- **Subfolder indexes**: `README.md` (always)
-- **Numeric prefixes on top-level folders**: 2-digit + dash + name (`start-here/`)
+- **Carpetas**: lowercase, separadas por guión (`05-revenue/`, `donation-gateway/`)
+- **Archivos**: `kebab-case.md` (`executive-summary.md`, `top-15-recommended.md`)
+- **Índices de subcarpeta**: `README.md` (siempre)
+- **Prefijos numéricos en carpetas top-level**: 2 dígitos + guión + nombre (`00-start-here/`)
 
-## Currency
+## Moneda
 
-- **Default**: Guaraníes (Gs. or ₲). Always with currency marker.
-- **USD**: When citing for international context, include USD alongside Gs. with conversion rate at time of writing.
-- **FX convention**: USD 1 ≈ Gs. 7,300 (2026). Put the rate + date in the citation if it's not obvious.
-- **Examples**: 
-  - ✅ "Gs. 1,391,035,000 (USD ~190k, Comilona 2026)"
-  - ❌ "$190k" (when Gs. is the source of truth)
+- **Default**: Guaraníes (Gs. o ₲). Siempre con marcador de moneda.
+- **USD**: Cuando cites para contexto internacional, incluí USD junto con Gs. con la tasa de conversión al momento de escribir.
+- **Convención FX**: USD 1 ≈ Gs. 7,300 (2026). Poné la tasa + fecha en la cita si no es obvio.
+- **Ejemplos**:
+  - ✅ "Gs. 1.391.035.000 (USD ~190k, Comilona 2026)"
+  - ❌ "$190k" (cuando Gs. es la fuente de verdad)
 
-## Numbers
+## Números
 
-- **Locale**: thousands separator = comma (`1,000`), decimal = period (`1.5`).
-- **Large amounts**: write out fully (`Gs. 50,000`) for transparency.
-- **Round amounts**: only for ballpark figures (`USD ~190k`).
+- **Localización**: separador de miles = punto (`1.000`), decimal = coma (`1,5`).
+- **Montos grandes**: escribir completo (`Gs. 50.000`) para transparencia.
+- **Montos redondos**: solo para estimaciones aproximadas (`USD ~190k`).
 
-## Dates
+## Fechas
 
-- **Format**: ISO 8601 (`2026-08-21`).
-- **Date + time**: `2026-08-21 03:43 UTC`. We're on PYT (UTC-4 year-round).
+- **Formato**: ISO 8601 (`2026-08-21`).
+- **Fecha + hora**: `2026-08-21 03:43 PYT`. Estamos en PYT (UTC-4 todo el año).
 
-## Citations
+## Citaciones
 
-When citing a source:
-- Inline: `[source: aldeasinfantiles.org.py/home]`
-- URL: full URL in markdown link format: `[A24 Teletón coverage](https://a24.com.py/teleton-logra-recaudacion-historica-de-g-1-391-millones-en-la-comilona-2026/)`
+Al citásar una fuente:
+- Inline: `[fuente: aldeasinfantiles.org.py/home]`
+- URL: link markdown completo: `[Cobertura Teletón A24](https://a24.com.py/teleton-logra-recaudacion-historica-de-g-1-391-millones-en-la-comilona-2026/)`
 
-## Evidence levels
+## Niveles de evidencia
 
-Use these tags in `[evidence: …]` brackets when facts matter:
+Usá estas etiquetas en `[evidencia: …]` cuando importan los datos:
 
-- `[evidence: official]` — verified on official SOS PY or SOS Intl websites
-- `[evidence: third-party]` — verified through third-party (Wikipedia, news, Conévio)
-- `[evidence: ddgs]` — only from one search hit; treat as tentative
-- `[evidence: unknown]` — explicit gap; needs primary research
-- `[evidence: estimate]` — derived by us, not from a source
+- `[evidencia: official]` — verificado en sitios oficiales de SOS PY o SOS Intl
+- `[evidencia: third-party]` — verificado vía Wikipedia, noticias, Conévio
+- `[evidencia: ddgs]` — solo de un resultado de búsqueda; tratar como tentativo
+- `[evidencia: estimate]` — derivado por nosotros, no de una fuente
+- `[evidencia: unknown]` — brecha explícita; necesita investigación primaria
 
-Examples:
-- ✅ `[evidence: official]`
-- ✅ `[evidence: ddgs — needs verification]`
+Ejemplos:
+- ✅ `[evidencia: official]`
+- ✅ `[evidencia: ddgs — necesita verificación]`
 
-## Safeguarding flagging
+## Marcado del escándalo
 
-When mentioning the 2025 Austrian scandal:
-- Use the phrase **"2025 Gmeiner scandal"** or **"Oct 2025 international crisis"** — not just "scandal"
-- Always specify that **Paraguay was not implicated** and that the **Austrian branch** is what was suspended
-- Always cite the **Oct 23, 2025 Paraguay press release** as evidence of their distancing
-- Never name **Hermann Gmeiner** in pitch materials without explicit review
-- Always include safeguarding context when talking about child-related programs
+Al mencionar el escándalo austriaco 2025:
+- Usá la frase **"escándalo Gmeiner 2025"** o **"crisis internacional de octubre 2025"** — no solo "escándalo"
+- Siempre especificá que **Paraguay no estuvo implicado** y que **la rama austriaca** fue suspendida
+- Siempre citá el **comunicado del 23 de octubre de 2025** de Paraguay como evidencia de su distanciamiento
+- Nunca incluyas el nombre **Hermann Gmeiner** en materiales de pitch sin revisión explícita
+- Siempre incluí contexto de salvaguardia cuando hables de programas relacionados con niños
 
-## Code blocks
+## Bloques de código
 
-- Use `\`\`\`bash` for shell commands
-- Use `\`\`\`python` for scripts
-- Use `\`\`\`json` for data
-- Use `\`\`\`csv` for tabular data
-- Use `\`\`\`yaml` for config
+- Usá ` ```bash` para comandos de shell
+- Usá ` ```python` para scripts
+- Usá ` ```json` para datos
+- Usá ` ```csv` para datos tabulares
+- Usá ` ```yaml` para configuración
 
-## File headers
+## Encabezados de archivo
 
-Markdown files longer than 200 lines should start with:
+Los archivos markdown de más de 200 líneas deberían empezar con:
 
 ```markdown
-# Title
+# Título
 
-> **Purpose**: what this doc does
-> **Audience**: who should read this
-> **Status**: draft / final / archived
-> **Last updated**: YYYY-MM-DD by [name]
+> **Propósito**: qué hace este doc
+> **Audiencia**: quién debería leerlo
+> **Estado**: borrador / final / archivado
+> **Última actualización**: YYYY-MM-DD por [nombre]
 ```
 
-## Tone
+## Tono
 
-- Direct, no fluff
-- Tables over prose where possible
-- Numbers > adjectives
-- Acknowledge uncertainty explicitly
-- Always cite, never invent
+- Directo, sin floritura
+- Tablas en lugar de prosa cuando sea posible
+- Números > adjetivos
+- Reconocé la incertidumbre explícitamente
+- Siempre citá, nunca inventes
 
-## Voice (when writing outbound)
+## Voz (al escribir outbound)
 
-- For SOS PY (formal): usted, business formal
-- For donors / corporates: warm professional
-- For Ivan's team: casual direct
+- Para SOS PY (formal): usted, business formal
+- Para donantes / corporativos: cálido profesional
+- Para el equipo de Ivan: casual directo
 
 ---
 
-*Last updated: 2026-08-21.*
+*Última actualización: 2026-08-21.*

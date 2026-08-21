@@ -54,13 +54,13 @@ TECHO is volunteer-led. Their pipeline:
 **Day 15-21**: Add public goal thermometer to homepage
 **Day 22-30**: Pilot annual campaign pattern
 
-## What we don't know
+## Lo que no sabemos
 
 - TECHO's actual revenue / cost structure
 - Their donor retention metrics
 - Their tech stack specifically
 
-## Sources
+## Fuentes
 
 - paraguay.techo.org
 - paraguay.techo.org/rendicion-de-cuentas

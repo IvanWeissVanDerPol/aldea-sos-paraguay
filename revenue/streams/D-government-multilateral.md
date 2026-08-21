@@ -3,7 +3,7 @@
 ## D. Government / multilateral / institutional
 
 ### D1. SNNA contracts (Secretaría Nacional de la Niñez)
-**What**: Contract to provide residential/family strengthening services for state-referred children
+**Qué**: Contract to provide residential/family strengthening services for state-referred children
 **Evidence**: Common in Paraguay; SNNA funds placements
 **Market size**: SNNA budget USD ~10M/yr for direct services
 **Why positioned**: Already in compliance + safeguarding committee
@@ -12,18 +12,18 @@
 **Safeguarding**: STRONG — government oversight
 
 ### D2. Itaipu / Yacyretá foundation grants
-**What**: Apply for binational hydroelectric foundation grants
+**Qué**: Apply for binational hydroelectric foundation grants
 **Evidence**: Itaipu funds social projects (children included)
 **Plan**: Apply Q1 2027
 **Revenue potential**: Gs. 50-500M per grant
 
 ### D3. Municipal programs (Asunción, San Lorenzo, Luque, Hohenau)
-**What**: Municipal government CSR budgets
+**Qué**: Municipal government CSR budgets
 **Market size**: Each municipality has social budget
 **Plan**: Approach municipalities with specific neighborhood projects (Ojoykére expansion)
 
 ### D4. EU grants (EuropeAid / FSE+ via La Caixa)
-**What**: EU framework programmes for youth in PY
+**Qué**: EU framework programmes for youth in PY
 **Evidence**: La Caixa (Spain) co-funds FSE+ youth programs in PY
 **Revenue potential**: Gs. 100-500M per project
 

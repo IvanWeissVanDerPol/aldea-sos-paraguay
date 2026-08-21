@@ -18,7 +18,7 @@
 | **Teletón** | Comilona = single-event USD 190k benchmark. | Med | Med |
 | **UNICEF PY** | Open data. Country programme transparency. | Med | Med |
 
-## Top 5 to steal first
+## Top 5 a robar primero
 
 1. **Compassion**: sponsor portal — biggest single revenue unlock
 2. **TECHO**: rendición de cuentas page — quick win, restores trust

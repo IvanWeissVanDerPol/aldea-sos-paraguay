@@ -2,7 +2,7 @@
 
 From 939 catalog entries with parseable revenue figures. (41 entries had `unknown` revenue.)
 
-| Rank | Name | Revenue | Country | Model | Funding Sources |
+| Rank | Nombre | Ingresos | País | Modelo | Fuentes de financiamiento |
 |---:|---|---|---|---|---|
 | 1 | Ford Foundation | $16.0B | USA | rights | foundations;earned-income |
 | 2 | Open Society Foundations | $15.0B | USA | rights | foundations;earned-income |

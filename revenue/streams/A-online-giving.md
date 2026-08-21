@@ -3,7 +3,7 @@
 ## A. Online giving expansion
 
 ### A1. Online donation gateway — Donorbox / Payway / Stripe
-**What**: Replace the donation form (which captures intent but routes to "Pago Ocasional") with a real card/wallet gateway.
+**Qué**: Replace the donation form (which captures intent but routes to "Pago Ocasional") with a real card/wallet gateway.
 **Evidence**:
 - Donorbox serves 80,000+ NGOs globally with Spanish-language product (donorbox.org/es)
 - Cáritas Argentina uses Mercado Pago (caritas.org.ar/mercado-pago/)
@@ -23,7 +23,7 @@
 **Safeguarding**: Strong — no child exposure
 
 ### A2. Recurring online giving at scale
-**What**: Default to "monthly" rather than one-time on the donate page. Monthly giving has 2-5x LTV of one-time.
+**Qué**: Default to "monthly" rather than one-time on the donate page. Monthly giving has 2-5x LTV of one-time.
 **Evidence**: Donorbox data shows recurring donations account for ~30% of online giving but 50%+ of revenue.
 **Market size**: Same as A1
 **Why positioned**: Same as A1
@@ -33,7 +33,7 @@
 **Tech**: Donorbox recurring feature
 
 ### A3. Cryptocurrency donations (BTC/ETH/stablecoins)
-**What**: Add Bitso Paraguay / Coinbase Commerce / The Giving Block widget
+**Qué**: Add Bitso Paraguay / Coinbase Commerce / The Giving Block widget
 **Evidence**: UNICEF, Save the Children, Red Cross accept crypto. The Giving Block has 1,000+ NGO partners. PY has Bitso as major exchange.
 **Market size**: PY crypto market growing; USD 100k-1M/yr conservative for NGOs
 **Why positioned**: They could be first PY charity to accept crypto — PR win
@@ -45,7 +45,7 @@
 **Safeguarding**: Strong — no child exposure; flag for governance review
 
 ### A4. Donation from abroad in USD/EUR
-**What**: Accept international credit card donations on aldeasinfantiles.org.py via Stripe
+**Qué**: Accept international credit card donations on aldeasinfantiles.org.py via Stripe
 **Evidence**: Plan USA, Compassion, SOS USA all accept foreign donations; Paraguay diaspora uses these
 **Market size**: PY diaspora: 162k in Spain; large communities in Argentina (600k), Brazil, USA (NY/Miami/LA); estimated USD 1-5M/yr to PY NGOs from abroad
 **Why positioned**: They have diaspora in target markets
@@ -56,7 +56,7 @@
 **Partners**: Stripe
 
 ### A5. Round-up apps (Pennies / DreamUps) as POS alternative
-**What**: Bank-linked apps that round up purchases to the nearest Gs. 1,000 with the difference going to charity
+**Qué**: Bank-linked apps that round up purchases to the nearest Gs. 1,000 with the difference going to charity
 **Evidence**: Pennies (UK) processes £60M+/yr for charities; analogous in PY with Zimple, Tigo Money
 **Market size**: PY consumer spend on cards Gs. ~10T (USD 1.4B); even 0.01% = USD 140k
 **Why positioned**: Kingo already in supermarket space — could deepen
@@ -66,7 +66,7 @@
 **Tech**: Bank API integration
 
 ### A6. Crowdfunding campaigns (GoFundMe-style PY equivalents)
-**What**: "Donate to a specific need" — e.g., "buy 50 beds for Aldea Luque"
+**Qué**: "Donate to a specific need" — e.g., "buy 50 beds for Aldea Luque"
 **Evidence**: GoFundMe Charity handles USD 1B+/yr globally. GoFundMe Brazil is significant. PY has no dominant equivalent yet.
 **Market size**: USD 200k-1M/yr for PY causes on international platforms
 **Why positioned**: They have specific, tangible projects (Ojoykére, beds, scholarships)
@@ -76,7 +76,7 @@
 **Tech**: GoFundMe Charity (free)
 
 ### A7. Donor-Advised Funds (DAFs)
-**What**: Register as eligible recipient on major DAF platforms (Fidelity Charitable, Schwab Charitable, NPT, Daffy)
+**Qué**: Register as eligible recipient on major DAF platforms (Fidelity Charitable, Schwab Charitable, NPT, Daffy)
 **Evidence**: US DAF grants to international causes total >USD 3B/yr; Daffy has 1.7M charities on platform
 **Market size**: USD 50-500k/yr to PY NGOs via DAFs
 **Why positioned**: Diaspora + US donors use DAFs
@@ -86,7 +86,7 @@
 **Tech**: Just registration
 
 ### A8. Stock / appreciated securities donations
-**What**: Accept stock donations (US donors can donate appreciated stock tax-free)
+**Qué**: Accept stock donations (US donors can donate appreciated stock tax-free)
 **Evidence**: Daffy, Donorbox support stock gifts; major US nonprofits accept
 **Market size**: PY diaspora stock donations — small but meaningful; USD 100k-1M/yr globally
 **Why positioned**: Diaspora angle
@@ -96,7 +96,7 @@
 **Tech**: Daffy widget
 
 ### A9. Facebook / Instagram "Donate" button
-**What**: Activate Meta's built-in donate button on their pages
+**Qué**: Activate Meta's built-in donate button on their pages
 **Evidence**: Available globally, free for nonprofits. Mexican NGOs widely use it.
 **Market size**: PY 23k FB likes × donation conversion
 **Why positioned**: They have 23k FB likes — direct audience
@@ -105,7 +105,7 @@
 **Revenue potential**: Gs. 20-50M/yr
 
 ### A10. WhatsApp Donate (Brazil model)
-**What**: PIX-style donate button in WhatsApp Business chat
+**Qué**: PIX-style donate button in WhatsApp Business chat
 **Evidence**: Brazil launched WhatsApp Pay 2024; NGOs like CUFA use it heavily
 **Market size**: Paraguay WhatsApp penetration >90%
 **Why positioned**: They could be first PY NGO to do it

@@ -2,7 +2,7 @@
 
 Total entries: **939** | Unique models: **12**
 
-| Model | Count | % |
+| Modelo | Cantidad | % |
 |---|---:|---:|
 | rights | 301 | 32.1% |
 | residential care | 210 | 22.4% |

@@ -1,12 +1,12 @@
 # Email API Integration — Resend
 
-> **Purpose**: how to send email from the app/website using Resend's SDK with the `mail.paragu-ai.com` domain.
+> **Propósito**: how to send email from the app/website using Resend's SDK with the `mail.paragu-ai.com` domain.
 >
-> **Last updated**: 2026-08-21
+> **Última actualización**: 2026-08-21
 
 ---
 
-## Install
+## Instalar
 
 ```bash
 # Node
@@ -16,7 +16,7 @@ npm install resend
 pip install resend
 ```
 
-## Set the API key
+## Configurar el API key
 
 ```bash
 # .env (do not commit)
@@ -28,7 +28,7 @@ RESEND_REPLY_TO=sos.py@aldeasinfantiles.org.py
 
 ---
 
-## Node.js — basic send
+## Node.js — envío básico
 
 ```typescript
 import { Resend } from 'resend';
@@ -54,7 +54,7 @@ async function sendEmail({ to, subject, html, text }) {
 }
 ```
 
-## Python — basic send
+## Python — envío básico
 
 ```python
 import os
@@ -77,7 +77,7 @@ def send_email(to, subject, html, text=None):
 
 ---
 
-## Sending types to implement
+## Tipos de envío a implementar
 
 | Email type | Trigger | Template | Sender |
 |---|---|---|---|
@@ -90,7 +90,7 @@ def send_email(to, subject, html, text=None):
 
 ---
 
-## Spanish-only rules for all templates
+## Reglas de solo español para todas las plantillas
 
 | What | Rule |
 |---|---|
@@ -123,7 +123,7 @@ Secret: store in env, verify signature with `resend.webhooks.verify()`
 
 ---
 
-## Error handling
+## Manejo de errores
 
 | Resend error code | What it means | Action |
 |---|---|---|
@@ -135,7 +135,7 @@ Secret: store in env, verify signature with `resend.webhooks.verify()`
 
 ---
 
-## Where to put this in the repo
+## Dónde poner esto en el repo
 
 - `tech-spec/email/api-integration.md` (this file)
 - `outreach/email/` — Spanish templates (HTML + plain text)

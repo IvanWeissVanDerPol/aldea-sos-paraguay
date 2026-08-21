@@ -42,13 +42,13 @@ Many of these **overlap with SOS PY's corporate allies** — suggests a saturate
 | Real-time goal thermometer | Add to homepage during campaign |
 | Multi-day event | Expand TUPI's 2-week campaign into a larger event |
 
-## What we don't know
+## Lo que no sabemos
 
 - Teletón's full annual budget
 - Their digital stack
 - Their donor retention
 
-## Sources
+## Fuentes
 
 - a24.com.py (Comilona 2026 results)
 - teleton.org.py

@@ -32,7 +32,7 @@
 
 ---
 
-## See also
+## Ver también
 
 - `../evidence/SOURCES.md` — raw artifacts
 - `../sos/DOSSIER.md` — full organization profile
