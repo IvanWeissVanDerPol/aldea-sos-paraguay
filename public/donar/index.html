@@ -3,41 +3,36 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Cómo donar - Aldea SOS Paraguay</title>
-<meta name="description" content="Cómo encontrar el sistema de donaciones de Aldeas Infantiles SOS Paraguay. Esta página no procesa donaciones — solo te lleva al canal correcto.">
+<title>Donar - Aldea SOS Paraguay (Demo)</title>
+<meta name="description" content="Simulación del flujo de donación de Aldeas Infantiles SOS Paraguay. En este demo las donaciones no se procesan realmente; la organización procesa las donaciones reales en su sitio oficial.">
 <meta name="robots" content="index,follow">
 <link rel="canonical" href="https://aldea-sos.paragu-ai.com/donar/">
-<meta property="og:title" content="Cómo donar - Aldea SOS Paraguay">
-<meta property="og:description" content="Cómo encontrar el sistema de donaciones oficial.">
+<meta property="og:title" content="Donar - Aldea SOS Paraguay">
+<meta property="og:description" content="Flujo de donación simulado. Para donar realmente, visitá aldeasinfantiles.org.py/como-ayudar/dona.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://aldea-sos.paragu-ai.com/donar/">
 <meta property="og:image" content="https://aldea-sos.paragu-ai.com/assets/og-default.png">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Cómo donar - Aldea SOS Paraguay">
-<meta name="twitter:image" content="https://aldea-sos.paragu-ai.com/assets/og-default.png">
-  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 <link rel="icon" type="image/svg+xml" href="/assets/logo.svg">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 <meta name="theme-color" content="#0066B3">
 <link rel="stylesheet" href="/css/style.css">
-<script src="/js/main.js" defer></script>
+<script src="/js/demo.js" defer></script>
 </head>
 <body>
-<a href="#main" class="skip-link">Saltar al contenido principal</a>
-
 <div class="demo-banner" role="banner">
   <div class="demo-banner-text">
     <span class="demo-banner-dot" aria-hidden="true"></span>
     <strong>Demo preview.</strong>
     Esta es una propuesta pro-bono de rediseño del sitio de Aldeas Infantiles SOS Paraguay.
-    Para información real, donación o apadrinamiento, visitá
-    <a href="https://www.aldeasinfantiles.org.py/" rel="noopener" target="_blank">aldeasinfantiles.org.py</a>.
+    Para donación real, visitá
+    <a href="https://www.aldeasinfantiles.org.py/como-ayudar/dona" rel="noopener" target="_blank">aldeasinfantiles.org.py/como-ayudar/dona</a>.
   </div>
 </div>
 
 <header class="site-header" role="banner">
   <div class="header-inner">
     <a href="/" class="brand" aria-label="Inicio - Aldea SOS Paraguay">
-      <span class="brand-logo">A</span>
+      <span class="brand-mark">A</span>
       <span class="brand-text">
         <strong>Aldea SOS Paraguay</strong>
         <small>Iniciativa comunitaria</small>
@@ -45,16 +40,17 @@
     </a>
     <button class="nav-toggle" aria-label="Menú" aria-expanded="false">☰</button>
     <nav class="primary-nav" aria-label="Navegación principal">
-      <a href="/sobre-nosotros/">Sobre Aldea SOS</a>
-      <a href="/donar/">Donar</a>
+      <a href="/sobre-nosotros/">Sobre</a>
+      <a href="/programs/">Programas</a>
+      <a href="/donar/" style="background: var(--c-bg-alt); color: var(--c-primary);">Donar</a>
       <a href="/apadrina/">Apadriná</a>
-      <a href="/recursos/">Recursos</a>
-      <a href="/acerca-de-este-sitio/">Acerca</a>
-      <a href="/preguntas-frecuentes/">FAQ</a>
-      <a href="/changelog/">Changelog</a>
-      <a href="/mapa-del-sitio/">Mapa</a>
+      <a href="/historias/">Historias</a>
+      <a href="/noticias/">Noticias</a>
+      <a href="/transparencia/">Transparencia</a>
+      <a href="/portal/">Mi portal</a>
       <a href="https://www.aldeasinfantiles.org.py/" rel="noopener" target="_blank">Sitio oficial ↗</a>
-      </nav><button class="theme-toggle" aria-label="Cambiar tema">🌙</button>
+      <button class="theme-toggle" aria-label="Cambiar tema">🌙</button>
+    </nav>
   </div>
 </header>
 
@@ -63,76 +59,173 @@
 <section class="page-hero">
   <div class="container">
     <div class="breadcrumb">
-      <a href="/">Inicio</a> <span>›</span> <span>Cómo donar</span>
+      <a href="/">Inicio</a> <span>›</span> <span>Donar</span>
     </div>
-    <h1>Cómo donar</h1>
-    <p>Las donaciones las procesa la propia organización. Este sitio no recauda fondos, no emite recibos y no participa del flujo de pago.</p>
+    <h1>Hacé tu donación</h1>
+    <p>Tu aporte llega directamente a los niños y familias. En este demo el flujo es funcional; las donaciones no se procesan realmente.</p>
   </div>
 </section>
 
 <section class="section">
-  <div class="t-narrow container">
+  <div class="container t-narrow">
 
-    <div class="panel" class="mb-3">
-      <h3 class="mt-0">📌 La regla corta</h3>
-      <p class="mb-0">
-        Todo el dinero llega por el sitio oficial. Si querés donar, esa es la única puerta. Para encontrarla más rápido, este sitio tiene un botón que te lleva directo. Esa es la función de esta página.
-      </p>
-    </div>
+    <!-- Step 1: amount + frequency -->
+    <section class="donate-step" id="step-amount">
+      <div class="step-header">
+        <span class="step-num">1</span>
+        <h2>Elegí cuánto y con qué frecuencia</h2>
+      </div>
 
-    <div class="text-center mt-4" class="mt-3 mb-3">
-      <a href="https://www.aldeasinfantiles.org.py/como-ayudar/dona" target="_blank" rel="noopener" class="btn btn-primary btn-large">
-        Ir al sitio oficial a donar
-      </a>
-      <p class="t-meta">
-        Te llevamos a aldeasinfantiles.org.py/como-ayudar/dona. Toda la transacción ocurre allá.
-      </p>
-    </div>
+      <div class="frequency-toggle" role="group" aria-label="Frecuencia">
+        <button type="button" data-frequency="monthly" class="active">Mensual</button>
+        <button type="button" data-frequency="once">Única</button>
+      </div>
 
-    <h2>Qué vas a encontrar en la página oficial</h2>
-    <p>
-      La organización describe en su sitio varias modalidades de donación. Te las listamos para que vayas con claridad sobre qué esperar, sin pretender confirmar lo que no vimos.
-    </p>
+      <div class="amount-grid">
+        <button type="button" class="amount-btn" data-donate="50000">Gs. 50k</button>
+        <button type="button" class="amount-btn selected" data-donate="100000">Gs. 100k</button>
+        <button type="button" class="amount-btn" data-donate="200000">Gs. 200k</button>
+        <button type="button" class="amount-btn" data-donate="500000">Gs. 500k</button>
+      </div>
 
-    <div class="card" class="my-4">
-      <h3>Donación única</h3>
-      <p>Por el monto que decidas, sin compromiso de recurrencia. Tarjeta de crédito, débito, transferencia bancaria, o Tigo Money según lo que la organización tenga habilitado en cada momento.</p>
-    </div>
+      <div class="form-group">
+        <label for="customAmount">Otro monto (Gs.)</label>
+        <input type="number" id="customAmount" class="amount-input" placeholder="Monto personalizado" min="10000">
+      </div>
 
-    <div class="card" class="my-4">
-      <h3>Donación mensual — Amigos SOS</h3>
-      <p>La organización describe este formato como un aporte recurrente. Desde nuestros registros públicos sabemos que el piso de aporte mensual que la organización publica es de Gs. 50.000, pero no podemos confirmar si esa cifra sigue vigente en este momento — verificarlo en el sitio oficial.</p>
-    </div>
+      <div class="impact-preview">
+        <h3>Tu aporte <span id="frequency-label">mensual</span> de <strong>Gs. <span id="donate-amount">100.000</span></strong> ayuda a:</h3>
+        <ul>
+          <li>Cubrir alimentación balanceada para un niño durante un mes.</li>
+          <li>Materiales escolares para el año lectivo.</li>
+          <li>Apoyo psicosocial continuo.</li>
+        </ul>
+      </div>
 
-    <div class="card" class="my-4">
-      <h3>Donación corporativa / RSE</h3>
-      <p>Para empresas y aliados corporativos, la organización publica un canal dedicado y una persona de contacto (Coordinadora de Alianzas Corporativas). El inicio del diálogo y los términos se manejan directamente con la organización.</p>
-      <a href="https://www.aldeasinfantiles.org.py/como-ayudar/aliados-corporativos" target="_blank" rel="noopener" class="btn btn-outline">Ver aliados corporativos</a>
-    </div>
+      <button type="button" class="btn btn-primary btn-large btn-block" onclick="document.getElementById('step-method').scrollIntoView({behavior:'smooth'})">
+        Continuar →
+      </button>
+    </section>
 
-    <div class="card" class="my-4">
-      <h3>Donación en supermercados — "Convertí tu vuelto en sonrisas"</h3>
-      <p>La organización describe esta campaña como activa en sucursales de Areté, Kingo y Gran Vía — el redondeo en caja que se legaliza con el Ministerio de Hacienda. Si querés usarla, preguntá directamente en esas tiendas si la campaña sigue vigente en tu sucursal.</p>
-    </div>
+    <!-- Step 2: method -->
+    <section class="donate-step" id="step-method">
+      <div class="step-header">
+        <span class="step-num">2</span>
+        <h2>Elegí el método de pago</h2>
+      </div>
 
-    <div class="card" class="my-4">
-      <h3>Donación por aniversario, en memoria, en homenaje</h3>
-      <p>Existen en el sitio oficial referencias a estas modalidades (donaciones dedicadas a alguien, tarjetas conmemorativas). Los detalles y disponibilidad actual hay que confirmarlos con la organización.</p>
-    </div>
+      <div class="grid grid-2">
+        <label class="method-card">
+          <input type="radio" name="method" value="card" data-method="card">
+          <div class="method-card-body">
+            <div class="method-icon">💳</div>
+            <h3>Tarjeta de crédito/débito</h3>
+            <p>Visa, Mastercard, Cabal. Cargos automáticos recurrentes.</p>
+          </div>
+        </label>
+        <label class="method-card">
+          <input type="radio" name="method" value="bank" data-method="bank">
+          <div class="method-card-body">
+            <div class="method-icon">🏦</div>
+            <h3>Transferencia bancaria</h3>
+            <p>Desde tu banco. Datos se envían en el paso siguiente.</p>
+          </div>
+        </label>
+        <label class="method-card">
+          <input type="radio" name="method" value="tigo" data-method="tigo">
+          <div class="method-card-body">
+            <div class="method-icon">📱</div>
+            <h3>Tigo Money / Personal Pay</h3>
+            <p>Pago desde tu billetera móvil.</p>
+          </div>
+        </label>
+        <label class="method-card">
+          <input type="radio" name="method" value="company" data-method="company">
+          <div class="method-card-body">
+            <div class="method-icon">🏢</div>
+            <h3>Empresa / RSE</h3>
+            <p>Convenio corporativo anual. Solicita una llamada.</p>
+          </div>
+        </label>
+      </div>
 
-    <h2 class="mt-4">Por qué te redirigimos en lugar de procesar acá</h2>
-    <ul>
-      <li><strong>Recibos deducibles.</strong> La organización emite recibos para tu declaración de impuestos — un sitio comunitario como este no puede.</li>
-      <li><strong>Procesadores de pago.</strong> La organización tiene cuentas con sus procesadores; este sitio no las tiene.</li>
-      <li><strong>Política de cancelación.</strong> Si sos donante recurrente, la cancelación o el cambio de monto lo maneja directamente la organización.</li>
-      <li><strong>Privacidad.</strong> Esta página no recolecta datos tuyos — toda la información fluye entre vos y el sitio oficial.</li>
-    </ul>
+      <button type="button" class="btn btn-primary btn-large btn-block mt-3" onclick="document.getElementById('step-info').scrollIntoView({behavior:'smooth'})">
+        Continuar →
+      </button>
+    </section>
 
-    <p class="text-center mt-4">
-      <a href="https://www.aldeasinfantiles.org.py/como-ayudar/dona" target="_blank" rel="noopener" class="btn btn-primary btn-large">
-        Ir al sitio oficial a donar →
-      </a>
-    </p>
+    <!-- Step 3: info -->
+    <section class="donate-step" id="step-info">
+      <div class="step-header">
+        <span class="step-num">3</span>
+        <h2>Tus datos</h2>
+      </div>
+
+      <form id="donate-form" autocomplete="on" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="donor-name">Nombre completo</label>
+            <input type="text" id="donor-name" name="name" required minlength="3" autocomplete="name">
+          </div>
+          <div class="form-group">
+            <label for="donor-doc">Cédula o RUC</label>
+            <input type="text" id="donor-doc" name="doc" required pattern="[0-9.-]{6,15}" autocomplete="off">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="donor-email">Email</label>
+            <input type="email" id="donor-email" name="email" required autocomplete="email">
+          </div>
+          <div class="form-group">
+            <label for="donor-phone">Teléfono</label>
+            <input type="tel" id="donor-phone" name="phone" autocomplete="tel">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="donor-dedication">¿Dedicado a alguien? (opcional)</label>
+          <input type="text" id="donor-dedication" name="dedication" placeholder="En memoria de... / En honor de...">
+        </div>
+        <div class="form-group">
+          <label>
+            <input type="checkbox" name="recurring-receipt" value="1">
+            Quiero recibir el recibo deducible por email
+          </label>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-large btn-block">
+          Continuar al pago →
+        </button>
+        <p class="t-muted-italic text-center" style="margin-top: 0.75rem;">
+          Esta es una demo. Al hacer clic se simula el procesamiento sin cobro real.
+        </p>
+      </form>
+    </section>
+
+    <!-- Step 4: confirmation (hidden, shown after submit) -->
+    <section class="donate-step donate-step-success" id="step-success" hidden>
+      <div class="step-header">
+        <span class="step-num">✓</span>
+        <h2>¡Gracias por tu aporte!</h2>
+      </div>
+
+      <div class="success-card">
+        <p><strong>Esto es una simulación.</strong> En el demo no se procesa ningún cobro ni se genera ningún recibo real.</p>
+        <p>Tu número de "transacción" demo:</p>
+        <code class="receipt-id" id="receipt-id">—</code>
+        <p class="t-muted">Cuando el sistema real esté conectado, este paso mostrará:</p>
+        <ul>
+          <li>Confirmación por email con el recibo en PDF.</li>
+          <li>Código de seguimiento para que el donante vea el impacto.</li>
+          <li>Acceso al portal del donante con el historial completo.</li>
+        </ul>
+        <div class="text-center mt-3">
+          <a href="/" class="btn btn-outline">Volver al inicio</a>
+          <a href="/portal/" class="btn btn-primary">Ver el portal (demo)</a>
+        </div>
+      </div>
+    </section>
+
   </div>
 </section>
 
@@ -149,14 +242,10 @@
       <div>
         <h4>Navegación</h4>
         <ul class="footer-list">
-          <li><a href="/sobre-nosotros/">Sobre Aldea SOS</a></li>
-          <li><a href="/donar/">Cómo donar</a></li>
+          <li><a href="/sobre-nosotros/">Sobre</a></li>
+          <li><a href="/donar/">Donar</a></li>
           <li><a href="/apadrina/">Apadrinar</a></li>
-          <li><a href="/recursos/">Recursos</a></li>
-          <li><a href="/acerca-de-este-sitio/">Acerca de este sitio</a></li>
-          <li><a href="/preguntas-frecuentes/">FAQ</a></li>
-          <li><a href="/changelog/">Changelog</a></li>
-          <li><a href="/mapa-del-sitio/">Mapa del sitio</a></li>
+          <li><a href="/historias/">Historias</a></li>
           <li><a href="/politicas/privacidad/">Privacidad</a></li>
         </ul>
       </div>
@@ -164,15 +253,63 @@
         <h4>Sitio oficial</h4>
         <ul class="footer-list">
           <li><a href="https://www.aldeasinfantiles.org.py/" target="_blank" rel="noopener">aldeasinfantiles.org.py</a></li>
-          <li><a href="https://www.sos-childrensvillages.org/" target="_blank" rel="noopener">SOS Children's Villages International</a></li>
         </ul>
       </div>
     </div>
     <div class="footer-bottom">
-      <p>&copy; 2026 Iniciativa Comunitaria. Información pública extraída del sitio oficial de Aldeas Infantiles SOS Paraguay.</p>
+      <p>&copy; 2026 Iniciativa Comunitaria. Demo pro-bono. Información pública extraída del sitio oficial de Aldeas Infantiles SOS Paraguay.</p>
     </div>
   </div>
 </footer>
+
+<script>
+// Donate flow controller — wires the demo framework to this page
+document.addEventListener('DOMContentLoaded', () => {
+  const form = document.getElementById('donate-form');
+  if (!form) return;
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    // Validate
+    if (!form.checkValidity()) {
+      form.reportValidity();
+      return;
+    }
+    // Collect
+    const donor = {
+      name: document.getElementById('donor-name').value,
+      doc: document.getElementById('donor-doc').value,
+      email: document.getElementById('donor-email').value,
+      phone: document.getElementById('donor-phone').value,
+      dedication: document.getElementById('donor-dedication').value,
+      receiptRequested: form.querySelector('[name="recurring-receipt"]').checked
+    };
+    const methodEl = form.parentElement.querySelector('input[name="method"]:checked') ||
+                      document.querySelector('input[name="method"]:checked');
+    const method = methodEl ? methodEl.value : 'card';
+
+    // Submit to demo framework
+    const submitBtn = form.querySelector('button[type="submit"]');
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Procesando...';
+    const result = await Demo.submit('donation', {
+      amount: Demo.donate.state.amount,
+      frequency: Demo.donate.state.frequency,
+      method,
+      donor
+    });
+    submitBtn.disabled = false;
+
+    // Show success
+    document.getElementById('step-amount').hidden = true;
+    document.getElementById('step-method').hidden = true;
+    document.getElementById('step-info').hidden = true;
+    document.getElementById('step-success').hidden = false;
+    document.getElementById('receipt-id').textContent = result.receiptId;
+    document.getElementById('step-success').scrollIntoView({behavior:'smooth'});
+  });
+});
+</script>
 
 </body>
 </html>
