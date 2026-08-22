@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 640" role="img" aria-label="Mapa de Paraguay con la ubicación de las cinco aldeas SOS">
   <rect width="100%" height="100%" fill="#F5F5F5"/>
-  <path d="M 30 0 L 380 0 L 450 200 L 470 480 L 350 620 L 200 620 L 50 480 L 30 200 Z" fill="#fff" stroke="#0066B3" stroke-width="2" stroke-linejoin="round" opacity="0.92"/>
-  <circle cx="275.0" cy="193.4" r="14" fill="#F4A100" opacity="0.25"/>
-  <circle cx="275.0" cy="193.4" r="6" fill="#F4A100" stroke="#1A1A1A" stroke-width="1.5"/>
-  <text x="275.0" y="175.4" text-anchor="middle" fill="#1A1A1A" font-family="-apple-system, sans-serif" font-size="14" font-weight="700">Asunción</text>
-  <circle cx="282.9" cy="194.1" r="14" fill="#F4A100" opacity="0.25"/>
-  <circle cx="282.9" cy="194.1" r="6" fill="#F4A100" stroke="#1A1A1A" stroke-width="1.5"/>
-  <text x="282.9" y="176.1" text-anchor="middle" fill="#1A1A1A" font-family="-apple-system, sans-serif" font-size="14" font-weight="700">Luque</text>
-  <circle cx="309.5" cy="79.6" r="14" fill="#F4A100" opacity="0.25"/>
-  <circle cx="309.5" cy="79.6" r="6" fill="#F4A100" stroke="#1A1A1A" stroke-width="1.5"/>
-  <text x="309.5" y="61.6" text-anchor="middle" fill="#1A1A1A" font-family="-apple-system, sans-serif" font-size="14" font-weight="700">San Ignacio</text>
-  <circle cx="386.8" cy="51.2" r="14" fill="#F4A100" opacity="0.25"/>
-  <circle cx="386.8" cy="51.2" r="6" fill="#F4A100" stroke="#1A1A1A" stroke-width="1.5"/>
-  <text x="386.8" y="33.2" text-anchor="middle" fill="#1A1A1A" font-family="-apple-system, sans-serif" font-size="14" font-weight="700">Hohenau</text>
-  <circle cx="295.3" cy="322.1" r="14" fill="#F4A100" opacity="0.25"/>
-  <circle cx="295.3" cy="322.1" r="6" fill="#F4A100" stroke="#1A1A1A" stroke-width="1.5"/>
-  <text x="295.3" y="304.1" text-anchor="middle" fill="#1A1A1A" font-family="-apple-system, sans-serif" font-size="14" font-weight="700">Belén</text>
+  <path d="M 30 0 L 380 0 L 450 200 L 470 480 L 350 620 L 200 620 L 50 480 L 30 200 Z" fill="#fff" stroke="#0099D4" stroke-width="2" stroke-linejoin="round" opacity="0.92"/>
+  <circle cx="275.0" cy="193.4" r="14" fill="#F5C700" opacity="0.25"/>
+  <circle cx="275.0" cy="193.4" r="6" fill="#F5C700" stroke="#1F2937" stroke-width="1.5"/>
+  <text x="275.0" y="175.4" text-anchor="middle" fill="#1F2937" font-family="-apple-system, sans-serif" font-size="14" font-weight="700">Asunción</text>
+  <circle cx="282.9" cy="194.1" r="14" fill="#F5C700" opacity="0.25"/>
+  <circle cx="282.9" cy="194.1" r="6" fill="#F5C700" stroke="#1F2937" stroke-width="1.5"/>
+  <text x="282.9" y="176.1" text-anchor="middle" fill="#1F2937" font-family="-apple-system, sans-serif" font-size="14" font-weight="700">Luque</text>
+  <circle cx="309.5" cy="79.6" r="14" fill="#F5C700" opacity="0.25"/>
+  <circle cx="309.5" cy="79.6" r="6" fill="#F5C700" stroke="#1F2937" stroke-width="1.5"/>
+  <text x="309.5" y="61.6" text-anchor="middle" fill="#1F2937" font-family="-apple-system, sans-serif" font-size="14" font-weight="700">San Ignacio</text>
+  <circle cx="386.8" cy="51.2" r="14" fill="#F5C700" opacity="0.25"/>
+  <circle cx="386.8" cy="51.2" r="6" fill="#F5C700" stroke="#1F2937" stroke-width="1.5"/>
+  <text x="386.8" y="33.2" text-anchor="middle" fill="#1F2937" font-family="-apple-system, sans-serif" font-size="14" font-weight="700">Hohenau</text>
+  <circle cx="295.3" cy="322.1" r="14" fill="#F5C700" opacity="0.25"/>
+  <circle cx="295.3" cy="322.1" r="6" fill="#F5C700" stroke="#1F2937" stroke-width="1.5"/>
+  <text x="295.3" y="304.1" text-anchor="middle" fill="#1F2937" font-family="-apple-system, sans-serif" font-size="14" font-weight="700">Belén</text>
   <text x="275.0" y="211.4" text-anchor="middle" fill="#666" font-family="-apple-system, sans-serif" font-size="10">★ Capital</text>
 </svg>
