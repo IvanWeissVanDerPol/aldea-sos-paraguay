@@ -1,5 +1,5 @@
 // Aldea SOS Paraguay — site JS (community, non-official)
-// Theme toggle + nav. Donation form removed — official site handles it.
+// Nav toggle. Demo theme toggle removed 2026-08-22 (light-only theme).
 
 (function() {
   'use strict';
@@ -15,43 +15,26 @@
     });
   }
 
-  // === THEME TOGGLE (light/dark) ===
-  const themeToggle = document.querySelector('.theme-toggle');
-  function setTheme(t) {
-    if (t === 'dark') {
-      document.documentElement.setAttribute('data-theme', 'dark');
-      if (themeToggle) themeToggle.textContent = '☀️';
-    } else {
-      document.documentElement.removeAttribute('data-theme');
-      if (themeToggle) themeToggle.textContent = '🌙';
-    }
-    try { localStorage.setItem('theme', t); } catch (e) {}
-  }
-  if (themeToggle) {
-    let stored = null;
-    try { stored = localStorage.getItem('theme'); } catch (e) {}
-    if (stored === 'dark' || stored === 'light') {
-      setTheme(stored);
-    } else {
-      // default from system preference
-      const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-      setTheme(prefersDark ? 'dark' : 'light');
-    }
-    themeToggle.addEventListener('click', () => {
-      const current = document.documentElement.getAttribute('data-theme');
-      setTheme(current === 'dark' ? 'light' : 'dark');
-    });
-  }
+  // === THEME (light-only, no toggle) ===
+  // Ensure no stale dark-mode attributes from prior sessions are honored.
+  document.documentElement.removeAttribute('data-theme');
 
-  // === Smooth-scroll for in-page anchors ===
+  // === SMOOTH SCROLL for anchor links ===
   document.querySelectorAll('a[href^="#"]:not([href="#"])').forEach(link => {
     link.addEventListener('click', (e) => {
-      const targetId = link.getAttribute('href').substring(1);
-      const target = document.getElementById(targetId);
-      if (target) {
+      const t = document.getElementById(link.getAttribute('href').substring(1));
+      if (t) {
         e.preventDefault();
-        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        t.scrollIntoView({ behavior: 'smooth', block: 'start' });
       }
+    });
+  });
+
+  // === FAQ ACCORDION ===
+  document.querySelectorAll('.faq-q').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const item = btn.closest('.faq-item');
+      if (item) item.classList.toggle('open');
     });
   });
 })();

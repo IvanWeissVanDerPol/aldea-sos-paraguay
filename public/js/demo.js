@@ -180,21 +180,14 @@
   };
 
   /* ============================================================
-     5. Theme toggle (already in main.js but consolidate here)
+     5. Theme — no longer used (light-only). Stub retained for
+        backward compatibility with any older page that references
+        Demo.theme.toggle(). Always no-op.
      ============================================================ */
   Demo.theme = {
-    set(t) {
-      if (t === 'dark') {
-        document.documentElement.setAttribute('data-theme', 'dark');
-      } else {
-        document.documentElement.removeAttribute('data-theme');
-      }
-      try { localStorage.setItem('demo-theme', t); } catch (e) {}
-    },
-    current() { return document.documentElement.getAttribute('data-theme'); },
-    toggle() {
-      this.set(this.current() === 'dark' ? 'light' : 'dark');
-    }
+    set(_t) { /* no-op */ },
+    current() { return 'light'; },
+    toggle() { /* no-op */ }
   };
 
   /* ============================================================
@@ -210,11 +203,6 @@
           toggleBtn.setAttribute('aria-expanded', open);
           toggleBtn.textContent = open ? '✕' : '☰';
         });
-      }
-      // Theme toggle
-      const themeBtn = document.querySelector('.theme-toggle');
-      if (themeBtn) {
-        themeBtn.addEventListener('click', () => Demo.theme.toggle());
       }
       // FAQ accordion
       document.querySelectorAll('.faq-q').forEach(btn => {
@@ -245,23 +233,8 @@
      8. Boot
      ============================================================ */
   Demo.boot = function() {
-    // Theme: read stored preference or use system
-    let stored = null;
-    try { stored = localStorage.getItem('demo-theme'); } catch (e) {}
-    if (stored) Demo.theme.set(stored);
-    else {
-      const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-      Demo.theme.set(prefersDark ? 'dark' : 'light');
-    }
-
     Demo.nav.init();
     Demo.smoothScroll();
-
-    // Update theme toggle button text
-    const themeBtn = document.querySelector('.theme-toggle');
-    if (themeBtn) {
-      themeBtn.textContent = Demo.theme.current() === 'dark' ? '☀️' : '🌙';
-    }
 
     // Initialize donate flow if on donate page
     if (document.querySelector('[data-donate]')) {

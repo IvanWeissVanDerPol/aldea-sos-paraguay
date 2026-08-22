@@ -1,51 +1,77 @@
-/* Aldea SOS Paraguay — community site (non-official)
+/* =================================================================
+   Aldea SOS Paraguay — community site (non-official demo)
    Minimal stylesheet. The official organization handles everything
    on aldeasinfantiles.org.py.
-*/
+
+   THEME: "Warm cyan-blue", light-mode only.
+   - Primary cyan-blue (#0099D4) is in the same family as the org's
+     own site (#009EE0) without claiming to be it.
+   - Warm yellow accent (#F5C700) replaces the previous construction-
+     orange. International SOS brand uses warm yellows for humanity.
+   - Backgrounds use blue-tinted off-whites, not pure white.
+   - No dark mode. Decision: 2026-08-22. See THEME-ANALYSIS.md.
+   ================================================================= */
 
 :root {
-  --c-primary: #0066B3;
-  --c-primary-dark: #004C82;
-  --c-primary-light: #4DB8FF;
-  --c-accent: #F4A100;
-  --c-accent-light: #FFD966;
-  --c-accent-dark: #C57F00;
-  --c-text: #1A1A1A;
-  --c-text-muted: #595959;
-  --c-border: #E0E0E0;
-  --c-bg: #FFFFFF;
-  --c-bg-alt: #F5F5F5;
+  /* === Brand === */
+  --c-primary: #0099D4;
+  --c-primary-dark: #0078A6;
+  --c-primary-light: #7CCDE6;
+  --c-primary-soft: #E6F4FA;
 
+  --c-accent: #F5C700;
+  --c-accent-dark: #D9AC00;
+  --c-accent-light: #FFF1B3;
+  --c-accent-soft: #FFFAEB;
+
+  /* === Neutrals === */
+  --c-text: #1F2937;
+  --c-text-muted: #5B6573;
+  --c-text-soft: #8A93A3;
+  --c-bg: #FAFBFC;
+  --c-bg-alt: #F0F4F8;
+  --c-bg-card: #FFFFFF;
+  --c-border: #E5EAF0;
+  --c-border-strong: #C7CFDB;
+
+  /* === Status === */
+  --c-success: #16A34A;
+  --c-success-soft: #DCFCE7;
+  --c-warning: #D97706;
+  --c-warning-soft: #FED7AA;
+  --c-danger: #DC2626;
+  --c-danger-soft: #FEE2E2;
+  --c-info: #0099D4;
+  --c-info-soft: #E6F4FA;
+
+  /* === Tag/badge tints === */
+  --c-tag-program: #E6F4FA;
+  --c-tag-program-text: #006494;
+  --c-tag-stories: #FFFAEB;
+  --c-tag-stories-text: #92590A;
+  --c-tag-transparency: #F0F4F8;
+  --c-tag-transparency-text: #475569;
+  --c-tag-press: #FFFAEB;
+  --c-tag-press-text: #92590A;
+
+  /* === Layout === */
+  --radius-sm: 0.25rem;
   --radius-md: 0.5rem;
   --radius-lg: 0.75rem;
   --radius-full: 9999px;
 
-  --shadow-sm: 0 1px 2px rgba(0,0,0,0.06);
-  --shadow-md: 0 4px 6px rgba(0,0,0,0.07), 0 2px 4px rgba(0,0,0,0.06);
+  --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.05);
+  --shadow-md: 0 4px 6px rgba(15, 23, 42, 0.07), 0 2px 4px rgba(15, 23, 42, 0.04);
+  --shadow-lg: 0 10px 20px rgba(15, 23, 42, 0.08), 0 4px 8px rgba(15, 23, 42, 0.04);
 
   --container: 1100px;
-}
+  --container-wide: 1280px;
 
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --c-primary: #4DB8FF;
-    --c-bg: #1A1F2E;
-    --c-bg-alt: #252B3D;
-    --c-text: #F5F5F5;
-    --c-text-muted: #B0B0B0;
-    --c-border: #3A4253;
-    --shadow-sm: 0 1px 2px rgba(0,0,0,0.4);
-  }
-}
+  /* === Type === */
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --font-serif: Georgia, "Times New Roman", serif;
 
-[data-theme="dark"] {
-  --c-primary: #4DB8FF;
-  --c-bg: #1A1F2E;
-  --c-bg-alt: #252B3D;
-  --c-text: #F5F5F5;
-  --c-text-muted: #B0B0B0;
-  --c-border: #3A4253;
-  --shadow-sm: 0 1px 2px rgba(0,0,0,0.4);
+  --transition: 180ms ease-out;
 }
 
 * { box-sizing: border-box; }
@@ -76,7 +102,6 @@ button, .btn { font: inherit; cursor: pointer; }
 
 /* HEADER */
 .site-header { background: white; box-shadow: var(--shadow-sm); position: sticky; top: 0; z-index: 100; }
-[data-theme="dark"] .site-header { background: var(--c-bg-alt); }
 .header-grid { display: flex; align-items: center; justify-content: space-between; padding: 0.875rem 1.5rem; max-width: var(--container); margin: 0 auto; gap: 1rem; flex-wrap: wrap; }
 .brand { display: flex; align-items: center; gap: 0.75rem; color: var(--c-text); font-weight: 700; text-decoration: none; }
 .brand-mark { width: 44px; height: 44px; border-radius: var(--radius-md); background: var(--c-accent); color: #1A1A1A; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; font-weight: 800; flex-shrink: 0; }
@@ -95,10 +120,9 @@ button, .btn { font: inherit; cursor: pointer; }
 
 /* Hero */
 .hero { background: var(--c-primary); color: white; padding: 4rem 0 3rem; position: relative; overflow: hidden; }
-[data-theme="dark"] .hero { background: #003C75; }
 .hero::before {
   content: ""; position: absolute; top: 0; right: 0; bottom: 0; width: 60%;
-  background: radial-gradient(circle at 70% 30%, rgba(244, 161, 0, 0.25) 0%, transparent 60%);
+  background: radial-gradient(circle at 70% 30%, rgba(245, 199, 0, 0.30) 0%, transparent 60%);
   pointer-events: none;
 }
 .hero-grid { display: grid; grid-template-columns: 1.4fr 1fr; gap: 3rem; align-items: center; position: relative; z-index: 1; }
@@ -170,8 +194,7 @@ button, .btn { font: inherit; cursor: pointer; }
 .panel h3 { font-size: 1.125rem; margin: 0 0 0.75rem; }
 
 /* Footer */
-.site-footer { background: #1A1F2E; color: #C0C5D0; padding: 3rem 0 1.5rem; margin-top: 4rem; }
-[data-theme="dark"] .site-footer { background: #0F131F; }
+.site-footer { background: var(--c-text); color: var(--c-bg-alt); padding: 3rem 0 1.5rem; margin-top: 4rem; }
 .site-footer h4 { color: white; font-size: 0.875rem; margin: 0 0 1rem; text-transform: uppercase; letter-spacing: 0.05em; }
 .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 2rem; margin-bottom: 2rem; }
 .footer-about p { font-size: 0.9375rem; line-height: 1.6; }
@@ -182,9 +205,6 @@ button, .btn { font: inherit; cursor: pointer; }
 .footer-bottom { padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.1); text-align: center; }
 .footer-bottom p { margin: 0; font-size: 0.875rem; color: rgba(255,255,255,0.6); }
 @media (max-width: 768px) { .footer-grid { grid-template-columns: 1fr; } }
-
-/* Theme toggle button */
-.theme-toggle { background: var(--c-bg-alt); border: 1px solid var(--c-border); border-radius: var(--radius-full); width: 36px; height: 36px; display: flex; align-items: center; justify-content: center; color: var(--c-text); font-size: 1rem; }
 
 /* Accessibility */
 :focus-visible { outline: 3px solid var(--c-primary); outline-offset: 3px; border-radius: 2px; }
@@ -226,7 +246,6 @@ button, .btn { font: inherit; cursor: pointer; }
 @media print {
   .site-header,
   .site-footer,
-  .theme-toggle,
   .nav-toggle,
   .primary-nav,
   .breadcrumbs,
