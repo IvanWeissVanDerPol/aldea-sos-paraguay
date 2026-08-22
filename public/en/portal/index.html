@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My portal - SOS Village Paraguay (Demo)</title>
+<meta name="description" content="Donor portal demo: donation history, active sponsorships, and simulated tax receipt.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://aldea-sos.paragu-ai.com/en/portal/">
+<meta property="og:title" content="My portal (Demo)">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://aldea-sos.paragu-ai.com/en/portal/">
+<meta property="og:locale" content="en_US">
+<link rel="icon" type="image/svg+xml" href="/assets/logo.svg">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<meta name="theme-color" content="#0066B3">
+<link rel="stylesheet" href="/css/style.css">
+<script src="/js/demo.js" defer></script>
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to main content</a>
+
+<div class="demo-banner" role="banner">
+  <div class="demo-banner-text">
+    <span class="demo-banner-dot" aria-hidden="true"></span>
+    <strong>Demo preview.</strong>
+    This is a pro-bono redesign proposal of the Aldeas Infantiles SOS Paraguay website.
+    The donor portal below is a simulation using browser storage. For real donation history, visit
+    <a href="https://www.aldeasinfantiles.org.py/" rel="noopener" target="_blank">aldeasinfantiles.org.py</a>.
+  </div>
+</div>
+
+<header class="site-header" role="banner">
+  <div class="header-inner">
+    <a href="/en/" class="brand" aria-label="Home">
+      <span class="brand-mark">A</span>
+      <span class="brand-text">
+        <strong>SOS Village Paraguay</strong>
+        <small>Community initiative</small>
+      </span>
+    </a>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false">☰</button>
+    <nav class="primary-nav" aria-label="Main navigation">
+      <a href="/en/about/">About</a>
+      <a href="/en/programs/">Programs</a>
+      <a href="/en/donate/">Donate</a>
+      <a href="/en/sponsor/">Sponsor</a>
+      <a href="/en/stories/">Stories</a>
+      <a href="/en/news/">News</a>
+      <a href="/en/transparency/">Transparency</a>
+      <a href="/en/portal/" style="background: var(--c-bg-alt); color: var(--c-primary);">My portal</a>
+      <a href="https://www.aldeasinfantiles.org.py/" rel="noopener" target="_blank">Official site ↗</a>
+      <a class="lang-switch" href="/portal/" lang="es" hreflang="es" title="Español">ES</a>
+      <button class="theme-toggle" aria-label="Toggle theme">🌙</button>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<section id="login-section" class="page-hero">
+  <div class="container t-mid">
+    <h1>My portal</h1>
+    <p>Demo login. Use the public credentials below to view the simulated dashboard.</p>
+
+    <div class="card mt-3" style="max-width: 480px; margin-left: auto; margin-right: auto;">
+      <form id="login-form" novalidate>
+        <div class="form-group">
+          <label for="login-email">Email</label>
+          <input type="email" id="login-email" name="email" value="demo@aldea-sos.paragu-ai.com" required>
+        </div>
+        <div class="form-group">
+          <label for="login-password">Password</label>
+          <input type="password" id="login-password" name="password" value="demo" required>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Log in (demo)</button>
+        <p class="t-small t-muted mt-2">Public demo credentials. Not a real authentication system.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section id="dashboard-section" hidden>
+  <div class="page-hero">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="/en/">Home</a> <span>›</span> <span>My portal</span>
+      </div>
+      <h1>Welcome, Demo Account</h1>
+      <p>Your dashboard. <button id="logout-btn" class="btn btn-outline btn-small" style="margin-left: 0.5rem;">Log out</button></p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="container">
+      <div class="dashboard-grid">
+
+        <article class="card card-colored">
+          <div class="t-small" style="opacity:.85;">Total donated (this year)</div>
+          <div style="font-size: 2.25rem; font-weight: 700; line-height: 1;">Gs. 600.000</div>
+          <div style="opacity:.85;">across 3 transactions</div>
+        </article>
+
+        <article class="card">
+          <h3>Active sponsorships</h3>
+          <ul style="list-style: none; padding: 0; margin: 0;">
+            <li style="padding: 0.5rem 0; border-bottom: 1px solid var(--c-border);">
+              <strong>Asunción</strong>
+              <div class="t-small t-muted">Monthly · Gs. 100.000</div>
+            </li>
+          </ul>
+          <p class="t-small t-muted mt-2">This demo shows a placeholder sponsorship. Real sponsorships are managed via the official site.</p>
+        </article>
+
+        <article class="card">
+          <h3>Recent donations</h3>
+          <table style="width: 100%; font-size: 0.9375rem;">
+            <thead><tr style="text-align: left;"><th>Date</th><th>Amount</th><th>Method</th></tr></thead>
+            <tbody>
+              <tr><td>2026-08-01</td><td>Gs. 200.000</td><td>Card</td></tr>
+              <tr><td>2026-07-01</td><td>Gs. 200.000</td><td>Card</td></tr>
+              <tr><td>2026-06-01</td><td>Gs. 200.000</td><td>Card</td></tr>
+            </tbody>
+          </table>
+        </article>
+
+        <article class="card">
+          <h3>Tax receipt (simulated)</h3>
+          <p class="t-small t-muted">This PDF is a simulation. Real tax receipts come from the organization directly.</p>
+          <a href="/assets/recibo-demo.pdf" target="_blank" rel="noopener" class="btn btn-secondary">📄 Download sample receipt (PDF)</a>
+        </article>
+
+      </div>
+
+      <p class="t-muted t-small mt-4">All data shown above is local to your browser. No server processes anything. To clear the demo, run <code>localStorage.clear()</code> in the console.</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-about">
+        <h4>About this site</h4>
+        <p class="t-muted-italic">Community initiative</p>
+      </div>
+      <div>
+        <h4>Navigation</h4>
+        <ul class="footer-list">
+          <li><a href="/en/about/">About</a></li>
+          <li><a href="/en/donate/">Donate</a></li>
+          <li><a href="/en/policies/privacy/">Privacy</a></li>
+          <li><a href="/en/terms/">Terms</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Official site</h4>
+        <ul class="footer-list">
+          <li><a href="https://www.aldeasinfantiles.org.py/" target="_blank" rel="noopener">aldeasinfantiles.org.py</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Community Initiative. Pro-bono demo.</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const loginForm = document.getElementById('login-form');
+  const loginSection = document.getElementById('login-section');
+  const dashboardSection = document.getElementById('dashboard-section');
+  const logoutBtn = document.getElementById('logout-btn');
+
+  function showDashboard() {
+    loginSection.hidden = true;
+    dashboardSection.hidden = false;
+  }
+  function showLogin() {
+    loginSection.hidden = false;
+    dashboardSection.hidden = true;
+  }
+
+  if (Demo.auth.isLoggedIn()) showDashboard();
+
+  loginForm.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const data = Object.fromEntries(new FormData(loginForm).entries());
+    const r = await Demo.auth.login(data.email, data.password);
+    if (r.ok) showDashboard();
+    else alert('Demo login failed (try demo@aldea-sos.paragu-ai.com / demo).');
+  });
+
+  logoutBtn?.addEventListener('click', () => {
+    Demo.auth.logout();
+    showLogin();
+  });
+});
+</script>
+</body>
+</html>
