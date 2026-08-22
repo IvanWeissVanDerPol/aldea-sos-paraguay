@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Donar - Aldea SOS Paraguay (Demo)</title>
-<meta name="description" content="Simulación del flujo de donación de Aldeas Infantiles SOS Paraguay. En este demo las donaciones no se procesan realmente; la organización procesa las donaciones reales en su sitio oficial.">
+<title>Donate — SOS Village Paraguay (Demo)</title>
+<meta name="description" content="Simulation of the donation flow for Aldeas Infantiles SOS Paraguay. In this demo donations are not actually processed; the organization processes real donations on its official site.">
 <meta name="robots" content="index,follow">
-<link rel="canonical" href="https://aldea-sos.paragu-ai.com/donar/">
-<meta property="og:title" content="Donar - Aldea SOS Paraguay">
-<meta property="og:description" content="Flujo de donación simulado. Para donar realmente, visitá aldeasinfantiles.org.py/como-ayudar/dona.">
+<link rel="canonical" href="https://aldea-sos.paragu-ai.com/en/donate/">
+<meta property="og:title" content="Donate — SOS Village Paraguay">
+<meta property="og:description" content="Simulated donation flow. To actually donate, visit aldeasinfantiles.org.py/como-ayudar/dona.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://aldea-sos.paragu-ai.com/donar/">
+<meta property="og:url" content="https://aldea-sos.paragu-ai.com/en/donate/">
 <meta property="og:image" content="https://aldea-sos.paragu-ai.com/assets/og-default.png">
 <link rel="icon" type="image/svg+xml" href="/assets/logo.svg">
-  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 <meta name="theme-color" content="#0066B3">
 <link rel="stylesheet" href="/css/style.css">
 <script src="/js/demo.js" defer></script>
@@ -23,33 +23,33 @@
   <div class="demo-banner-text">
     <span class="demo-banner-dot" aria-hidden="true"></span>
     <strong>Demo preview.</strong>
-    Esta es una propuesta pro-bono de rediseño del sitio de Aldeas Infantiles SOS Paraguay.
-    Para donación real, visitá
+    This is a pro-bono redesign proposal for the site of Aldeas Infantiles SOS Paraguay.
+    To make a real donation, please visit
     <a href="https://www.aldeasinfantiles.org.py/como-ayudar/dona" rel="noopener" target="_blank">aldeasinfantiles.org.py/como-ayudar/dona</a>.
   </div>
 </div>
 
 <header class="site-header" role="banner">
   <div class="header-inner">
-    <a href="/" class="brand" aria-label="Inicio - Aldea SOS Paraguay">
+    <a href="/en/" class="brand" aria-label="Home — SOS Village Paraguay">
       <span class="brand-mark">A</span>
       <span class="brand-text">
-        <strong>Aldea SOS Paraguay</strong>
-        <small>Iniciativa comunitaria</small>
+        <strong>SOS Village Paraguay</strong>
+        <small>Community initiative</small>
       </span>
     </a>
-    <button class="nav-toggle" aria-label="Menú" aria-expanded="false">☰</button>
-    <nav class="primary-nav" aria-label="Navegación principal">
-      <a href="/sobre-nosotros/">Sobre</a>
-      <a href="/programs/">Programas</a>
-      <a href="/donar/" style="background: var(--c-bg-alt); color: var(--c-primary);">Donar</a>
-      <a href="/apadrina/">Apadriná</a>
-      <a href="/historias/">Historias</a>
-      <a href="/noticias/">Noticias</a>
-      <a href="/transparencia/">Transparencia</a>
-      <a href="/portal/">Mi portal</a>
-      <a href="https://www.aldeasinfantiles.org.py/" rel="noopener" target="_blank">Sitio oficial ↗</a>
-      <a class="lang-switch" href="/donate/" lang="en" hreflang="en" title="English">EN</a> aria-label="Cambiar tema">🌙</button>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false">☰</button>
+    <nav class="primary-nav" aria-label="Main navigation">
+      <a href="/en/about/">About</a>
+      <a href="/en/programs/">Programs</a>
+      <a href="/en/donate/" style="background: var(--c-bg-alt); color: var(--c-primary);">Donate</a>
+      <a href="/apadrina/">Sponsor</a>
+      <a href="/historias/">Stories</a>
+      <a href="/en/news/">News</a>
+      <a href="/en/transparency/">Transparency</a>
+      <a href="/portal/">My portal</a>
+      <a href="https://www.aldeasinfantiles.org.py/" rel="noopener" target="_blank">Official site ↗</a>
+      <a class="lang-switch" href="/donar/" lang="es" hreflang="es" title="Español">ES</a> aria-label="Toggle theme">🌙</button>
     </nav>
   </div>
 </header>
@@ -59,10 +59,11 @@
 <section class="page-hero">
   <div class="container">
     <div class="breadcrumb">
-      <a href="/">Inicio</a> <span>›</span> <span>Donar</span>
+      <a href="/en/">Home</a> <span>›</span> <span>Donate</span>
     </div>
-    <h1>Hacé tu donación</h1>
-    <p>Tu aporte llega directamente a los niños y familias. En este demo el flujo es funcional; las donaciones no se procesan realmente.</p>
+    <h1>Make your donation</h1>
+    <p>Your contribution goes directly to the children and families. In this demo the flow is functional; donations are not actually processed.</p>
+    <p class="t-muted-italic" style="font-size: 0.95rem; margin-top: 0.5rem;">Amounts are in Paraguayan Guaraníes (Gs.), the organization's local currency.</p>
   </div>
 </section>
 
@@ -73,12 +74,12 @@
     <section class="donate-step" id="step-amount">
       <div class="step-header">
         <span class="step-num">1</span>
-        <h2>Elegí cuánto y con qué frecuencia</h2>
+        <h2>Choose an amount and how often</h2>
       </div>
 
-      <div class="frequency-toggle" role="group" aria-label="Frecuencia">
-        <button type="button" data-frequency="monthly" class="active">Mensual</button>
-        <button type="button" data-frequency="once">Única</button>
+      <div class="frequency-toggle" role="group" aria-label="Frequency">
+        <button type="button" data-frequency="monthly" class="active">Monthly</button>
+        <button type="button" data-frequency="once">One-time</button>
       </div>
 
       <div class="amount-grid">
@@ -89,21 +90,21 @@
       </div>
 
       <div class="form-group">
-        <label for="customAmount">Otro monto (Gs.)</label>
-        <input type="number" id="customAmount" class="amount-input" placeholder="Monto personalizado" min="10000">
+        <label for="customAmount">Other amount (Gs.)</label>
+        <input type="number" id="customAmount" class="amount-input" placeholder="Custom amount" min="10000">
       </div>
 
       <div class="impact-preview">
-        <h3>Tu aporte <span id="frequency-label">mensual</span> de <strong>Gs. <span id="donate-amount">100.000</span></strong> ayuda a:</h3>
+        <h3>Your <span id="frequency-label">monthly</span> contribution of <strong>Gs. <span id="donate-amount">100,000</span></strong> helps to:</h3>
         <ul>
-          <li>Cubrir alimentación balanceada para un niño durante un mes.</li>
-          <li>Materiales escolares para el año lectivo.</li>
-          <li>Apoyo psicosocial continuo.</li>
+          <li>Cover balanced meals for a child for one month.</li>
+          <li>Provide school supplies for the school year.</li>
+          <li>Fund ongoing psychosocial support.</li>
         </ul>
       </div>
 
       <button type="button" class="btn btn-primary btn-large btn-block" onclick="document.getElementById('step-method').scrollIntoView({behavior:'smooth'})">
-        Continuar →
+        Continue →
       </button>
     </section>
 
@@ -111,7 +112,7 @@
     <section class="donate-step" id="step-method">
       <div class="step-header">
         <span class="step-num">2</span>
-        <h2>Elegí el método de pago</h2>
+        <h2>Choose a payment method</h2>
       </div>
 
       <div class="grid grid-2">
@@ -119,16 +120,16 @@
           <input type="radio" name="method" value="card" data-method="card">
           <div class="method-card-body">
             <div class="method-icon">💳</div>
-            <h3>Tarjeta de crédito/débito</h3>
-            <p>Visa, Mastercard, Cabal. Cargos automáticos recurrentes.</p>
+            <h3>Credit / debit card</h3>
+            <p>Visa, Mastercard, Cabal. Recurring automatic charges.</p>
           </div>
         </label>
         <label class="method-card">
           <input type="radio" name="method" value="bank" data-method="bank">
           <div class="method-card-body">
             <div class="method-icon">🏦</div>
-            <h3>Transferencia bancaria</h3>
-            <p>Desde tu banco. Datos se envían en el paso siguiente.</p>
+            <h3>Bank transfer</h3>
+            <p>From your bank. Account details are sent in the next step.</p>
           </div>
         </label>
         <label class="method-card">
@@ -136,21 +137,21 @@
           <div class="method-card-body">
             <div class="method-icon">📱</div>
             <h3>Tigo Money / Personal Pay</h3>
-            <p>Pago desde tu billetera móvil.</p>
+            <p>Pay from your mobile wallet.</p>
           </div>
         </label>
         <label class="method-card">
           <input type="radio" name="method" value="company" data-method="company">
           <div class="method-card-body">
             <div class="method-icon">🏢</div>
-            <h3>Empresa / RSE</h3>
-            <p>Convenio corporativo anual. Solicita una llamada.</p>
+            <h3>Company / CSR</h3>
+            <p>Annual corporate partnership. Request a call.</p>
           </div>
         </label>
       </div>
 
       <button type="button" class="btn btn-primary btn-large btn-block mt-3" onclick="document.getElementById('step-info').scrollIntoView({behavior:'smooth'})">
-        Continuar →
+        Continue →
       </button>
     </section>
 
@@ -158,17 +159,17 @@
     <section class="donate-step" id="step-info">
       <div class="step-header">
         <span class="step-num">3</span>
-        <h2>Tus datos</h2>
+        <h2>Your details</h2>
       </div>
 
       <form id="donate-form" autocomplete="on" novalidate>
         <div class="form-row">
           <div class="form-group">
-            <label for="donor-name">Nombre completo</label>
+            <label for="donor-name">Full name</label>
             <input type="text" id="donor-name" name="name" required minlength="3" autocomplete="name">
           </div>
           <div class="form-group">
-            <label for="donor-doc">Cédula o RUC</label>
+            <label for="donor-doc">National ID or Tax ID (Cédula / RUC)</label>
             <input type="text" id="donor-doc" name="doc" required pattern="[0-9.-]{6,15}" autocomplete="off">
           </div>
         </div>
@@ -178,26 +179,26 @@
             <input type="email" id="donor-email" name="email" required autocomplete="email">
           </div>
           <div class="form-group">
-            <label for="donor-phone">Teléfono</label>
+            <label for="donor-phone">Phone</label>
             <input type="tel" id="donor-phone" name="phone" autocomplete="tel">
           </div>
         </div>
         <div class="form-group">
-          <label for="donor-dedication">¿Dedicado a alguien? (opcional)</label>
-          <input type="text" id="donor-dedication" name="dedication" placeholder="En memoria de... / En honor de...">
+          <label for="donor-dedication">Dedicated to someone? (optional)</label>
+          <input type="text" id="donor-dedication" name="dedication" placeholder="In memory of... / In honor of...">
         </div>
         <div class="form-group">
           <label>
             <input type="checkbox" name="recurring-receipt" value="1">
-            Quiero recibir el recibo deducible por email
+            I want to receive the tax-deductible receipt by email
           </label>
         </div>
 
         <button type="submit" class="btn btn-primary btn-large btn-block">
-          Continuar al pago →
+          Continue to payment →
         </button>
         <p class="t-muted-italic text-center" style="margin-top: 0.75rem;">
-          Esta es una demo. Al hacer clic se simula el procesamiento sin cobro real.
+          This is a demo. Clicking the button simulates processing without any real charge.
         </p>
       </form>
     </section>
@@ -206,22 +207,22 @@
     <section class="donate-step donate-step-success" id="step-success" hidden>
       <div class="step-header">
         <span class="step-num">✓</span>
-        <h2>¡Gracias por tu aporte!</h2>
+        <h2>Thank you for your contribution!</h2>
       </div>
 
       <div class="success-card">
-        <p><strong>Esto es una simulación.</strong> En el demo no se procesa ningún cobro ni se genera ningún recibo real.</p>
-        <p>Tu número de "transacción" demo:</p>
+        <p><strong>This is a simulation.</strong> In the demo no charge is processed and no real receipt is generated.</p>
+        <p>Your demo "transaction" number:</p>
         <code class="receipt-id" id="receipt-id">—</code>
-        <p class="t-muted">Cuando el sistema real esté conectado, este paso mostrará:</p>
+        <p class="t-muted">When the real system is connected, this step will show:</p>
         <ul>
-          <li>Confirmación por email con el recibo en PDF.</li>
-          <li>Código de seguimiento para que el donante vea el impacto.</li>
-          <li>Acceso al portal del donante con el historial completo.</li>
+          <li>Email confirmation with a PDF receipt.</li>
+          <li>Tracking code so the donor can see the impact.</li>
+          <li>Access to the donor portal with full history.</li>
         </ul>
         <div class="text-center mt-3">
-          <a href="/" class="btn btn-outline">Volver al inicio</a>
-          <a href="/portal/" class="btn btn-primary">Ver el portal (demo)</a>
+          <a href="/en/" class="btn btn-outline">Back to home</a>
+          <a href="/portal/" class="btn btn-primary">Visit the portal (demo)</a>
         </div>
       </div>
     </section>
@@ -235,29 +236,29 @@
   <div class="container">
     <div class="footer-grid">
       <div class="footer-about">
-        <h4>Sobre este sitio</h4>
-        <p class="t-muted-italic">Iniciativa comunitaria sin fines de lucro</p>
-        <p>Información pública extraída del sitio oficial de Aldeas Infantiles SOS Paraguay.</p>
+        <h4>About this site</h4>
+        <p class="t-muted-italic">Non-profit community initiative</p>
+        <p>Public information drawn from the official site of Aldeas Infantiles SOS Paraguay.</p>
       </div>
       <div>
-        <h4>Navegación</h4>
+        <h4>Navigation</h4>
         <ul class="footer-list">
-          <li><a href="/sobre-nosotros/">Sobre</a></li>
-          <li><a href="/donar/">Donar</a></li>
-          <li><a href="/apadrina/">Apadrinar</a></li>
-          <li><a href="/historias/">Historias</a></li>
-          <li><a href="/politicas/privacidad/">Privacidad</a></li>
+          <li><a href="/en/about/">About</a></li>
+          <li><a href="/en/donate/">Donate</a></li>
+          <li><a href="/apadrina/">Sponsor</a></li>
+          <li><a href="/historias/">Stories</a></li>
+          <li><a href="/politicas/privacidad/">Privacy</a></li>
         </ul>
       </div>
       <div>
-        <h4>Sitio oficial</h4>
+        <h4>Official site</h4>
         <ul class="footer-list">
           <li><a href="https://www.aldeasinfantiles.org.py/" target="_blank" rel="noopener">aldeasinfantiles.org.py</a></li>
         </ul>
       </div>
     </div>
     <div class="footer-bottom">
-      <p>&copy; 2026 Iniciativa Comunitaria. Demo pro-bono. Información pública extraída del sitio oficial de Aldeas Infantiles SOS Paraguay.</p>
+      <p>&copy; 2026 Community Initiative. Pro-bono demo. Public information drawn from the official site of Aldeas Infantiles SOS Paraguay.</p>
     </div>
   </div>
 </footer>
@@ -291,7 +292,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Submit to demo framework
     const submitBtn = form.querySelector('button[type="submit"]');
     submitBtn.disabled = true;
-    submitBtn.textContent = 'Procesando...';
+    submitBtn.textContent = 'Processing...';
     const result = await Demo.submit('donation', {
       amount: Demo.donate.state.amount,
       frequency: Demo.donate.state.frequency,

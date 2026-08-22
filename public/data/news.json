@@ -8,17 +8,28 @@
       "date": "2025-08-01",
       "category": "Campaña",
       "body_md": "Esta entrada muestra el formato de las noticias que aparecerán en esta sección. La organización publica sus campañas oficiales en su propio sitio web; este demo refleja únicamente el tipo de contenido que se replicaría acá.\n\nPara información oficial sobre campañas vigentes (Regalamos Sonrisas, Convertí tu vuelto en sonrisas, etc.), consultá aldeasinfantiles.org.py/noticias.",
-      "tags": ["campaña", "supermercados", "Tupi", "Areté", "Kingo", "Gran Vía"],
+      "tags": [
+        "campaña",
+        "supermercados",
+        "Tupi",
+        "Areté",
+        "Kingo",
+        "Gran Vía"
+      ],
       "image_emoji": "🛒"
     },
     {
       "id": "ojoykere-inauguracion",
       "title": "Feria de Servicios en barrio Tablada Nueva",
-      "summary": "Programa Ojoykére realizó una feria comunitaria con más de 3.000 asistentes. Detalle de los servicios ofrecidos.",
+      "summary": "Programa Ojoykére realizó una feria comunitaria con más de 300 personas atendidas. Detalle de los servicios ofrecidos.",
       "date": "2025-08-14",
       "category": "Programa",
       "body_md": "Esta es una entrada representativa. Los detalles del evento se publicarían acá cuando el demo se conecte a un CMS o a un feed RSS del sitio oficial.\n\nEl programa Ojoykére es uno de los pilares de prevención que la organización lanzó en 2024, alineado con la Estrategia 2030 de la red internacional.",
-      "tags": ["Ojoykére", "prevención", "comunidad"],
+      "tags": [
+        "Ojoykére",
+        "prevención",
+        "comunidad"
+      ],
       "image_emoji": "🎪"
     },
     {
@@ -28,9 +39,13 @@
       "date": "2025-09-20",
       "category": "Transparencia",
       "body_md": "El demo refleja el ciclo anual de auditoría. Cuando se conecte al sitio oficial, esta sección mostrará el documento PDF más reciente.\n\nLa organización publica su auditoría externa como parte de su compromiso de transparencia. En este demo, el documento se enlaza al archivo público del sitio oficial.",
-      "tags": ["transparencia", "auditoría", "información pública"],
+      "tags": [
+        "transparencia",
+        "auditoría",
+        "información pública"
+      ],
       "image_emoji": "📊",
-      "external_link": "https://www.aldeasinfantiles.org.py/informacion-publica/2024/auditoria-2024"
+      "external_link": "https://www.aldeasinfantiles.org.py/informacion-publica"
     }
   ]
 }

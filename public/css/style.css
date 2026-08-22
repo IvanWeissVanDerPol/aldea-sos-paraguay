@@ -758,3 +758,134 @@ a.card-link-box .card .card-cta {
   font-weight: 700;
   color: var(--c-text);
 }
+
+/* === ALDEAS TABLE === */
+.aldeas-table-wrap { overflow-x: auto; }
+.aldeas-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--c-bg);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  border: 1px solid var(--c-border);
+  font-size: 0.9375rem;
+}
+.aldeas-table th,
+.aldeas-table td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid var(--c-border);
+}
+.aldeas-table thead th {
+  background: var(--c-bg-alt);
+  font-weight: 700;
+  color: var(--c-text);
+}
+.aldeas-table tbody tr:last-child td { border-bottom: 0; }
+.aldeas-table tbody tr:hover { background: rgba(0,102,179,0.03); }
+
+/* === ALDEA CARDS (sobre-nosotros) === */
+.aldeas-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+}
+.aldea-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+.aldea-card-header h3 { margin: 0; font-size: 1.0625rem; }
+.aldea-tag {
+  background: rgba(244,161,0,0.15);
+  color: #B45309;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  padding: 0.125rem 0.5rem;
+  border-radius: var(--radius-sm);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.aldea-tag-blue {
+  background: rgba(0,102,179,0.1);
+  color: var(--c-primary);
+}
+.aldea-card-program { border-left: 4px solid var(--c-primary); }
+.aldea-meta {
+  font-size: 0.8125rem;
+  color: var(--c-text-muted);
+  margin: 0.25rem 0 0;
+}
+@media (max-width: 968px) {
+  .aldeas-cards { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 640px) {
+  .aldeas-cards { grid-template-columns: 1fr; }
+}
+
+/* === STEPS (donate flow already has) === */
+
+/* === POLICY PAGES === */
+.policy-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0  1.5rem;
+}
+.policy-page h1 {
+  font-size: clamp(1.75rem, 4vw, 2.25rem);
+  margin: 0 0 1rem;
+  letter-spacing: -0.01em;
+}
+.policy-page h2 {
+  font-size: 1.375rem;
+  margin: 2.5rem 0 0.75rem;
+  color: var(--c-text);
+}
+.policy-page h3 {
+  font-size: 1.125rem;
+  margin: 2rem 0 0.5rem;
+  color: var(--c-text);
+}
+.policy-page p, .policy-page li {
+  line-height: 1.7;
+  color: var(--c-text);
+}
+.policy-page ul { padding-left: 1.25rem; margin: 0.5rem 0 1rem; }
+.policy-page ul li { margin-bottom: 0.5rem; }
+.policy-update {
+  color: var(--c-text-muted);
+  font-size: 0.875rem;
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--c-border);
+}
+
+/* === DEMO BANNER (ensure present on policy pages) === */
+.policy-page .policy-page-lead {
+  font-size: 1.125rem;
+  color: var(--c-text-muted);
+  margin-bottom: 2rem;
+}
+
+/* === LANGUAGE SWITCHER === */
+.lang-switch {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.4rem 0.6rem;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  border-radius: var(--radius-sm);
+  text-decoration: none;
+  color: var(--c-text-muted);
+  border: 1px solid var(--c-border);
+  margin-left: 0.25rem;
+  white-space: nowrap;
+  transition: background 0.18s, color 0.18s, border-color 0.18s;
+}
+.lang-switch:hover,
+.lang-switch:focus {
+  background: var(--c-bg-alt);
+  color: var(--c-primary);
+  border-color: var(--c-primary);
+}

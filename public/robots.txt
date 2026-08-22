@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /changelog/_*
 
 Sitemap: https://aldea-sos.paragu-ai.com/sitemap.xml
