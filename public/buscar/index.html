@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Buscar - Aldea SOS Paraguay (Demo)</title>
+<meta name="description" content="Búsqueda en el sitio demo. Resultados de páginas, programas, aldeas, historias y noticias.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://aldea-sos.paragu-ai.com/buscar/">
+<meta property="og:title" content="Buscar">
+<meta property="og:description" content="Búsqueda en el sitio demo">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://aldea-sos.paragu-ai.com/buscar/">
+<meta property="og:image" content="https://aldea-sos.paragu-ai.com/assets/og-default.png">
+<link rel="icon" type="image/svg+xml" href="/assets/logo.svg">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<meta name="theme-color" content="#0066B3">
+<link rel="stylesheet" href="/css/style.css">
+<script src="/js/demo.js" defer></script>
+</head>
+<body>
+<a href="#main" class="skip-link">Saltar al contenido principal</a>
+
+<div class="demo-banner" role="banner">
+  <div class="demo-banner-text">
+    <span class="demo-banner-dot" aria-hidden="true"></span>
+    <strong>Demo preview.</strong>
+    Esta es una propuesta pro-bono de rediseño del sitio de Aldeas Infantiles SOS Paraguay.
+    Para información real, donación o apadrinamiento, visitá
+    <a href="https://www.aldeasinfantiles.org.py/" rel="noopener" target="_blank">aldeasinfantiles.org.py</a>.
+  </div>
+</div>
+
+<header class="site-header" role="banner">
+  <div class="header-inner">
+    <a href="/" class="brand" aria-label="Inicio - Aldea SOS Paraguay">
+      <span class="brand-mark">A</span>
+      <span class="brand-text">
+        <strong>Aldea SOS Paraguay</strong>
+        <small>Iniciativa comunitaria</small>
+      </span>
+    </a>
+    <button class="nav-toggle" aria-label="Menú" aria-expanded="false">☰</button>
+    <nav class="primary-nav" aria-label="Navegación principal">
+      <a href="/sobre-nosotros/">Sobre</a>
+      <a href="/programs/">Programas</a>
+      <a href="/donar/">Donar</a>
+      <a href="/apadrina/">Apadrinar</a>
+      <a href="/historias/">Historias</a>
+      <a href="/noticias/">Noticias</a>
+      <a href="/transparencia/">Transparencia</a>
+      <a href="/portal/">Mi portal</a>
+      <a href="https://www.aldeasinfantiles.org.py/" rel="noopener" target="_blank">Sitio oficial ↗</a>
+      <a class="lang-switch" href="/en/search/" lang="en" hreflang="en" title="English">EN</a>
+      <button class="theme-toggle" aria-label="Cambiar tema">🌙</button>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb">
+      <a href="/">Inicio</a> <span>›</span> <span>Buscar</span>
+    </div>
+    <h1>Buscar</h1>
+    <p>Resultados en programas, aldeas, historias y noticias del demo.</p>
+
+    <form id="search-form" class="mt-3" role="search">
+      <div class="form-group">
+        <label for="search-input" class="sr-only">Buscar en el sitio</label>
+        <input type="search" id="search-input" name="q" placeholder="Buscá por palabra, tema, aldea..." autocomplete="off">
+      </div>
+      <button type="submit" class="btn btn-primary">Buscar</button>
+    </form>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div id="search-status" class="t-muted mb-3" aria-live="polite"></div>
+    <div id="search-results" class="grid"></div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-about">
+        <h4>Sobre este sitio</h4>
+        <p class="t-muted-italic">Iniciativa comunitaria sin fines de lucro</p>
+        <p>Información pública extraída del sitio oficial de Aldeas Infantiles SOS Paraguay.</p>
+      </div>
+      <div>
+        <h4>Navegación</h4>
+        <ul class="footer-list">
+          <li><a href="/sobre-nosotros/">Sobre</a></li>
+          <li><a href="/donar/">Donar</a></li>
+          <li><a href="/apadrina/">Apadrinar</a></li>
+          <li><a href="/politicas/privacidad/">Privacidad</a></li>
+          <li><a href="/terminos/">Términos</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Sitio oficial</h4>
+        <ul class="footer-list">
+          <li><a href="https://www.aldeasinfantiles.org.py/" target="_blank" rel="noopener">aldeasinfantiles.org.py</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Iniciativa Comunitaria. Demo pro-bono. Información pública extraída del sitio oficial de Aldeas Infantiles SOS Paraguay.</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+(async function() {
+  const form = document.getElementById('search-form');
+  const input = document.getElementById('search-input');
+  const status = document.getElementById('search-status');
+  const results = document.getElementById('search-results');
+
+  // Get query from URL
+  const url = new URL(location.href);
+  const initialQ = url.searchParams.get('q') || '';
+
+  async function run(q) {
+    q = (q || '').trim();
+    if (!q) {
+      status.textContent = 'Ingresá un término arriba para buscar.';
+      results.innerHTML = '';
+      return;
+    }
+    status.textContent = 'Buscando...';
+    results.innerHTML = '';
+    try {
+      const hits = await Demo.search.query(q);
+      status.textContent = `${hits.length} resultado${hits.length === 1 ? '' : 's'} para "${q}"`;
+      if (hits.length === 0) {
+        results.innerHTML = `
+          <div class="card" style="grid-column: 1 / -1;">
+            <p>No encontramos resultados. Probá con otras palabras, o visitá el sitio oficial para más información.</p>
+            <p><a class="btn btn-outline" href="https://www.aldeasinfantiles.org.py/" target="_blank" rel="noopener">Ir al sitio oficial</a></p>
+          </div>`;
+        return;
+      }
+      results.innerHTML = hits.map(item => {
+        const typeLabel = ({
+          programs: 'Programa',
+          aldeas: 'Aldea',
+          stories: 'Historia',
+          news: 'Noticia'
+        })[item.source] || item.source;
+        // Build snippet from first ~160 chars of item.text, removing the title
+        const snippetSource = (item.text || '').replace(item.title, '').trim();
+        const snippet = snippetSource.length > 200 ? snippetSource.slice(0, 200) + '...' : snippetSource;
+        return `
+        <article class="card search-result">
+          <span class="search-type">${typeLabel}</span>
+          <h3><a href="${item.url}">${item.emoji ? item.emoji + ' ' : ''}${item.title}</a></h3>
+          <p>${snippet}</p>
+        </article>
+      `}).join('');
+    } catch (e) {
+      status.textContent = 'Error al cargar los resultados. Intentá nuevamente.';
+      console.error(e);
+    }
+  }
+
+  form.addEventListener('submit', e => {
+    e.preventDefault();
+    const q = input.value;
+    const newUrl = new URL(location.href);
+    newUrl.searchParams.set('q', q);
+    history.replaceState(null, '', newUrl.toString());
+    run(q);
+  });
+
+  if (initialQ) {
+    input.value = initialQ;
+    run(initialQ);
+  } else {
+    status.textContent = 'Ingresá un término arriba para buscar.';
+  }
+})();
+</script>
+
+</body>
+</html>
